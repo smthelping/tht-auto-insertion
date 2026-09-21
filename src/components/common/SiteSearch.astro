@@ -1,0 +1,280 @@
+---
+// Site-wide search. The index is a static JSON endpoint (src/pages/search-index.json.ts)
+// fetched the first time the dialog opens, so opening a page never costs a
+// request. The dialog markup lives here; the trigger buttons live in the header
+// and only carry `data-aw-search-open`.
+---
+
+<aw-search>
+  <div data-aw-search-backdrop class="fixed inset-0 z-[100] hidden bg-black/60 backdrop-blur-sm" role="presentation">
+    <div
+      data-aw-search-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Search this site"
+      class="mx-auto mt-[8vh] flex max-h-[76vh] w-[min(46rem,92vw)] flex-col overflow-hidden rounded-xl bg-white shadow-2xl dark:bg-slate-900"
+    >
+      <div class="flex items-center gap-3 border-b border-gray-200 px-4 dark:border-slate-700">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          class="h-5 w-5 shrink-0 text-muted"
+          aria-hidden="true"
+        >
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5" stroke-linecap="round"></path>
+        </svg>
+        <input
+          data-aw-search-input
+          type="search"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="Search machines, specifications, machine groups…"
+          aria-label="Search query"
+          class="w-full border-0 bg-transparent py-4 text-base text-heading outline-none placeholder:text-muted focus:ring-0"
+        />
+        <button
+          type="button"
+          data-aw-search-close
+          class="shrink-0 rounded border border-gray-300 px-2 py-1 text-xs font-medium text-muted dark:border-slate-600"
+        >
+          ESC
+        </button>
+      </div>
+
+      <ul data-aw-search-results class="m-0 flex-1 list-none overflow-y-auto p-2" role="listbox"></ul>
+
+      <div data-aw-search-empty class="hidden flex-1 px-6 py-10 text-center text-sm text-muted">
+        <p class="mb-3 font-medium text-heading">Nothing matched that query.</p>
+        <p>
+          Try a model number (S7900, S4000, S7020T), a component type (relay, electrolytic, FASTON) or a process word
+          (clinching, vision, payback).
+        </p>
+      </div>
+
+      <div
+        class="flex flex-wrap items-center gap-x-4 gap-y-1 border-t border-gray-200 px-4 py-2.5 text-xs text-muted dark:border-slate-700"
+      >
+        <span
+          ><kbd class="rounded border border-gray-300 px-1.5 py-0.5 dark:border-slate-600">↑</kbd>
+          <kbd class="rounded border border-gray-300 px-1.5 py-0.5 dark:border-slate-600">↓</kbd> navigate</span
+        >
+        <span><kbd class="rounded border border-gray-300 px-1.5 py-0.5 dark:border-slate-600">↵</kbd> open</span>
+        <span><kbd class="rounded border border-gray-300 px-1.5 py-0.5 dark:border-slate-600">ESC</kbd> close</span>
+        <span data-aw-search-count class="ms-auto"></span>
+      </div>
+    </div>
+  </div>
+</aw-search>
+
+<script>
+  type SearchEntry = {
+    url: string;
+    title: string;
+    description: string;
+    group: string;
+    kind: 'overview' | 'group' | 'machine';
+    headings: string[];
+  };
+
+  // `BASE_URL` has no trailing slash when `trailingSlash` is false, so it is
+  // normalised here rather than concatenated blindly.
+  const BASE = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+  const INDEX_URL = `${BASE}search-index.json`;
+
+  class AwSearch extends HTMLElement {
+    private backdrop!: HTMLElement;
+    private input!: HTMLInputElement;
+    private list!: HTMLUListElement;
+    private empty!: HTMLElement;
+    private count!: HTMLElement;
+    private index: SearchEntry[] | null = null;
+    private loading: Promise<void> | null = null;
+    private results: SearchEntry[] = [];
+    private active = -1;
+
+    connectedCallback() {
+      this.backdrop = this.querySelector('[data-aw-search-backdrop]') as HTMLElement;
+      this.input = this.querySelector('[data-aw-search-input]') as HTMLInputElement;
+      this.list = this.querySelector('[data-aw-search-results]') as HTMLUListElement;
+      this.empty = this.querySelector('[data-aw-search-empty]') as HTMLElement;
+      this.count = this.querySelector('[data-aw-search-count]') as HTMLElement;
+
+      this.backdrop.addEventListener('click', (event) => {
+        if (event.target === this.backdrop) this.close();
+      });
+      this.querySelector('[data-aw-search-close]')?.addEventListener('click', () => this.close());
+      this.input.addEventListener('input', () => this.render());
+      this.input.addEventListener('keydown', (event) => this.onKeydown(event as KeyboardEvent));
+
+      // Delegated so the header buttons keep working after a view-transition swap.
+      const flags = window as unknown as { __awSearchBound?: boolean };
+      if (!flags.__awSearchBound) {
+        flags.__awSearchBound = true;
+        document.addEventListener('click', (event) => {
+          const trigger = (event.target as HTMLElement)?.closest?.('[data-aw-search-open]');
+          if (!trigger) return;
+          event.preventDefault();
+          document.querySelector<AwSearch>('aw-search')?.open();
+        });
+        document.addEventListener('keydown', (event) => {
+          if (event.key === 'k' && (event.metaKey || event.ctrlKey)) {
+            event.preventDefault();
+            document.querySelector<AwSearch>('aw-search')?.open();
+          }
+        });
+      }
+    }
+
+    private async load() {
+      if (this.index || this.loading) return this.loading ?? undefined;
+      this.loading = fetch(INDEX_URL)
+        .then((response) => (response.ok ? response.json() : []))
+        .then((data: SearchEntry[]) => {
+          this.index = data;
+        })
+        .catch(() => {
+          this.index = [];
+        });
+      return this.loading;
+    }
+
+    async open() {
+      this.backdrop.classList.remove('hidden');
+      document.documentElement.classList.add('overflow-hidden');
+      this.input.value = '';
+      this.active = -1;
+      this.input.focus();
+      this.count.textContent = '';
+      this.list.innerHTML = '';
+      this.empty.classList.add('hidden');
+      await this.load();
+      this.render();
+    }
+
+    close() {
+      this.backdrop.classList.add('hidden');
+      document.documentElement.classList.remove('overflow-hidden');
+    }
+
+    private score(entry: SearchEntry, query: string, terms: string[]) {
+      const title = entry.title.toLowerCase();
+      const group = entry.group.toLowerCase();
+      const description = entry.description.toLowerCase();
+      const headings = entry.headings.join(' ').toLowerCase();
+
+      let score = 0;
+      if (title.includes(query)) score += 50;
+      if (group.includes(query)) score += 16;
+      if (headings.includes(query)) score += 12;
+      if (description.includes(query)) score += 8;
+
+      // Every term must appear somewhere, otherwise a multi-word query drifts.
+      for (const term of terms) {
+        let termScore = 0;
+        if (title.includes(term)) termScore += 20;
+        if (group.includes(term)) termScore += 8;
+        if (headings.includes(term)) termScore += 6;
+        if (description.includes(term)) termScore += 3;
+        if (termScore === 0) return 0;
+        score += termScore;
+      }
+      return score;
+    }
+
+    private render() {
+      const query = this.input.value.trim().toLowerCase();
+      const index = this.index ?? [];
+
+      if (!query) {
+        this.results = index.filter((entry) => entry.kind !== 'machine').slice(0, 8);
+      } else {
+        const terms = query.split(/\s+/).filter(Boolean);
+        this.results = index
+          .map((entry) => ({ entry, score: this.score(entry, query, terms) }))
+          .filter((row) => row.score > 0)
+          .sort((a, b) => b.score - a.score)
+          .slice(0, 12)
+          .map((row) => row.entry);
+      }
+
+      this.active = this.results.length ? 0 : -1;
+      this.list.innerHTML = '';
+
+      if (!this.results.length) {
+        this.empty.classList.remove('hidden');
+        this.count.textContent = '';
+        return;
+      }
+      this.empty.classList.add('hidden');
+      this.count.textContent = `${this.results.length} result${this.results.length === 1 ? '' : 's'}`;
+
+      const escape = (value: string) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+      const highlight = (value: string) => {
+        const safe = escape(value);
+        if (!query) return safe;
+        const terms = query
+          .split(/\s+/)
+          .filter(Boolean)
+          .map((term) => term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+        if (!terms.length) return safe;
+        return safe.replace(
+          new RegExp(`(${terms.join('|')})`, 'gi'),
+          '<mark class="bg-primary/20 text-inherit">$1</mark>'
+        );
+      };
+
+      this.results.forEach((entry, index) => {
+        const li = document.createElement('li');
+        li.setAttribute('role', 'option');
+        li.dataset.awSearchIndex = String(index);
+        li.className =
+          'cursor-pointer rounded-lg px-3 py-2.5 text-sm ' +
+          (index === this.active ? 'bg-primary/10' : 'hover:bg-gray-100 dark:hover:bg-slate-800');
+        li.innerHTML = `
+          <a href="${entry.url}" class="block">
+            <span class="mb-0.5 block text-xs font-bold uppercase tracking-wide text-primary">${escape(entry.group)}</span>
+            <span class="block font-semibold text-heading">${highlight(entry.title)}</span>
+            <span class="mt-0.5 block text-xs leading-snug text-muted">${highlight(entry.description.slice(0, 150))}</span>
+          </a>`;
+        li.addEventListener('click', () => this.close());
+        this.list.appendChild(li);
+      });
+    }
+
+    private onKeydown(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        this.close();
+        return;
+      }
+      if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+        event.preventDefault();
+        if (!this.results.length) return;
+        const delta = event.key === 'ArrowDown' ? 1 : -1;
+        this.active = (this.active + delta + this.results.length) % this.results.length;
+        this.list.querySelectorAll('li').forEach((li, index) => {
+          li.className =
+            'cursor-pointer rounded-lg px-3 py-2.5 text-sm ' +
+            (index === this.active ? 'bg-primary/10' : 'hover:bg-gray-100 dark:hover:bg-slate-800');
+        });
+        (this.list.children[this.active] as HTMLElement)?.scrollIntoView({ block: 'nearest' });
+        return;
+      }
+      if (event.key === 'Enter') {
+        const current = this.results[this.active];
+        if (current) {
+          event.preventDefault();
+          window.location.href = current.url;
+        }
+      }
+    }
+  }
+
+  if (!customElements.get('aw-search')) {
+    customElements.define('aw-search', AwSearch);
+  }
+</script>

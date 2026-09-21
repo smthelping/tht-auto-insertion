@@ -3,7 +3,6 @@ import { Icon } from 'astro-icon/components';
 import Logo from '~/components/Logo.astro';
 import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
-import Button from '~/components/ui/Button.astro';
 
 import { getHomePermalink } from '~/utils/permalinks';
 import { trimSlash, getAsset } from '~/utils/permalinks';
@@ -92,6 +91,14 @@ const persistKey = `header-${Array.from(
           <Logo />
         </a>
         <div class="flex items-center lg:hidden">
+          <button
+            type="button"
+            data-aw-search-open
+            aria-label="Search this site"
+            class="me-1 rounded-lg p-2.5 text-muted transition hover:bg-gray-100 dark:hover:bg-gray-700"
+          >
+            <Icon name="tabler:search" class="w-5 h-5" />
+          </button>
           <ToggleMenu />
         </div>
       </div>
@@ -170,17 +177,19 @@ const persistKey = `header-${Array.from(
               )
             }
           </div>
-          {
-            actions?.length ? (
-              <span class="ml-4 rtl:ml-0 rtl:mr-4">
-                {actions.map((btnProps) => (
-                  <Button {...btnProps} class="ml-2 py-2.5 px-5.5 lg:px-6 font-semibold shadow-none text-sm w-auto" />
-                ))}
-              </span>
-            ) : (
-              ''
-            )
-          }
+          <button
+            type="button"
+            data-aw-search-open
+            aria-label="Search this site"
+            class="ms-4 flex items-center gap-2 rounded-lg border border-gray-300 py-2 ps-3 pe-3 text-sm text-muted transition hover:border-primary hover:text-primary xl:pe-16 rtl:ms-0 rtl:me-4 dark:border-slate-600"
+          >
+            <Icon name="tabler:search" class="w-4 h-4" />
+            <span class="hidden xl:inline">Search</span>
+            <kbd
+              class="hidden rounded border border-gray-300 px-1.5 py-0.5 text-[11px] xl:inline rtl:xl:inline dark:border-slate-600"
+              >⌘K</kbd
+            >
+          </button>
         </div>
       </div>
     </div>

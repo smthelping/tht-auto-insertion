@@ -13,6 +13,8 @@ import Metadata from '~/components/common/Metadata.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
 import Intersect from '~/components/common/Intersect.astro';
+import SiteSearch from '~/components/common/SiteSearch.astro';
+import ProductChat from '~/components/common/ProductChat.astro';
 
 // Comment the line below to disable View Transitions
 import { ClientRouter } from 'astro:transitions';
@@ -55,5 +57,13 @@ const { metadata = {}, language = I18N.language, direction = I18N.textDirection 
     <slot />
 
     <Intersect />
+
+    {
+      /* Site-wide search dialog and the product assistant. Both are inert until
+        the visitor opens them: the search index is fetched on first open and
+        Puter.js is only downloaded when the chat panel is opened. */
+    }
+    <SiteSearch />
+    <ProductChat />
   </body>
 </html>

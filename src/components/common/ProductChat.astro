@@ -1,0 +1,429 @@
+---
+import { LOGO_URL, BRAND_NAME, CONTACT_EMAIL } from '~/utils/brand';
+
+export interface Props {
+  /** Product this page is about — drives the widget copy and the AI context. */
+  product?: string;
+  /** One-line summary of the product, sent to the model as context. */
+  summary?: string;
+}
+
+const { product = '', summary = '' } = Astro.props;
+const label = product || 'this machine';
+---
+
+<aw-product-chat data-product={product || undefined} data-summary={summary || undefined} class="not-prose">
+  <button
+    type="button"
+    data-aw-chat-open
+    aria-label={`Ask about ${label}`}
+    aria-expanded="false"
+    class="fixed bottom-4 z-[90] flex items-center gap-2 rounded-full bg-primary px-4 py-3 text-sm font-semibold text-white shadow-xl transition hover:bg-primary/90 end-4"
+  >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5" aria-hidden="true">
+      <path d="M21 12a8 8 0 0 1-8 8H8l-5 3 1.5-4.5A8 8 0 1 1 21 12Z" stroke-linejoin="round"></path>
+    </svg>
+    <span class="hidden sm:inline">Ask about this machine</span>
+    <span class="sm:hidden">Ask AI</span>
+  </button>
+
+  <div
+    data-aw-chat-panel
+    class="fixed bottom-20 z-[90] hidden w-[min(24rem,92vw)] flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-2xl end-4 dark:border-slate-700 dark:bg-slate-900"
+    style="max-height: min(32rem, 78vh)"
+    role="dialog"
+    aria-label="Product assistant"
+  >
+    <header class="flex items-center gap-3 border-b border-gray-200 px-4 py-3 dark:border-slate-700">
+      <img src={LOGO_URL} alt={`${BRAND_NAME} logo`} width="1020" height="283" class="h-6 w-auto" decoding="async" />
+      <div class="min-w-0 flex-1">
+        <p data-aw-chat-title class="truncate text-sm font-bold text-heading">{label}</p>
+        <p class="flex items-center gap-1.5 text-xs text-muted">
+          <span class="inline-block h-1.5 w-1.5 rounded-full bg-green-500" aria-hidden="true"></span>
+          Product assistant
+        </p>
+      </div>
+      <button
+        type="button"
+        data-aw-chat-close
+        aria-label="Close assistant"
+        class="rounded p-1 text-muted transition hover:bg-gray-100 dark:hover:bg-slate-800"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5" aria-hidden="true">
+          <path d="M6 6l12 12M18 6 6 18" stroke-linecap="round"></path>
+        </svg>
+      </button>
+    </header>
+
+    <div
+      data-aw-chat-log
+      class="flex-1 space-y-3 overflow-y-auto px-4 py-4 text-sm"
+      aria-live="polite"
+      style="min-height: 14rem"
+    >
+      <div class="rounded-lg bg-gray-100 px-3 py-2 text-muted dark:bg-slate-800">
+        <p class="mb-1 font-semibold text-heading">Ask me anything about this machine.</p>
+        <p>
+          Cycle time, component envelope, feeder options, payback — I answer from this page's published figures. No
+          account needed.
+        </p>
+      </div>
+    </div>
+
+    <div data-aw-chat-chips class="flex flex-wrap gap-1.5 px-4 pb-2"></div>
+
+    <form data-aw-chat-form class="flex items-end gap-2 border-t border-gray-200 px-3 py-3 dark:border-slate-700">
+      <textarea
+        data-aw-chat-input
+        rows="1"
+        placeholder="Type your question…"
+        aria-label="Your question"
+        class="max-h-28 min-h-[2.5rem] w-full resize-none rounded-lg border border-gray-300 px-3 py-2 text-sm text-heading outline-none focus:border-primary dark:border-slate-600 dark:bg-slate-800"
+      ></textarea>
+      <button
+        type="submit"
+        data-aw-chat-send
+        class="shrink-0 rounded-lg bg-primary px-3 py-2.5 text-white transition hover:bg-primary/90"
+        aria-label="Send question"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4" aria-hidden="true">
+          <path d="M4 12h15M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </button>
+    </form>
+
+    <p class="border-t border-gray-200 px-4 py-2 text-[11px] leading-snug text-muted dark:border-slate-700">
+      AI answers are generated. For a binding figure ask
+      <a class="text-primary hover:underline" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+    </p>
+  </div>
+</aw-product-chat>
+
+<script>
+  const PUTER_SRC = 'https://js.puter.com/v2/';
+
+  // Puter.js attaches itself to `window`; only the one method this widget uses
+  // is described here rather than pulling in the whole library typings.
+  type PuterChatResponse = { message?: { content?: string }; text?: string } | string;
+  type PuterGlobal = { ai?: { chat: (prompt: string) => Promise<PuterChatResponse> } };
+  const puterGlobal = () => (window as unknown as { puter?: PuterGlobal }).puter;
+  const CHIPS = ['Cycle time?', 'Max component size?', 'Which feeders?', 'Payback?', 'Download the manual'];
+
+  class AwProductChat extends HTMLElement {
+    private panel!: HTMLElement;
+    private trigger!: HTMLButtonElement;
+    private log!: HTMLElement;
+    private form!: HTMLFormElement;
+    private input!: HTMLTextAreaElement;
+    private chips!: HTMLElement;
+    private product = '';
+    private summary = '';
+    private history: { role: 'user' | 'assistant'; text: string }[] = [];
+    private busy = false;
+    private puterLoad: Promise<boolean> | null = null;
+
+    connectedCallback() {
+      this.panel = this.querySelector('[data-aw-chat-panel]') as HTMLElement;
+      this.trigger = this.querySelector('[data-aw-chat-open]') as HTMLButtonElement;
+      this.log = this.querySelector('[data-aw-chat-log]') as HTMLElement;
+      this.form = this.querySelector('[data-aw-chat-form]') as HTMLFormElement;
+      this.input = this.querySelector('[data-aw-chat-input]') as HTMLTextAreaElement;
+      this.chips = this.querySelector('[data-aw-chat-chips]') as HTMLElement;
+      // If a page does not pass a product, fall back to the page itself so the
+      // widget still names the machine the visitor is actually reading about.
+      const title = (document.title || '').replace(/\s*[|—–-]\s*Southern Machinery.*$/i, '').trim();
+      this.product = this.dataset.product || title || 'THT auto insertion machines';
+      this.summary = this.dataset.summary || '';
+      const heading = this.querySelector('[data-aw-chat-title]');
+      if (heading) heading.textContent = this.product;
+
+      this.trigger.addEventListener('click', () => this.toggle());
+      this.querySelector('[data-aw-chat-close]')?.addEventListener('click', () => this.close());
+      this.form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        this.send(this.input.value);
+      });
+      this.input.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' && !event.shiftKey) {
+          event.preventDefault();
+          this.send(this.input.value);
+        }
+      });
+
+      this.chips.innerHTML = '';
+      for (const label of CHIPS) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = label;
+        button.className =
+          'rounded-full border border-gray-300 px-2.5 py-1 text-xs text-muted transition hover:border-primary hover:text-primary dark:border-slate-600';
+        button.addEventListener('click', () => this.send(label));
+        this.chips.appendChild(button);
+      }
+    }
+
+    private toggle() {
+      if (this.panel.classList.contains('hidden')) this.open();
+      else this.close();
+    }
+
+    private open() {
+      this.panel.classList.remove('hidden');
+      this.panel.classList.add('flex');
+      this.trigger.setAttribute('aria-expanded', 'true');
+      this.input.focus();
+      void this.loadPuter();
+    }
+
+    private close() {
+      this.panel.classList.add('hidden');
+      this.panel.classList.remove('flex');
+      this.trigger.setAttribute('aria-expanded', 'false');
+    }
+
+    /** Puter.js is ~480 kB, so it is only fetched when the panel is first opened. */
+    private loadPuter(): Promise<boolean> {
+      if (this.puterLoad) return this.puterLoad;
+      this.puterLoad = new Promise<boolean>((resolve) => {
+        if (puterGlobal()) return resolve(true);
+        const script = document.createElement('script');
+        script.src = PUTER_SRC;
+        script.async = true;
+        script.onload = () => resolve(true);
+        script.onerror = () => resolve(false);
+        document.head.appendChild(script);
+      });
+      return this.puterLoad;
+    }
+
+    private push(role: 'user' | 'assistant', text: string) {
+      this.history.push({ role, text });
+      const bubble = document.createElement('div');
+      bubble.className =
+        role === 'user'
+          ? 'ms-auto max-w-[85%] rounded-lg bg-primary px-3 py-2 text-white'
+          : 'me-auto max-w-[92%] rounded-lg bg-gray-100 px-3 py-2 text-default dark:bg-slate-800';
+      bubble.textContent = text;
+      this.log.appendChild(bubble);
+      this.log.scrollTop = this.log.scrollHeight;
+      return bubble;
+    }
+
+    /** Shortest useful context for the model: what page, what product, what it does. */
+    private context() {
+      const description =
+        this.summary || (document.querySelector('meta[name="description"]') as HTMLMetaElement)?.content || '';
+      return [
+        `You are the product assistant for ${this.product} on the Southern Machinery website.`,
+        description ? `Page summary: ${description}` : '',
+        'Answer only from what is published about this machine. Keep answers under 120 words, lead with the number',
+        'if there is one, and say plainly when something is not published rather than inventing it.',
+        'If the visitor needs a binding figure, point them to info@smthelp.com.',
+      ]
+        .filter(Boolean)
+        .join(' ');
+    }
+
+    /**
+     * Reads the page itself, so the widget still answers when the model call is
+     * unavailable (offline, blocked third-party script, or a Puter sign-in the
+     * visitor declined).
+     */
+    private answerFromPage(question: string): string | null {
+      const STOP = new Set([
+        'what',
+        'when',
+        'where',
+        'which',
+        'that',
+        'this',
+        'with',
+        'from',
+        'about',
+        'into',
+        'your',
+        'yours',
+        'have',
+        'does',
+        'can',
+        'could',
+        'would',
+        'should',
+        'the',
+        'and',
+        'for',
+        'are',
+        'how',
+        'why',
+        'many',
+        'much',
+        'machine',
+        'machines',
+        'please',
+        'tell',
+      ]);
+      const terms = question
+        .toLowerCase()
+        .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+        .split(/\s+/)
+        .filter((word: string) => word.length > 2 && !STOP.has(word));
+      if (!terms.length) return null;
+
+      // The pages phrase things the way the documents do ("speed per component",
+      // "max component size"), so a plain keyword match on the visitor's wording
+      // misses the specification table. Synonyms carry half the weight of the
+      // words the visitor actually typed.
+      const SYNONYMS: Record<string, string[]> = {
+        cycle: ['speed', 'per component', 'cph', 'throughput'],
+        time: ['speed', 'per component', 'cph', 'cycle'],
+        speed: ['cph', 'per component', 'cycle'],
+        fast: ['speed', 'cph', 'per component'],
+        size: ['envelope', 'dimensions', 'mm'],
+        big: ['envelope', 'max component'],
+        feeder: ['feeders', 'tape', 'tube', 'tray', 'bowl'],
+        feeders: ['feeder', 'tape', 'tube', 'tray', 'bowl'],
+        price: ['investment', 'payback', 'cost'],
+        cost: ['investment', 'payback', 'saving'],
+        payback: ['investment', 'saving'],
+        manual: ['download', 'catalogue', 'pdf', 'documents'],
+        catalogue: ['catalog', 'download', 'documents'],
+        accuracy: ['mm', 'cpk', 'placement'],
+        weight: ['kg'],
+        power: ['kw', 'air', 'consumption'],
+        head: ['heads', 'nozzle', 'gripper'],
+        heads: ['head', 'nozzle', 'gripper'],
+      };
+      const weighted: { value: string; base: number }[] = terms.map((value: string) => ({ value, base: 1 }));
+      for (const term of terms) {
+        for (const synonym of SYNONYMS[term] ?? []) {
+          if (!weighted.some((entry) => entry.value === synonym)) weighted.push({ value: synonym, base: 0.5 });
+        }
+      }
+
+      // A question that asks for a quantity should prefer a section that
+      // actually contains a figure.
+      const wantsNumber = /time|speed|cph|rate|size|capacity|cost|payback|price|weight|power|accuracy|how many/i.test(
+        question
+      );
+
+      type Candidate = { score: number; text: string };
+      let best: Candidate | null = null;
+
+      // `innerText` (not `textContent`) inserts line breaks between blocks, so
+      // adjacent headings and paragraphs do not run together.
+      const sections = Array.from(document.querySelectorAll('main section')) as HTMLElement[];
+      const bodies = sections.map((section) =>
+        (section.innerText || section.textContent || '').replace(/\s+/g, ' ').trim()
+      );
+
+      // Weight by rarity: "cycle" appears in a handful of sections while "time"
+      // appears in most, so the pair should be decided by "cycle", not by "time".
+      const documentFrequency = new Map<string, number>();
+      for (const entry of weighted) {
+        let seen = 0;
+        for (const body of bodies) if (body.toLowerCase().includes(entry.value)) seen += 1;
+        documentFrequency.set(entry.value, seen);
+      }
+      const weight = (entry: { value: string; base: number }) =>
+        (Math.log(sections.length / Math.max(1, documentFrequency.get(entry.value) ?? 1)) + 1) * entry.base;
+
+      for (let index = 0; index < sections.length; index += 1) {
+        const section = sections[index];
+        const text = bodies[index];
+        if (text.length < 60) continue;
+
+        const lower = text.toLowerCase();
+        let hits = 0;
+        for (const entry of weighted) {
+          const count = lower.split(entry.value).length - 1;
+          if (count) hits += Math.min(count, 6) * weight(entry);
+        }
+        if (!hits) continue;
+
+        // Normalise by length so a long blog wall does not outrank a spec table.
+        let score = (hits * 10) / Math.sqrt(text.length / 200 + 1);
+        const heading = section.querySelector('h1, h2, h3') as HTMLElement | null;
+        const headingText = (heading?.innerText || '').toLowerCase();
+        for (const term of terms) if (headingText.includes(term)) score += 12;
+        if (wantsNumber && /\d/.test(text)) score += 8;
+        if (section.querySelector('table')) score += 6;
+        // A calculator or contact block is full of figures and field labels but
+        // is not an answer to a product question.
+        if (section.querySelector('input, textarea, select, form')) score -= 18;
+        if (/article\s*\d/i.test(text)) score -= 14; // blog / insight card lists
+
+        if (!best || score > best.score) best = { score, text };
+      }
+
+      const chosen: Candidate | null = best;
+      if (!chosen) return null;
+
+      const sentences = chosen.text.split(/(?<=[.!?])\s+/).filter((line: string) => line.length > 25);
+      let picked = sentences.filter((sentence: string) => terms.some((term) => sentence.toLowerCase().includes(term)));
+      if (wantsNumber) {
+        const withFigures = picked.filter((sentence: string) => /\d/.test(sentence));
+        if (withFigures.length) picked = withFigures;
+      }
+      const answer = (picked.slice(0, 3).join(' ') || sentences.slice(0, 2).join(' ')).replace(/\s+/g, ' ').trim();
+      if (!answer) return null;
+      return `${answer.slice(0, 460)}${answer.length > 460 ? '…' : ''}`;
+    }
+
+    /** Shown once, so the visitor understands why answers are page-based. */
+    private showSignInNote() {
+      if (this.querySelector('[data-aw-chat-note]')) return;
+      const note = document.createElement('p');
+      note.dataset.awChatNote = 'true';
+      note.className =
+        'rounded-lg border border-dashed border-gray-300 px-3 py-2 text-xs text-muted dark:border-slate-600';
+      note.innerHTML =
+        'Full AI answers run through Puter and need a free Puter sign-in the first time. Until then I answer straight from this page. ' +
+        'For a binding figure, email <a class="text-primary hover:underline" href="mailto:info@smthelp.com">info@smthelp.com</a>.';
+      this.log.appendChild(note);
+      this.log.scrollTop = this.log.scrollHeight;
+    }
+
+    private async send(raw: string) {
+      const question = raw.trim();
+      if (!question || this.busy) return;
+      this.busy = true;
+      this.input.value = '';
+      this.push('user', question);
+      const thinking = this.push('assistant', 'Looking that up…');
+      thinking.dataset.pending = 'true';
+
+      try {
+        const ready = await this.loadPuter();
+        const puter = puterGlobal();
+        let answer = '';
+        if (ready && puter?.ai?.chat) {
+          const response = await puter.ai.chat(`${this.context()}\n\nVisitor question: ${question}`);
+          answer = typeof response === 'string' ? response : (response?.message?.content ?? response?.text) || '';
+        }
+        if (!answer || !answer.trim()) throw new Error('empty');
+        thinking.textContent = answer.trim();
+      } catch (error) {
+        // Puter answers only for a signed-in Puter account, so an unauthenticated
+        // visitor lands here. Answer from the page instead of showing an error.
+        const message = String((error as { message?: string })?.message ?? error);
+        const needsSignIn = /401|403|unauthor|authenticat|sign ?in|token/i.test(message);
+        const fallback = this.answerFromPage(question);
+        if (fallback) {
+          thinking.textContent = needsSignIn ? `From this page's published figures: ${fallback}` : fallback;
+        } else {
+          thinking.textContent =
+            'I could not reach the AI service just now. Ask about cycle time, component size, feeders or downloads on this page — or email info@smthelp.com and a human will answer.';
+        }
+        this.showSignInNote();
+      } finally {
+        delete (thinking as HTMLElement).dataset.pending;
+        this.log.scrollTop = this.log.scrollHeight;
+        this.busy = false;
+      }
+    }
+  }
+
+  if (!customElements.get('aw-product-chat')) {
+    customElements.define('aw-product-chat', AwProductChat);
+  }
+</script>

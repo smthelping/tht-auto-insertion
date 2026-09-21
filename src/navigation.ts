@@ -30,7 +30,6 @@ export const headerData = {
       target: '_blank',
     },
   ],
-  actions: [{ text: 'Talk to us', href: 'mailto:info@smthelp.com' }],
 };
 
 export const footerData = {

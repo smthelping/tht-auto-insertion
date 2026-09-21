@@ -1,9 +1,5 @@
 ---
-import { SITE } from 'astrowind:config';
+import { LOGO_URL, BRAND_NAME } from '~/utils/brand';
 ---
 
-<span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
->
-  🚀 {SITE?.name}
-</span>
+<img src={LOGO_URL} alt={`${BRAND_NAME} logo`} width="1020" height="283" class="h-9 w-auto md:h-10" decoding="async" />
