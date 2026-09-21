@@ -1,0 +1,139 @@
+---
+import LandingLayout from '~/layouts/LandingLayout.astro';
+import MachineHero from '~/components/machine/MachineHero.astro';
+import BlockRenderer from '~/components/machine/BlockRenderer.astro';
+import LanguagePicker from '~/components/machine/LanguagePicker.astro';
+import type { Machine, Locale } from '~/utils/machines';
+import {
+  CATEGORY_BY_SLUG,
+  DEFAULT_LOCALE,
+  LOCALES,
+  LOCALE_LABEL,
+  RTL_LOCALES,
+  availableLocales,
+  dictionaryFor,
+  machineUrl,
+} from '~/utils/machines';
+
+export interface Props {
+  machine: Machine;
+  lang?: Locale;
+}
+
+const { machine, lang = DEFAULT_LOCALE } = Astro.props;
+
+const dict = dictionaryFor(machine.slug, lang);
+const locales = availableLocales(machine);
+const category = CATEGORY_BY_SLUG[machine.category];
+
+const title = machine.title.replace(/\s*[|—–-]\s*Southern Machinery\s*$/i, '').trim();
+const heroImage = machine.heroImage || machine.blocks.flatMap((b) => b.images)[0]?.src || '';
+
+// Every extracted block is rendered in the body — nothing is consumed by the
+// hero, because a page whose only block carried the videos or the downloads
+// would otherwise lose them. The hero draws on the page title, the meta
+// description and the hero photograph instead.
+const blocks = machine.blocks;
+
+const siteUrl = 'https://smthelping.github.io';
+const canonical = `${siteUrl}${machineUrl(machine.slug, lang).replace(/\/$/, '')}`;
+
+const alternates = locales.map((locale) => ({
+  hreflang: locale,
+  href: `${siteUrl}${machineUrl(machine.slug, locale).replace(/\/$/, '')}`,
+}));
+---
+
+<LandingLayout
+  language={lang}
+  direction={RTL_LOCALES.has(lang) ? 'rtl' : 'ltr'}
+  metadata={{
+    title,
+    description: machine.description,
+    canonical,
+    robots: { index: true, follow: true },
+    openGraph: {
+      type: 'article',
+      url: canonical,
+      locale: lang,
+      images: heroImage ? [{ url: heroImage, width: 1200, height: 628 }] : [],
+    },
+  }}
+>
+  <Fragment slot="head">
+    {alternates.map((alt) => <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />)}
+    <link rel="alternate" hreflang="x-default" href={`${siteUrl}${machineUrl(machine.slug, 'en').replace(/\/$/, '')}`} />
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        name: title,
+        description: machine.description,
+        category: category?.name,
+        image: heroImage ? [heroImage] : undefined,
+        url: canonical,
+        brand: { '@type': 'Organization', name: 'Southern Machinery', url: 'https://www.smthelp.com' },
+        manufacturer: {
+          '@type': 'Organization',
+          name: 'Shenzhen Southern Machinery Sales and Service Co., Ltd.',
+          url: 'https://www.smthelp.com',
+          email: 'info@smthelp.com',
+        },
+      })}
+    />
+  </Fragment>
+
+  <MachineHero
+    badge={`${category?.name ?? 'THT auto insertion'} · ${LOCALE_LABEL[lang]}`}
+    title={title}
+    subtitle={machine.description}
+    image={heroImage ? { src: heroImage, alt: title } : undefined}
+    actions={[
+      { text: 'Send the component list', href: 'mailto:info@smthelp.com', variant: 'primary' },
+      { text: 'Machine videos', href: '#videos', variant: 'secondary' },
+    ]}
+  />
+
+  <div class="mx-auto max-w-7xl px-4 md:px-6">
+    <LanguagePicker machine={machine} current={lang} />
+  </div>
+
+  {
+    blocks.map((block, index) => (
+      <BlockRenderer block={block} dict={dict} striped={index % 2 === 1} />
+    ))
+  }
+
+  <section class="border-t border-gray-200 py-14 dark:border-slate-700">
+    <div class="mx-auto max-w-7xl px-4 md:px-6">
+      <div class="flex flex-col gap-6 rounded-xl bg-primary px-6 py-10 text-white md:flex-row md:items-center md:justify-between">
+        <div class="max-w-2xl">
+          <h2 class="mb-2 text-2xl font-bold md:text-3xl">Send us the board and the component list</h2>
+          <p class="text-blue-50">
+            We reply with the machine mix, the feeder set and the through-put we can actually commit to — quoted from the
+            published documents, not from a sales sheet.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <a class="rounded-md bg-white px-5 py-3 font-semibold text-primary" href="mailto:info@smthelp.com">
+            info@smthelp.com
+          </a>
+          <a
+            class="rounded-md border border-white/70 px-5 py-3 font-semibold text-white"
+            href="https://wa.me/8613602562576"
+            target="_blank"
+            rel="noopener"
+          >
+            WhatsApp
+          </a>
+        </div>
+      </div>
+      <p class="mt-6 text-sm text-muted">
+        Source page: <a class="text-primary hover:underline" href={machine.sourceUrl} target="_blank" rel="noopener">
+          {machine.sourceUrl}
+        </a>. Every figure on this page is traceable to the machine manual or specification sheet behind it.
+      </p>
+    </div>
+  </section>
+</LandingLayout>

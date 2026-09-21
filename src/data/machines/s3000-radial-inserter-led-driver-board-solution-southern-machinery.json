@@ -1,0 +1,1397 @@
+{
+ "slug": "s3000-radial-inserter-led-driver-board-solution-southern-machinery",
+ "category": "radial",
+ "title": "LED traffic signal industry Radial Insertion Machine",
+ "description": "S3000 Radial Inserter capacity model for a 180 x 120 mm, 2-up LED driver board at 60,000 boards per month: 16,154 radial insertions per shift in about 1.6 hours, source-tagged specifications, and a payback model with the lines we cannot calculate left open.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/s3000-radial-inserter-led-driver-board-solution-southern-machinery.html",
+ "heroImage": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial-Inserter--10-Feeder--A.png",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "overview",
+   "heading": "Take 14 radial capacitors per board off the hands of your shift",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Prepared for your LED driver line"
+    },
+    {
+     "t": "h1",
+     "key": "",
+     "text": "Take 14 radial capacitors per board off the hands of your shift"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A capacity model for a 180 × 120 mm, 1.6 mm, 2-up LED driver board at 60,000 boards per month — what one S3000 covers, what it leaves to other machines, and what still needs your numbers."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Built against the parameters you gave us. Machine speed, PCB envelope and component spans are source-tagged on this page. Labour saving and yield gain stay open until you confirm your loaded hourly rate and measured defect rate. Final configuration is confirmed after technical review."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial-Inserter--10-Feeder--A.png",
+     "alt": "S3000 inserting a dense LED panel, with the locating hole marked"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial-Inserter--10-Feeder.png",
+     "alt": "Assembled LED driver board with radial capacitors inserted"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial-Inserter--10-Feeder--b.png",
+     "alt": "Full LED panel after radial insertion"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-head.md.webp",
+     "alt": "S3000 insertion head and carrier clip"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2023/06/22/52556001-Carrier-Clip-assy-7.5.md.jpg",
+     "alt": "S3000 clinch anvil and carrier tape guide"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial-Inserter--10-Feeder--T.png",
+     "alt": "Close-up of assembled LED driver boards"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "pain",
+   "heading": "Three operators per shift, and the pace still does not hold",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "The hidden cost of hand insertion"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Three operators per shift, and the pace still does not hold"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Radial capacitors are small, polarized and volume-hungry. On a 60,000-board month they turn a staffing question into a throughput and quality question."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "16,154 insertions, three people"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Every board carries 14 radial capacitors. Across a 1,154-board shift that is 16,154 hand placements — a workload that scales with headcount, not with your line speed."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Polarity errors are silent"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A reversed electrolytic capacitor looks correct on the bench and fails only at electrical test. The defect is invisible at the station that created it."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Night shift quality drift"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Turnover and seasonal staffing re-introduce exactly the placement errors the process was written to prevent, and they cluster on the shifts you can least supervise."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Hands between processes"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Bare boards and finished panels move between the SMT section and wave soldering by hand, adding handling damage and WIP that nobody measures."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Traceability gaps"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Manual insertion cannot document which component went into which board, when. Your EMS customers increasingly refuse to carry that risk."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Labour economics tighten"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Wages rise and availability falls. Every manual insertion station quietly raises the cost per board, while your selling price does not move."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "linefit",
+   "heading": "One step of five — and it is the step that is still manual",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Where this machine sits in your line"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "One step of five — and it is the step that is still manual"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Your process runs SMT, then through-hole, then wave soldering, then inspection. This proposal covers the through-hole step for radial components, plus the board handling that feeds it."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "fab",
+   "heading": "What the S3000 changes on your floor",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feature · Advantage · Benefit"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "What the S3000 changes on your floor"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Select a feature to connect the verified machine capability with its technical advantage and the benefit your factory actually feels."
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Feature"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feature description."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "reasons",
+   "heading": "Three reasons this fits your numbers",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Why this configuration, for this board"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Three reasons this fits your numbers"
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Your panel fits with room to spare"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A 180 × 120 mm board run 2-up is 360 × 120 mm. That sits inside the 50 × 50 – 400 × 300 mm envelope quoted on the current product page, and inside the wider 450 × 450 mm envelope in the datasheet PDF — so the fit holds whichever source your engineering team prefers. Board thickness of 1.6 mm sits inside the 0.79 – 2.36 mm range."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "The shift's radial work fits in about 1.6 hours"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "1,154 boards per shift × 14 capacitors is 16,154 insertions. At the 10,000 CPH actual production speed — the figure Southern Machinery quotes rather than the peak — that is roughly 1.6 hours of machine time. On a 10-hour shift the radial step would occupy about 16% of capacity, leaving headroom for growth or additional board types."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Parts your maintenance team can already source"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The machine runs on Universal-compatible wear parts per the current product page, with a 1-day spare lead time quoted in the service flow below, so you are not locked into one proprietary channel. The datasheet PDF states running cost differently — that conflict is flagged in the specification notes rather than averaged away."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "roi",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Radial insertions per shift, covered by one S3000"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Machine time at the verified 10,000 CPH actual speed"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Headroom against a 10-hour shift — capacity for growth"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Span range covering standard radial capacitors"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "Capacity and ROI model",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "What we can calculate, and what we cannot"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Capacity and ROI model"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Every line below is either calculated from the parameters you supplied, or left open because it depends on data we do not have. We do not fill gaps with industry averages."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Line",
+      "Value",
+      "Calculation",
+      "Status"
+     ],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Boards per shift"
+       },
+       {
+        "key": "",
+        "text": "1,154"
+       },
+       {
+        "key": "",
+        "text": "60,000 ÷ 26 days ÷ 2 shifts"
+       },
+       {
+        "key": "",
+        "text": "Your data"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Radial insertions per shift"
+       },
+       {
+        "key": "",
+        "text": "16,154"
+       },
+       {
+        "key": "",
+        "text": "1,154 boards × 14 capacitors"
+       },
+       {
+        "key": "",
+        "text": "Your data"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine insertion time"
+       },
+       {
+        "key": "",
+        "text": "1.6 h"
+       },
+       {
+        "key": "",
+        "text": "16,154 ÷ 10,000 CPH actual"
+       },
+       {
+        "key": "",
+        "text": "Calculated"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Radial step utilisation"
+       },
+       {
+        "key": "",
+        "text": "~16%"
+       },
+       {
+        "key": "",
+        "text": "1.6 h ÷ 10 h shift"
+       },
+       {
+        "key": "",
+        "text": "Calculated — confirm your shift length"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Hand-insertion operators today"
+       },
+       {
+        "key": "",
+        "text": "3 / shift"
+       },
+       {
+        "key": "",
+        "text": "Stated in your brief"
+       },
+       {
+        "key": "",
+        "text": "Your data"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Labour cost avoided"
+       },
+       {
+        "key": "",
+        "text": "Pending"
+       },
+       {
+        "key": "",
+        "text": "3 operators × shifts × loaded hourly rate"
+       },
+       {
+        "key": "",
+        "text": "Needs your loaded hourly rate"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Yield gain value"
+       },
+       {
+        "key": "",
+        "text": "Pending"
+       },
+       {
+        "key": "",
+        "text": "Defect reduction × unit value"
+       },
+       {
+        "key": "",
+        "text": "Needs your current measured defect rate"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Payback period"
+       },
+       {
+        "key": "",
+        "text": "Pending"
+       },
+       {
+        "key": "",
+        "text": "Total investment ÷ monthly net saving"
+       },
+       {
+        "key": "",
+        "text": "Needs investment figure and the two lines above"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Axial & terminal capacity"
+       },
+       {
+        "key": "",
+        "text": "Pending"
+       },
+       {
+        "key": "",
+        "text": "S4000 / S7020T-S7900 specification"
+       },
+       {
+        "key": "",
+        "text": "Datasheets not yet read — to be confirmed"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The pending labour and yield lines are deliberately left open. They depend on your loaded hourly rate, your measured manual insertion rate and your current defect rate — none of which appear in the brief, and none of which we will estimate on your behalf. Send those three numbers and the payback calculation is completed the same working day."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "specs",
+   "heading": "Key specifications for project evaluation",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Source-verified technical data"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Key specifications for project evaluation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Every value carries the file it came from. Where two Southern Machinery sources disagree, both are shown and the conflict is disclosed rather than smoothed over."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3000 Radial Inserter"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Model"
+       },
+       {
+        "key": "",
+        "text": "S3000 Radial Inserter Sources: S3000-Radial-Inserter-Southern-Machinery.html and S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Dimensions (L×W×H)"
+       },
+       {
+        "key": "",
+        "text": "1700 × 1500 × 1600 mm Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Rated spec speed"
+       },
+       {
+        "key": "",
+        "text": "18,000 CPH Source: S-3000 Radial Inserter.pdfConflict: the current product page quotes 20,000 CPH spec speed. Both shown; neither averaged."
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Production speed used for this model"
+       },
+       {
+        "key": "",
+        "text": "10,000 CPH actual Source: S3000-Radial-Inserter-Southern-Machinery.htmlSouthern Machinery quotes the verified production figure, not the peak."
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "Minimum 50 × 50 mm Agreed by both sourcesMaximum 400 × 300 mm Source: S3000-Radial-Inserter-Southern-Machinery.htmlMaximum 450 × 450 mm Source: S-3000 Radial Inserter.pdf — conflict. This model uses the conservative 400 × 300 mm."
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "",
+        "text": "0.79 – 2.36 mm Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component spans"
+       },
+       {
+        "key": "",
+        "text": "Single 2.5 mm · dual 2.5/5.0 mm · triple 2.5/5.0/7.5 mm Source: S-3000 Radial Inserter.pdfConflict: the product page lists 2.5/3.5/5.0/7.5/10.0 mm with dual, triple and quad span. This model uses the conservative 2.5–7.5 mm range."
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component envelope"
+       },
+       {
+        "key": "",
+        "text": "Max body height 20 mm Agreed by both sourcesMax body diameter 10 mm Source: S-3000 Radial Inserter.pdf / 13 mm Source: S3000-Radial-Inserter-Southern-Machinery.html — conflictMax lead diameter 0.7 mm Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion angle"
+       },
+       {
+        "key": "",
+        "text": "0 – 360 degrees in 1 degree increments Source: S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Clinch"
+       },
+       {
+        "key": "",
+        "text": "Outward clinch standard; inward clinch option to increase bottom-side density and prevent shorting during wave soldering Source: S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Lead trimming"
+       },
+       {
+        "key": "",
+        "text": "1.5 ± 0.3 mm short blade · 2.0 ± 0.3 mm long blade Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Lead bend angle"
+       },
+       {
+        "key": "",
+        "text": "10 – 15 degrees, adjustable Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeder inputs"
+       },
+       {
+        "key": "",
+        "text": "Expandable from 20 up to 100 inputs Source: S-3000 Radial Inserter.pdfConflict: the product page quotes 10 feeder stations recommended. Different units of measure are possible — confirm with engineering."
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Programming"
+       },
+       {
+        "key": "",
+        "text": "Off-line programming available; Excel program with USB input Source: S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air source"
+       },
+       {
+        "key": "",
+        "text": "0.6 – 0.8 MPa Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "220 V, 50 Hz single phase Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Net weight"
+       },
+       {
+        "key": "",
+        "text": "880 kg Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Certification"
+       },
+       {
+        "key": "",
+        "text": "Radial and axial inserters obtained CE certification in 2010 Source: S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertable components"
+       },
+       {
+        "key": "",
+        "text": "Capacitors (electrolytic, ceramic, box, film), transistors, diodes, LEDs, connectors, tact switches, coils, potentiometers, lamps, fuses Source: S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Running cost"
+       },
+       {
+        "key": "",
+        "text": "RMB 2,000 / month / unit Source: S-3000 Radial Inserter.pdfConflict: the product page quotes under $100/month using Universal-compatible wear parts. The two figures differ by roughly 3x and may cover different cost scopes. Do not quote either until engineering confirms the scope."
+       }
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Recommended configuration for this board"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Radial — 14 capacitors / board"
+       },
+       {
+        "key": "",
+        "text": "S3000 Radial Inserter — 16,154 insertions per shift, about 1.6 h at 10,000 CPH actual. Span range 2.5 – 7.5 mm covers standard radial capacitors. Source: S-3000 Radial Inserter.pdf and S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Axial — 6 resistors / board"
+       },
+       {
+        "key": "",
+        "text": "S4000 Axial Inserter class — 6,924 insertions per shift. Model exists in the library; capacity and span limits not yet read from the S-4000 datasheet. Configuration item — specification to be confirmed"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Terminals — 4 / board"
+       },
+       {
+        "key": "",
+        "text": "S7020T / S7900 odd-form class — 4,616 insertions per shift. Terminal and spring-clip insertion is outside the S3000's radial scope. Configuration item — specification to be confirmed"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Board feeding"
+       },
+       {
+        "key": "",
+        "text": "S-V500 bare board vacuum loader class — feeds bare boards into the THT section so panels are not carried by hand. Configuration item — specification to be confirmed"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Inline layout"
+       },
+       {
+        "key": "",
+        "text": "Optional PCB loader/unloader with a T-type material station to save floor space. Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Not covered by this proposal"
+       },
+       {
+        "key": "",
+        "text": "Wave soldering, AOI and electrical test are assumed to be existing or separately quoted. SMT placement is already automated on your line."
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Two Southern Machinery sources disagree on several S3000 values. The datasheet PDF states 18,000 CPH spec speed, a 450 × 450 mm maximum board, a 10 mm maximum body diameter, 2.5/5.0/7.5 mm spans, 20–100 feeder inputs and RMB 2,000/month running cost. The current published product page states 20,000 CPH spec speed, a 400 × 300 mm maximum board, a 13 mm maximum body diameter, spans up to 10.0 mm, 10 recommended feeder stations and under $100/month running cost. Where they conflict, this model uses the more conservative figure and marks the row. Confirm the final values against the machine that will actually be built before they enter a contract. Southern Machinery quotes verified production numbers, not peak figures."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3000 Radial Inserter"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Model"
+       },
+       {
+        "key": "",
+        "text": "S3000 Radial Inserter Sources: S3000-Radial-Inserter-Southern-Machinery.html and S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Dimensions (L×W×H)"
+       },
+       {
+        "key": "",
+        "text": "1700 × 1500 × 1600 mm Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Rated spec speed"
+       },
+       {
+        "key": "",
+        "text": "18,000 CPH Source: S-3000 Radial Inserter.pdfConflict: the current product page quotes 20,000 CPH spec speed. Both shown; neither averaged."
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Production speed used for this model"
+       },
+       {
+        "key": "",
+        "text": "10,000 CPH actual Source: S3000-Radial-Inserter-Southern-Machinery.htmlSouthern Machinery quotes the verified production figure, not the peak."
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "Minimum 50 × 50 mm Agreed by both sourcesMaximum 400 × 300 mm Source: S3000-Radial-Inserter-Southern-Machinery.htmlMaximum 450 × 450 mm Source: S-3000 Radial Inserter.pdf — conflict. This model uses the conservative 400 × 300 mm."
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "",
+        "text": "0.79 – 2.36 mm Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component spans"
+       },
+       {
+        "key": "",
+        "text": "Single 2.5 mm · dual 2.5/5.0 mm · triple 2.5/5.0/7.5 mm Source: S-3000 Radial Inserter.pdfConflict: the product page lists 2.5/3.5/5.0/7.5/10.0 mm with dual, triple and quad span. This model uses the conservative 2.5–7.5 mm range."
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component envelope"
+       },
+       {
+        "key": "",
+        "text": "Max body height 20 mm Agreed by both sourcesMax body diameter 10 mm Source: S-3000 Radial Inserter.pdf / 13 mm Source: S3000-Radial-Inserter-Southern-Machinery.html — conflictMax lead diameter 0.7 mm Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion angle"
+       },
+       {
+        "key": "",
+        "text": "0 – 360 degrees in 1 degree increments Source: S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Clinch"
+       },
+       {
+        "key": "",
+        "text": "Outward clinch standard; inward clinch option to increase bottom-side density and prevent shorting during wave soldering Source: S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Lead trimming"
+       },
+       {
+        "key": "",
+        "text": "1.5 ± 0.3 mm short blade · 2.0 ± 0.3 mm long blade Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Lead bend angle"
+       },
+       {
+        "key": "",
+        "text": "10 – 15 degrees, adjustable Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeder inputs"
+       },
+       {
+        "key": "",
+        "text": "Expandable from 20 up to 100 inputs Source: S-3000 Radial Inserter.pdfConflict: the product page quotes 10 feeder stations recommended. Different units of measure are possible — confirm with engineering."
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Programming"
+       },
+       {
+        "key": "",
+        "text": "Off-line programming available; Excel program with USB input Source: S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air source"
+       },
+       {
+        "key": "",
+        "text": "0.6 – 0.8 MPa Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "220 V, 50 Hz single phase Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Net weight"
+       },
+       {
+        "key": "",
+        "text": "880 kg Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Certification"
+       },
+       {
+        "key": "",
+        "text": "Radial and axial inserters obtained CE certification in 2010 Source: S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertable components"
+       },
+       {
+        "key": "",
+        "text": "Capacitors (electrolytic, ceramic, box, film), transistors, diodes, LEDs, connectors, tact switches, coils, potentiometers, lamps, fuses Source: S-3000 Radial Inserter.pdf"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Running cost"
+       },
+       {
+        "key": "",
+        "text": "RMB 2,000 / month / unit Source: S-3000 Radial Inserter.pdfConflict: the product page quotes under $100/month using Universal-compatible wear parts. The two figures differ by roughly 3x and may cover different cost scopes. Do not quote either until engineering confirms the scope."
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Recommended configuration for this board"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Radial — 14 capacitors / board"
+       },
+       {
+        "key": "",
+        "text": "S3000 Radial Inserter — 16,154 insertions per shift, about 1.6 h at 10,000 CPH actual. Span range 2.5 – 7.5 mm covers standard radial capacitors. Source: S-3000 Radial Inserter.pdf and S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Axial — 6 resistors / board"
+       },
+       {
+        "key": "",
+        "text": "S4000 Axial Inserter class — 6,924 insertions per shift. Model exists in the library; capacity and span limits not yet read from the S-4000 datasheet. Configuration item — specification to be confirmed"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Terminals — 4 / board"
+       },
+       {
+        "key": "",
+        "text": "S7020T / S7900 odd-form class — 4,616 insertions per shift. Terminal and spring-clip insertion is outside the S3000's radial scope. Configuration item — specification to be confirmed"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Board feeding"
+       },
+       {
+        "key": "",
+        "text": "S-V500 bare board vacuum loader class — feeds bare boards into the THT section so panels are not carried by hand. Configuration item — specification to be confirmed"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Inline layout"
+       },
+       {
+        "key": "",
+        "text": "Optional PCB loader/unloader with a T-type material station to save floor space. Source: S3000-Radial-Inserter-Southern-Machinery.html"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Not covered by this proposal"
+       },
+       {
+        "key": "",
+        "text": "Wave soldering, AOI and electrical test are assumed to be existing or separately quoted. SMT placement is already automated on your line."
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "See the machine and the boards it produces",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Product & production visuals"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "See the machine and the boards it produces"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Click any image to enlarge. All photographs are Southern Machinery field photos of the S3000 family inserting radial components. No stock imagery is used on this page."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial-Inserter--10-Feeder--A.png",
+     "alt": "S3000 inserting a dense LED panel, with the locating hole marked"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial-Inserter--10-Feeder.png",
+     "alt": "Assembled LED driver board with radial capacitors inserted"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial-Inserter--10-Feeder--b.png",
+     "alt": "Full LED panel after radial insertion"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-head.md.webp",
+     "alt": "S3000 insertion head and carrier clip"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2023/06/22/52556001-Carrier-Clip-assy-7.5.md.jpg",
+     "alt": "S3000 clinch anvil and carrier tape guide"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2023/06/22/52556101-Carrier-clips-10mm.md.jpg",
+     "alt": "7.5 mm span radial lead component seated in a carrier clip"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "Watch the S3000 family insert radial components",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Optional online media"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Watch the S3000 family insert radial components"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Videos load only after you select them. All clips are from the official Southern Machinery YouTube channel and were verified as reachable before this page was built."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Radial Insertion machine working"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Radial insertion machines working for Smart EMS factory PCB assembly."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "China Made Radial Insertion machine"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "How China made radial insertion machines work for Smart EMS factory PCB assembly."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Radial Insertion Machine SMT"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Radial insertion machine operating in an SMT environment."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "LED traffic signal industry Radial Insertion Machine"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Radial insertion applied in the LED traffic signal industry — the same component family as your driver boards."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "You are offline. The product presentation remains available; videos can be loaded when a connection is restored."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial-Inserter--10-Feeder--A.png",
+     "alt": "Radial insertion machine working"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial-Inserter--10-Feeder--b.png",
+     "alt": "China Made Radial Insertion machine"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial-Inserter--10-Feeder.png",
+     "alt": "Radial Insertion Machine SMT"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2023/06/22/52556101-Carrier-clips-10mm.md.jpg",
+     "alt": "LED traffic signal radial insertion"
+    }
+   ],
+   "videos": [
+    {
+     "id": "WP61N6pmDJU",
+     "title": "Radial Insertion machine working",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "NUvAg0JvGYY",
+     "title": "China Made Radial Insertion machine",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "0iKa7qjICCg",
+     "title": "Radial Insertion Machine SMT",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "51JqMMJlVA4",
+     "title": "LED traffic signal industry Radial Insertion Machine",
+     "titleKey": "",
+     "duration": ""
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "service",
+   "heading": "Engineering support around your deployment",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "From board review to production"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Engineering support around your deployment"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "We confirm the fit before you commit — span tooling, feeder count and inline options matched to your boards."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Share PCB sizes, component mix and monthly volume. You have already sent most of it."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Configuration and quotation within 24 hours."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Span tooling, feeder inputs, T-type station and inline options."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Free installation and operator training included."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "24/7 support and 1-day spare-part lead time."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faq",
+   "heading": "Questions this board raises",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Technical evaluation FAQ"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Questions this board raises"
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Does my 180 × 120 mm board fit, and can it run 2-up?",
+     "a": "Yes. The minimum is 50 × 50 mm and the maximum is 400 × 300 mm per the current product page (450 × 450 mm per the datasheet PDF). A 2-up panel of 360 × 120 mm fits inside both envelopes, and your 1.6 mm thickness sits inside the 0.79 – 2.36 mm range."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How much machine time does my shift actually need?",
+     "a": "1,154 boards per shift × 14 capacitors = 16,154 insertions. At the 10,000 CPH actual production speed that is about 1.6 hours, or roughly 16% of a 10-hour shift. Confirm your shift length and we will restate the utilisation."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Which of my components can this machine insert — and which can't it?",
+     "a": "The S3000 covers radial tape-package components: capacitors (electrolytic, ceramic, box, film), transistors, diodes, LEDs, connectors, tact switches, coils, potentiometers, lamps and fuses, with spans of 2.5 to 7.5 mm and a maximum body height of 20 mm. Your 14 radial capacitors are inside that range. Your 6 axial resistors and 4 terminals are not — those need separate machines, and we have not yet read their datasheets, so we are not quoting capacity for them."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Will I be locked into proprietary spare parts?",
+     "a": "The current product page states 100% compatibility with Universal machine wear-and-tear parts. Be aware that the datasheet PDF quotes running cost as RMB 2,000/month/unit, while the product page quotes under $100/month — the two figures differ and may cover different cost scopes. We will confirm the scope with engineering before you rely on either number."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What utilities and floor space does it need?",
+     "a": "220 V / 50 Hz single phase and compressed air at 0.6 – 0.8 MPa. A built-in air storage tank and a built-in 3 KVA regulator stabilise both. The machine is 1700 × 1500 × 1600 mm and weighs 880 kg."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How do I get a price and a delivery time?",
+     "a": "Email info@smthelp.com or WhatsApp +86 136 0256 2576 with your board sizes, component mix and quantity — you have already given us most of it. Quotation and delivery schedule follow technical confirmation, typically the same working day. The two numbers that would let us finish the payback model are your loaded hourly rate and your current measured defect rate."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Send your panel layout and shift pattern for a capacity model",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Next step"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Send your panel layout and shift pattern for a capacity model"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Tell us which boards you insert, the radial components you run and your monthly volume. We reply with a configuration, a capacity model and a delivery schedule — and with the labour and yield lines left open rather than guessed."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://wa.me/8613602562576?text=Hi%20Jason%2C%20I%20would%20like%20the%20capacity%20model%20for%20the%20S3000%20on%20our%20LED%20driver%20boards.%20Our%20board%20size%20and%20component%20mix%3A%20",
+     "text": "Click to chat on WhatsApp"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  }
+ ]
+}

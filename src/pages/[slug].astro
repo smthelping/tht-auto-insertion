@@ -1,0 +1,81 @@
+---
+import type { GetStaticPaths } from 'astro';
+
+import LandingLayout from '~/layouts/LandingLayout.astro';
+import MachineHero from '~/components/machine/MachineHero.astro';
+import MachinePage from '~/components/machine/MachinePage.astro';
+import MachineCard from '~/components/machine/MachineCard.astro';
+
+import {
+  CATEGORIES,
+  DEFAULT_LOCALE,
+  machineCategories,
+  machinesIndexUrl,
+  machines,
+  categoryUrl,
+} from '~/utils/machines';
+import type { Machine } from '~/utils/machines';
+
+// One dynamic level serves both the category hubs and the machine pages, so
+// `/tht-auto-insertion/odd-form` and `/tht-auto-insertion/s7000-…` coexist
+// without two conflicting `[param]` files at the same depth.
+export const getStaticPaths = (() => {
+  const categoryPaths = CATEGORIES.map((category) => ({
+    params: { slug: category.slug },
+    props: { kind: 'category' as const, category },
+  }));
+
+  const machinePaths = machines.map((machine) => ({
+    params: { slug: machine.slug },
+    props: { kind: 'machine' as const, machine },
+  }));
+
+  return [...categoryPaths, ...machinePaths];
+}) satisfies GetStaticPaths;
+
+const { kind, category, machine } = Astro.props as {
+  kind: 'category' | 'machine';
+  category?: (typeof CATEGORIES)[number];
+  machine?: Machine;
+};
+---
+
+{
+  kind === 'machine' && machine ? (
+    <MachinePage machine={machine} lang={DEFAULT_LOCALE} />
+  ) : category ? (
+    <LandingLayout
+      metadata={{
+        title: `${category.name} — THT auto insertion`,
+        description: category.description,
+        canonical: `https://smthelping.github.io${categoryUrl(category.slug).replace(/\/$/, '')}`,
+      }}
+    >
+      <MachineHero
+        badge="THT auto insertion"
+        title={category.name}
+        subtitle={category.description}
+        tagline={category.tagline}
+        actions={[{ text: 'Send the component list', href: 'mailto:info@smthelp.com', variant: 'primary' }]}
+      />
+
+      <section class="py-12 md:py-16">
+        <div class="mx-auto max-w-7xl px-4 md:px-6">
+          <h2 class="mb-8 text-2xl font-bold text-heading md:text-3xl">
+            {machineCategories(category.slug).length} machine pages in this group
+          </h2>
+          <ul class="grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
+            {machineCategories(category.slug).map((item) => (
+              <MachineCard machine={item} />
+            ))}
+          </ul>
+          <p class="mt-10 text-sm text-muted">
+            <a class="text-primary hover:underline" href={machinesIndexUrl(DEFAULT_LOCALE)}>
+              ← All THT auto insertion machines
+            </a>
+          </p>
+        </div>
+      </section>
+    </LandingLayout>
+  ) : null
+}

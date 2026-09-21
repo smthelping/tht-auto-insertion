@@ -1,0 +1,1551 @@
+{
+ "slug": "s7900-odd-form-insertion-machine-tht-auto-pcb-assembly",
+ "category": "odd-form",
+ "title": "S7900 THT Odd-Form Insertion Machine | Southern Machinery",
+ "description": "S7900 THT odd-form insertion machine: 4,700 CPH, ±0.05 mm, up to 450 × 400 mm PCB, tape, tube, tray and bowl feeders at once, four-form lead clinching.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/s7900-odd-form-insertion-machine-tht-auto-pcb-assembly.html",
+ "heroImage": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-front-06.md.webp",
+ "langs": [
+  "ar",
+  "en",
+  "es",
+  "fr",
+  "pt",
+  "ru",
+  "zh"
+ ],
+ "blocks": [
+  {
+   "id": "top",
+   "heading": "Your odd-form parts still go in by hand.The S7900 places 4,700 of them an hour.",
+   "nodes": [
+    {
+     "t": "h1",
+     "key": "",
+     "text": "Your odd-form parts still go in by hand.The S7900 places 4,700 of them an hour."
+    },
+    {
+     "t": "p",
+     "key": "hero_sub",
+     "text": "The S7900 is a multi-head THT odd-form insertion machine for the parts no placement machine will take: relays, transformers, connectors, sockets, capacitors, LEDs and jumper wires. Self-developed tape, tube, tray and bowl feeders run at the same time on one platform. An AI vision algorithm re-finds the hole on every board instead of trusting the nominal coordinate, and the optional bottom clinching unit bends the leads so nothing floats when the board reaches the wave."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-front-06.md.webp",
+     "alt": "S7900 odd-form insertion machine, front elevation with conveyor"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-product-10.md.webp",
+     "alt": "S7900 odd-form inserter between two SMEMA loaders"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-view-02-0571b11d7135541d25.md.webp",
+     "alt": "Two S7900 odd-form insertion machines linked by a transfer conveyor"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-view-01-06.md.webp",
+     "alt": "S7900 odd-form insertion line, isometric view with feeders"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-back-04.md.webp",
+     "alt": "Rear view of the S7900 odd-form inserter with loaders"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-top-064b9d65f08bdd147b.md.webp",
+     "alt": "Plan view of the S7900 odd-form insertion machine and its feeders"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "why",
+   "heading": "Odd-form parts are odd-shaped because your product needs them that way",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "why_h2",
+     "text": "Odd-form parts are odd-shaped because your product needs them that way"
+    },
+    {
+     "t": "p",
+     "key": "why_lead",
+     "text": "Relays, transformers, sockets, screw terminals, big electrolytics, LEDs and jumper wires are the parts that will not go through a placement machine: too tall, too irregular, too much insertion force required. So they go in by hand, and hand insertion sets a ceiling on the whole line. The S7900 exists to remove that ceiling — not to shave a few seconds off it."
+    },
+    {
+     "t": "h3",
+     "key": "why1t",
+     "text": "The ceiling is about one thousand an hour"
+    },
+    {
+     "t": "p",
+     "key": "why1d",
+     "text": "A trained operator inserts roughly 1,000 odd-form components an hour — that is 3.6 seconds each, sustained, with breaks. The S7900 is published at 4,700 components an hour. The gap is not an incremental improvement you can schedule your way out of; it is the difference between a line that scales with orders and a line that scales with headcount."
+    },
+    {
+     "t": "h3",
+     "key": "why2t",
+     "text": "Odd-form parts are the ones that fail quietly"
+    },
+    {
+     "t": "p",
+     "key": "why2d",
+     "text": "A relay pressed in slightly off-centre still looks seated. A transformer with a lead that never entered the barrel still passes a visual check. These are the defects that leave your factory and come back as a field failure, because there is no solder joint to inspect and no reflow profile to blame. Machine insertion plus lead clinching removes the entire class of problem: the lead is either in the hole and bent over, or the machine says so."
+    },
+    {
+     "t": "h3",
+     "key": "why3t",
+     "text": "The cost lands in two places at once"
+    },
+    {
+     "t": "p",
+     "key": "why3d",
+     "text": "Manual insertion is expensive per hour and expensive per defect. The published figure is one S7900 replacing five manual operators and releasing around USD 60,000 of labour cost a year — and that is before yield. When insertion is repeatable, rework falls, and the boards you were going to repair become boards you ship. Both effects land in the same financial year."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "process",
+   "heading": "Six steps from a loaded board to a clinched lead",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "proc_h2",
+     "text": "Six steps from a loaded board to a clinched lead"
+    },
+    {
+     "t": "p",
+     "key": "proc_lead",
+     "text": "This is the sequence the operation manual describes for a production run. The vision correction runs per board, not once per program — which is why the same program holds across board batches that were etched or drilled slightly differently."
+    },
+    {
+     "t": "h3",
+     "key": "pr1t",
+     "text": "Load, clamp and read the marks"
+    },
+    {
+     "t": "p",
+     "key": "pr1d",
+     "text": "The board enters on the ESD belt and the conveyor adjusts itself to the width entered in the program. Two fiducial marks are taught and read, and in panel mode each sub-board gets its own mark pair so an array is located panel by panel rather than board by board."
+    },
+    {
+     "t": "h3",
+     "key": "pr2t",
+     "text": "Correct the hole, not the drawing"
+    },
+    {
+     "t": "p",
+     "key": "pr2d",
+     "text": "The vision system photographs the actual insertion hole and compares the component pin diameter with the hole position in real time. The machine fine-tunes each hole from what the camera sees, instead of applying an upper and lower limit from a component database. This is the step that removes mis-insertion."
+    },
+    {
+     "t": "h3",
+     "key": "pr3t",
+     "text": "Feed from four packaging types"
+    },
+    {
+     "t": "p",
+     "key": "pr3d",
+     "text": "Tape feeders for radial and axial taped parts, tube feeders for relays and transformers, tray feeders for large ICs and coils, bowl feeders for bulk connectors and terminals. Up to 6 feeder stations per platform, expandable to 48 feeders, all plug-and-use with no wiring to connect."
+    },
+    {
+     "t": "h3",
+     "key": "pr4t",
+     "text": "Insert with the head that suits the part"
+    },
+    {
+     "t": "p",
+     "key": "pr4d",
+     "text": "Vacuum nozzles for flat parts, air grippers for tall or heavy ones, on a quick-release joint the operator changes without tools. Insertion orientation is adjustable through 0–360°. The machine takes 2 to 8 heads, so several component types go in during one pass over the board."
+    },
+    {
+     "t": "h3",
+     "key": "pr5t",
+     "text": "Bend the lead so nothing floats"
+    },
+    {
+     "t": "p",
+     "key": "pr5d",
+     "text": "The optional bottom clinching unit forms the lead into one of four shapes — outward bend, inner bend, circular bend or two-turn bend. This is what stops tall components lifting during wave soldering. The published capability is a lead diameter under 1.0 mm with at least 2 mm of exposed lead."
+    },
+    {
+     "t": "h3",
+     "key": "pr6t",
+     "text": "Report and hand off"
+    },
+    {
+     "t": "p",
+     "key": "pr6d",
+     "text": "Output, insertion rate and working time are recorded, and MES parameters can be set with an IP, a port and a device number so the machine reports into your smart-factory system. The board leaves on the SMEMA port — two ports are standard — for the next station."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "machine",
+   "heading": "A cast frame, AI vision correction and a feeder ecosystem you own",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "mach_h2",
+     "text": "A cast frame, AI vision correction and a feeder ecosystem you own"
+    },
+    {
+     "t": "p",
+     "key": "mach_lead",
+     "text": "Three things decide whether an odd-form insertion stays inserted: how rigid the frame is when the head comes down, whether the machine notices that the hole moved, and whether the feeder can present the part the same way ten thousand times. The S7900 addresses all three, and the images below are engineering renders of this machine, not stock photography."
+    },
+    {
+     "t": "h3",
+     "key": "mach1t",
+     "text": "The frame is cast, then left to settle"
+    },
+    {
+     "t": "p",
+     "key": "mach1d",
+     "text": "The machine body and the X-axis are cast as one piece and stress-released over months before machining, so the geometry does not move as the casting relaxes in your factory. The frame was simulated and analysed for mechanical strength at low mass. Screws and guides are THK, servo motors are Panasonic, bearings are NSK and the cable chain is igus — the bill of materials is published on the solution deck."
+    },
+    {
+     "t": "h3",
+     "key": "mach2t",
+     "text": "Vision that corrects rather than merely looks"
+    },
+    {
+     "t": "p",
+     "key": "mach2d",
+     "text": "The AI vision algorithm auto-corrects board-level deviation and compares pin dimensions against hole positions in real time, achieving placement accuracy of ±0.05 mm at CPK ≥ 1.0. Offline programming imports Gerber or CAD coordinates, and when the offline program is loaded online the machine re-fine-tunes every insertion hole. Program one sub-board and the machine corrects the whole array after panelisation."
+    },
+    {
+     "t": "h3",
+     "key": "mach3t",
+     "text": "The feeders are ours, and they run together"
+    },
+    {
+     "t": "p",
+     "key": "mach3d",
+     "text": "Tape, tube, tray and bowl feeders are self-developed and self-produced, and several can run simultaneously on one machine. The published claim is up to 40% more capacity than a single-feed arrangement feeding the same mix. They mount on a positioning key with a compression block and connect with no wiring — which is what makes a product changeover a ten-minute job rather than a shift."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "capacity",
+   "heading": "The published numbers, and where the documents disagree",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "cap_h2",
+     "text": "The published numbers, and where the documents disagree"
+    },
+    {
+     "t": "p",
+     "key": "cap_lead",
+     "text": "Three tables follow. The first is the S7900IV / S7900IV-W specification table, quoted from our own machine comparison sheet. The second is the component and feeding capability of the platform. The third lists every point where our documents give different answers — published here rather than resolved quietly, because you will be buying against these numbers."
+    },
+    {
+     "t": "h3",
+     "key": "cap_t1",
+     "text": "S7900IV / S7900IV-W specification table"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Parameter",
+      "Published value"
+     ],
+     "rows": [
+      [
+       {
+        "key": "sp1k",
+        "text": "Model"
+       },
+       {
+        "key": "sp1v",
+        "text": "S7900IV (double-sided door) · S7900IV-W (single-sided, lead clinching standard)"
+       }
+      ],
+      [
+       {
+        "key": "sp2k",
+        "text": "Insertion heads"
+       },
+       {
+        "key": "sp2v",
+        "text": "4 heads on both variants · the platform is offered from 2 to 8 heads"
+       }
+      ],
+      [
+       {
+        "key": "sp3k",
+        "text": "Head type"
+       },
+       {
+        "key": "sp3v",
+        "text": "Vacuum nozzle or air gripper, on a quick-release joint changed without tools"
+       }
+      ],
+      [
+       {
+        "key": "sp4k",
+        "text": "Speed per component"
+       },
+       {
+        "key": "sp4v",
+        "text": "0.7 s (S7900IV) · 2 s with bent feet (S7900IV-W)"
+       }
+      ],
+      [
+       {
+        "key": "sp5k",
+        "text": "Placement accuracy"
+       },
+       {
+        "key": "sp5v",
+        "text": "±0.06 mm CPK ≥ 1.0 (S7900IV) · ±0.05 mm CPK ≥ 1.0 (S7900IV-W)"
+       }
+      ],
+      [
+       {
+        "key": "sp6k",
+        "text": "Max component size"
+       },
+       {
+        "key": "sp6v",
+        "text": "φ30 mm / 17 × 17 mm (S7900IV) · φ50 mm / 35 × 35 mm (S7900IV-W)"
+       }
+      ],
+      [
+       {
+        "key": "sp7k",
+        "text": "Component height"
+       },
+       {
+        "key": "sp7v",
+        "text": "≤ 30 mm (S7900IV) · ≤ 25 mm (S7900IV-W)"
+       }
+      ],
+      [
+       {
+        "key": "sp8k",
+        "text": "PCB size (L × W)"
+       },
+       {
+        "key": "sp8v",
+        "text": "70 × 70 to 410 × 500 mm (S7900IV) · 70 × 70 to 450 × 400 mm (S7900IV-W)"
+       }
+      ],
+      [
+       {
+        "key": "sp9k",
+        "text": "Carrier size (L × W)"
+       },
+       {
+        "key": "sp9v",
+        "text": "Max 500 × 500 mm (S7900IV) · max 500 × 550 mm (S7900IV-W)"
+       }
+      ],
+      [
+       {
+        "key": "sp10k",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "sp10v",
+        "text": "0.6 – 2.0 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp11k",
+        "text": "Max PCB weight"
+       },
+       {
+        "key": "sp11v",
+        "text": "2 kg (S7900IV) · 5 kg (S7900IV-W)"
+       }
+      ],
+      [
+       {
+        "key": "sp12k",
+        "text": "Insertion direction"
+       },
+       {
+        "key": "sp12v",
+        "text": "0 – 360° adjustable"
+       }
+      ],
+      [
+       {
+        "key": "sp13k",
+        "text": "Insertion force"
+       },
+       {
+        "key": "sp13v",
+        "text": "≤ 98 N (S7900IV) · ≤ 29.4 N (S7900IV-W)"
+       }
+      ],
+      [
+       {
+        "key": "sp14k",
+        "text": "Lead clinching unit"
+       },
+       {
+        "key": "sp14v",
+        "text": "Not applicable on the S7900IV · standard configuration on the S7900IV-W"
+       }
+      ],
+      [
+       {
+        "key": "sp15k",
+        "text": "Vision system"
+       },
+       {
+        "key": "sp15v",
+        "text": "Top mark CCD × 1 plus bottom component CCD × 4 on both variants"
+       }
+      ],
+      [
+       {
+        "key": "sp16k",
+        "text": "Conveyor"
+       },
+       {
+        "key": "sp16v",
+        "text": "Chain, left to right, height 900 ± 20 mm (S7900IV) · belt, either direction, 750 ± 20 mm (S7900IV-W)"
+       }
+      ],
+      [
+       {
+        "key": "sp17k",
+        "text": "PCB fixing"
+       },
+       {
+        "key": "sp17v",
+        "text": "Servo top plate with cylinder clamping"
+       }
+      ],
+      [
+       {
+        "key": "sp18k",
+        "text": "Machine size (L × W × H)"
+       },
+       {
+        "key": "sp18v",
+        "text": "1300 × 1700 × 2000 mm (S7900IV) · 1550 × 1900 × 2100 mm (S7900IV-W)"
+       }
+      ],
+      [
+       {
+        "key": "sp19k",
+        "text": "Machine weight"
+       },
+       {
+        "key": "sp19v",
+        "text": "1650 kg (S7900IV) · 1750 kg (S7900IV-W), feeders excluded"
+       }
+      ],
+      [
+       {
+        "key": "sp20k",
+        "text": "Power and air"
+       },
+       {
+        "key": "sp20v",
+        "text": "Max 5.4 kW / running 3.3 kW (S7900IV) · max 6.6 kW / running 3.5 kW (S7900IV-W) · air 0.5 – 0.65 MPa ANR"
+       }
+      ],
+      [
+       {
+        "key": "sp21k",
+        "text": "Control and interface"
+       },
+       {
+        "key": "sp21v",
+        "text": "Windows platform, English and Chinese selectable · offline programming from Gerber or CAD · MES parameters via IP and port · SMEMA ports × 2"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "cap_t2",
+     "text": "Component and feeding capability"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Parameter",
+      "Published value"
+     ],
+     "rows": [
+      [
+       {
+        "key": "cp1k",
+        "text": "Component envelope"
+       },
+       {
+        "key": "cp1v",
+        "text": "L5 × W5 × H6 mm up to L40 × W40 × H45 mm, height including the lead"
+       }
+      ],
+      [
+       {
+        "key": "cp2k",
+        "text": "Feeder stations"
+       },
+       {
+        "key": "cp2v",
+        "text": "6 stations standard, expandable from 6 to 48 feeders, plug-and-use with no wiring"
+       }
+      ],
+      [
+       {
+        "key": "cp3k",
+        "text": "Feeder types"
+       },
+       {
+        "key": "cp3v",
+        "text": "Radial and axial tape feeder · tube feeder · tray feeder (single or automatic) · bowl feeder for bulk"
+       }
+      ],
+      [
+       {
+        "key": "cp4k",
+        "text": "Tape feeder"
+       },
+       {
+        "key": "cp4v",
+        "text": "1.1 – 1.5 s/pc; motor driven, maximum pitch 22.5 mm with 90° bent lead; 624 × 48 × 175 mm, 5.5 kg; DC24V 4A; tape material 0.4 – 0.8 mm"
+       }
+      ],
+      [
+       {
+        "key": "cp5k",
+        "text": "Tube feeder"
+       },
+       {
+        "key": "cp5v",
+        "text": "0.8 – 1.5 s/pc; relays and transformers within 30 × 22 × 40 mm; material 3 × 3 × 3 to 25 × 25 × 25 mm; tube length 200 – 650 mm; 0.4 – 0.6 MPa; 24V, 4A operating / 6A peak"
+       }
+      ],
+      [
+       {
+        "key": "cp6k",
+        "text": "Tray feeder"
+       },
+       {
+        "key": "cp6v",
+        "text": "Single tray unit for 200 × 220 mm blister trays · drive 0.5 – 0.8 MPa, 2000 W · automatic tray variant AC220V, 2000 W, load up to 200 kg"
+       }
+      ],
+      [
+       {
+        "key": "cp7k",
+        "text": "Bowl feeder"
+       },
+       {
+        "key": "cp7v",
+        "text": "Bulk feed for connectors, terminals, USB and HDMI sockets; dual-layer vibratory bowl; bulk polarised feeder for LEDs and capacitors with automatic polarity detection"
+       }
+      ],
+      [
+       {
+        "key": "cp8k",
+        "text": "Lead bending"
+       },
+       {
+        "key": "cp8v",
+        "text": "Four types — outward bend, inner bend, circular bend, two-turn bend · lead diameter < 1.0 mm · exposed lead ≥ 2 mm"
+       }
+      ],
+      [
+       {
+        "key": "cp9k",
+        "text": "DFM requirement"
+       },
+       {
+        "key": "cp9v",
+        "text": "A min ≥ M max + 0.1 mm · B max ≤ N min − 0.1 mm · lead length N ≥ 2.5 mm + D/2 · bend height L ≥ 2 mm"
+       }
+      ],
+      [
+       {
+        "key": "cp10k",
+        "text": "Published business case"
+       },
+       {
+        "key": "cp10v",
+        "text": "One machine replaces 5 manual operators · around USD 60,000 labour released per year · ROI under 2 years"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "cap_t3",
+     "text": "Where the documents disagree"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Item",
+      "S7900IV / IV-W spec table",
+      "S7900 odd-form solution deck",
+      "S7900 automation deck",
+      "What to do"
+     ],
+     "rows": [
+      [
+       {
+        "key": "cf1k",
+        "text": "Insertion speed"
+       },
+       {
+        "key": "cf1a",
+        "text": "0.7 s/component → about 5,100 components/hour; 2 s/component with bent feet"
+       },
+       {
+        "key": "cf1b",
+        "text": "Tact speed 2,400 CPH, marked conditional"
+       },
+       {
+        "key": "cf1c",
+        "text": "4,700 CPH maximum speed"
+       },
+       {
+        "key": "cf1d",
+        "text": "Three different bases: per component, per conditional cycle, and per hour. Always state the component type, the head count and whether clinching is on before quoting any throughput"
+       }
+      ],
+      [
+       {
+        "key": "cf2k",
+        "text": "Insertion heads"
+       },
+       {
+        "key": "cf2a",
+        "text": "4 heads on both variants"
+       },
+       {
+        "key": "cf2b",
+        "text": "6 heads in a 3 + 3 layout"
+       },
+       {
+        "key": "cf2c",
+        "text": "Multi-head, not quantified"
+       },
+       {
+        "key": "cf2d",
+        "text": "The solution deck also says the platform spans 2 to 8 heads. Head count is a configuration, not a model constant — confirm it on the quotation"
+       }
+      ],
+      [
+       {
+        "key": "cf3k",
+        "text": "Maximum PCB size"
+       },
+       {
+        "key": "cf3a",
+        "text": "70 × 70 to 450 × 400 mm"
+       },
+       {
+        "key": "cf3b",
+        "text": "L60 × W60 to L490 × W420 mm"
+       },
+       {
+        "key": "cf3c",
+        "text": "480 × 390 mm"
+       },
+       {
+        "key": "cf3d",
+        "text": "The three figures describe different variants and different measuring conventions. The board you actually run is the number that matters — send us the panel drawing"
+       }
+      ],
+      [
+       {
+        "key": "cf4k",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "cf4a",
+        "text": "0.6 – 2.0 mm"
+       },
+       {
+        "key": "cf4b",
+        "text": "Not stated"
+       },
+       {
+        "key": "cf4c",
+        "text": "0.76 – 2.36 mm"
+       },
+       {
+        "key": "cf4d",
+        "text": "The upper limit differs by 0.36 mm, which matters if you run heavy backplanes. Measure your thickest production board and confirm it in writing"
+       }
+      ],
+      [
+       {
+        "key": "cf5k",
+        "text": "Power"
+       },
+       {
+        "key": "cf5a",
+        "text": "Max 5.4 kW, running 3.3 kW (IV) · max 6.6 kW, running 3.5 kW (IV-W)"
+       },
+       {
+        "key": "cf5b",
+        "text": "Single phase AC 200 – 220V, 50/60 Hz, 2 kW"
+       },
+       {
+        "key": "cf5c",
+        "text": "Single phase 220VAC, 50/60 Hz"
+       },
+       {
+        "key": "cf5d",
+        "text": "The 2 kW figure is the earlier OCM-generation platform. Size the supply for the higher figure until the electrical drawing confirms it"
+       }
+      ],
+      [
+       {
+        "key": "cf6k",
+        "text": "Machine size and weight"
+       },
+       {
+        "key": "cf6a",
+        "text": "1300 × 1700 × 2000 mm, 1650 kg (IV) · 1550 × 1900 × 2100 mm, 1750 kg (IV-W)"
+       },
+       {
+        "key": "cf6b",
+        "text": "W1670 × D1620 × H1690 mm, approximately 1300 kg"
+       },
+       {
+        "key": "cf6c",
+        "text": "Not stated"
+       },
+       {
+        "key": "cf6d",
+        "text": "Footprint and floor loading must come from the outline drawing for your head count and feeder arrangement, not from any of these three"
+       }
+      ],
+      [
+       {
+        "key": "cf7k",
+        "text": "Conveyor height"
+       },
+       {
+        "key": "cf7a",
+        "text": "900 ± 20 mm (IV) · 750 ± 20 mm (IV-W)"
+       },
+       {
+        "key": "cf7b",
+        "text": "930 ± 30 mm"
+       },
+       {
+        "key": "cf7c",
+        "text": "Not stated"
+       },
+       {
+        "key": "cf7d",
+        "text": "Your line height fixes this. Confirm it before the frame is welded, because it is not a field adjustment"
+       }
+      ],
+      [
+       {
+        "key": "cf8k",
+        "text": "Air supply"
+       },
+       {
+        "key": "cf8a",
+        "text": "0.5 – 0.65 MPa ANR at the machine"
+       },
+       {
+        "key": "cf8b",
+        "text": "Tray feeder 0.5 – 0.8 MPa · tube feeder 0.4 – 0.6 MPa · manual states a standard 4 – 6 kg anhydrous source"
+       },
+       {
+        "key": "cf8c",
+        "text": "Not stated"
+       },
+       {
+        "key": "cf8d",
+        "text": "Supply 0.65 MPa and regulate down at each feeder. The manual and the feeder sheets do not agree on the range, and the feeders are what consume the air"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "options",
+   "heading": "What you choose before the machine is built",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "opt_h2",
+     "text": "What you choose before the machine is built"
+    },
+    {
+     "t": "p",
+     "key": "opt_lead",
+     "text": "Almost every S7900 is specified rather than picked off a shelf. These four decisions change the price, the footprint and what the machine can feed — settle them before you compare quotations."
+    },
+    {
+     "t": "h3",
+     "key": "op1t",
+     "text": "Head count and variant"
+    },
+    {
+     "t": "p",
+     "key": "op1d",
+     "text": "The S7900IV carries four heads with a 2 kg board limit and no clinching unit. The S7900IV-W carries four heads, takes a 5 kg board and includes lead clinching as standard. The platform itself spans 2 to 8 heads, so more heads means more component types per pass and a larger frame."
+    },
+    {
+     "t": "h3",
+     "key": "op2t",
+     "text": "Feeder mix"
+    },
+    {
+     "t": "p",
+     "key": "op2d",
+     "text": "Tape, tube, tray and bowl, from 6 stations to 48 feeders. This is the decision that follows your packaging rather than your preference — a relay on a tube and a relay in a tray are different feeders for the same part. Send us the packaging and we will specify the mix."
+    },
+    {
+     "t": "h3",
+     "key": "op3t",
+     "text": "Lead bending form"
+    },
+    {
+     "t": "p",
+     "key": "op3d",
+     "text": "Outward bend, inner bend, circular bend or two-turn bend. The choice is mechanical tooling tied to the joint strength and the wave-soldering profile your product needs, so it is settled with a sample board and a pull test, not from a catalogue."
+    },
+    {
+     "t": "h3",
+     "key": "op4t",
+     "text": "Load, unload and line position"
+    },
+    {
+     "t": "p",
+     "key": "op4d",
+     "text": "Manual board load, or automatic load and unload through the SMEMA ports for an in-line configuration. The machine runs in line with axial and radial inserters, and the conveyor direction is fixed at order — either direction on the IV-W, left to right on the IV."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "install",
+   "heading": "What the machine needs from your floor",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "ins_h2",
+     "text": "What the machine needs from your floor"
+    },
+    {
+     "t": "p",
+     "key": "ins_lead",
+     "text": "The operation manual is specific about the services and the start-up sequence. Get these right and commissioning is a day; get them wrong and the machine sits waiting for an electrician or an air line."
+    },
+    {
+     "t": "h3",
+     "key": "in1t",
+     "text": "Environment"
+    },
+    {
+     "t": "p",
+     "key": "in1d",
+     "text": "Install indoors, in a dry and ventilated place, with working humidity between 30% and 80%. Keep the machine out of direct sunlight and away from condensation, splashing water, oil and chemical liquids."
+    },
+    {
+     "t": "h3",
+     "key": "in2t",
+     "text": "Power"
+    },
+    {
+     "t": "p",
+     "key": "in2d",
+     "text": "Single phase. Our documents give 200 – 220V at 2 kW for the earlier platform and 5.4 to 6.6 kW maximum for the current IV and IV-W variants. Size the circuit for the largest figure your variant can draw, and confirm it against the electrical drawing."
+    },
+    {
+     "t": "h3",
+     "key": "in3t",
+     "text": "Air"
+    },
+    {
+     "t": "p",
+     "key": "in3d",
+     "text": "A standard 4 – 6 kg anhydrous air source, regulated to 0.5 – 0.65 MPa at the machine. The feeders consume most of it, and their own sheets give ranges from 0.4 to 0.8 MPa, so regulate at each feeder rather than relying on line pressure."
+    },
+    {
+     "t": "h3",
+     "key": "in4t",
+     "text": "The industrial PC is dedicated"
+    },
+    {
+     "t": "p",
+     "key": "in4d",
+     "text": "The computer on the machine runs the machine. No other software, and no untrusted USB media. The USB port exists for a mouse, a keyboard and offline program transfer — that is all it is for."
+    },
+    {
+     "t": "h3",
+     "key": "in5t",
+     "text": "Start-up sequence"
+    },
+    {
+     "t": "p",
+     "key": "in5d",
+     "text": "Confirm power and air are connected, switch the main power to ON, start the computer, launch the operating software, log in at operator level, then run zeroing under Adjust Machine and Motion Control. The machine returns to origin and is ready for production."
+    },
+    {
+     "t": "h3",
+     "key": "in6t",
+     "text": "Shut down in order"
+    },
+    {
+     "t": "p",
+     "key": "in6d",
+     "text": "Send the PCB out safely, exit the operating software once you have confirmed there is no error, turn off the computer, then switch off the general power supply. Do not open the safety cover during automatic operation, and never work inside the machine without pressing the emergency stop first."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "roi",
+   "heading": "Put your own numbers in and see the payback period",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "roi_h2",
+     "text": "Put your own numbers in and see the payback period"
+    },
+    {
+     "t": "p",
+     "key": "roi_lead",
+     "text": "Every money figure below is yours. The only machine values used are the two published rates — 4,700 components an hour for the machine and roughly 1,000 an hour for manual insertion — because those are the numbers we can cite from our own documents. Change them if your component mix runs slower."
+    },
+    {
+     "t": "p",
+     "key": "calc_note",
+     "text": "Labour saving only. Yield improvement, rework reduction and floor space are not counted — they make the real payback shorter, not longer."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "The machine, from the angle that answers your question",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "gal_h2",
+     "text": "The machine, from the angle that answers your question"
+    },
+    {
+     "t": "p",
+     "key": "gal_lead",
+     "text": "Front elevation for the footprint, plan view for the feeder layout, rear view for the service access, isometric for the line. These are engineering renders of the S7900 platform rather than photographs of a delivered machine — click any image to enlarge."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-view-01-07.md.webp",
+     "alt": "Isometric render of the S7900 odd-form insertion machine with feeders and loaders"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-front-076bde81e85ee62316.md.webp",
+     "alt": "Front elevation of the S7900 odd-form inserter"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-top-07537c53c750a0af04.md.webp",
+     "alt": "Plan view of two S7900 odd-form insertion machines in line"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-view-02-0408f04fd64159e447.md.webp",
+     "alt": "Side view of the S7900 odd-form inserter with tray feeder and conveyor"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-view-04-04f8557662b8a7863f.md.webp",
+     "alt": "Two S7900 odd-form inserters in line with bowl feeders"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-view-03-08173e844c86e0a7b3.md.webp",
+     "alt": "Elevated view of the S7900 line showing feeder positions"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-view-04-03.md.webp",
+     "alt": "S7900 odd-form insertion machines with tray and bowl feeders"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-product-13b173158492d2642f.md.webp",
+     "alt": "S7900 odd-form insertion machine with control cabinet and feeders"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-view-01-08.md.webp",
+     "alt": "Three-quarter view of the S7900 odd-form insertion line"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-view-05-04.md.webp",
+     "alt": "S7900 odd-form insertion line with loaders at both ends"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-back-05.md.webp",
+     "alt": "Rear view of the S7900 odd-form insertion machine"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-side-0332fa08e8246889fd.md.webp",
+     "alt": "Side view of the S7900 odd-form inserter showing the conveyor height"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "See the machine insert, bend and run",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "vid_h2",
+     "text": "See the machine insert, bend and run"
+    },
+    {
+     "t": "p",
+     "key": "vid_lead",
+     "text": "Clips from our own channel — the S7900 in production, the packaging methods that decide your feeder, and the odd-form insertion sequence on a live board. Click to play."
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "YD2C2oew7dU",
+     "title": "Inserting long boards and out-of-range components on the S7900",
+     "titleKey": "v1t",
+     "duration": "0:50"
+    },
+    {
+     "id": "gRWae92mL3Q",
+     "title": "Stopping excess material throw in the odd-form inserter",
+     "titleKey": "v2t",
+     "duration": "0:33"
+    },
+    {
+     "id": "4_-IFfZk7Ys",
+     "title": "Mastering THT assembly: S7900 odd-form insertion for instrument PCBs",
+     "titleKey": "v3t",
+     "duration": "0:47"
+    },
+    {
+     "id": "GQcnWn7h3jg",
+     "title": "S7900 odd-form insertion for new energy automotive PCB assembly",
+     "titleKey": "v4t",
+     "duration": "0:25"
+    },
+    {
+     "id": "7aeeWq-SiPI",
+     "title": "S7900VI odd-form insertion machine in PCB assembly",
+     "titleKey": "v5t",
+     "duration": "0:42"
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "blog",
+   "heading": "Eight reads on automating the parts nobody wants to insert",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "blog_h2",
+     "text": "Eight reads on automating the parts nobody wants to insert"
+    },
+    {
+     "t": "p",
+     "key": "blog_lead",
+     "text": "What we have learned putting odd-form insertion machines onto EMS floors — written the way we explain it to customers: the problem first, a method you can reuse, and the honest numbers. Full articles in English; the summaries follow in your language."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 01The odd-form bottleneck nobody puts on the capacity plan",
+     "a": "Everyone measures the placement machine. Almost nobody measures the bench where the relays go in. Here is how to find out what that bench is costing you. Articles are marketing commentary. Machine facts quoted inside them come from the S7900 odd form machine operation manual, the S7900IV / IV-W specification table and the S7900 odd-form solution deck. Walk the line and look at the boards per hour at each station. The placement machine will have a number, probably a good one. The odd-form bench will not have a number at all, and that is the problem — an unmeasured station cannot be a bottleneck in your plan, so it never gets fixed. Put a number on it. Count the odd-form components on a representative board, time one operator for twenty boards, and divide. What you will find, if your board carries relays, transformers, sockets and large electrolytics, is somewhere around 1,000 components an hour. That figure is the published manual rate and it matches what we see in the field, because it is limited by the human hand, not by training or effort. Now compare it with the rest of the line. If your placement machine runs at 20,000 components an hour and your board carries 400 odd-form parts, the bench needs forty operator-hours for every hour of placement. That ratio is why the odd-form bench is usually the real constraint on the plant, and why it is usually invisible on the plan. The reusable method is to express every station in the same unit — hours per thousand boards. A placement machine converts to hours easily. The bench converts once you time it. When both are in hours, the constraint picks itself out. Then decide what the constraint is worth removing. One S7900 replaces five manual operators in our published business case, releasing roughly USD 60,000 a year, with payback under two years. Run that against your own wage and volume numbers before you accept or reject it — the arithmetic is simple enough to do on a page."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 02Why the hole in your board is the wrong size for the part",
+     "a": "Odd-form insertion is governed by four DFM rules, and most boards break at least one of them. None of the four is a machine setting. Articles are marketing commentary. Machine facts quoted inside them come from the S7900 odd form machine operation manual, the S7900IV / IV-W specification table and the S7900 odd-form solution deck. The S7900 solution deck states the design conditions plainly. A minimum must be at least M maximum plus 0.1 mm. B maximum must be at most N minimum minus 0.1 mm. Lead length N must be at least 2.5 mm plus half the lead diameter D. Bend height L must be at least 2 mm. Those four lines are the whole contract between your PCB design and the insertion process. They are also the four things that get changed last, when a board is being re-spun for a mechanical reason and nobody remembers that the insertion equipment has a requirement. The bend height rule is the one that surprises people. L ≥ 2 mm is not a manufacturing preference; it is the clearance the clinch tool needs to form the lead without pressing the component body against the board. Run it under 2 mm and you either cannot clinch, or you clinch and crack the component body — and a cracked body passes electrical test and fails in the field. The lead length rule is the one that costs the most money. N ≥ 2.5 mm + D/2 sounds generous until you work an example: a 0.8 mm lead needs at least 2.9 mm of lead below the component body. Trim the leads on the bench to save a trimming step and you have just made the part unclinchable by any machine in the world. The reusable habit is to put these four conditions on the fabrication drawing as derived dimensions rather than as notes. Derived dimensions update when the component changes. Notes do not, and a note from three years ago is how a 1.0 mm lead ends up specified for a 1.6 mm part. And when a board is already in production and something is failing at insertion, check these four before you touch the machine. The machine is usually doing exactly what it was told."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 03Four feeders on one machine is a changeover decision, not a spec",
+     "a": "Tape, tube, tray and bowl can run simultaneously. That is not a feature to tick — it is what determines whether your product changeover is ten minutes or a shift. Articles are marketing commentary. Machine facts quoted inside them come from the S7900 odd form machine operation manual, the S7900IV / IV-W specification table and the S7900 odd-form solution deck. Read the feeder list on any odd-form machine and you will see the same four names. The question that separates a good configuration from a bad one is not which feeders you have, but how many of them can be mounted at once and how long it takes to change the set. The S7900 answers the first part with 6 feeder stations expandable to 48, and the published claim that running several self-developed feeders simultaneously lifts capacity by up to 40% over a single-feed arrangement handling the same mix. Forty per cent is not a marketing round number; it is what happens when a machine stops waiting for a changeover between component types. The second part is mechanical, and it is where the design either helps you or does not. Feeders mount on a positioning key with a compression block, and the connections are plug-and-use with no wiring to connect. That sentence is worth more than any speed figure, because it is the difference between a changeover the operator does alone and a changeover that needs a technician. Think about your own mix before you specify. If a typical production week carries eight different odd-form parts across three packaging types, you need enough stations mounted simultaneously that the week's mix stays loaded. If it carries two parts on one packaging type, you are over-buying and should spend the money on clinching instead. The reusable method: count the packaging types in your worst production week, multiply by the parts per type, and specify that many stations. Then check the changeover procedure on a real machine with a stopwatch rather than on a datasheet. Ask a supplier to change one feeder from tape to tube in front of you. The answer takes two minutes and tells you how the next five years will feel."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 04The lead bend that stops your tall components floating",
+     "a": "A transformer that lifts in the wave is a scrapped board, not a rework. The fix is a mechanical decision made before the machine is built. Articles are marketing commentary. Machine facts quoted inside them come from the S7900 odd form machine operation manual, the S7900IV / IV-W specification table and the S7900 odd-form solution deck. Wave soldering lifts components. It happens because the solder wave applies upward force to the underside of the board, and a heavy part held only by straight leads in plated holes has nothing resisting that force except friction. The part floats, the leads pull out of the barrel, and you find it at inspection — or you do not. The conventional answer is to hand-bend the leads after insertion, or to glue the part down. Both work, and both cost an operator and introduce variation. The machine answer is to bend the lead as part of the insertion cycle, which is what the optional bottom clinching unit on the S7900 does. It offers four forms: outward bend, inner bend, circular bend and two-turn bend. The published limits are a lead diameter under 1.0 mm and at least 2 mm of exposed lead. The business claim attached to it is a 5% improvement in insertion success rate and a 5% reduction in post-solder production losses — both of which come from the same mechanism, which is that the part cannot move. The decision is not \"clinching or not\". It is which of the four forms, and the answer comes from the joint your product needs and the space around the hole. An outward bend needs clearance beside the pad. A circular bend needs less clearance but forms a larger loop. On a dense board, the space around the hole decides for you. Note also that clinching changes the cycle. The S7900IV-W is published at 2 seconds per component with bent feet, against 0.7 seconds on the S7900IV without. If you are comparing a clinching machine against a non-clinching one on throughput alone, you are comparing two different processes. The reusable test: after you settle the bend form, run a sample batch through the wave and inspect for lifted parts. Do this before you sign, not after installation. It is the only test that answers the question."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 05Offline programming is engineering time you get back",
+     "a": "Five minutes at the machine versus an afternoon of coordination. The saving is real but it is not the one buyers calculate. Articles are marketing commentary. Machine facts quoted inside them come from the S7900 odd form machine operation manual, the S7900IV / IV-W specification table and the S7900 odd-form solution deck. When buyers evaluate an odd-form insertion machine, they calculate the labour it replaces. That is the visible saving. The invisible one is the engineering time spent turning a new product into a running program, and on a high-mix floor it is often larger. The S7900 imports Gerber or CAD coordinates for offline programming, so the program can be prepared before the board exists on the bench. When the offline program is loaded online, the machine fine-tunes every insertion hole itself, comparing what the camera sees against the program. The panel feature is the part people underestimate. You program a single sub-board, and when the program is loaded the machine corrects the insertion hole position across the whole array after panelisation. On a 4-up or 6-up panel that turns a per-board teaching job into a per-design job. The changeover case is the third. When you switch to an older model, the machine can automatically correct the insertion hole positions rather than requiring a full re-teach. On a floor running a mix where last year's product comes back every quarter, that is the difference between a planned changeover and an unplanned one. Put a number on it for your own plant. Count the new products you introduce in a year, multiply by the hours an engineer currently spends on coordinates, test boards and iteration, and add the changeovers. Most plants find this is a fraction of a headcount — which is real money, just not the money they were counting. The reusable question to ask a supplier is specific: show me the offline tool, import my CAD file, and tell me how long until the first good board. Anything vaguer is a brochure."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 06What the bill of materials tells you about a machine",
+     "a": "Screws, guides, motors, bearings, cable chain. It is the least glamorous page in any deck and the most predictive one. Articles are marketing commentary. Machine facts quoted inside them come from the S7900 odd form machine operation manual, the S7900IV / IV-W specification table and the S7900 odd-form solution deck. Most suppliers publish speed and accuracy and stop. The S7900 solution deck publishes a component list, and that list is the most useful page in the document for anyone who has to keep the machine running for ten years. Screws and guides are THK. Servo motors are Panasonic. Bearings are NSK. Sensors and cylinders are Panasonic and SMC or Airtac. The cable chain and flexible wire are igus. The motion control card is Lead Shine, the host computer is Advantech, the cameras are Hikvision. Why this matters commercially is spares. Every one of those brands has distribution in every industrial market, which means a bearing or a sensor is a local purchase rather than an air-freight from China with a customs delay. On a machine that is one of a kind in your plant, that is the difference between a two-day stoppage and a two-week one. It also tells you what the machine is. Panasonic servo and THK linear motion on all three axes is the specification of a machine intended to hold accuracy over years, not a machine built to a price. NSK bearings and igus cable chain are the same story on the parts that wear. The reusable habit: ask for the bill of materials before you ask for the price. A supplier who will not share it is telling you something. A supplier who shares it is telling you they expect you to still be running the machine when the warranty is a memory. Then check the three items that fail most often on any insertion machine — the cable chain, the linear guides and the servo drives — and confirm each has a local source. That single check is worth more than a percentage point of quoted speed."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 07Jumper wires are the part everyone forgets to automate",
+     "a": "They are small, they are cheap, they are on almost every power board, and they are almost always inserted by hand. They do not have to be. Articles are marketing commentary. Machine facts quoted inside them come from the S7900 odd form machine operation manual, the S7900IV / IV-W specification table and the S7900 odd-form solution deck. Ask a production manager which parts go in by hand and they will list the big ones: relays, transformers, connectors. Ask about jumper wires and you will get a shrug. They are treated as trivial — a piece of wire, bent, pushed through two holes. Count them. On a power board with a dozen jumper wires, at a few seconds each, you have added the better part of a minute per board to the manual bench. At three thousand boards a month that is fifty operator-hours, for a component nobody counts as a component. Jumper wires are insertable by machine, and the S7900 platform carries a dedicated jumper wire feeder for them. The reason they are usually not automated is not technical difficulty — it is that they never appear on the BOM review, because each one is individually too cheap to matter. The reusable move is to stop reviewing components individually and start reviewing them by total insertion time. Sort your manual-insertion list by components per board multiplied by seconds each, and the order changes. Jumper wires move up. Small connectors move up. The part you were arguing about because it is expensive moves down. Once the list is sorted that way, the automation decision gets easier, because you are comparing total hours rather than unit cost. A part costing two cents that consumes forty seconds per board is more expensive than a part costing two dollars that consumes one second. The next time someone tells you a component is too cheap to automate, ask them what it costs per board in seconds. That question usually ends the discussion."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 08Nine questions before you sign the odd-form insertion quotation",
+     "a": "Nine questions, in the order that matters, each one answerable from a document rather than a promise. Articles are marketing commentary. Machine facts quoted inside them come from the S7900 odd form machine operation manual, the S7900IV / IV-W specification table and the S7900 odd-form solution deck. Buying a configured machine is not like buying a catalogue item, and the difference shows up in the questions. Here is the list we would use if we were the buyer, in the order that saves the most money. One: which variant, exactly? Our own documents describe S7900IV, S7900IV-W and a wider 2-to-8-head platform. The variant determines the board weight limit, whether clinching is standard, and the conveyor height. Get the code and the outline drawing that goes with it. Two: how many heads, and therefore what footprint? Four heads is the published figure for both variants, six appears in the solution deck and eight is the platform maximum. This determines your floor plan and your lifting plan. Three: what does it weigh? 1650 kg or 1750 kg for the two variants, approximately 1300 kg in the older document. Confirm which figure belongs to your configuration before the rigging is booked. Four: what are the real electrical requirements? Our documents give 2 kW, 5.4 kW and 6.6 kW. Ask for the electrical drawing and size the supply for the largest figure your variant can draw. Five: which feeders, and how many mounted at once? Send a reel, a tube, a tray and a bag of your actual components. A quotation that does not reference your packaging is a quotation for a machine, not for your process. Six: which lead bend form, and who decides? Outward, inner, circular or two-turn. The right answer comes from a pull test on a sample after the wave, not from a catalogue. Seven: is the clinching unit included? It is not applicable on the S7900IV and standard on the S7900IV-W, so it is a variant decision rather than a line item. Get it in writing either way, along with the cycle time penalty. Eight: what is the spare parts position? Ask for the wear-part list with prices, and confirm a local source for the cable chain, the linear guides and the servo drives. The published service claim is one-day lead time on critical spares — test it against the parts you would actually need. Nine: what does commissioning include, and what does it assume? The published support package is free installation and on-site training, seven-by-twenty-four worldwide support, one-day critical spare lead time and one-month turnaround on custom solutions. Confirm who provides power and air, and get the training scope in writing. None of these questions requires technical depth. All nine are answerable from documents the supplier already has. The suppliers who answer them quickly are the ones who will answer quickly when the machine is down."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "downloads",
+   "heading": "The source documents behind every number on this page",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "dl_h2",
+     "text": "The source documents behind every number on this page"
+    },
+    {
+     "t": "p",
+     "key": "dl_lead",
+     "text": "Operation manual, product catalogue, feeder solutions and the 3D drawings. Read them the way we did — and check our disclosure table against them."
+    },
+    {
+     "t": "h3",
+     "key": "dl1t",
+     "text": "S7900 odd form machine operation manual"
+    },
+    {
+     "t": "p",
+     "key": "dl1d",
+     "text": "The machine's own operating manual — structure, safety precautions, software operation, insertion head and feeder installation, the maintenance schedule and the fault table."
+    },
+    {
+     "t": "link",
+     "key": "dl_open",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Manual/S7900%20odd%20form%20machine%20operation%20manual.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "dl2t",
+     "text": "S7900 odd form machine catalogue 2025"
+    },
+    {
+     "t": "p",
+     "key": "dl2d",
+     "text": "The 2025 product catalogue — fields of use, lead bending forms, and the tape, tube, tray and bowl feeder specifications."
+    },
+    {
+     "t": "link",
+     "key": "dl_open2",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7900%20ODD%20FORM%20MACHINE%20CATALOG%202025.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "dl3t",
+     "text": "S7900 THT odd form insertion machine"
+    },
+    {
+     "t": "p",
+     "key": "dl3d",
+     "text": "The product document for the THT odd-form insertion configuration — the components this platform is built to handle."
+    },
+    {
+     "t": "link",
+     "key": "dl_open3",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7900%20%20THT%20odd%20form%20Insertion%20machine.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "dl4t",
+     "text": "Precision S7900 odd form insertion machine"
+    },
+    {
+     "t": "p",
+     "key": "dl4d",
+     "text": "The S7900 series presentation for the smart EMS factory — the speed, accuracy and business-case figures quoted on this page."
+    },
+    {
+     "t": "link",
+     "key": "dl_open4",
+     "href": "https://file.autoinsertion.com/public/SMThelp%20Machine%20Presentation/Precision_S7900%20odd%20form%20insertion%20machine.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "dl5t",
+     "text": "Southern Machinery odd-form insertion solution"
+    },
+    {
+     "t": "p",
+     "key": "dl5d",
+     "text": "The platform solution document — feeder stations, component types, the OCM control software and the 2,400 CPH tact speed figure."
+    },
+    {
+     "t": "link",
+     "key": "dl_open5",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/Southern%20Machinery%20Oddform%20Insertion%20solution.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "dl6t",
+     "text": "SMT odd-form feeder solution — ready for Industry 4.0"
+    },
+    {
+     "t": "p",
+     "key": "dl6d",
+     "text": "The feeder ecosystem in detail — tape, tube, tray and bowl feeding, the polarised bulk feeder for LEDs and capacitors, and MES readiness."
+    },
+    {
+     "t": "link",
+     "key": "dl_open6",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/SMT%20Oddform%20Feeder%20solution-Ready%20to%20Industrial4.0.pdf",
+     "text": "Open the PDF"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Manual/S7900%20odd%20form%20machine%20operation%20manual.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7900%20ODD%20FORM%20MACHINE%20CATALOG%202025.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7900%20%20THT%20odd%20form%20Insertion%20machine.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/SMThelp%20Machine%20Presentation/Precision_S7900%20odd%20form%20insertion%20machine.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/Southern%20Machinery%20Oddform%20Insertion%20solution.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/SMT%20Oddform%20Feeder%20solution-Ready%20to%20Industrial4.0.pdf"
+    }
+   ]
+  },
+  {
+   "id": "service",
+   "heading": "The maintenance schedule the manual actually specifies",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "svc_h2",
+     "text": "The maintenance schedule the manual actually specifies"
+    },
+    {
+     "t": "p",
+     "key": "svc_lead",
+     "text": "The S7900 operation manual gives a monthly lubrication and cleaning schedule rather than a daily checklist. We have kept the manual's own wording for the tasks, because paraphrasing a maintenance instruction is how a machine gets serviced wrongly."
+    },
+    {
+     "t": "h3",
+     "key": "mt1t",
+     "text": "Lubrication"
+    },
+    {
+     "t": "p",
+     "key": "mt1d",
+     "text": "Clean and re-grease the XY screw and slider with 2# grease. Clean and refill the Z-axis mechanism with AFC or a special high-speed grease, removing the insertion head protective cover first. Grease the conveyor width adjustment and transfer mechanism with 2# grease."
+    },
+    {
+     "t": "h3",
+     "key": "mt2t",
+     "text": "Wear and alignment"
+    },
+    {
+     "t": "p",
+     "key": "mt2d",
+     "text": "Check whether the conveyor belt or chain is loose, then clean and service it. Check whether the guide wheel is worn or sticking, clean it and fill with chain oil. Check the safety cover and the safety grating for correct function before returning the machine to production."
+    },
+    {
+     "t": "h3",
+     "key": "mt3t",
+     "text": "Operator checks"
+    },
+    {
+     "t": "p",
+     "key": "mt3d",
+     "text": "Confirm the safety devices are in place and effective before starting. Never open the safety cover during automatic operation, and press the emergency stop before working inside the machine. Send the PCB out, confirm no error, exit the software, shut down the computer and then switch off the main supply."
+    },
+    {
+     "t": "h3",
+     "key": "ft_h2",
+     "text": "Fault to first check"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Symptom",
+      "Cause the manual names",
+      "First thing to check"
+     ],
+     "rows": [
+      [
+       {
+        "key": "ft1k",
+        "text": "Low pressure alarm"
+       },
+       {
+        "key": "ft1c",
+        "text": "Total air input to the machine is not normal"
+       },
+       {
+        "key": "ft1d",
+        "text": "Whether the input is a standard 4–6 kg anhydrous source; if it is, check the pressure controller and the I/O control system"
+       }
+      ],
+      [
+       {
+        "key": "ft2k",
+        "text": "Every axis alarms after start-up"
+       },
+       {
+        "key": "ft2c",
+        "text": "Emergency switch is pressed"
+       },
+       {
+        "key": "ft2d",
+        "text": "Whether the emergency switch on the panel or on the operating handle is latched down — pull it up to reset"
+       }
+      ],
+      [
+       {
+        "key": "ft3k",
+        "text": "Gripper takes abnormal material, or the feeder is empty"
+       },
+       {
+        "key": "ft3c",
+        "text": "Material shortage — the feeder needs refilling"
+       },
+       {
+        "key": "ft3d",
+        "text": "The feeder supply and the material present at the pickup position; refill and confirm the pickup test passes"
+       }
+      ],
+      [
+       {
+        "key": "ft4k",
+        "text": "Mark handling failure"
+       },
+       {
+        "key": "ft4c",
+        "text": "PCBA not in position · Mark point fuzzy or incomplete"
+       },
+       {
+        "key": "ft4d",
+        "text": "Whether the PCBA is fully in place; if the mark is fuzzy or incomplete, click the mark centre with the mouse directly"
+       }
+      ],
+      [
+       {
+        "key": "ft5k",
+        "text": "Machine will not reset"
+       },
+       {
+        "key": "ft5c",
+        "text": "Machine is not at zero"
+       },
+       {
+        "key": "ft5d",
+        "text": "Run the machine back to zero before starting production"
+       }
+      ],
+      [
+       {
+        "key": "ft6k",
+        "text": "Axis command position exceeds the limit"
+       },
+       {
+        "key": "ft6c",
+        "text": "X-Y limit sensor signal · drive or motor abnormal"
+       },
+       {
+        "key": "ft6d",
+        "text": "Whether the X-Y limit sensor signal is normal, then whether the drive and motor are abnormal and need resetting to zero"
+       }
+      ],
+      [
+       {
+        "key": "ft7k",
+        "text": "Machine stops with the safety door open"
+       },
+       {
+        "key": "ft7c",
+        "text": "Front or rear safety door opened during operation"
+       },
+       {
+        "key": "ft7d",
+        "text": "Close the safety door and reset the machine. Do not defeat the interlock to restart"
+       }
+      ],
+      [
+       {
+        "key": "ft8k",
+        "text": "Machine stops on the safety grating"
+       },
+       {
+        "key": "ft8c",
+        "text": "Foreign body blocking the front or rear safety grating · operator inside the guarded area"
+       },
+       {
+        "key": "ft8d",
+        "text": "Confirm no foreign body is blocking the grating and that the operator has left the machine, then press the reset button"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faq",
+   "heading": "Questions this machine always raises",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "faq_h2",
+     "text": "Questions this machine always raises"
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Which components can the S7900 actually insert?",
+     "a": "The platform handles relays, transformers, connectors, plug and socket connectors, pin connectors, capacitors, LEDs, transistors, switches, buzzers, ICs and IC sockets, coils, inductors, screw terminals, special sockets and jumper wires. The published component envelope is L5 × W5 × H6 mm up to L40 × W40 × H45 mm including the lead, with a maximum component size of φ50 mm or 35 × 35 mm on the S7900IV-W. Send us a sample of your component and we will confirm the feeder and the tooling for it."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Is it 4,700 CPH or 2,400 CPH?",
+     "a": "Both numbers appear in our own documents and they are not measuring the same thing. The 4,700 CPH figure is the published maximum speed on the S7900IV-W specification. The 2,400 CPH figure is a tact speed marked conditional in the odd-form solution deck, and the variant specification table gives 0.7 seconds per component without clinching and 2 seconds with bent feet. Any throughput figure is meaningless without the component type, the head count and whether clinching is running, which is why our disclosure table lists them side by side."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Do I need the lead clinching unit?",
+     "a": "It is standard on the S7900IV-W and not applicable on the S7900IV, so it is a variant decision. It bends the lead as part of the insertion cycle in one of four forms — outward, inner, circular or two-turn — and that is what stops tall components lifting in the wave. The published impact is a 5% improvement in insertion success rate and a 5% reduction in post-solder losses, at a cycle time of 2 seconds per component rather than 0.7. If your boards carry heavy parts through a wave, specify it."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How many feeder stations do I need?",
+     "a": "Six stations are standard and the platform expands from 6 to 48 feeders, with several running simultaneously. The right number comes from your worst production week: count the packaging types in that week's mix and the components per type, and specify enough stations that the mix stays loaded. Running several self-developed feeders together is published at up to 40% more capacity than a single-feed arrangement handling the same components."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What board and components should I send for an evaluation?",
+     "a": "A populated board as close to production condition as possible, plus a representative sample of every odd-form component you want inserted, in the packaging it actually arrives in — tape, tube, tray and bulk. The packaging decides the feeder and the feeder decides the configuration. Five to ten boards is usually enough to time a realistic run, confirm the lead bend form and check the DFM conditions on your design."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can it run in line with our existing THT equipment?",
+     "a": "The machine carries two SMEMA ports and runs in line with axial and radial inserters and with automatic loaders, and the MES parameters can be set with an IP, a port and a device number so the machine reports into your smart-factory system. Whether your specific line can take it depends on your conveyor height, your board flow direction and your interface, which is why our disclosure table flags conveyor height as a figure to confirm. Send us your line layout and we will look at it with you."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Tell us what you are inserting",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "con_h2",
+     "text": "Tell us what you are inserting"
+    },
+    {
+     "t": "p",
+     "key": "con_lead",
+     "text": "Component types, packaging, board size and the number of insertion points. That is enough for us to come back with a configuration and a price."
+    },
+    {
+     "t": "h3",
+     "key": "con_h3",
+     "text": "Reach us directly"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "info@smthelp.comWhatsApp +86 136 0256 2576www.smthelp.com"
+    },
+    {
+     "t": "p",
+     "key": "con_addr",
+     "text": "Shenzhen Southern Machinery Sales and Service Co., Ltd. — Xixiang, Bao'an District, Shenzhen, China. Established 2011."
+    },
+    {
+     "t": "h3",
+     "key": "con_h4",
+     "text": "Before you write"
+    },
+    {
+     "t": "p",
+     "key": "con_p4",
+     "text": "Have a look at the disclosure table in section 04 first. If you are comparing our numbers against another supplier's, that table tells you exactly which of ours are firm and which need confirming against your quotation drawing."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  }
+ ]
+}

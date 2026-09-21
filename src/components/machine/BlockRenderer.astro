@@ -1,0 +1,86 @@
+---
+import ProseNodes from './ProseNodes.astro';
+import VideoGrid from './VideoGrid.astro';
+import GalleryGrid from './GalleryGrid.astro';
+import DownloadList from './DownloadList.astro';
+import PaybackCalculator from './PaybackCalculator.astro';
+import type { MachineBlock } from '~/utils/machines';
+import { translate } from '~/utils/machines';
+
+export interface Props {
+  block: MachineBlock;
+  dict?: Record<string, string>;
+  striped?: boolean;
+}
+
+const { block, dict = {}, striped = false } = Astro.props;
+
+const id = block.id || 'section';
+const headingNode = block.nodes.find((node) => node.t === 'h1' || node.t === 'h2');
+const headingKey = headingNode?.key;
+const heading = headingKey && dict[headingKey] ? dict[headingKey] : block.heading;
+
+const isPayback = id === 'roi' || id === 'payback';
+
+// A block that is mostly media keeps only its narrative text; the media itself
+// is rendered by the dedicated components below.
+const mediaCount = block.videos.length + block.docs.length + (block.images.length >= 3 ? block.images.length : 0);
+const mediaLed = mediaCount > 0 && block.nodes.length <= 4;
+const proseNodes = mediaLed ? block.nodes.filter((node) => ['p', 'h3', 'h4', 'ul', 'ol'].includes(node.t)) : block.nodes;
+
+const intro = block.nodes.find((node) => node.t === 'p');
+const introText = intro ? translate(intro, dict) : '';
+
+// Media is rendered whenever the block actually carries it — not gated on the
+// block id, because the extracted block ids vary across the four source page
+// families and a video must never be silently dropped.
+const videos = block.videos;
+const docs = block.docs;
+const galleryImages = block.images.filter((image) => !/logo/i.test(image.src));
+const showGallery = galleryImages.length >= 3;
+
+const hasContent =
+  proseNodes.length > 0 || isPayback || videos.length > 0 || docs.length > 0 || showGallery;
+---
+
+{
+  hasContent && (
+    <section id={id} class:list={['scroll-mt-[72px] py-12 md:py-16', striped && 'bg-gray-50 dark:bg-slate-800/40']}>
+      <div class="mx-auto max-w-7xl px-4 md:px-6">
+        {heading && !mediaLed && (
+          <h2 class="mb-6 max-w-4xl text-2xl font-bold text-heading md:text-3xl first:mt-0">{heading}</h2>
+        )}
+
+        {proseNodes.length > 0 && <ProseNodes nodes={block.nodes} dict={dict} skip={heading} />}
+
+        {isPayback && (
+          <div class="mt-10">
+            <PaybackCalculator />
+          </div>
+        )}
+
+        {videos.length > 0 && (
+          <div class="mt-8 first:mt-0">
+            <VideoGrid videos={videos} heading={mediaLed ? heading : undefined} dict={dict} />
+          </div>
+        )}
+
+        {docs.length > 0 && (
+          <div class="mt-8 first:mt-0">
+            <DownloadList
+              docs={docs}
+              heading={mediaLed ? heading : undefined}
+              intro={mediaLed && introText.length > 200 ? '' : ''}
+            />
+          </div>
+        )}
+
+        {showGallery && (
+          <div class="mt-8 first:mt-0">
+            <GalleryGrid images={galleryImages} heading={mediaLed ? heading : undefined} />
+          </div>
+        )}
+      </div>
+    </section>
+  )
+}

@@ -1,0 +1,1139 @@
+{
+ "slug": "s7020t-terminal-clip-insertion-machine-southern-machinery",
+ "category": "terminal",
+ "title": "Revolutionize Your Production with the S-7000T Terminal Insertion Machine",
+ "description": "Southern Machinery S7020T Terminal Insertion Machine: automatic AC clip, spring clip and terminal insertion, 12,000 CPH, 2 heads, bowl or reel feeding, vision programming, inline ready.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/s7020t-terminal-clip-insertion-machine-southern-machinery.html",
+ "heroImage": "",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "overview",
+   "heading": "S7020T Terminal Insertion Machine — AC clips and terminals inserted without a single hand",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "THT terminal & clip automation"
+    },
+    {
+     "t": "h1",
+     "key": "",
+     "text": "S7020T Terminal Insertion Machine — AC clips and terminals inserted without a single hand"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Two servo-driven insertion heads place terminals, AC clips and spring clips from reel or bowl feeders at up to 12,000 CPH — with vision-guided programming that replaces the whole manual insertion bench."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Part of the unified S7020 platform: switch feeder and gripper to move between terminal, eyelet, pin and tact-switch insertion. Final configuration confirmed after technical review."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "pain",
+   "heading": "The clip bench is where your line slows down and quality leaks",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "The hidden cost of manual clip insertion"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "The clip bench is where your line slows down and quality leaks"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "AC clips and terminals are small, springy and polarized. Inserted by hand, they consume headcount and fail in ways you only find at test."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Clip insertion is pure handwork"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "AC clips and terminals are pressed in one at a time. It is a bench of operators, not a process — and it scales only with headcount."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Crooked, floating and missed clips"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Manual press force varies operator to operator. Tilted clips and shallow seats pass visual checks and fail at wave or final test."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Polarity and position errors"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Clips have an orientation. Hand insertion mixes them up quietly, and the mistake surfaces only downstream — where rework is most expensive."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Turnover resets the skill curve"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Clip insertion feel takes weeks to learn. Every seasonal worker or new hire restarts the defect curve from zero."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "The line balances around the bench"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "SMT runs at machine speed, then boards queue at the manual terminal station. The bench — not the mounter — sets your output."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Labor cost compounds"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Every volume increase means more seats at the clip bench. Wages rise, availability falls, and the cost per board climbs with them."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "fab",
+   "heading": "What the S7020T actually changes on your floor",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feature · Advantage · Benefit"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "What the S7020T actually changes on your floor"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Select a feature to connect the verified machine capability with its technical advantage and the practical benefit your factory feels."
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Feature"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feature description."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Manual inserters replaced by a single S7020T terminal machine"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "CPH terminal insertion speed verified on production"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The price of comparable Universal-class insertion machines"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Operator training to full mastery of the machine"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "specs",
+   "heading": "Key specifications for project evaluation",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Source-verified technical data"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Key specifications for project evaluation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Values support initial evaluation and remain subject to final technical confirmation against your board size, component mix and line layout."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S7020T Terminal Insertion Machine"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Material packaging"
+       },
+       {
+        "key": "",
+        "text": "Terminal in bulk package or reel package"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Speed"
+       },
+       {
+        "key": "",
+        "text": "12,000 CPH"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "380 × 280 mm (enlarged size can be customized)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion heads"
+       },
+       {
+        "key": "",
+        "text": "2"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Terminal thickness"
+       },
+       {
+        "key": "",
+        "text": "≥ 0.5 mm, ≤ 1.2 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Vertical error"
+       },
+       {
+        "key": "",
+        "text": "±0.01"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB requirement"
+       },
+       {
+        "key": "",
+        "text": "Insertion hole 0.5 ± 0.1 mm larger than component lead"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component distance"
+       },
+       {
+        "key": "",
+        "text": "Minimum 2 mm between components"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeding system"
+       },
+       {
+        "key": "",
+        "text": "Vibration bowl feeder / reel feeder"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Motion accuracy"
+       },
+       {
+        "key": "",
+        "text": "0.001 mm/pulse"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Programming"
+       },
+       {
+        "key": "",
+        "text": "Online visual programming, visual correction, EXCEL"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Data input"
+       },
+       {
+        "key": "",
+        "text": "USB interface import, manual entry"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "Single 220 VAC, 50/60 Hz, 2 KVA"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Equipment weight"
+       },
+       {
+        "key": "",
+        "text": "1,200 kg"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Production reference — inline clip insertion platform"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Applicable components"
+       },
+       {
+        "key": "",
+        "text": "Hardware spring clips, AC clips (metal clip terminals)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion speed"
+       },
+       {
+        "key": "",
+        "text": "10,000 PCS/H (platform reference)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "Max 410 × 360 mm / Min 210 × 310 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "",
+        "text": "1.12 – 2.89 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion heads"
+       },
+       {
+        "key": "",
+        "text": "2"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component size"
+       },
+       {
+        "key": "",
+        "text": "1–40 × 1–40 mm, height ≤ 19 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion angle"
+       },
+       {
+        "key": "",
+        "text": "0° – 360°"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Board conveyor"
+       },
+       {
+        "key": "",
+        "text": "Guide-rail automatic board-in, left to right (inline)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Display"
+       },
+       {
+        "key": "",
+        "text": "14-inch color LCD"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air source"
+       },
+       {
+        "key": "",
+        "text": "0.01 – 1 MPa"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Noise"
+       },
+       {
+        "key": "",
+        "text": "≤ 75 dB"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine size"
+       },
+       {
+        "key": "",
+        "text": "1700 × 1500 × 1800 mm; power 2.2 kW; weight approx. 1,800 kg"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Specification values are from the official Southern Machinery S7020 series datasheet. The production-reference figures are quoted from the inline clip insertion platform (IST-M6000-2) factory sheet and vary by configuration — Southern Machinery quotes the verified numbers for your exact setup. Final configuration is confirmed after technical review of your boards, terminal drawings and line layout."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S7020T Terminal Insertion Machine"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Material packaging"
+       },
+       {
+        "key": "",
+        "text": "Terminal in bulk package or reel package"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Speed"
+       },
+       {
+        "key": "",
+        "text": "12,000 CPH"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "380 × 280 mm (enlarged size can be customized)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion heads"
+       },
+       {
+        "key": "",
+        "text": "2"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Terminal thickness"
+       },
+       {
+        "key": "",
+        "text": "≥ 0.5 mm, ≤ 1.2 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Vertical error"
+       },
+       {
+        "key": "",
+        "text": "±0.01"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB requirement"
+       },
+       {
+        "key": "",
+        "text": "Insertion hole 0.5 ± 0.1 mm larger than component lead"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component distance"
+       },
+       {
+        "key": "",
+        "text": "Minimum 2 mm between components"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeding system"
+       },
+       {
+        "key": "",
+        "text": "Vibration bowl feeder / reel feeder"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Motion accuracy"
+       },
+       {
+        "key": "",
+        "text": "0.001 mm/pulse"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Programming"
+       },
+       {
+        "key": "",
+        "text": "Online visual programming, visual correction, EXCEL"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Data input"
+       },
+       {
+        "key": "",
+        "text": "USB interface import, manual entry"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "Single 220 VAC, 50/60 Hz, 2 KVA"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Equipment weight"
+       },
+       {
+        "key": "",
+        "text": "1,200 kg"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Production reference — inline clip insertion platform"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Applicable components"
+       },
+       {
+        "key": "",
+        "text": "Hardware spring clips, AC clips (metal clip terminals)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion speed"
+       },
+       {
+        "key": "",
+        "text": "10,000 PCS/H (platform reference)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "Max 410 × 360 mm / Min 210 × 310 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "",
+        "text": "1.12 – 2.89 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion heads"
+       },
+       {
+        "key": "",
+        "text": "2"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component size"
+       },
+       {
+        "key": "",
+        "text": "1–40 × 1–40 mm, height ≤ 19 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion angle"
+       },
+       {
+        "key": "",
+        "text": "0° – 360°"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Board conveyor"
+       },
+       {
+        "key": "",
+        "text": "Guide-rail automatic board-in, left to right (inline)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Display"
+       },
+       {
+        "key": "",
+        "text": "14-inch color LCD"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air source"
+       },
+       {
+        "key": "",
+        "text": "0.01 – 1 MPa"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Noise"
+       },
+       {
+        "key": "",
+        "text": "≤ 75 dB"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine size"
+       },
+       {
+        "key": "",
+        "text": "1700 × 1500 × 1800 mm; power 2.2 kW; weight approx. 1,800 kg"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "See the S7020T and its clip insertion platform",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Machine, mechanism and production visuals"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "See the S7020T and its clip insertion platform"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Click any image to enlarge. Slides are from the official Southern Machinery S7020 series presentation; production photos show the inline clip platform."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "Watch terminal and clip insertion in action",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Optional online media"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Watch terminal and clip insertion in action"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Videos load only after you select them. All clips are from the official Southern Machinery YouTube channel."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Double Speed! S7020T Dual-Head Terminal Insertion for Power Tools"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "S7020T dual-head terminal insertion working on power tool boards."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S7020T Reel Terminal & Radial Taped Insertion"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "S7020T inserting reel terminals and radial taped components for Smart EMS factory PCB assembly."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "2 Heads Bulk or Reel PIN Eyelet Terminal Insertion Machine"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Two-head pin eyelet terminal insertion from bulk or reel feeding."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Revolutionize Your Production with the S-7000T Terminal Insertion Machine"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Terminal insertion machine productivity in production."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "You are offline. The product presentation remains available; videos can be loaded when a connection is restored."
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "9_mqeJsj9fs",
+     "title": "Double Speed! S7020T Dual-Head Terminal Insertion for Power Tools",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "0ivNvJMlJrQ",
+     "title": "S7020T Reel Terminal & Radial Taped Insertion",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "njBt_XLwvLI",
+     "title": "2 Heads Bulk or Reel PIN Eyelet Terminal Insertion Machine",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "DnEYiLC77Hw",
+     "title": "Revolutionize Your Production with the S-7000T Terminal Insertion Machine",
+     "titleKey": "",
+     "duration": ""
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "service",
+   "heading": "Engineering support around your deployment",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "From sample review to production"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Engineering support around your deployment"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "We confirm the fit before you commit — terminal samples, board size and feeder choice matched to your line."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Send terminal or clip samples (or drawings), board sizes and monthly volume."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feasibility, feeder choice and quotation within 24 hours."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feeder type (bowl/reel), gripper tooling and inline conveyor options."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Free installation; operators fully trained in one day."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "24/7 support and 1-day spare-part lead time."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "documents",
+   "heading": "Official terminal & eyelet insertion documentation",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Downloadable catalogs"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Official terminal & eyelet insertion documentation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Open or download the Southern Machinery catalogs behind this page."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S7020 Series PIN Eyelet Terminal Insertion Machine"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Full series presentation: S7020T / E / P / S, structure, feeding, vision and specifications."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7020%20Series%20PIN%20Eyelet%20Terminal%20Insertion%20Machine%20202303.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Terminal Insertion Solution (2 Bowl Feeders)"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Terminal insertion solution configured with two vibration bowl feeders."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/Terminal%20Insertion%20Solution(2%20bowl%20feeders).pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S-7000E Eyelet Insertion Solutions"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Eyelet insertion solutions from the Southern Machinery terminal family."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S-7000E%20Eyelet%20insertion%20solutions.pdf",
+     "text": "Open the PDF"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7020%20Series%20PIN%20Eyelet%20Terminal%20Insertion%20Machine%20202303.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/Terminal%20Insertion%20Solution(2%20bowl%20feeders).pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S-7000E%20Eyelet%20insertion%20solutions.pdf"
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "heading": "Questions buyers ask before ordering",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Technical evaluation FAQ"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Questions buyers ask before ordering"
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What components can the S7020T insert?",
+     "a": "Terminals, AC clips and hardware spring clips in bulk or reel packaging, with terminal thickness from 0.5 to 1.2 mm. The insertion hole should be 0.5 ± 0.1 mm larger than the component lead, and components keep a minimum 2 mm distance. Typical applications are chargers, power adapters, automotive electronics, small appliances and 5G boards."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How fast is it compared with manual insertion?",
+     "a": "The S7020T inserts at 12,000 CPH with two heads. A manual operator typically places a few hundred clips per hour, so one machine replaces at least five to ten inserters — that is the ROI case in one line."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can it feed both bulk and reel-packed terminals?",
+     "a": "Yes. The feeding system supports vibration bowl feeders for bulk terminals and reel feeders for taped components, so both packaging formats run on the same machine."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How is a new board programmed?",
+     "a": "Through online visual programming with visual correction, plus EXCEL import and USB data input. Teaching a new board takes minutes rather than hours, which keeps high-mix clip production economical."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can it run inline?",
+     "a": "Yes. The production reference platform uses a guide-rail automatic conveyor with left-to-right board flow for inline production; standalone operation is also available. Board sizes up to 410×360 mm are supported on the inline platform, and enlarged sizes can be customized."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How do I get a price and delivery time?",
+     "a": "Email info@smthelp.com or WhatsApp +86 136 0256 2576 with your terminal samples or drawings, board sizes and monthly volume. Quotation and delivery schedule are provided after technical confirmation — typically the same working day."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Send your terminal samples and board size for a same-day configuration",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Next step"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Send your terminal samples and board size for a same-day configuration"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Tell us which clips or terminals you insert, your board size and monthly volume. We reply with a feeder configuration, quotation and delivery schedule within 24 hours."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://wa.me/8613602562576?text=Hi%20Jason%2C%20I%20would%20like%20a%20quote%20for%20the%20S7020T%20Terminal%20Insertion%20Machine.%20Our%20components%20and%20board%20size%3A%20",
+     "text": "Click to chat on WhatsApp"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  }
+ ]
+}

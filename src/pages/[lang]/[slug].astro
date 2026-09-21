@@ -1,0 +1,31 @@
+---
+import type { GetStaticPaths } from 'astro';
+
+import MachinePage from '~/components/machine/MachinePage.astro';
+
+import { DEFAULT_LOCALE, LOCALES, machines } from '~/utils/machines';
+import type { Locale } from '~/utils/machines';
+
+// Every machine that shipped a seven-language dictionary gets a real, separate
+// URL per locale. Machines without a dictionary stay English-only, which is
+// honest about what has actually been translated.
+export const getStaticPaths = (() => {
+  const paths: { params: { lang: string; slug: string }; props: { machine: (typeof machines)[number]; lang: Locale } }[] =
+    [];
+
+  for (const machine of machines) {
+    if (machine.langs.length <= 1) continue;
+    for (const locale of LOCALES) {
+      if (locale === DEFAULT_LOCALE) continue;
+      if (!machine.langs.includes(locale)) continue;
+      paths.push({ params: { lang: locale, slug: machine.slug }, props: { machine, lang: locale } });
+    }
+  }
+
+  return paths;
+}) satisfies GetStaticPaths;
+
+const { machine, lang } = Astro.props as { machine: (typeof machines)[number]; lang: Locale };
+---
+
+<MachinePage machine={machine} lang={lang} />

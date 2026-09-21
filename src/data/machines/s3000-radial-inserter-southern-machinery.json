@@ -1,0 +1,874 @@
+{
+ "slug": "s3000-radial-inserter-southern-machinery",
+ "category": "radial",
+ "title": "LED traffic signal industry Radial Insertion Machine",
+ "description": "Southern Machinery S3000 Radial Inserter: 10,000 CPH actual radial-lead component insertion, Universal-compatible wear parts under $100/month, 8 servo motors, ROI under one year.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/s3000-radial-inserter-southern-machinery.html",
+ "heroImage": "",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "overview",
+   "heading": "S3000 Radial Inserter — the cost-efficient way to automate radial insertion",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "THT radial component automation"
+    },
+    {
+     "t": "h1",
+     "key": "",
+     "text": "S3000 Radial Inserter — the cost-efficient way to automate radial insertion"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Sequences and inserts capacitors, transistors and standard radial-lead components from tape-package at production speed — with the reliability of a machine and a payback of under one year."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Configurable for inline production with optional PCB loader/unloader and T-type material station layout. Final configuration confirmed after technical review."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "pain",
+   "heading": "Every hand-placed capacitor is a point of failure",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "The hidden cost of manual radial insertion"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Every hand-placed capacitor is a point of failure"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Radial components are small, polarized and volume-hungry. Manual placement turns them into a quality and labor problem that automation removes at the source."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Hands are the bottleneck"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A skilled operator places only a few hundred radial parts per hour. Output rises with headcount, and headcount is getting harder to find."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Polarity errors are silent"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A reversed capacitor or transistor looks right to the eye and fails only at electrical test — rework and scrap you never see coming."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Turnover hits quality"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Night shifts and seasonal workers re-introduce the very mistakes the process was designed to prevent."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "5S pressure everywhere"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Reels, loose components and tape tails spread across workstations, failing the audits your customers schedule."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Traceability gaps"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Manual insertion cannot document which part went where, when — a risk your EMS customers increasingly refuse to carry."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Labor economics tighten"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Wages rise and availability falls, while every manual insertion station quietly increases cost per board."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "fab",
+   "heading": "What the S3000 actually changes on your floor",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feature · Advantage · Benefit"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "What the S3000 actually changes on your floor"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Select a feature to connect the verified machine capability with its technical advantage and the practical benefit your factory feels."
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Feature"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feature description."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Investment versus comparable inserters with integrated design"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Typical ROI for EMS factories"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feeder stations (recommended configuration)"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Solid build for stable high-volume operation"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "specs",
+   "heading": "Key specifications for project evaluation",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Source-verified technical data"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Key specifications for project evaluation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Values support initial evaluation and remain subject to final technical confirmation against your board size, component mix and line layout."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3000 Radial Inserter"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Model"
+       },
+       {
+        "key": "",
+        "text": "S3000 Radial Inserter"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Dimensions (L×W×H)"
+       },
+       {
+        "key": "",
+        "text": "1700 × 1500 × 1600 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Top speed"
+       },
+       {
+        "key": "",
+        "text": "20,000 CPH (spec) / 10,000 CPH (actual speed)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "50(L) × 50(W) – 400(L) × 300(W) mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "",
+        "text": "0.79 – 2.36 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component spans"
+       },
+       {
+        "key": "",
+        "text": "2.5 / 3.5 / 5.0 / 7.5 / 10.0 mm; dual, triple & quad span"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component specifications"
+       },
+       {
+        "key": "",
+        "text": "Max height 20 mm, max body diameter 13 mm, max lead diameter 0.7 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Lead trimming length"
+       },
+       {
+        "key": "",
+        "text": "1.5 ± 0.3 mm (short blade), 2.0 ± 0.3 mm (long blade)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Lead bend angle"
+       },
+       {
+        "key": "",
+        "text": "10 – 15 degrees (adjustable)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeders"
+       },
+       {
+        "key": "",
+        "text": "10 stations (recommended)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air source"
+       },
+       {
+        "key": "",
+        "text": "0.6 – 0.8 MPa"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "220 V, 50 Hz"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Net weight"
+       },
+       {
+        "key": "",
+        "text": "880 kg"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Production configuration"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Insertable components"
+       },
+       {
+        "key": "",
+        "text": "Capacitors, transistors, triodes and standard radial (vertical) tape-package electronic components"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Applicable industries"
+       },
+       {
+        "key": "",
+        "text": "Automotive electronics, 5G communication, small appliances, power supplies and adapters"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Inline layout"
+       },
+       {
+        "key": "",
+        "text": "Online configuration with T-type material station to save floor space"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Control"
+       },
+       {
+        "key": "",
+        "text": "Color touchscreen HMI with physical start/stop controls"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Specification values are from the official Southern Machinery S3000 datasheet (2024). The factory reference sheet lists higher peak figures (e.g. up to 19,000 PCS/H and a 410×510 mm board class) for the same inline platform; Southern Machinery quotes the verified production numbers above. Final configuration is confirmed against your PCB sizes and component mix."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3000 Radial Inserter"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Model"
+       },
+       {
+        "key": "",
+        "text": "S3000 Radial Inserter"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Dimensions (L×W×H)"
+       },
+       {
+        "key": "",
+        "text": "1700 × 1500 × 1600 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Top speed"
+       },
+       {
+        "key": "",
+        "text": "20,000 CPH (spec) / 10,000 CPH (actual speed)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "50(L) × 50(W) – 400(L) × 300(W) mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "",
+        "text": "0.79 – 2.36 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component spans"
+       },
+       {
+        "key": "",
+        "text": "2.5 / 3.5 / 5.0 / 7.5 / 10.0 mm; dual, triple & quad span"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component specifications"
+       },
+       {
+        "key": "",
+        "text": "Max height 20 mm, max body diameter 13 mm, max lead diameter 0.7 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Lead trimming length"
+       },
+       {
+        "key": "",
+        "text": "1.5 ± 0.3 mm (short blade), 2.0 ± 0.3 mm (long blade)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Lead bend angle"
+       },
+       {
+        "key": "",
+        "text": "10 – 15 degrees (adjustable)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeders"
+       },
+       {
+        "key": "",
+        "text": "10 stations (recommended)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air source"
+       },
+       {
+        "key": "",
+        "text": "0.6 – 0.8 MPa"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "220 V, 50 Hz"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Net weight"
+       },
+       {
+        "key": "",
+        "text": "880 kg"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Production configuration"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Insertable components"
+       },
+       {
+        "key": "",
+        "text": "Capacitors, transistors, triodes and standard radial (vertical) tape-package electronic components"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Applicable industries"
+       },
+       {
+        "key": "",
+        "text": "Automotive electronics, 5G communication, small appliances, power supplies and adapters"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Inline layout"
+       },
+       {
+        "key": "",
+        "text": "Online configuration with T-type material station to save floor space"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Control"
+       },
+       {
+        "key": "",
+        "text": "Color touchscreen HMI with physical start/stop controls"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "See the S3000 on the datasheet, on the bench and in the field",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Product & installation visuals"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "See the S3000 on the datasheet, on the bench and in the field"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Click any image to enlarge. Slides are from the official Southern Machinery S3000 2024 presentation; field photos show production references."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "Watch the S3000 family insert radial components",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Optional online media"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Watch the S3000 family insert radial components"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Videos load only after you select them. All clips are from the official Southern Machinery YouTube channel."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Radial Insertion machine working"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Radial insertion machines working for Smart EMS factory PCB assembly."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "China Made Radial Insertion machine"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "How China made radial insertion machines for Smart EMS factory PCB assembly."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Radial Insertion Machine SMT"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Radial insertion machine operating in an SMT environment."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "LED traffic signal industry Radial Insertion Machine"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Radial insertion machine applied in the LED traffic signal industry."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "You are offline. The product presentation remains available; videos can be loaded when a connection is restored."
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "WP61N6pmDJU",
+     "title": "Radial Insertion machine working",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "NUvAg0JvGYY",
+     "title": "China Made Radial Insertion machine",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "0iKa7qjICCg",
+     "title": "Radial Insertion Machine SMT",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "51JqMMJlVA4",
+     "title": "LED traffic signal industry Radial Insertion Machine",
+     "titleKey": "",
+     "duration": ""
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "service",
+   "heading": "Engineering support around your deployment",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "From board review to production"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Engineering support around your deployment"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "We confirm the fit before you commit — feeder count, span tooling and inline options matched to your boards."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Share PCB sizes, component mix and monthly volume."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Configuration and quotation within 24 hours."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feeder stations, span tooling, T-type station and inline options."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Free installation and operator training included."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "24/7 support and 1-day spare-part lead time."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faq",
+   "heading": "Questions buyers ask before ordering",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Technical evaluation FAQ"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Questions buyers ask before ordering"
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What components can the S3000 insert?",
+     "a": "Capacitors, transistors, triodes and standard radial (vertical) tape-package components with lead spans from 2.5 to 10.0 mm — dual, triple and quad-span tooling. Max component height is 20 mm, body diameter 13 mm and lead diameter 0.7 mm."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How fast is it really?",
+     "a": "The official datasheet lists 20,000 CPH as the specification speed and 10,000 CPH as the actual production speed. We quote on the actual figure, so your line planning is realistic from day one."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Is it compatible with Universal spare parts?",
+     "a": "Yes. The S3000 uses 100% Universal-compatible wear-and-tear spare parts, with a typical monthly usage cost of under $100. Southern Machinery also stocks spares with a 1-day lead time."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What utilities does it need?",
+     "a": "220 V, 50 Hz single-phase power and compressed air at 0.6–0.8 MPa. A built-in air storage tank and a built-in 3 KVA regulator stabilize both, even on busy factory floors."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can it run inline?",
+     "a": "Yes. The machine can be configured for online/inline production with an optional PCB loader/unloader and a T-type material station that saves floor space."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How do I get a price and delivery time?",
+     "a": "Email info@smthelp.com or WhatsApp +86 136 0256 2576 with your board sizes, component mix and quantity. Quotation and delivery schedule are provided after technical confirmation — typically the same working day."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Send your board size and component mix for a same-day quote",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Next step"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Send your board size and component mix for a same-day quote"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Tell us which boards you insert, the radial components you run and your monthly volume. We reply with a configuration, quotation and delivery schedule."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://wa.me/8613602562576?text=Hi%20Jason%2C%20I%20would%20like%20a%20quote%20for%20the%20S3000%20Radial%20Inserter.%20Our%20board%20size%20and%20components%3A%20",
+     "text": "Click to chat on WhatsApp"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  }
+ ]
+}

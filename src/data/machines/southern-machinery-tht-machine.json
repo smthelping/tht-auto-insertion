@@ -1,0 +1,559 @@
+{
+ "slug": "southern-machinery-tht-machine",
+ "category": "line",
+ "title": "Southern Machinery: Automated Through-Hole Insertion Machine",
+ "description": "",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/southern-machinery-tht-machine.html",
+ "heroImage": "https://ph.smthelp.com/images/2023/05/08/AOI-machine-S-AO600C-for-SMT-PCB-inspection-2.md.png",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "",
+   "heading": "Southern Machinery Through-Hole Insertion Machine",
+   "nodes": [
+    {
+     "t": "h1",
+     "key": "",
+     "text": "Southern Machinery Through-Hole Insertion Machine"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Automate Your PCB Assembly with Unmatched Precision & Efficiency. Revolutionize your production line and overcome manufacturing challenges."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "Facing Through-Hole Insertion Challenges?",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Facing Through-Hole Insertion Challenges?"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Traditional processes are slow, costly, and prone to errors. Automation is the solution."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "High Labor Costs & Inefficiency"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Manual insertion is a bottleneck, demanding significant manpower and limiting your production throughput."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Inconsistent Quality & Yield"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Human error leads to insertion mistakes, damaging components and lowering your final product yield rate."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Component & Integration Complexity"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Handling diverse axial, radial, and odd-form components and integrating with existing lines is a major hurdle."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "features",
+   "heading": "Core Features & Unique Advantages",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Core Features & Unique Advantages"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Engineered for performance, reliability, and ease of use."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Advanced Vision & Motion Control"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "High-res cameras and precision servos ensure accurate component recognition and placement, even on warped PCBs."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Flexible Component Handling"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Effortlessly handles axial, radial, and complex odd-form components with versatile feeder and gripper designs."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Smart Software & MES Integration"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Intuitive programming interface with seamless MES/ERP integration for a truly intelligent manufacturing environment."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Robust and Durable Design"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Built with industrial-grade components for long-term stability and minimal maintenance in demanding 24/7 production."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2023/05/08/AOI-machine-S-AO600C-for-SMT-PCB-inspection-2.md.png",
+     "alt": "Advanced Vision System"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2023/04/30/Whole-SMT-Assembly-Line-GKG-Pmax-15-PCBA-SMT-Solder-Paste-Printer-With-SMEMA4.jpg",
+     "alt": "Flexible Component Handling"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/12/20/S7900-Odd-Form-Insertion-Machine-6-heads-w-feeders--a.png",
+     "alt": "Robust and Durable Design"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "Our Machines in Action",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Our Machines in Action"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Explore our range of Through-Hole Insertion solutions."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "specs",
+   "heading": "Technical Specifications",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Technical Specifications"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Detailed parameters to help you evaluate and select the perfect model for your needs."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Parameter",
+      "Specification"
+     ],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Insertion Speed"
+       },
+       {
+        "key": "",
+        "text": "Up to 20,000 CPH (Components Per Hour)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion Accuracy"
+       },
+       {
+        "key": "",
+        "text": "±0.05mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Applicable PCB Size"
+       },
+       {
+        "key": "",
+        "text": "Min: 50x50mm, Max: 500x450mm (customizable)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component Types"
+       },
+       {
+        "key": "",
+        "text": "Axial, Radial, DIP, Odd-form components"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeder Stations"
+       },
+       {
+        "key": "",
+        "text": "Up to 100 stations (configurable)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power Supply"
+       },
+       {
+        "key": "",
+        "text": "AC 220V/380V, 50/60Hz"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air Pressure"
+       },
+       {
+        "key": "",
+        "text": "0.5 - 0.7 Mpa"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Dimensions (L*W*H)"
+       },
+       {
+        "key": "",
+        "text": "Varies by model, e.g., 1800 x 1500 x 1600 mm"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "applications",
+   "heading": "Wide Range of Applications",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Wide Range of Applications"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Trusted by leading manufacturers across diverse industries for reliability and flexibility."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Consumer Electronics"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "High-volume assembly for televisions, home appliances, and personal gadgets."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Automotive & Industrial"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Ensuring utmost reliability for control units, sensors, and power systems in harsh environments."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "LED & Power Supplies"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Efficiently handling power components and complex layouts for lighting and power modules."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2023/04/18/PCB-cutter-Circuit-board-separator-machine-PCB-production-linecover.jpg",
+     "alt": "Consumer Electronics"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S4000-Axial-Insertion--10-feeder.png",
+     "alt": "Automotive Electronics"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2023/04/18/S-1200-SV-High-end-LED-Lamp-SMT-Line.md.gif",
+     "alt": "LED & Power Supplies"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "Your Partner in Automation Success",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Your Partner in Automation Success"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "We provide more than just machines; we deliver comprehensive solutions and peace of mind."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Why Southern Machinery?"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Proven Success: Trusted by global clients with numerous success stories and proven ROI."
+      },
+      {
+       "key": "",
+       "text": "Quality Certified: Adherence to strict ISO & CE standards ensures the highest quality and reliability."
+      },
+      {
+       "key": "",
+       "text": "Shenzhen Advantage: Rooted in the heart of electronics manufacturing for unparalleled innovation and resources."
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Comprehensive Service & Support"
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "Installation & Training"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Professional on-site setup, calibration, and hands-on training for your team."
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "24/7 Technical Support"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Rapid-response support via phone, email, or remote session to minimize downtime."
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "Spares & Maintenance"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Readily available OEM parts and custom maintenance plans to extend equipment lifespan."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faq",
+   "heading": "Frequently Asked Questions",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Frequently Asked Questions"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Take the First Step to Automation",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Take the First Step to Automation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Ready to boost your productivity and quality? Contact our expert team today for a personalized solution and quote."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "matched-resources",
+   "heading": "Watch it running",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Watch it running"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Machine footage from our YouTube channel, matched to this page."
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Product documentation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Catalogues, manuals and ROI sheets from the product catalog board."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "THT Auto Insertion Machine Solution (HTML) ↓"
+      },
+      {
+       "key": "",
+       "text": "S7900 Odd Form Insertion Machine Landing (HTML) ↓"
+      },
+      {
+       "key": "",
+       "text": "Belt Feeder (PDF) ↓"
+      },
+      {
+       "key": "",
+       "text": "THT Staffing Audit Calculator (XLSX) ↓"
+      },
+      {
+       "key": "",
+       "text": "THT-Insertion ROI Calculator (XLSX) ↓"
+      },
+      {
+       "key": "",
+       "text": "Auto Insertion Readiness Checklist (PDF) ↓"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Sources: YouTube video board · product catalog board · machine photo library"
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "P0rfpkHpPxg",
+     "title": "10x labor cost saving Odd Form Insertion Machine for Smart EMS factory PCB assembly"
+    },
+    {
+     "id": "xQ0d-dM00RQ",
+     "title": "SMT THT Odd Form Insertion machine Design and manufacturing"
+    },
+    {
+     "id": "moGjmJ-mWQg",
+     "title": "Odd Form Feeder Design by SMThelp.com for Smart EMS factory PCB assembly"
+    }
+   ],
+   "docs": [
+    {
+     "label": "THT Auto Insertion Machine Solution (HTML) ↓",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/THT-Auto-Insertion-Machine-Solution-Landing.html"
+    },
+    {
+     "label": "S7900 Odd Form Insertion Machine Landing (HTML) ↓",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/S7900-Odd-Form-Insertion-Machine-Landing.html"
+    },
+    {
+     "label": "Belt Feeder (PDF) ↓",
+     "url": "https://file.autoinsertion.com/public/SMThelp%20Machine%20Presentation/Belt%20feeder.pdf"
+    },
+    {
+     "label": "THT Staffing Audit Calculator (XLSX) ↓",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/tht-staffing-audit-calculator.xlsx"
+    },
+    {
+     "label": "THT-Insertion ROI Calculator (XLSX) ↓",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/THT-Insertion-ROI-Calculator.xlsx"
+    },
+    {
+     "label": "Auto Insertion Readiness Checklist (PDF) ↓",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/auto-insertion-readiness-checklist.pdf"
+    },
+    {
+     "label": "YouTube video board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-YouTube-Video-Board.html"
+    },
+    {
+     "label": "product catalog board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-Product-Catalog-Board.html"
+    }
+   ]
+  }
+ ]
+}

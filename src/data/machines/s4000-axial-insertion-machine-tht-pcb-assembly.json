@@ -1,0 +1,1354 @@
+{
+ "slug": "s4000-axial-insertion-machine-tht-pcb-assembly",
+ "category": "axial",
+ "title": "S4000 Axial Insertion Machine for THT Auto PCB Assembly | 24,000 Inserts/Hour | Southern Machinery",
+ "description": "Automatic axial and jumper-wire insertion for THT PCB assembly: 24,000 pcs/h rated insertion, one operator equals 40 manual inserters, 60 tape stations (10–100 configurable), 0/90/180/270° insertion, direct jumper-wire feed saving 1/3 of wire, Panasonic servos, SMEMA in-line option. Full manual specifications, capacity maths, payback calculator, installation requirements and eight process articles from Southern Machinery, Shenzhen.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/s4000-axial-insertion-machine-tht-pcb-assembly.html",
+ "heroImage": "",
+ "langs": [
+  "ar",
+  "en",
+  "es",
+  "fr",
+  "pt",
+  "ru",
+  "zh"
+ ],
+ "blocks": [
+  {
+   "id": "top",
+   "heading": "Taped axials in. Jumpers in.Inserted, clinched, cut — at 24,000 an hour.",
+   "nodes": [
+    {
+     "t": "h1",
+     "key": "",
+     "text": "Taped axials in. Jumpers in.Inserted, clinched, cut — at 24,000 an hour."
+    },
+    {
+     "t": "p",
+     "key": "hero_sub",
+     "text": "The S4000 takes axial tape components — resistors, diodes, transistors, capacitors, fuses — and loose jumper wire, and inserts them into through-holes automatically: centered, bent, pushed, clinched and trimmed in one cycle, in four insertion directions. One machine with one operator replaces the output of forty manual inserters, and the self-developed software runs jumpers and axials in any mix, in one program."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "why",
+   "heading": "Manual THT insertion is a wage bill that never graduates",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "why_h2",
+     "text": "Manual THT insertion is a wage bill that never graduates"
+    },
+    {
+     "t": "p",
+     "key": "why_lead",
+     "text": "Every axial lead pushed by hand is a cost that repeats forever, varies by shift, and hides defects until test. The S4000 converts that recurring cost into a fixed asset: tape-fed components and bulk jumpers arrive on W-shaped carrier clips, and the machine performs the five motions of insertion — center, bend, push, clinch, trim — 24,000 times an hour with the same force on every lead."
+    },
+    {
+     "t": "h3",
+     "key": "why1t",
+     "text": "The bench scales with headcount, not demand"
+    },
+    {
+     "t": "p",
+     "key": "why1d",
+     "text": "Forty inserters become forty-one when orders grow and forty when they shrink — wages, space and supervision either scale or suffer. A machine scales by program: change the part list, keep the operator. The manual's own comparison: one S4000 operator equals the yield of 40 manual workers."
+    },
+    {
+     "t": "h3",
+     "key": "why2t",
+     "text": "Hand insertion varies in ways test cannot see"
+    },
+    {
+     "t": "p",
+     "key": "why2d",
+     "text": "A seated lead depends on the operator's feel: clinch angle drifts, leads splay under pads, jumpers stretch. The machine clinches at an adjustable 0–35° with 1.2–2.2 mm bending length, on every hole, and reports non-performing inserts (< 300 PPM) on the display."
+    },
+    {
+     "t": "h3",
+     "key": "why3t",
+     "text": "Jumper wire is bought by the reel and wasted by the sequencer"
+    },
+    {
+     "t": "p",
+     "key": "why3d",
+     "text": "Traditional lines re-sequence jumpers into tape before insertion — and lose about a third of the wire in the process. The S4000 inserts cylindrical jumper wire directly from its own feeder, no re-sequencing, saving 1/3 of every JW reel."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "process",
+   "heading": "Five motions, four directions, one program",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "proc_h2",
+     "text": "Five motions, four directions, one program"
+    },
+    {
+     "t": "p",
+     "key": "proc_lead",
+     "text": "Axial tape components and jumpers are dispensed onto W-shape carrier clips at the feeder stations. The clips ride chains into the inserter, where the component is centered, bent into a splayed U, pushed through the hole, clinched from below and trimmed — while the worktable moves the PCB to every insertion area. Directions: 0°, 90°, 180°, 270°."
+    },
+    {
+     "t": "h3",
+     "key": "p1t",
+     "text": "Dispense — tape to carrier clip"
+    },
+    {
+     "t": "p",
+     "key": "p1d",
+     "text": "Each station dispenses one component type onto a reusable W-shape carrier clip at its wedge slot. Station count scales with your part list: 60 recommended, 10 to 100 configurable."
+    },
+    {
+     "t": "h3",
+     "key": "p2t",
+     "text": "Transfer — clip chain to inserter"
+    },
+    {
+     "t": "p",
+     "key": "p2d",
+     "text": "High-precision chains carry the loaded clips from the feeder rack to the insertion head, where the component is centered by a dedicated centering assembly before it ever reaches the board."
+    },
+    {
+     "t": "h3",
+     "key": "p3t",
+     "text": "Form — the former bends the leads"
+    },
+    {
+     "t": "p",
+     "key": "p3d",
+     "text": "The former descends and bends both component leads into a splayed U-shape — the clinch angle is adjustable 0–35° and the bending length 1.2–2.2 mm, set per component in the part parameters."
+    },
+    {
+     "t": "h3",
+     "key": "p4t",
+     "text": "Insert — the pusher pushes through"
+    },
+    {
+     "t": "p",
+     "key": "p4d",
+     "text": "The pusher continues downward, pushing the formed component into the PCB hole while the shear blade cuts the lead from the tape. Jumpers skip the tape step entirely and insert straight from the JW feeder."
+    },
+    {
+     "t": "h3",
+     "key": "p5t",
+     "text": "Clinch & trim — from underneath"
+    },
+    {
+     "t": "p",
+     "key": "p5d",
+     "text": "Under the table, the clincher splays the leads to hold the component and the cutter trims the excess lead in the same stroke. The clip, now empty, returns to the feeder rack for the next component."
+    },
+    {
+     "t": "h3",
+     "key": "p6t",
+     "text": "Position — table X-Y and rotation"
+    },
+    {
+     "t": "p",
+     "key": "p6d",
+     "text": "The worktable moves the board under the head on ballscrew-driven X-Y axes; the Y table rotates ±90°/±180°/±360° so components insert in any of four directions without re-fixturing the board."
+    },
+    {
+     "t": "p",
+     "key": "proc_note",
+     "text": "Cycle description, angles and lengths quoted from the S4000+ operation manual, chapters 1–2."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "machine",
+   "heading": "The published specifications, exactly as written",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "mach_h2",
+     "text": "The published specifications, exactly as written"
+    },
+    {
+     "t": "p",
+     "key": "mach_lead",
+     "text": "These values come from the S4000+ operation manual's technical specification table. The S-4000H variant's figures (13,000 CPH rated speed, 50–285 mm process width) are listed separately below the table — different model, different numbers, never blended."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "sp_p1",
+        "text": "Model"
+       },
+       {
+        "key": "sp_v1",
+        "text": "S4000 series automatic axial insertion machine (S4000+)"
+       }
+      ],
+      [
+       {
+        "key": "sp_p2",
+        "text": "Insertion rate"
+       },
+       {
+        "key": "sp_v2",
+        "text": "24,000 pcs/hour (rated)"
+       }
+      ],
+      [
+       {
+        "key": "sp_p3",
+        "text": "Non-performing rate"
+       },
+       {
+        "key": "sp_v3",
+        "text": "Less than 300 PPM, with on-screen non-performing status"
+       }
+      ],
+      [
+       {
+        "key": "sp_p4",
+        "text": "Insertion directions"
+       },
+       {
+        "key": "sp_v4",
+        "text": "Parallel 0°, 90°, 180°, 270°"
+       }
+      ],
+      [
+       {
+        "key": "sp_p5",
+        "text": "Component span"
+       },
+       {
+        "key": "sp_v5",
+        "text": "Dual span 5.0–20 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp_p6",
+        "text": "PCB size"
+       },
+       {
+        "key": "sp_v6",
+        "text": "Min 50 × 50 mm · max 450 × 450 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp_p7",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "sp_v7",
+        "text": "0.79–2.36 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp_p8",
+        "text": "Component types"
+       },
+       {
+        "key": "sp_v8",
+        "text": "Axial tape-packed components — capacitors, transistors, diodes, resistors, blown fuses — plus cylindrical jumper wire"
+       }
+      ],
+      [
+       {
+        "key": "sp_p9",
+        "text": "Clinch length"
+       },
+       {
+        "key": "sp_v9",
+        "text": "1.2–2.2 mm, adjustable"
+       }
+      ],
+      [
+       {
+        "key": "sp_p10",
+        "text": "Clinch angle"
+       },
+       {
+        "key": "sp_v10",
+        "text": "0–35°, adjustable"
+       }
+      ],
+      [
+       {
+        "key": "sp_p11",
+        "text": "Station quantity"
+       },
+       {
+        "key": "sp_v11",
+        "text": "60 recommended · configurable 10–100 (each 10-station rack: 510 × 1000 × 1410 mm)"
+       }
+      ],
+      [
+       {
+        "key": "sp_p12",
+        "text": "Jumper wire"
+       },
+       {
+        "key": "sp_v12",
+        "text": "Inserted directly without re-sequencing — saves 1/3 of JW; tinned copper wire Ø 0.5–0.6 mm (S-4000H doc)"
+       }
+      ],
+      [
+       {
+        "key": "sp_p13",
+        "text": "Main unit size"
+       },
+       {
+        "key": "sp_v13",
+        "text": "1700 × 1300 × 1600 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp_p14",
+        "text": "Weights"
+       },
+       {
+        "key": "sp_v14",
+        "text": "Main unit 1500 kg · auxiliary 750 kg per 40-station rack"
+       }
+      ],
+      [
+       {
+        "key": "sp_p15",
+        "text": "Power supply"
+       },
+       {
+        "key": "sp_v15",
+        "text": "220 V AC single-phase, 50/60 Hz, 2.0 kVA"
+       }
+      ],
+      [
+       {
+        "key": "sp_p16",
+        "text": "Working power"
+       },
+       {
+        "key": "sp_v16",
+        "text": "1.6 kW (energy-saving design; S-4000H steady draw 1.5 kW)"
+       }
+      ],
+      [
+       {
+        "key": "sp_p17",
+        "text": "System protection"
+       },
+       {
+        "key": "sp_v17",
+        "text": "UPS keeps the machine running 15 minutes after power loss"
+       }
+      ],
+      [
+       {
+        "key": "sp_p18",
+        "text": "Compressed air"
+       },
+       {
+        "key": "sp_v18",
+        "text": "0.6–0.8 MPa · consumption 0.3 m³/min"
+       }
+      ],
+      [
+       {
+        "key": "sp_p19",
+        "text": "Noise level"
+       },
+       {
+        "key": "sp_v19",
+        "text": "65 dB (S-4000H document)"
+       }
+      ],
+      [
+       {
+        "key": "sp_p20",
+        "text": "Servo system"
+       },
+       {
+        "key": "sp_v20",
+        "text": "8 servo axes; Panasonic servo motors with drivers, Hi-win ballscrews, encoders on the inserter"
+       }
+      ],
+      [
+       {
+        "key": "sp_p21",
+        "text": "Camera assembly"
+       },
+       {
+        "key": "sp_v21",
+        "text": "On-table camera with light source for online programming and PCB position correction"
+       }
+      ],
+      [
+       {
+        "key": "sp_p22",
+        "text": "Frame"
+       },
+       {
+        "key": "sp_v22",
+        "text": "Square-tube welded steel frame with aging treatment; adjustable anti-vibration feet"
+       }
+      ],
+      [
+       {
+        "key": "sp_p23",
+        "text": "Line integration"
+       },
+       {
+        "key": "sp_v23",
+        "text": "In-line conveyor track option with SMEMA communication to upstream and downstream machines; optional PCB loader & unloader"
+       }
+      ],
+      [
+       {
+        "key": "sp_p24",
+        "text": "Components & materials"
+       },
+       {
+        "key": "sp_v24",
+        "text": "Imported key parts; CE-certified components and materials (S-4000H document)"
+       }
+      ],
+      [
+       {
+        "key": "sp_p25",
+        "text": "Software"
+       },
+       {
+        "key": "sp_v25",
+        "text": "Self-developed S4000 series software v2.6.0.0 — program editor, part parameter bank, statistics, engineer parameters"
+       }
+      ],
+      [
+       {
+        "key": "sp_p26",
+        "text": "Variant note"
+       },
+       {
+        "key": "sp_v26",
+        "text": "S-4000H (jumper-wire focused): rated 13,000 CPH, process width 50–285 mm — quoted from its own product document"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "build_h3",
+     "text": "Built for the same five motions, millions of times"
+    },
+    {
+     "t": "h3",
+     "key": "b1t",
+     "text": "Aged steel frame"
+    },
+    {
+     "t": "p",
+     "key": "b1d",
+     "text": "Square iron tube welded with plate, then aged to relieve stress — rigidity that keeps insertion accuracy after years of duty cycles, levelled on adjustable anti-vibration feet."
+    },
+    {
+     "t": "h3",
+     "key": "b2t",
+     "text": "Panasonic servos, eight axes"
+    },
+    {
+     "t": "p",
+     "key": "b2d",
+     "text": "Every motion that matters is servo-driven: table X-Y, rotation, inserter, former, pusher, shear. Each servo is parameter-readable on its own screen and self-reports error codes."
+    },
+    {
+     "t": "h3",
+     "key": "b3t",
+     "text": "Hi-win ballscrews"
+    },
+    {
+     "t": "p",
+     "key": "b3d",
+     "text": "Quality ballscrew drives with lead-screw nuts fixed to the platform board give the table its position accuracy; servo stop logic avoids destructive impact at travel limits."
+    },
+    {
+     "t": "h3",
+     "key": "b4t",
+     "text": "Encoder-guided inserter"
+    },
+    {
+     "t": "p",
+     "key": "b4d",
+     "text": "The inserter combines encoder, motor, gear rack, bearings, timing belt and camera — position is verified, not assumed, on every stroke."
+    },
+    {
+     "t": "h3",
+     "key": "b5t",
+     "text": "Reusable W-shape clips"
+    },
+    {
+     "t": "p",
+     "key": "b5d",
+     "text": "Components ride W-shape carrier clips that circulate from station to head and back — the quiet consumable that makes tape-free jumpers and taped axials share one machine."
+    },
+    {
+     "t": "h3",
+     "key": "b6t",
+     "text": "Camera on the table"
+    },
+    {
+     "t": "p",
+     "key": "b6d",
+     "text": "The camera assembly supports online programming and corrects PCB position — mark-to-mark insertion without dedicated fixtures for every panel type."
+    },
+    {
+     "t": "h3",
+     "key": "elec_h3",
+     "text": "The control system protects the board and the operator"
+    },
+    {
+     "t": "h3",
+     "key": "e1t",
+     "text": "Recipes, not guesswork"
+    },
+    {
+     "t": "p",
+     "key": "e1d",
+     "text": "Programs store the component list, positions, directions and parameters; recall by name per product, edit on the touch interface."
+    },
+    {
+     "t": "h3",
+     "key": "e2t",
+     "text": "Alarms with addresses"
+    },
+    {
+     "t": "p",
+     "key": "e2d",
+     "text": "Non-performing inserts and missing components show on the display in real time; servo screens report their own error codes for fast diagnosis."
+    },
+    {
+     "t": "h3",
+     "key": "e3t",
+     "text": "Energy by design"
+    },
+    {
+     "t": "p",
+     "key": "e3d",
+     "text": "Working power is 1.6 kW on a 2.0 kVA supply; the machine's energy-saving design keeps the steady draw near 1.5 kW."
+    },
+    {
+     "t": "h3",
+     "key": "e4t",
+     "text": "UPS run-out"
+    },
+    {
+     "t": "p",
+     "key": "e4d",
+     "text": "After power loss the UPS keeps the machine running for 15 minutes so boards mid-cycle finish safely instead of jamming."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "software",
+   "heading": "Self-developed software: the part list is the program",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "soft_h2",
+     "text": "Self-developed software: the part list is the program"
+    },
+    {
+     "t": "p",
+     "key": "soft_lead",
+     "text": "The S4000 runs on software Southern Machinery wrote and maintains (v2.6.0.0, mini-program updates since 2023). Programs are built from a part parameter bank — type by watt level, body diameter, lead span, insertion count — so a new product is a list, not a re-wiring."
+    },
+    {
+     "t": "h3",
+     "key": "sf1t",
+     "text": "Program editor"
+    },
+    {
+     "t": "p",
+     "key": "sf1d",
+     "text": "Create and edit insertion programs on the main page: positions, directions, sequence. The engineer page guards machine-level changes with a password."
+    },
+    {
+     "t": "h3",
+     "key": "sf2t",
+     "text": "Part parameter bank"
+    },
+    {
+     "t": "p",
+     "key": "sf2d",
+     "text": "Every component type lives in a library — serial number, type, diameter, lead span, clamping time — reused across programs instead of re-taught per job."
+    },
+    {
+     "t": "h3",
+     "key": "sf3t",
+     "text": "Statistics & traceability"
+    },
+    {
+     "t": "p",
+     "key": "sf3d",
+     "text": "Yield, standby time, insertion time and error records are logged on the machine — the numbers your production review needs, without a spreadsheet."
+    },
+    {
+     "t": "h3",
+     "key": "sf4t",
+     "text": "Axis & device parameters"
+    },
+    {
+     "t": "p",
+     "key": "sf4d",
+     "text": "Device, axis and engineer parameters are exposed for service: read, adjust, verify — with dedicated software on the control PC."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "capacity",
+   "heading": "The throughput maths, honestly",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "cap_h2",
+     "text": "The throughput maths, honestly"
+    },
+    {
+     "t": "p",
+     "key": "cap_lead",
+     "text": "The rated 24,000 pcs/h is a maximum at standard pitch and cycle — real takt comes from your board. Boards per hour is the rated rate divided by the components per board; the table shows the arithmetic, and a real line runs below the ceiling. Send us your component count and we will size the station list and the cycle for you."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Components per board",
+      "5 pcs",
+      "10 pcs",
+      "20 pcs"
+     ],
+     "rows": [
+      [
+       {
+        "key": "r02",
+        "text": "Rated 24,000 pcs/h"
+       },
+       {
+        "key": "",
+        "text": "4800"
+       },
+       {
+        "key": "",
+        "text": "2400"
+       },
+       {
+        "key": "",
+        "text": "1200"
+       }
+      ],
+      [
+       {
+        "key": "r03",
+        "text": "At 80% utilisation"
+       },
+       {
+        "key": "",
+        "text": "3840"
+       },
+       {
+        "key": "",
+        "text": "1920"
+       },
+       {
+        "key": "",
+        "text": "960"
+       }
+      ],
+      [
+       {
+        "key": "r04",
+        "text": "At 60% utilisation"
+       },
+       {
+        "key": "",
+        "text": "2880"
+       },
+       {
+        "key": "",
+        "text": "1440"
+       },
+       {
+        "key": "",
+        "text": "720"
+       }
+      ],
+      [
+       {
+        "key": "r05",
+        "text": "At 40% utilisation (mixed parts)"
+       },
+       {
+        "key": "",
+        "text": "1920"
+       },
+       {
+        "key": "",
+        "text": "960"
+       },
+       {
+        "key": "",
+        "text": "480"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "cap_note",
+     "text": "Utilisation covers operator load/unload, changeovers, clip replenishment and jams. A cell that plans at the ceiling plans to fail; plan at 60–80% and audit the gap."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "options",
+   "heading": "Configure the cell around your product mix",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "opt_h2",
+     "text": "Configure the cell around your product mix"
+    },
+    {
+     "t": "p",
+     "key": "opt_lead",
+     "text": "The S4000 ships as a standalone inserter with feeder racks. These are the documented options and standard extras worth deciding before you order."
+    },
+    {
+     "t": "h3",
+     "key": "o1t",
+     "text": "Station count, 10–100"
+    },
+    {
+     "t": "p",
+     "key": "o1d",
+     "text": "Feeder racks are added in 10-station units; 60 stations covers a typical mixed axial + jumper board. Count your unique taped components and jumpers — that number is the station list."
+    },
+    {
+     "t": "h3",
+     "key": "o2t",
+     "text": "In-line conveyor with SMEMA"
+    },
+    {
+     "t": "p",
+     "key": "o2d",
+     "text": "An in-line track with SMEMA communication lets the S4000 sit inside a THT line — boards arrive and leave automatically, handshaking with loaders, wave solder and the machines before and after."
+    },
+    {
+     "t": "h3",
+     "key": "o3t",
+     "text": "PCB loader & unloader"
+    },
+    {
+     "t": "p",
+     "key": "o3d",
+     "text": "Magazine loader and unloader options remove board handling from the operator — the cell keeps running through breaks and the operator becomes an exception-handler."
+    },
+    {
+     "t": "h3",
+     "key": "o4t",
+     "text": "Dual JW & 360° rotary table"
+    },
+    {
+     "t": "p",
+     "key": "o4d",
+     "text": "A dual jumper-wire feeder with rotary-table configuration raises jumper-heavy boards — documented and demonstrated on our channel."
+    },
+    {
+     "t": "h3",
+     "key": "o5t",
+     "text": "UPS 15-minute run-out"
+    },
+    {
+     "t": "p",
+     "key": "o5d",
+     "text": "Standard protection keeps the machine alive 15 minutes after power loss so mid-cycle boards complete safely."
+    },
+    {
+     "t": "h3",
+     "key": "o6t",
+     "text": "Carrier clips & consumables"
+    },
+    {
+     "t": "p",
+     "key": "o6d",
+     "text": "W-shape clips, wedge slots, needles and cutter parts stay in stock — the consumables that decide whether a cell runs or waits are sized with the machine, not after it fails."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "install",
+   "heading": "What your floor needs before the crate opens",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "ins_h2",
+     "text": "What your floor needs before the crate opens"
+    },
+    {
+     "t": "p",
+     "key": "ins_lead",
+     "text": "The machine's demands are modest — single-phase power and a small air line — but the cell layout decides how well it runs. Plan these six items."
+    },
+    {
+     "t": "h3",
+     "key": "i1t",
+     "text": "Footprint"
+    },
+    {
+     "t": "p",
+     "key": "i1d",
+     "text": "Main unit 1700 × 1300 × 1600 mm at 1500 kg, plus feeder racks of 510 × 1000 × 1410 mm per 10 stations (750 kg per 40-station rack). Leave clip-change aisles front and rear."
+    },
+    {
+     "t": "h3",
+     "key": "i2t",
+     "text": "Power"
+    },
+    {
+     "t": "p",
+     "key": "i2d",
+     "text": "220 V AC single-phase, 50/60 Hz, 2.0 kVA. Working draw is 1.6 kW — an ordinary THT cell supply; no three-phase drop needed."
+    },
+    {
+     "t": "h3",
+     "key": "i3t",
+     "text": "Compressed air"
+    },
+    {
+     "t": "p",
+     "key": "i3d",
+     "text": "0.6–0.8 MPa, 0.3 m³/min, brought in on a 12 × 8.5 mm air pipe. Dry air protects the clincher and shear cylinders."
+    },
+    {
+     "t": "h3",
+     "key": "i4t",
+     "text": "Leveling & floor"
+    },
+    {
+     "t": "p",
+     "key": "i4d",
+     "text": "Solid floor with the machine levelled on its adjustable anti-vibration feet; the aged frame holds accuracy only if the floor does not move under it."
+    },
+    {
+     "t": "h3",
+     "key": "i5t",
+     "text": "Line interface"
+    },
+    {
+     "t": "p",
+     "key": "i5d",
+     "text": "For in-line builds: conveyor height matched to your upstream and downstream machines, SMEMA signal cabling, and loader/unloader magazines on the board-flow side."
+    },
+    {
+     "t": "h3",
+     "key": "i6t",
+     "text": "Environment & noise"
+    },
+    {
+     "t": "p",
+     "key": "i6d",
+     "text": "65 dB operating noise — conversation-level; no enclosure needed for hearing protection, but keep tape stations out of direct sunlight and dust."
+    },
+    {
+     "t": "p",
+     "key": "ins_note",
+     "text": "Power, air, footprint and noise figures quoted from the S4000+ manual and the S-4000H product document."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "roi",
+   "heading": "Two ways to look at the payback — both with your numbers",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "roi_h2",
+     "text": "Two ways to look at the payback — both with your numbers"
+    },
+    {
+     "t": "p",
+     "key": "roi_lead",
+     "text": "An inserter is bought against two costs: the manual insertion benches it replaces, and the jumper wire the sequencer used to waste. This calculator handles the first honestly; the second — a third of every JW reel — is arithmetic you can do with a scale. Every figure is yours; the page supplies no prices."
+    },
+    {
+     "t": "h3",
+     "key": "calc_h",
+     "text": "Interactive payback calculator"
+    },
+    {
+     "t": "p",
+     "key": "calc_sub",
+     "text": "Enter your own labour cost, staff freed and price. Nothing is hard-coded, so the result is a method, not a quotation."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "The machine, from every angle",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "gal_h2",
+     "text": "The machine, from every angle"
+    },
+    {
+     "t": "p",
+     "key": "gal_lead",
+     "text": "Factory renderings of the S4000 cell — main unit, inserter head, feeder racks, in-line layout and the rotary-table configuration."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "Watch the machines run",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "vid_h2",
+     "text": "Watch the machines run"
+    },
+    {
+     "t": "p",
+     "key": "vid_lead",
+     "text": "Working videos from the Southern Machinery YouTube channel — S4000 operation, software training and axial lines in real factories. Click any card to play it in an embedded player; nothing loads until you click."
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "xlvFwNTf4_8",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "ok6c-2dFWec",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "ME4DPx-UGsU",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "Wu72kY13NEo",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "QQDQvp90c9E",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "Zd6d1gv6qPs",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "blog",
+   "heading": "Eight short reads on THT insertion that pays for itself",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "blog_h2",
+     "text": "Eight short reads on THT insertion that pays for itself"
+    },
+    {
+     "t": "p",
+     "key": "blog_lead",
+     "text": "Everything we know from putting insertion machines onto EMS floors — written the way we explain it to customers: the problem first, a method you can reuse, and the honest numbers. Full articles in English; summaries follow in your language."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 01The THT staffing math nobody says out loud",
+     "a": "Manual insertion scales with wages and turnover, not with orders. The four-line audit that shows what your benches really cost — and when a machine stops being a capital debate.Articles are marketing commentary. Machine facts quoted inside them come from the S4000+ manual and the S-4000H product document.There is a sentence production managers say in private and never in a review: the insertion benches cost more than anyone wants to admit. Not because the wages are huge — because they never end.Look at the shape of the cost. A manual THT bench is two, three, forty operators pushing leads into holes. Every month the payroll repeats. Every order change re-trains. Every resignation re-qualifies. The line scales only by hiring, and hiring in THT gets harder every year because the young people who could do it are doing something else.Here is the audit, four lines, run it before the next budget meeting. One: count the operators whose job is insertion, not the whole line — insertion. Two: multiply by loaded wage and the hours they actually insert. Three: add the rework traced to insertion defects — bent leads that lift pads, missed components found at test, polarity escapes found by the customer. Four: divide by the number of boards you build, and you have your true insertion cost per board. It is always higher than the bench looks.The machine answer is not exotic. An axial inserter like the S4000 takes the taped components and the jumpers, puts them on carrier clips, and performs the five motions — center, bend, push, clinch, trim — at a rated 24,000 placements an hour, in four directions, with missing-insert detection reporting on the screen. The manufacturer's own comparison, straight from the manual: one operator at this machine equals the yield of forty manual inserters.Once the math is run, it compounds. The freed benches absorb the next product change without re-hiring. The insertion cost per board becomes a number you can defend in a quotation. And the supervision, the floor space, the turnover — those costs quietly stop being costs.Run your four lines and send them to info@smthelp.com or on WhatsApp at +86 13602562576. We will turn them into a station plan and a payback figure with your numbers — the same arithmetic, no brochure attached."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 02One operator, forty benches: what 24,000 inserts an hour means",
+     "a": "The rated number is easy to quote and hard to use. Here is the honest arithmetic from rated CPH to real boards per hour, with utilisation you can defend.Articles are marketing commentary. Machine facts quoted inside them come from the S4000+ manual and the S-4000H product document.24,000 pcs per hour is the number in the manual. It is also the number most people misuse. A rated speed is a ceiling, not a schedule — and the honest way to plan a THT cell is to divide the ceiling by your board and then discount what real life costs.Start with the arithmetic. Your board has, say, ten axial components and jumpers. At the rated 24,000 placements an hour, that is 2,400 boards an hour at the ceiling. Nobody runs at the ceiling. Clip replenishment, tape changes, board load and unload, the occasional missed-insert recovery — a well-run cell holds 60 to 80 percent of rated. At 70 percent, your ten-component board is 1,680 an hour, and the question becomes whether your soldering and test can even follow.Then check the constraint that actually matters: the component mix. The rated number assumes standard span and pitch. A board full of 5 mm resistors inserts fast; a board with long-body components, tight spans and many directions slows the cycle. The S4000's four insertion directions — 0, 90, 180, 270 — exist because real boards need them, but every rotation is a fraction of a second spent on purpose.The third number is stations, not speed. Sixty feeder stations is the recommended build; the machine configures from 10 to 100. Your unique taped components plus jumper types define the list. A cell that runs 20 products with 400 unique parts is a station-count problem, not a CPH problem — and station count is cheap compared to an operator.Write the three numbers — rated, discounted, constrained — on the same page before you compare machines. Anyone who quotes you the ceiling without the discounts is selling you a brochure.Send us your component list and takt and we will do this arithmetic for your product, honestly, in one working day. The capacity table on this page is the same method; we just bring the machine data."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 03Jumper wire is cheap — until you waste a third of it",
+     "a": "Re-sequencing bulk jumpers into tape throws away 1/3 of the wire. Direct-JW insertion keeps the copper on the board and off the scrap bin.Articles are marketing commentary. Machine facts quoted inside them come from the S4000+ manual and the S-4000H product document.Jumper wire is the cheapest component on the board — a few centimetres of tinned copper. It is also the one factories throw away the most of, and the waste is invisible because it happens before anyone counts.The old way: bulk jumpers arrive in a box. A sequencer lines them up into tape so the inserter can handle them. Sequencing is not free — it costs the machine, the operator, the jam recovery, and the wire itself. Roughly a third of the jumper stock never reaches a board; it is cut, bent, miscounted, scrapped. You bought three reels to insert two.The S4000's answer is embarrassingly direct: it inserts cylindrical jumper wire straight from its own feeder, no re-sequencing at all. The manual states the saving in plain numbers — one third of the jumper wire stays on the board instead of in the bin. The tinned copper spec is 0.5–0.6 mm diameter; the bending length and clinch angle are adjustable like every other component.Why does this matter more than it looks? Because jumpers are never one part. A power-supply board uses jumpers as ground straps, fusable links, zero-ohm shortcuts — sometimes ten per board. Multiply a third of ten per board by a million boards and the copper becomes a line item your controller will remember your name for.The same logic extends to the feeder design: because jumpers and taped axials share the machine — one program, both feeding methods — the cell does not need a sequencer, a second machine, or the floor space and the queue between them. Three functions in one machine: jumpers alone, axials alone, or both mixed.Weigh your jumper scrap this month — the bin under the sequencer, not the spreadsheet. If it is more than you expected, send us the board and the reel cost. The saving is arithmetic, and arithmetic is the easiest sales pitch we make."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 04The W-shape clip: the quiet engineering behind every auto-inserted lead",
+     "a": "Carrier clips are the consumable that makes mixed axial-and-jumper insertion possible. What to size, stock and inspect before the machine ever arrives.Articles are marketing commentary. Machine facts quoted inside them come from the S4000+ manual and the S-4000H product document.Ask an operator what the machine actually does with a resistor and they will gesture at the head. The real answer is smaller and stranger: a bent piece of steel about the size of a paperclip, shaped like a W. It is called a carrier clip, and it is the reason one machine can insert a hundred different parts.The problem the clip solves. An inserter needs every component presented the same way — same position, same orientation, same timing — regardless of whether the part arrived on tape or in a box. Tape solves this for one part per reel. The clip solves it for everything: the taped axial is pushed from its tape onto a clip at the station, the bulk jumper is cut and loaded onto a clip, and from there both are identical citizens of one transport chain.The clip circulates. Station to head, head to station, hundreds of times a shift. Which means clip condition is insertion condition: a worn clip holds the body off-centre, the former bends a lead unevenly, the clinch drifts, and the missed-insert counter starts climbing toward your PPM budget. Thirty seconds of daily clip inspection is cheaper than thirty minutes of test-bench rework.Because clips are consumables, they are part of the order, not an afterthought. The station count — 60 recommended, 10 to 100 configurable — is really a clip count: every unique component on the board list needs a station, a wedge slot, and a pool of clips cycling through it. When we quote an S4000, the clip set is sized with the machine.Factories that understand this stop treating insertion as 'the machine' and start treating it as a system of parts, clips, and cycles — and their PPM numbers, and their auditors, are happier for it.If your clip supply is a mystery, send us the board list. We will map stations to clips to spares in one sheet — before the machine arrives, not after the first jam."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 050°, 90°, 180°, 270°: insertion direction is a design decision",
+     "a": "Polarity and orientation are chosen at layout time — and they decide clinch quality, wave solder drainage and whether the line runs at four directions or one.Articles are marketing commentary. Machine facts quoted inside them come from the S4000+ manual and the S-4000H product document.Every component on a through-hole board has an angle. The resistor lies flat one way; the diode must face another; the transistor stands or bends to keep its marking readable and its leads in the right holes. Direction is not decoration — it is decided at layout, and the machine either honours it or fights it.The S4000 inserts in four directions — 0°, 90°, 180°, 270° — because that is what real boards ask for. The Y-table rotates ±90°, ±180°, ±360°, so the head meets the hole at the angle the component wants, without re-fixturing the panel. A machine that inserts only at 0° forces the layout to obey it: components rotate to the machine's convenience, and the cost shows up later as awkward wave-solder drainage, shadowed joints, and test points nobody can probe.Here is the reusable rule for designers: decide insertion direction at footprint time, not after. Marked components — diodes, electrolytics, transistors — get their orientation from the silkscreen requirement. The span gets chosen from the machine's standard list (5.0–20 mm on the S4000, dual span). And the clinch — the little splayed feet under the board that hold the part — gets its angle and length from the same parameter table, adjustable 0–35° and 1.2–2.2 mm.Boards designed this way insert at rated speed. Boards designed against it run slower, jam more, and blame the machine. The difference is usually invisible in the first prototype and expensive at ten thousand.The software makes the rule enforceable: part parameters carry the direction, the program carries the list, and the camera verifies the board position before the first lead goes in. A new product is a part list, not a re-wiring.Send us a board photo and the component list — we will tell you which directions your layout is asking for, and what the cell would look like around them."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 06Your manual insertion line is hiding three costs",
+     "a": "The wage line is visible. The variance line, the WIP line and the rework line are not. A method to surface all three in one week of measurement.Articles are marketing commentary. Machine facts quoted inside them come from the S4000+ manual and the S-4000H product document.The wage bill for manual insertion is the only THT cost that shows up in the budget. The other three hide — in the test queue, in the scrap bin, and in the magazine rack — and they are bigger than people think.Cost one: variance. A hand-inserted lead is as good as the shift that made it. Clinch angles drift by noon; missed components surface at ICT, hours later, on boards that have already been handled twice. Every escape you find late costs the difference between a rework bench and a teardown.Cost two: work in progress. Manual insertion is a batch operation wearing an apron. Boards wait in magazines for benches, benches wait for operators, operators wait for tape to be cut by hand. Every queue is cash and floor space, and the queue is invisible until you walk the line with a stopwatch.Cost three: the hidden rework loop. The jumper that was too long, the resistor standing proud because the lead was not splayed — these get fixed, and the fixing gets logged as 'test rework', not as insertion cost. Pull the test records for a month and count the insertion-caused line items. The number rewrites the business case.An in-line inserter collapses all three. The five motions happen at the same force and angle 24,000 times an hour; the board flows from machine to wave solder without a magazine; and the missing-insert counter reports on the screen while the board is still under the head, not at test three stations later.This is why the comparison in the manual — one operator equals forty benches — understates it. The machine does not just replace forty pairs of hands; it replaces the variance, the queues, and the rework loop those hands create.Walking the line with a stopwatch this week? Send us what you find. We will map each hidden cost to the feature that removes it — honestly, with the manual open."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 07From tape to pad: the five motions inside one insertion cycle",
+     "a": "Center, bend, push, clinch, trim — what each motion does, what drifts when it is worn, and the daily checks that keep PPM under 300.Articles are marketing commentary. Machine facts quoted inside them come from the S4000+ manual and the S-4000H product document.Watch the head for ten seconds and it looks like one motion: down, up. It is five, and each one is a place where a worn part or a bad parameter shows up as a defect.Motion one: center. The clip arrives under the head, and a centering assembly lifts the component into exact alignment with the hole the table has positioned beneath it. Off-center is the root cause of everything downstream — a lead that misses the hole by half a millimetre never gets a second chance.Motion two: form. The former descends and bends both leads outward into the splayed U. The angle — adjustable 0–35° — and the bending length — 1.2–2.2 mm — are set per component in the part parameters. Too little bend and the clinch cannot hold; too much and the lead work-hardens and snaps.Motion three: push. The pusher drives the component through the hole while the shear blade cuts it free of the tape. On jumpers the cut happens at the feeder instead, and the pusher gets the wire straight from the clip.Motion four: clinch. Under the table, the clincher presses the splayed leads flat against the pad — the joint's mechanical hold before solder ever touches it. Motion five: trim. The excess lead is cut, the clip releases, and the empty clip starts its lap back to the feeder rack.Each motion has a wear part and a parameter. Centering: the clip and the guides. Forming: the former and its angle setting. Pushing: the needle and the tape cut. Clinching: the anvil under the table. Trimming: the shear blade. Thirty seconds of daily inspection across the five, and the non-performing rate stays under its 300 PPM budget.The training video on this page shows the software side of the same cycle — parameters, not prayers. And when a motion starts drifting, the machine's statistics log is the first place we look, together with you."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 08Before you buy an inserter, run these six questions",
+     "a": "A layout audit for the THT cell — component count, span mix, board size, jumper ratio, line interface and the staffing number that decides the payback.Articles are marketing commentary. Machine facts quoted inside them come from the S4000+ manual and the S-4000H product document.Most insertion-machine buying conversations start with the wrong question: how fast is it? The right questions come from your board, your people, and your line — and there are six of them.One: how many unique components? Taped axials plus jumper types define the station list — the S4000 configures 10 to 100, sixty recommended. This number decides the quote before speed does. Two: what spans? The machine covers 5.0–20 mm dual span; a board full of exotic spans is a feeder-design problem, not a machine problem, and it is solved in the part parameters.Three: how big is the board? Fifty millimetres square to 450 by 450, thickness 0.79 to 2.36 mm. Outside that box, the conversation changes — tell us early. Four: what is the jumper ratio? Jumpers are the cheapest part and the most wasted — direct-JW insertion keeps a third of the wire, and the ratio decides whether the dual-JW configuration earns its place.Five: standalone or in-line? The machine runs on a bench or on a conveyor with SMEMA handshakes to the wave solder and the loader. The answer changes the footprint and the staffing, not the insertion. Six — the one that decides everything: how many operators does the bench take today, and what do they cost? The manual's own comparison says one machine operator replaces forty benches; your number may differ, and your number is the one that matters.Answer the six and the machine selects itself. We run this audit free for any EMS plant — it is a thirty-minute conversation with a component list and a board photo.Send the six answers to info@smthelp.com or on WhatsApp at +86 13602562576. You will get back a station plan, a cycle estimate, and a payback figure built on your numbers — the same method as the calculator on this page, with the machine data filled in."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "downloads",
+   "heading": "Take the documents with you",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "dl_h2",
+     "text": "Take the documents with you"
+    },
+    {
+     "t": "p",
+     "key": "dl_lead",
+     "text": "The operation manual, the S-4000H product document and the axial feeder catalogue behind every number on this page — plus an interactive 3D of the taped axial feeder."
+    },
+    {
+     "t": "h3",
+     "key": "dl1t",
+     "text": "S4000+ axial insertion machine user manual"
+    },
+    {
+     "t": "p",
+     "key": "dl1d",
+     "text": "Full safety, mechanical, operation and maintenance manual — the source of the specifications on this page."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Open"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "dl2t",
+     "text": "S-4000H jumper wire axial inserter document"
+    },
+    {
+     "t": "p",
+     "key": "dl2d",
+     "text": "The variant specification document with the 13,000 CPH rating, process width and application photos."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Open"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "dl3t",
+     "text": "SAF1001 axial tape feeder catalogue"
+    },
+    {
+     "t": "p",
+     "key": "dl3d",
+     "text": "Our axial feeder catalogue — the feeding half of the cell, with compatibility notes for Juki, Panasonic, Yamaha, Fuji and UIC machines."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Open"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "dl4t",
+     "text": "Interactive 3D: SMThelp axial taped feeder"
+    },
+    {
+     "t": "p",
+     "key": "dl4d",
+     "text": "Rotate and inspect the taped axial feeder in your browser — no software to install."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Open"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Video board"
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Catalog board"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "Open",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Manual/S4000%2BAxial%2BInsertion%2BMachine%2BUsers%2BManual.doc"
+    },
+    {
+     "label": "Open",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S-4000H%20Jumper%20Wire%20Axial%20Inserter.pdf"
+    },
+    {
+     "label": "Open",
+     "url": "https://file.autoinsertion.com/public/SMThelp%20Machine%20Presentation/SAF1001%20AXIAL%20TAPE%20FEEDER.pdf"
+    },
+    {
+     "label": "Open",
+     "url": "https://file.autoinsertion.com/public/SMT%20machine%203D%20Drawing%20in%20Html/SMThelp%20Axial%20taped%20feeder.html"
+    },
+    {
+     "label": "Video board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-YouTube-Video-Board.html"
+    },
+    {
+     "label": "Catalog board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-Product-Catalog-Board.html"
+    }
+   ]
+  },
+  {
+   "id": "service",
+   "heading": "What comes with the machine",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "svc_h2",
+     "text": "What comes with the machine"
+    },
+    {
+     "t": "p",
+     "key": "svc_lead",
+     "text": "Southern Machinery has shipped SMT and THT equipment to EMS factories on six continents since 2011. The machine is the beginning of the order, not the end."
+    },
+    {
+     "t": "h4",
+     "key": "s1t",
+     "text": "Factory acceptance before shipping"
+    },
+    {
+     "t": "p",
+     "key": "s1d",
+     "text": "Your component list loaded on clips, your boards inserted, the PPM counted before the crate is closed. You approve output on your product, not on a demo panel."
+    },
+    {
+     "t": "h4",
+     "key": "s2t",
+     "text": "Installation supervision and commissioning"
+    },
+    {
+     "t": "p",
+     "key": "s2d",
+     "text": "Remote or on-site guidance through leveling, power, air and line interface, then a full-load commissioning run with your operators present."
+    },
+    {
+     "t": "h4",
+     "key": "s3t",
+     "text": "Operator and maintenance training"
+    },
+    {
+     "t": "p",
+     "key": "s3d",
+     "text": "Program building in the software, clip and wedge handling, station setup, the alarm list and the daily checks — trained on the machine your people will run."
+    },
+    {
+     "t": "h4",
+     "key": "s4t",
+     "text": "Spares, clips and retrofit"
+    },
+    {
+     "t": "p",
+     "key": "s4d",
+     "text": "Carrier clips, needles, shear blades, cutter and clinch parts kept in stock, plus station upgrades and loader retrofits when your product mix changes."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faq",
+   "heading": "Answers to the questions this machine raises",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "faq_h2",
+     "text": "Answers to the questions this machine raises"
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What can the S4000 insert?",
+     "a": "Axial tape-packed components — resistors, diodes, transistors, porcelain and electrolytic capacitors, blown fuses — with 5.0–20 mm lead span, plus cylindrical jumper wire (tinned copper Ø 0.5–0.6 mm) inserted directly without re-sequencing. Boards from 50 × 50 to 450 × 450 mm, 0.79–2.36 mm thick."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How fast is it, really?",
+     "a": "The manual rates 24,000 pcs/h with a non-performing rate under 300 PPM. Real throughput is that ceiling divided by components per board and multiplied by a utilisation you control — the capacity table on this page does the arithmetic. The S-4000H jumper-focused variant is rated 13,000 CPH in its own document."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What are carrier clips and why do they matter?",
+     "a": "W-shape steel clips that hold one component each and carry it from the feeder station to the insertion head and back. They are the machine's consumable: clip condition decides insertion accuracy. We size the clip count with your station list and keep them in stock."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can it run inside my line?",
+     "a": "Yes — an in-line conveyor track with SMEMA communication connects the S4000 to upstream and downstream machines, and magazine loader/unloader options remove board handling. Standalone use is equally documented; tell us your layout and we will configure the interface."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What does it need on the floor?",
+     "a": "220 V single-phase power at 2.0 kVA (1.6 kW working draw), 0.6–0.8 MPa dry air at 0.3 m³/min on a 12 × 8.5 mm line, a level solid floor, and about 1.7 × 1.3 m for the main unit plus your feeder racks. Noise is 65 dB."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How is the machine programmed?",
+     "a": "With the self-developed S4000 software (v2.6): a part parameter bank holds every component's type, diameter and span; programs place them on the board; the camera supports online programming and position correction. Training takes days, not weeks — and the software training video is linked on this page."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What happens when a component is missed?",
+     "a": "The machine detects non-performing inserts and shows the status on the display — missing-component detection is built into the cycle. The PPM budget is under 300; your daily checks keep it there."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How do I get a quotation?",
+     "a": "Send your component list (types, spans, taped or bulk, jumper lengths), board size and takt to info@smthelp.com or WhatsApp +86 13602562576. You get a station list, cycle estimate and configuration sheet — usually within one working day, with sample insertion available before you commit."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Send the part list. We will send the station plan.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "ct_h2",
+     "text": "Send the part list. We will send the station plan."
+    },
+    {
+     "t": "p",
+     "key": "ct_lead",
+     "text": "A component list and a board photo are enough. You will get back an insertion evaluation with the station count, the cycle maths and a configuration to price."
+    },
+    {
+     "t": "h3",
+     "key": "form_subject",
+     "text": "S4000 axial insertion machine enquiry"
+    },
+    {
+     "t": "p",
+     "key": "form_note",
+     "text": "The form opens your email client — nothing is posted to a server."
+    },
+    {
+     "t": "link",
+     "key": "wa_btn",
+     "href": "https://wa.me/8613602562576",
+     "text": "Chat on WhatsApp"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  }
+ ]
+}

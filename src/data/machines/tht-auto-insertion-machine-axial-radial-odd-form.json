@@ -1,0 +1,1841 @@
+{
+ "slug": "tht-auto-insertion-machine-axial-radial-odd-form",
+ "category": "line",
+ "title": "THT Auto Insertion Machine | Axial, Radial & Odd-Form Insertion Line for PCBA Assembly | Southern Machinery",
+ "description": "Automate through-hole assembly with Southern Machinery. S4000 axial inserter at 18,000–20,000 CPH, S3010A 20-station radial inserter, S-2000 jumper wire at 22,000 CPH, S7020 pin / eyelet / terminal platform at 12,000 CPH and S7900 odd-form with 4-mode lead bending. Send your panel drawing and BOM — we return a component-by-component insertion evaluation with recommended platform, packaging verdict, cycle time and daily throughput. Verified 2022–2025 catalog specs, honest capacity maths, a payback calculator, 8 process articles and every document to download. Built in Shenzhen, China.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/tht-auto-insertion-machine-axial-radial-odd-form.html",
+ "heroImage": "https://ph.smthelp.com/images/2025/12/06/S4000-Axial-Insertion-machine-with-loader--F.png",
+ "langs": [
+  "ar",
+  "en",
+  "es",
+  "fr",
+  "pt",
+  "ru",
+  "zh"
+ ],
+ "blocks": [
+  {
+   "id": "top",
+   "heading": "Manual insertion in.Placed, clinched, verified — by machine.",
+   "nodes": [
+    {
+     "t": "h1",
+     "key": "",
+     "text": "Manual insertion in.Placed, clinched, verified — by machine."
+    },
+    {
+     "t": "p",
+     "key": "hero_sub",
+     "text": "Radial capacitors, axial resistors and diodes, jumper wires, terminals, eyelets, pins, tact switches and odd-form parts. Every through-hole component on your BOM goes in by machine — 12,000 to 22,000 components an hour, with MARK vision correction and automatic cut-and-clinch. Send us one panel drawing and one BOM. We send back a line-by-line insertion evaluation: which parts automate as drawn, which need a packaging change, which platform takes each one, and what that is worth in boards per day."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S4000-Axial-Insertion-machine-with-loader--F.png",
+     "alt": "S4000 axial auto insertion machine with in-line loader"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S4000-Axial-Insertion-machine.png",
+     "alt": "S4000 axial inserter, front view"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S4000-Axial-Insertion-machine-with-loader--B.png",
+     "alt": "S4000 axial inserter, rear view showing feeder bank"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S4000-Axial-Insertion-machine-with-loader--S.png",
+     "alt": "S4000 axial insertion machine, side elevation"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/Axial-Radial-Insertion.png",
+     "alt": "Axial and radial insertion heads on a through-hole assembly line"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/Auto-Insertion-Line1.png",
+     "alt": "In-line through-hole auto insertion line with board handling"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "why",
+   "heading": "A manual insertion bench is a cost centre you already know about",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "why_h2",
+     "text": "A manual insertion bench is a cost centre you already know about"
+    },
+    {
+     "t": "p",
+     "key": "why_lead",
+     "text": "There is nothing mysterious about a manual insertion bench. It is a row of people, a stack of component trays, and a queue standing in front of the wave. What is easy to miss is how much of your cost structure lives in that queue — and how much of it moves off the payroll when the same work is done by a machine at a constant 0.35 seconds a component."
+    },
+    {
+     "t": "h3",
+     "key": "why1t",
+     "text": "Labour that scales with every extra panel"
+    },
+    {
+     "t": "p",
+     "key": "why1d",
+     "text": "Every additional panel needs another pair of hands, so overtime, night-shift allowance and turnover all scale with output. A machine inserts the same component at the same speed on the first shift and the third, on a Monday and on the last Friday of the month. That is what makes a delivery date something you can promise rather than hope for."
+    },
+    {
+     "t": "h3",
+     "key": "why2t",
+     "text": "Defects that only show up at the wave"
+    },
+    {
+     "t": "p",
+     "key": "why2d",
+     "text": "A reversed electrolytic, a missed lead, a lead that was never clinched — none of these stop the line at the bench. They surface after wave soldering, as rework, as scrap, or as a return from the field. Automatic insertion adds a miss-check at the clinch base, so an incomplete insertion stops the machine instead of travelling down the line to become somebody else's problem."
+    },
+    {
+     "t": "h3",
+     "key": "why3t",
+     "text": "Throughput capped by the slowest hand"
+    },
+    {
+     "t": "p",
+     "key": "why3d",
+     "text": "A manual bench plateaus at the pace of its least experienced operator, and that ceiling drops every time somebody new joins. An inserter runs at a published cycle time you can plan against — seconds per component, seconds per board, boards per shift. Planning gets easier, and so does costing."
+    },
+    {
+     "t": "h3",
+     "key": "why4t",
+     "text": "Floor space and WIP you pay for twice"
+    },
+    {
+     "t": "p",
+     "key": "why4d",
+     "text": "A manual bench needs tray racks, kanban bins and staging space between stations. That footprint is rented, lit, heated and insured. In-line insertion pulls material from a feeder mounted on the machine, so the pile of half-built boards in front of the wave gets shorter — and shorter WIP means fewer boards damaged in handling."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "evaluation",
+   "heading": "Send the board. Get a component-by-component insertion verdict.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "ev_h2",
+     "text": "Send the board. Get a component-by-component insertion verdict."
+    },
+    {
+     "t": "p",
+     "key": "ev_lead",
+     "text": "This is how every Southern Machinery insertion project actually starts, and it is the step most suppliers skip. You send the panel drawing and the BOM. We return a line-by-line evaluation: which components can be machine-inserted exactly as drawn, which need a packaging or pitch change first, which platform takes each one, and what cycle time and daily throughput that implies. No quotation is written until that table exists, because until then neither of us knows what the machine has to be."
+    },
+    {
+     "t": "h3",
+     "key": "ev_step1t",
+     "text": "You send four things"
+    },
+    {
+     "t": "p",
+     "key": "ev_step1d",
+     "text": "Panel length, panel width, panel thickness and process edge width, plus the number of units per panel. Then the BOM: manufacturer part number, reference designator, description, and the current lead-to-lead distance of each through-hole component."
+    },
+    {
+     "t": "h3",
+     "key": "ev_step2t",
+     "text": "We measure the drawing, not the promise"
+    },
+    {
+     "t": "p",
+     "key": "ev_step2d",
+     "text": "Lead-to-lead distance decides which insertion head can take the part. A 2.5 mm span goes on a radial head. A 5–20 mm span goes on an axial head. A terminal with no span at all goes on a terminal head fed from a bowl or a reel. If a part cannot be inserted as drawn, we say so and name the packaging or pitch change that would fix it."
+    },
+    {
+     "t": "h3",
+     "key": "ev_step3t",
+     "text": "You get a machine named per component"
+    },
+    {
+     "t": "p",
+     "key": "ev_step3d",
+     "text": "Every line of the returned table carries a verdict — OK, or the design change required — the recommended machine, and the packaging. You can see precisely which parts move to automation and which stay manual, part by part, before any money is discussed."
+    },
+    {
+     "t": "h3",
+     "key": "ev_step4t",
+     "text": "Then a throughput number"
+    },
+    {
+     "t": "p",
+     "key": "ev_step4d",
+     "text": "The last page gives insertion quantity, cycle time per board including loading and unloading, seconds per component, and daily and monthly throughput on a 20-hour day and a 25-day month. That is the figure your production planner needs in order to build a schedule."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Part number",
+      "Ref.",
+      "Description",
+      "Lead-to-lead distance",
+      "Design change",
+      "Platform",
+      "Packaging"
+     ],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "153.3901.044"
+       },
+       {
+        "key": "",
+        "text": "R5"
+       },
+       {
+        "key": "",
+        "text": "TH axial wirewound resistor 22 R, 5 %, 3 W"
+       },
+       {
+        "key": "",
+        "text": "2.5 mm"
+       },
+       {
+        "key": "ev_dc_retape",
+        "text": "Needs radial re-tape"
+       },
+       {
+        "key": "",
+        "text": "S3010A Radial"
+       },
+       {
+        "key": "ev_pk_tape",
+        "text": "Tape"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "153.3902.037"
+       },
+       {
+        "key": "",
+        "text": "C10"
+       },
+       {
+        "key": "",
+        "text": "TH X2 capacitor 100 nF 305 VAC, 10 mm"
+       },
+       {
+        "key": "",
+        "text": "5.0 mm"
+       },
+       {
+        "key": "ev_dc_ok",
+        "text": "Accepted as drawn"
+       },
+       {
+        "key": "",
+        "text": "S3010A Radial"
+       },
+       {
+        "key": "ev_pk_tape",
+        "text": "Tape"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "153.3902.003"
+       },
+       {
+        "key": "",
+        "text": "C1"
+       },
+       {
+        "key": "",
+        "text": "TH aluminium electrolytic capacitor 470 µF, 10 V"
+       },
+       {
+        "key": "",
+        "text": "2.5 mm"
+       },
+       {
+        "key": "ev_dc_ok",
+        "text": "Accepted as drawn"
+       },
+       {
+        "key": "",
+        "text": "S3010A Radial"
+       },
+       {
+        "key": "ev_pk_tape",
+        "text": "Tape"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "153.3948.003"
+       },
+       {
+        "key": "",
+        "text": "L"
+       },
+       {
+        "key": "",
+        "text": "Terminal, male right-angle 4.8 × 0.8 mm, brass + nickel"
+       },
+       {
+        "key": "",
+        "text": "—"
+       },
+       {
+        "key": "ev_dc_ok",
+        "text": "Accepted as drawn"
+       },
+       {
+        "key": "",
+        "text": "S7020T Terminal"
+       },
+       {
+        "key": "ev_pk_bulk",
+        "text": "Bulk"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "153.3948.004"
+       },
+       {
+        "key": "",
+        "text": "N"
+       },
+       {
+        "key": "",
+        "text": "Terminal, male right-angle 4.8 × 0.8 mm, brass + nickel"
+       },
+       {
+        "key": "",
+        "text": "—"
+       },
+       {
+        "key": "ev_dc_ok",
+        "text": "Accepted as drawn"
+       },
+       {
+        "key": "",
+        "text": "S7020T Terminal"
+       },
+       {
+        "key": "ev_pk_bulk",
+        "text": "Bulk"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "153.3948.004"
+       },
+       {
+        "key": "",
+        "text": "R"
+       },
+       {
+        "key": "",
+        "text": "Terminal, male right-angle 4.8 × 0.8 mm, brass + nickel"
+       },
+       {
+        "key": "",
+        "text": "—"
+       },
+       {
+        "key": "ev_dc_ok",
+        "text": "Accepted as drawn"
+       },
+       {
+        "key": "",
+        "text": "S7020T Terminal"
+       },
+       {
+        "key": "ev_pk_bulk",
+        "text": "Bulk"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "153.3902.051"
+       },
+       {
+        "key": "",
+        "text": "C7"
+       },
+       {
+        "key": "",
+        "text": "TH X2 capacitor 680 nF 310 VAC, 22.5 mm"
+       },
+       {
+        "key": "",
+        "text": "—"
+       },
+       {
+        "key": "ev_dc_ok",
+        "text": "Accepted as drawn"
+       },
+       {
+        "key": "",
+        "text": "S7020F Odd form"
+       },
+       {
+        "key": "ev_pk_bulk",
+        "text": "Bulk"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "ev_cap",
+     "text": "Evaluation table, power-supply panel: 32 radial insertions, 12.12 s per board including load and unload"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "line",
+   "heading": "Pick the modules that match your BOM today",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "line_h2",
+     "text": "Pick the modules that match your BOM today"
+    },
+    {
+     "t": "p",
+     "key": "line_lead",
+     "text": "Southern Machinery designs and builds its own insertion platforms in Shenzhen — the insertion head, the feeder, the clinch unit, the controller and the operating software. That is why one sales engineer can quote, retrofit, train and service an entire through-hole line instead of pointing you at three separate vendors. Start with the bottleneck that hurts most. The platforms share feeders, control philosophy and service, so adding the next machine later is a purchase rather than a rebuild."
+    },
+    {
+     "t": "h3",
+     "key": "mm1t",
+     "text": "S4000 — Axial inserter"
+    },
+    {
+     "t": "p",
+     "key": "mm1d",
+     "text": "The axial workhorse. Taped diodes, resistors and jumper wire at 18,000–20,000 CPH, lead span 5.0–20.0 mm, lead diameter 0.3–0.8 mm, feeder banks from 5 to 60 stations and expandable to 100 inputs, Windows plus EtherCAT control, drawer-style control box for fast maintenance."
+    },
+    {
+     "t": "p",
+     "key": "mm1s",
+     "text": "18,000–20,000 CPH · 5.0–20.0 mm span · 0.3–0.8 mm lead"
+    },
+    {
+     "t": "h3",
+     "key": "mm2t",
+     "text": "S3010A / S-3820A — Radial inserter"
+    },
+    {
+     "t": "p",
+     "key": "mm2d",
+     "text": "A servo radial head indexing in 1° steps across a full 0–360°, spans of 2.5 / 3.5 / 5.0 / 7.5 / 10 mm, 20 stations as standard, multi-point MARK vision correction, and a choice of outward clinch or inward clinch for dense LED layouts."
+    },
+    {
+     "t": "p",
+     "key": "mm2s",
+     "text": "20 stations · 0–360° in 1° steps · 2.5–10 mm span"
+    },
+    {
+     "t": "h3",
+     "key": "mm3t",
+     "text": "S-2000 — Jumper wire inserter"
+    },
+    {
+     "t": "p",
+     "key": "mm3d",
+     "text": "A dedicated platform for copper-tin jumper wire at 22,000 CPH, inserting in parallel at 0° / 90° / 180° / 270°. Clinch length of 1.2–2.2 mm and a 10–35° arc, both adjustable, on wire from 0.5 to 0.7 mm. A 15-minute UPS run-down protects the board if the power fails mid-cycle."
+    },
+    {
+     "t": "p",
+     "key": "mm3s",
+     "text": "22,000 CPH · 0.5–0.7 mm wire · UPS protected"
+    },
+    {
+     "t": "h3",
+     "key": "mm4t",
+     "text": "S7020 series — Pin, eyelet, terminal, tact switch"
+    },
+    {
+     "t": "p",
+     "key": "mm4d",
+     "text": "One chassis, one software, five jobs: change the feeder and the gripper to run S7020T for terminals, S7020E for eyelets, S7020P for pins, S7020S for tact switches or S7020F for odd-form parts. 12,000 CPH, two insertion heads with two reel or bowl feeders, online visual programming, and an insertion angle of 360° in 1° increments."
+    },
+    {
+     "t": "p",
+     "key": "mm4s",
+     "text": "12,000 CPH · 2 heads · 5 variants on one platform"
+    },
+    {
+     "t": "h3",
+     "key": "mm5t",
+     "text": "S7040 / S7900 — Odd-form insertion"
+    },
+    {
+     "t": "p",
+     "key": "mm5d",
+     "text": "Connectors, transformers, relays, fuses and switches, with automatic lead bending in outward, inner, circular and 2-turn modes so parts cannot float at the wave. Tape, tube, bowl and tray feeders share one chassis, the tray feeder carries up to 200 kg, and the platform is designed to work alongside JUKI, Panasonic, FUJI and SIPLACE equipment you already run."
+    },
+    {
+     "t": "p",
+     "key": "mm5s",
+     "text": "4 lead-bend modes · 200 kg tray feeder · 0.8–1.0 s/pc"
+    },
+    {
+     "t": "h3",
+     "key": "mm6t",
+     "text": "S-430AC — Auto lead cutter"
+    },
+    {
+     "t": "p",
+     "key": "mm6d",
+     "text": "Closes the loop after the wave. Adjustable cut height, dust extraction and an in-line layout, so board flatness survives and downstream conformal coating is not compromised by loose lead ends."
+    },
+    {
+     "t": "p",
+     "key": "mm6s",
+     "text": "Post-wave lead cutting · adjustable height · dust extraction"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "spec",
+   "heading": "The published S4000 numbers, exactly as written",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "spec_h2",
+     "text": "The published S4000 numbers, exactly as written"
+    },
+    {
+     "t": "p",
+     "key": "spec_lead",
+     "text": "We would rather hand you the datasheet than a paragraph of adjectives. Everything in the table below comes from the S4000 axial inserter datasheet, revisions v2 and v3. Where the datasheet is silent we say so instead of filling the gap with a number nobody can defend."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "sp_p1",
+        "text": "Model"
+       },
+       {
+        "key": "sp_v1",
+        "text": "S4000 axial auto insertion machine"
+       }
+      ],
+      [
+       {
+        "key": "sp_p2",
+        "text": "Function"
+       },
+       {
+        "key": "sp_v2",
+        "text": "Automatic insertion of axial taped through-hole components into printed circuit boards"
+       }
+      ],
+      [
+       {
+        "key": "sp_p3",
+        "text": "Top speed (specification)"
+       },
+       {
+        "key": "sp_v3",
+        "text": "18,000 – 20,000 CPH"
+       }
+      ],
+      [
+       {
+        "key": "sp_p4",
+        "text": "Component support"
+       },
+       {
+        "key": "sp_v4",
+        "text": "Axial taped diodes, resistors and jumper wire; capacitors, transistors, coils, fuses and switches via accessory tooling"
+       }
+      ],
+      [
+       {
+        "key": "sp_p5",
+        "text": "Lead diameter"
+       },
+       {
+        "key": "sp_v5",
+        "text": "0.3 – 0.8 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp_p6",
+        "text": "Lead span"
+       },
+       {
+        "key": "sp_v6",
+        "text": "5.0 – 20.0 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp_p7",
+        "text": "Insertion direction"
+       },
+       {
+        "key": "sp_v7",
+        "text": "0 – 360°, in 1° increments"
+       }
+      ],
+      [
+       {
+        "key": "sp_p8",
+        "text": "PCB size"
+       },
+       {
+        "key": "sp_v8",
+        "text": "Minimum 50 × 50 mm — maximum 400 × 300 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp_p9",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "sp_v9",
+        "text": "0.79 – 2.36 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp_p10",
+        "text": "Feeder stations"
+       },
+       {
+        "key": "sp_v10",
+        "text": "5 / 10 / 20 / 30 / 40 / 50 / 60 stations available; expandable up to 100 inputs"
+       }
+      ],
+      [
+       {
+        "key": "sp_p11",
+        "text": "Control system"
+       },
+       {
+        "key": "sp_v11",
+        "text": "Windows OS with EtherCAT motion-control card; MES-ready; drawer-style control box"
+       }
+      ],
+      [
+       {
+        "key": "sp_p12",
+        "text": "Programming"
+       },
+       {
+        "key": "sp_v12",
+        "text": "Off-line and on-machine programming; USB and Excel recipe import"
+       }
+      ],
+      [
+       {
+        "key": "sp_p13",
+        "text": "Power"
+       },
+       {
+        "key": "sp_v13",
+        "text": "AC 220 V, 50 Hz, 1.6 kW"
+       }
+      ],
+      [
+       {
+        "key": "sp_p14",
+        "text": "Compressed air"
+       },
+       {
+        "key": "sp_v14",
+        "text": "0.6 – 0.8 MPa"
+       }
+      ],
+      [
+       {
+        "key": "sp_p15",
+        "text": "Footprint"
+       },
+       {
+        "key": "sp_v15",
+        "text": "1700 × 1500 × 1600 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp_p16",
+        "text": "Weight"
+       },
+       {
+        "key": "sp_v16",
+        "text": "880 kg"
+       }
+      ],
+      [
+       {
+        "key": "sp_p17",
+        "text": "In-line integration"
+       },
+       {
+        "key": "sp_v17",
+        "text": "Loader and inloader options; conveyor-ready interfaces for a through-hole cell"
+       }
+      ],
+      [
+       {
+        "key": "sp_p18",
+        "text": "Workmanship"
+       },
+       {
+        "key": "sp_v18",
+        "text": "Free installation and training, 12-month warranty, 7×24 remote support"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "build_h3",
+     "text": "Why the mechanics are built the way they are"
+    },
+    {
+     "t": "h3",
+     "key": "b1t",
+     "text": "Servo-driven, 1° indexing"
+    },
+    {
+     "t": "p",
+     "key": "b1d",
+     "text": "Axial and radial heads index through a full 360° in 1° steps. That range is what lets one head handle both a dense LED grid and an asymmetric polar capacitor without anybody re-tooling the machine or writing a second program."
+    },
+    {
+     "t": "h3",
+     "key": "b2t",
+     "text": "Cut and clinch in the same stroke"
+    },
+    {
+     "t": "p",
+     "key": "b2d",
+     "text": "Lead forming and clinching happen at the insertion position, not at a second station. Leads end up flat against the board and stay there through the wave, which is what protects solder quality downstream."
+    },
+    {
+     "t": "h3",
+     "key": "b3t",
+     "text": "Miss-check at the clinch base"
+    },
+    {
+     "t": "p",
+     "key": "b3d",
+     "text": "The clinching base doubles as a PCB support and an insertion detector. If the part is not fully seated, the machine stops and reports instead of continuing with a hole that is about to become a rework ticket."
+    },
+    {
+     "t": "h3",
+     "key": "b4t",
+     "text": "Multi-point MARK vision correction"
+    },
+    {
+     "t": "p",
+     "key": "b4d",
+     "text": "Vision correction across several fiducials keeps placement repeatable on warped panels and on layouts where a single reference point would drift by the time the head reaches the far corner."
+    },
+    {
+     "t": "h3",
+     "key": "b5t",
+     "text": "Feeder banks that grow with the BOM"
+    },
+    {
+     "t": "p",
+     "key": "b5d",
+     "text": "Feeder stations go from 5 up to 60 from the catalogue, with expansion to 100 inputs. Buy the bank your current BOM needs and add stations when the next product arrives, rather than paying up front for capacity you will not use for two years."
+    },
+    {
+     "t": "h3",
+     "key": "b6t",
+     "text": "Maintenance from the front"
+    },
+    {
+     "t": "p",
+     "key": "b6d",
+     "text": "Drawer-style control boxes and front-accessible feeder banks mean an operator can clear a jam, change a nozzle or swap a clinch jaw without calling an engineer or reaching over a live axis."
+    },
+    {
+     "t": "h3",
+     "key": "elec_h3",
+     "text": "Control, data and the smart-factory handshake"
+    },
+    {
+     "t": "h3",
+     "key": "e1t",
+     "text": "Recipes, not retyping"
+    },
+    {
+     "t": "p",
+     "key": "e1d",
+     "text": "Programs are stored per product and recalled by name. USB and Excel recipe import is the simplest path from your process engineer's spreadsheet to a running machine, and it removes the transcription error that turns into a wrong insertion at 2 a.m."
+    },
+    {
+     "t": "h3",
+     "key": "e2t",
+     "text": "Off-line programming"
+    },
+    {
+     "t": "p",
+     "key": "e2d",
+     "text": "Programs can be prepared away from the machine, so teaching the next product no longer consumes production hours on the inserter itself."
+    },
+    {
+     "t": "h3",
+     "key": "e3t",
+     "text": "MES-ready over EtherCAT"
+    },
+    {
+     "t": "p",
+     "key": "e3d",
+     "text": "Motion control runs on EtherCAT from a Windows industrial PC, which gives you a clean route to MES integration. Standard integration is quoted as a one-month customisation when a bespoke protocol is needed."
+    },
+    {
+     "t": "h3",
+     "key": "e4t",
+     "text": "Alarms that name the axis"
+    },
+    {
+     "t": "p",
+     "key": "e4d",
+     "text": "Faults report the station, the axis and the condition rather than a generic error number, so a maintenance technician can act on the message instead of decoding it."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "matrix",
+   "heading": "Which platform for which component",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "mx_h2",
+     "text": "Which platform for which component"
+    },
+    {
+     "t": "p",
+     "key": "mx_lead",
+     "text": "Five questions decide the machine, and they are all answered by the BOM rather than by preference: what package does the part arrive in, what is the lead span, what is the lead diameter, how many different parts are on the board, and how often does the product change. Read across the row that matches your component and the platform follows."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Component type",
+      "How it arrives",
+      "Platform",
+      "Decisive number"
+     ],
+     "rows": [
+      [
+       {
+        "key": "mx_r1",
+        "text": "Radial capacitors, transistors, diodes, LEDs, transformers"
+       },
+       {
+        "key": "mx_r1b",
+        "text": "Radial tape"
+       },
+       {
+        "key": "",
+        "text": "S3010A / S-3820A"
+       },
+       {
+        "key": "mx_r1d",
+        "text": "2.5–10 mm span · up to 20 mm body height"
+       }
+      ],
+      [
+       {
+        "key": "mx_r2",
+        "text": "Axial diodes, resistors, jumper wire"
+       },
+       {
+        "key": "mx_r2b",
+        "text": "Axial tape"
+       },
+       {
+        "key": "",
+        "text": "S4000"
+       },
+       {
+        "key": "mx_r2d",
+        "text": "5.0–20.0 mm span · 0.3–0.8 mm lead"
+       }
+      ],
+      [
+       {
+        "key": "mx_r3",
+        "text": "Copper-tin jumper wire"
+       },
+       {
+        "key": "mx_r3b",
+        "text": "Wire"
+       },
+       {
+        "key": "",
+        "text": "S-2000"
+       },
+       {
+        "key": "mx_r3d",
+        "text": "22,000 CPH · 0.5–0.7 mm wire"
+       }
+      ],
+      [
+       {
+        "key": "mx_r4",
+        "text": "Terminals, eyelets, pins, tact switches"
+       },
+       {
+        "key": "mx_r4b",
+        "text": "Bowl or reel"
+       },
+       {
+        "key": "",
+        "text": "S7020T / E / P / S"
+       },
+       {
+        "key": "mx_r4d",
+        "text": "12,000 CPH · 2 heads"
+       }
+      ],
+      [
+       {
+        "key": "mx_r5",
+        "text": "Connectors, relays, transformers, fuses, switches"
+       },
+       {
+        "key": "mx_r5b",
+        "text": "Tape, tube, bowl or tray"
+       },
+       {
+        "key": "",
+        "text": "S7900 / S7040"
+       },
+       {
+        "key": "mx_r5d",
+        "text": "4 lead-bend modes · 200 kg tray"
+       }
+      ],
+      [
+       {
+        "key": "mx_r6",
+        "text": "Bulk odd-form parts that feed badly"
+       },
+       {
+        "key": "mx_r6b",
+        "text": "Bulk"
+       },
+       {
+        "key": "",
+        "text": "S7020F"
+       },
+       {
+        "key": "mx_r6d",
+        "text": "5,000 CPH on odd-form packages"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "mx_note",
+     "text": "If your component is not on this list, that is a question for the evaluation rather than the catalogue. Send the part number and the drawing; the answer comes back in the same table format shown above."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "capacity",
+   "heading": "The throughput maths, from a real evaluation",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "cap_h2",
+     "text": "The throughput maths, from a real evaluation"
+    },
+    {
+     "t": "p",
+     "key": "cap_lead",
+     "text": "Throughput claims are easy to write and hard to check, so here is the arithmetic in full. The three rows below come from a 2022 power-supply evaluation covering three different panels through two platforms. Cycle time includes loading and unloading, which is why seconds per component is higher than a bare mechanism figure would suggest — and why the number is usable for planning."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Platform and board",
+      "Insertions",
+      "Cycle time / board",
+      "Seconds / component",
+      "Panels per 20 h day",
+      "Panels per 25-day month"
+     ],
+     "rows": [
+      [
+       {
+        "key": "cap_r1",
+        "text": "S3010A radial — red board"
+       },
+       {
+        "key": "",
+        "text": "32"
+       },
+       {
+        "key": "",
+        "text": "12.12 s"
+       },
+       {
+        "key": "",
+        "text": "0.38 s"
+       },
+       {
+        "key": "",
+        "text": "5,940"
+       },
+       {
+        "key": "",
+        "text": "148,000"
+       }
+      ],
+      [
+       {
+        "key": "cap_r2",
+        "text": "S3010A radial — white board"
+       },
+       {
+        "key": "",
+        "text": "30"
+       },
+       {
+        "key": "",
+        "text": "11.78 s"
+       },
+       {
+        "key": "",
+        "text": "0.39 s"
+       },
+       {
+        "key": "",
+        "text": "6,112"
+       },
+       {
+        "key": "",
+        "text": "152,000"
+       }
+      ],
+      [
+       {
+        "key": "cap_r3",
+        "text": "S4020A axial — yellow board"
+       },
+       {
+        "key": "",
+        "text": "32"
+       },
+       {
+        "key": "",
+        "text": "11.23 s"
+       },
+       {
+        "key": "",
+        "text": "0.35 s"
+       },
+       {
+        "key": "",
+        "text": "6,411"
+       },
+       {
+        "key": "",
+        "text": "160,000"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "cap_note",
+     "text": "How to read this honestly: these are single-board cycle times measured with loading and unloading included, on three specific panels with 30–32 insertions each. Your number will differ, because it depends on insertion count per board, panel size, feeder arrangement and how the board enters and leaves the machine. What the table proves is the method — take insertions per board, divide by measured seconds per component, multiply by the hours you actually run."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "options",
+   "heading": "Configure the line around the panels you actually run",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "opt_h2",
+     "text": "Configure the line around the panels you actually run"
+    },
+    {
+     "t": "p",
+     "key": "opt_lead",
+     "text": "An insertion machine on its own is a machine. An insertion machine with a loader, a conveyor and a lead cutter after the wave is a line that runs without anybody carrying boards. These are the options worth deciding at quotation stage, because retrofitting them later costs more than ordering them together."
+    },
+    {
+     "t": "h3",
+     "key": "o1t",
+     "text": "In-line loader and unloader"
+    },
+    {
+     "t": "p",
+     "key": "o1d",
+     "text": "Magazine loading removes the manual board feed at the head of the cell and the manual unload at the end. It is usually the single biggest labour saving after the inserter itself, because the person who used to move boards is now free for the whole shift."
+    },
+    {
+     "t": "h3",
+     "key": "o2t",
+     "text": "Custom feeder for your part"
+    },
+    {
+     "t": "p",
+     "key": "o2d",
+     "text": "When a component arrives in a package no standard feeder handles, we design one. Custom feeders and grippers are quoted with a one-month customisation lead time, supported by the same mechanical platform as the catalogue items."
+    },
+    {
+     "t": "h3",
+     "key": "o3t",
+     "text": "Inward clinch for dense LED layouts"
+    },
+    {
+     "t": "p",
+     "key": "o3d",
+     "text": "On high-density LED boards the standard outward clinch can interfere with the next lead position. An inward clinch keeps the formed lead inside the component footprint so pitch can be tighter."
+    },
+    {
+     "t": "h3",
+     "key": "o4t",
+     "text": "Lead bending in four modes"
+    },
+    {
+     "t": "p",
+     "key": "o4d",
+     "text": "Outward, inner, circular and 2-turn bending on the odd-form platform so a part cannot lift during wave soldering and cannot foul an adjacent footprint. The bend mode is a program parameter, not a mechanical swap."
+    },
+    {
+     "t": "h3",
+     "key": "o5t",
+     "text": "MES integration"
+    },
+    {
+     "t": "p",
+     "key": "o5d",
+     "text": "Standard integration over the EtherCAT control path, quoted as a one-month customisation when your MES needs a bespoke protocol. The practical version most factories start with is USB or Excel recipe management."
+    },
+    {
+     "t": "h3",
+     "key": "o6t",
+     "text": "Auto lead cutter after the wave"
+    },
+    {
+     "t": "p",
+     "key": "o6d",
+     "text": "The S-430AC trims protruding leads to an adjustable height after soldering, with dust extraction. Skipping this step is what makes people complain about board flatness and about coating defects months later."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "install",
+   "heading": "What your floor needs before the truck arrives",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "ins_h2",
+     "text": "What your floor needs before the truck arrives"
+    },
+    {
+     "t": "p",
+     "key": "ins_lead",
+     "text": "Insertion machines are quieter and less thirsty than a cleaning line, but they still need a level floor, a clean air supply and enough space to open the feeder bank. Getting these six items right before shipping is the difference between commissioning in two days and commissioning in two weeks."
+    },
+    {
+     "t": "h3",
+     "key": "i1t",
+     "text": "Space and floor"
+    },
+    {
+     "t": "p",
+     "key": "i1d",
+     "text": "Budget the machine footprint plus clearance for the feeder bank to open fully and for an operator to work on both sides. A level, vibration-free floor matters more than absolute flatness tolerance; an inserter is sensitive to vibration transmitted through the slab, not to a millimetre of slope."
+    },
+    {
+     "t": "h3",
+     "key": "i2t",
+     "text": "Power"
+    },
+    {
+     "t": "p",
+     "key": "i2d",
+     "text": "Single-phase AC 220 V is all an S4000 needs, at 1.6 kW. Plan a dedicated circuit with a clean earth rather than sharing a noisy supply with welders or compressors, because the control system is what keeps insertion repeatable."
+    },
+    {
+     "t": "h3",
+     "key": "i3t",
+     "text": "Compressed air"
+    },
+    {
+     "t": "p",
+     "key": "i3d",
+     "text": "0.6–0.8 MPa at the machine. Air must be dry and filtered — moisture in the line is a common and entirely avoidable cause of intermittent feeder problems. Bring the supply to the machine position with a service unit at the point of use."
+    },
+    {
+     "t": "h3",
+     "key": "i4t",
+     "text": "Board handling at both ends"
+    },
+    {
+     "t": "p",
+     "key": "i4d",
+     "text": "Decide before shipping whether boards arrive by magazine loader, by hand, or from an upstream conveyor. The machine is inline-ready, but the interface at each end is a choice you make once and live with."
+    },
+    {
+     "t": "h3",
+     "key": "i5t",
+     "text": "Panel capability check"
+    },
+    {
+     "t": "p",
+     "key": "i5d",
+     "text": "Confirm your panels fall inside the machine envelope of 50 × 50 mm minimum to 400 × 300 mm maximum, at 0.79–2.36 mm thickness, with a process edge wide enough for the conveyor. Oversize panels can be accommodated, but that is a configuration question to settle at quotation stage."
+    },
+    {
+     "t": "h3",
+     "key": "i6t",
+     "text": "Air, light and access"
+    },
+    {
+     "t": "p",
+     "key": "i6d",
+     "text": "Plan lighting over the feeder bank, keep the maintenance side clear, and route power and air so nobody has to step over a hose to reach the control panel. Small decisions made on the drawing save a shift of work later."
+    },
+    {
+     "t": "p",
+     "key": "ins_note",
+     "text": "Values above are the published S4000 utilities. Confirm against the current datasheet for your configuration before building the services."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "roi",
+   "heading": "Two ways to look at the payback — both with your numbers",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "roi_h2",
+     "text": "Two ways to look at the payback — both with your numbers"
+    },
+    {
+     "t": "p",
+     "key": "roi_lead",
+     "text": "We are not going to hand you a payback figure and ask you to believe it. The calculator below takes your bench headcount, your loaded wage and your own quotation price, and returns the annual labour the machine addresses and a simple payback. Nothing is pre-filled except the shift pattern, and you can change that too. If the answer looks poor, the honest conclusion is that this is the wrong machine for your volume — and finding that out before you buy is worth more than a flattering slide."
+    },
+    {
+     "t": "h3",
+     "key": "calc_h",
+     "text": "Insertion payback calculator"
+    },
+    {
+     "t": "p",
+     "key": "calc_sub",
+     "text": "Enter your own figures. Nothing is sent anywhere; the arithmetic runs in your browser."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "The machines, photographed on the floor",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "gal_h2",
+     "text": "The machines, photographed on the floor"
+    },
+    {
+     "t": "p",
+     "key": "gal_lead",
+     "text": "Images from the Southern Machinery photo library. Click any image to open it full size."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S4000-Axial-Insertion-machine.png",
+     "alt": "S4000 axial auto insertion machine"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S4000-Axial-Insertion-machine-with-loader--F.png",
+     "alt": "S4000 with in-line loader, front view"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S4000-Axial-Insertion-machine-with-loader--B.png",
+     "alt": "S4000 with in-line loader, rear view"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S4000-Axial-Insertion-machine-with-loader--S.png",
+     "alt": "S4000 with in-line loader, side elevation"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/Axial-Radial-Insertion.png",
+     "alt": "Axial and radial insertion in one through-hole line"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/Auto-Insertion-Line1.png",
+     "alt": "In-line through-hole auto insertion line"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/07/22/S3010A-Radial-Insertion-Machine.png",
+     "alt": "S3010A radial insertion machine"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S3010-Radial-Insertion-Machine.png",
+     "alt": "Radial insertion machine, working position"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "Watch the machines run",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "vid_h2",
+     "text": "Watch the machines run"
+    },
+    {
+     "t": "p",
+     "key": "vid_lead",
+     "text": "Real footage from the Shenzhen factory floor and from customer plants. Click any card to play it here, or open the full channel for the complete library of over a thousand machine videos."
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "xlvFwNTf4_8",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "ok6c-2dFWec",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "ME4DPx-UGsU",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "jI5O2w86n1A",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "WPVHE_AllRc",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "9_mqeJsj9fs",
+     "title": "",
+     "titleKey": "",
+     "duration": ""
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "blog",
+   "heading": "Eight short reads on through-hole assembly",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "blog_h2",
+     "text": "Eight short reads on through-hole assembly"
+    },
+    {
+     "t": "p",
+     "key": "blog_lead",
+     "text": "Everything below is written for the process engineer and the production planner who have to make the machine work after it is installed — not for the person signing the purchase order. Each piece ends with a concrete next step, because an article that leaves you with a feeling instead of an action has wasted your time."
+    },
+    {
+     "t": "p",
+     "key": "blog_note",
+     "text": "This article is published in English. The interface, headings and summaries translate; the full text of the eight articles is kept in English so the technical terminology stays exactly as it is used on the drawing and in the datasheet."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 01The 40-second window: where a through-hole line loses money before the wave",
+     "a": "The insert bench looks busy all shift and still ships late. The reason is rarely effort — it is that the bench has no cycle time, so nobody can see the queue building until the wave starves.Start hereWalk onto the floor at ten in the morning and the insertion bench looks busy. Tray racks are full, four people are moving, boards are stacked between stations. Walk back at ten at night and it still looks busy. And the line still misses the shipping date.That gap — between looking busy and shipping on time — is where a through-hole line loses its money. Not at the wave, not at test, not in the rework bay. It is lost in the forty seconds of unmeasured work that happens before the first board reaches the solder pot, every shift, for years.What is actually happeningA manual insertion bench has no cycle time. That single fact is the whole problem. A machine has a published cycle time; a bench has a best day and a worst day, and nobody can tell you which one today is until the shift is over.Because there is no cycle time, three things follow. First, the queue in front of the wave is invisible — it builds in the gaps between people, not on a conveyor, so no one sees it forming. Second, the wave starves intermittently, and every starvation is a re-heat cycle, an energy cost and a quality risk. Third, and most expensively, capacity planning becomes guesswork, so the factory buys overtime instead of capacity. Overtime is a variable cost that never shows up as an asset on the balance sheet, but it compounds year after year.The uncomfortable part: the operators are not the cause. They are working at a reasonable pace. The problem is that the pace is not a number, so it cannot be planned, improved or quoted against.The methodStop measuring people and start measuring insertions. Three figures convert a bench from an opinion into a process: insertions per board, seconds per component, and effective production hours per shift.Insertions per board comes from the BOM, not from a stopwatch. Count every through-hole part, including the ones you think are too awkward to automate — you need the real total before you can decide what stays manual.Seconds per component needs one honest measurement: run twenty boards and time the whole loop, then divide by total insertions. Include loading and unloading. The number will look worse than you expect, and that is the point — it is the number your planning has been missing.Effective production hours is the hardest of the three, because it means subtracting breaks, shift handover, kitting delays and the time spent recovering from wrong-part errors. Most factories discover that a nominal sixteen-hour day delivers between eleven and thirteen effective hours of insertion.Multiply the three together and you have a real takt. Now the bench has a cycle time, and every conversation afterwards — about capacity, about hiring, about whether to buy a machine — happens with a number on the table instead of an impression.How we run itThis is exactly what our evaluation does. Send the panel dimensions and the BOM; we return insertions per component, the recommended platform for each part, the packaging verdict, cycle time per board including load and unload, and daily and monthly throughput. In one published 2022 evaluation a power-supply panel came back at thirty-two insertions, 12.12 seconds per board, 0.38 seconds per component, 5,940 panels in a twenty-hour day and 148,000 panels a month.The machine that carries the method is whichever platform your span distribution points to — the S4000 for axial tape at 18,000 to 20,000 CPH, or the twenty-station S3010A for radial. What matters is not the model number. It is that the number is now defensible.Keeping it aliveA measured cycle time decays. It decays when a component mix drifts, when a feeder is never cleaned, when a new operator is trained by watching instead of by procedure. Re-measure seconds per component ninety days after commissioning, then twice a year. If the number has moved, you have found the problem early and cheaply.Keep the evaluation table as a living document. When a new product arrives, add its parts to the same table rather than starting a fresh spreadsheet. After three or four products you will be able to see which feeder stations earn their place and which were bought for a model you no longer build.Your next stepSend us one panel drawing and one BOM — the one product that hurts most right now. You will get the same table back: part number, reference, description, span, design change required, platform, packaging, and the throughput that follows. It costs nothing and commits you to nothing, and it replaces the guesswork with a figure you can take to a production meeting this week."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 02Your BOM is not ready for insertion — the eleven things we check before quoting",
+     "a": "Most insertion projects stall on drawing details nobody flagged. Here is the pre-quote checklist we run line by line, and the two items that send more projects back to design than any other.Start hereThe automation project is agreed in principle. Everyone wants it. Then it quietly stops, and six weeks later somebody says the supplier is slow.In our experience the delay is almost never the supplier. It is a drawing detail that nobody flagged as important, discovered after the quotation was requested, which sends the whole thing back to design.What is actually happeningInsertion is unusually unforgiving of missing information, because the machine choice is not a preference — it is a consequence of the parts. Three omissions cause most of the damage.The first is lead-to-lead distance. Plenty of BOMs list a part number and a reference designator and nothing else. Without span, no insertion head can be selected, so no platform can be quoted.The second is packaging. The same electrical part arrives in tape, in a tube, in bulk and on a tray, and each one needs a different feeder. A BOM that says \"22 µF, 25 V electrolytic\" has told you everything about the circuit and nothing about the machine.The third is panel geometry. Lead span inside the envelope means nothing if the panel is 500 mm across and the platform takes 400 mm, or if the process edge is too narrow for the conveyor. These are cheap to fix on a drawing and expensive to discover on a delivery date.The methodRun eleven checks before you ask anybody for a price. One: panel length, width and thickness. Two: process edge width. Three: units per panel. Four: manufacturer part number for every through-hole part. Five: lead-to-lead distance for each. Six: lead diameter. Seven: body height and body diameter for the largest parts. Eight: arrival packaging per part. Nine: how many distinct through-hole parts are on the board in total. Ten: monthly and peak volume. Eleven: how often the product changes, and how many variants share the line.Items five and eight are the ones that send projects back. If you only fix two things this quarter, fix those: get span and packaging onto the drawing for every through-hole part. It costs a day of a process engineer's time and it removes the most common reason insertion projects stall.How we run itWe run this checklist for every enquiry, which is why the reply to your first email is a table and not a price. The table says: this part inserts as drawn, this part needs radial re-tape first, this part goes on a terminal head fed from a bowl, this part stays manual for now.In one 2022 power-supply evaluation the returned table showed twenty-eight parts sorted across three platforms — radial tape, axial, and bowl-fed terminals — with a single design change flagged: one wirewound resistor required radial re-taping before it could be automated. That is the level of detail that prevents a six-week stall, and it was produced before any commercial discussion.Keeping it aliveTurn the checklist into a design rule. Ask your CAD team to make lead-to-lead distance and arrival packaging mandatory fields on the through-hole BOM template. From then on, every new product arrives insertion-ready, and the automation decision becomes a costing exercise rather than a rediscovery exercise.Keep the evaluation tables. They become the reference for the next project, and they show a new product engineer exactly what the machine downstream expects.Your next stepSend whatever you have — a BOM with gaps is still useful, because the gaps are the answer. We will tell you which fields are missing and what they change, and you can fill them in once instead of trading emails for a month."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 03Lead-to-lead distance: the one dimension on the drawing that decides your machine",
+     "a": "Span is not a preference you express to a supplier. It is a physical constraint that selects the insertion head, and getting it wrong is how a project ends up with the wrong platform entirely.Start hereThere is one dimension on a through-hole drawing that decides the machine, and it is the one most often left off the BOM.Lead-to-lead distance. Nobody argues about it, nobody remembers to measure it, and it is the difference between a project that quotes in three days and a project that stalls for two months.What is actually happeningSpan is not a specification you express to a supplier the way you express a colour preference. It is a physical constraint, and it selects the head mechanically.A radial insertion head forms and clinches leads inside a limited window — on the S3010A platform that window is 2.5, 3.5, 5.0, 7.5 or 10 mm. A part with a 20 mm span simply cannot be presented to it. An axial head works the other way: the S4000 handles 5.0 to 20.0 mm, and a part at 2.5 mm is below its range.Terminals, eyelets and pins are a third case again, because they have effectively no span at all. They are not inserted by a forming head; they are picked and placed by a gripper from a bowl or a reel and then clinched with a dedicated base.Get the span wrong and you do not get a slightly worse machine. You get the wrong category of machine, and no amount of programming fixes it.The methodBuild a span histogram before you talk to anybody. Take every through-hole part on the board, measure the lead-to-lead distance, and put each one in a bucket: under 3 mm, 3 to 5 mm, 5 to 10 mm, 10 to 20 mm, over 20 mm, and no-span (terminals, eyelets, pins, tact switches).The histogram tells you the answer directly. If most of your volume sits in the 5 to 20 mm buckets, the axial platform carries the project. If it sits in the 2.5 to 10 mm buckets, it is radial. If the no-span bucket is large — and on power supplies and appliance controllers it often is — you need a terminal platform as well.Then check the constraint that catches people out: a part can sit inside a head's span range and still be outside its body limit. The S3010A takes component bodies up to 20 mm high and 10 mm in diameter. A large axial capacitor with a wide span may be geometrically fine and mechanically impossible.How we run itThe S4000 covers 5.0 to 20.0 mm at a lead diameter of 0.3 to 0.8 mm. The S3010A covers 2.5 to 10 mm with outwards clinch as standard and inwards clinch for dense LED layouts. The S7020T takes terminals from a bowl or a reel at 12,000 CPH with two heads. Between those three, most of the through-hole BOM in appliance, power-supply and LED work is covered.Where a part falls outside all three, we say so. The options are to change the packaging so it becomes insertable, design a custom feeder, or leave it on a manual bench — and the right answer is often the third, because not every component is worth automating.Keeping it alivePut span on the drawing, and put it on the drawing in a way that survives a revision. A span measurement in a comment box gets lost. A dimension on the through-hole layer travels with the design.Then review the histogram once a year against your actual product mix. Span distribution moves as a product family matures, and a line that was correctly configured for an axial-heavy mix can end up radial-heavy two years later without anyone noticing.Your next stepSend the BOM and the panel drawing. We will return the span histogram with each part assigned to a platform, and flag every part where the design needs a change before it can be automated. You will know, in writing, exactly which parts are machine-insertable and which are not."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 04How to read a CPH claim without being fooled",
+     "a": "The big number on the datasheet is not the number you will run. Here is how to convert a headline speed claim into a number you can put in front of a production planner.Start hereThe datasheet says twenty thousand components an hour. Your line will not run twenty thousand components an hour, and the supplier who told you it would knows that.Headline CPH is a mechanism rate. It is measured with one component, no board change, no loading, no unloading, and nothing going wrong. It is a real number about a real thing — it is just not your number.What is actually happeningThree things sit between headline CPH and your output, and all three are measurable.The first is board handling. Every board must arrive, be located on a mark, be inserted, and leave. On a thirty-insertion panel that handling is a large fraction of the cycle, which is why our published evaluation reports twelve seconds per board and 0.38 seconds per component rather than a components-per-hour figure alone. The two figures describe the same machine, and only one of them plans a shift.The second is changeover. A line that runs five variants a week spends real hours on kitting, program verification and first-article checks. None of that appears in a CPH figure.The third is recovery. When a part misses, the machine stops, an operator investigates, and production pauses. A machine with a miss-check is safer than one without, but every stop is still time you have to account for.The methodConvert the claim into a planning number in four steps.One: take components per board, not per hour. Two: get measured seconds per component from a real run, including load and unload, or ask the supplier to publish one. Three: compute the theoretical rate — 3600 divided by seconds per component gives components per hour, and that divided by components per board gives boards per hour. Four: apply an effectiveness factor for changeover and recovery, and use hours you actually run rather than hours the building is open.Do that and a 20,000 CPH claim becomes something honest, like six thousand panels a day on a specific product. The second number is worth less in a brochure and considerably more in a production meeting.How we run itThis is why our evaluation table publishes cycle time per board with loading and unloading included, and then converts it to seconds per component and monthly throughput. On two radial panels from the same 2022 evaluation, 32 insertions ran at 12.12 seconds and 30 insertions at 11.78 seconds — different boards, different times, both usable for planning. A yellow panel through an axial platform with 32 insertions came back at 11.23 seconds, giving 6,411 panels in twenty hours.Note what those numbers do not claim. They are not the machine's maximum. They are what that product did, measured, end to end. That is the only kind of number a planner can use.Keeping it aliveMeasure seconds per component once a quarter and write it down. Not to police the operators — to catch drift. A feeder pitch that has slowly moved, a clinch jaw that has worn, a nozzle that no longer picks cleanly: none of these stop the machine, and all of them lengthen the cycle.When the quarterly figure is within a few per cent of commissioning, leave the machine alone. When it is not, you have a maintenance question with evidence, which is much easier to escalate than a feeling.Your next stepAsk us for seconds per component on your own BOM rather than a top-speed figure. Send the BOM and the panel drawing and the evaluation will come back with the number that matters for your schedule — and with the assumptions written out so you can challenge them."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 05The changeover tax: what a five-variant week really costs",
+     "a": "High-mix factories lose more to changeover than to base cycle time. The fix is not a faster machine — it is a machine whose recipes can be switched without touching the mechanics.Start hereFive product variants a week. On paper that is a flexible factory. In practice it is five setups, five first-article checks and five slow ramps back to full speed — and the cost of all of it lands on whoever is standing at the machine.What is actually happeningChangeover cost is usually accounted for wrongly. Factories measure the time the machine is stopped and call that the changeover cost. The stopped time is the smaller half.The bigger half is the re-baseline. After a changeover the process has to find its rhythm again: the first boards run slower, quality checks are denser, and scrap is higher until the line settles. On a manual bench that re-baseline is invisible because there was never a baseline to begin with. On an automated line it is measurable — and measurable means it can be reduced.There is a third element that nobody books anywhere: the knowledge cost. If changing the product requires a mechanical adjustment, only the engineer who made that adjustment last time knows how it is done. When that person is on leave, the line waits.The methodTreat the recipe as the asset and the machine as the thing that runs it. Then changeover becomes a data problem rather than a mechanical one.Practical steps. One: store every product as a named program with its own feeder map and insertion coordinates. Two: keep feeder banks sized to the union of your variants, not to your largest single variant, so the common parts never have to be unloaded. Three: verify a new program off-line before it reaches the machine. Four: keep a first-article procedure that is fast and specific, so the re-baseline is short and repeatable rather than a matter of judgement. Five: write down every mechanical adjustment and who is qualified to make it, so a holiday does not stop the line.How we run itThe S4000 platform is built around this. Programs are stored per product and recalled by name; recipes import over USB or from Excel; programming can be prepared off-line so teaching the next product does not consume production hours. Feeder stations run from five up to sixty from the catalogue with expansion to 100 inputs, which is what makes it practical to keep common feeders loaded across variants.The odd-form platforms add the same principle to awkward parts: lead bending in outward, inner, circular and 2-turn modes is a program parameter, not a mechanical swap. That is the difference between a five-minute changeover and a fifty-minute one.Keeping it aliveRecipes rot. Somebody edits one on the machine, the edit is not recorded, and the next run behaves differently from the last. Keep the recipe library under the same revision control as your drawings, and make it somebody's named responsibility.Review the feeder map once a quarter against actual variant mix. Feeders that never get used are occupying stations that a new product needs, and the cost of that is paid in changeover time rather than in capital.Your next stepSend us your variant list along with the BOM for your highest-runner product, and say how many variants share a line. We will size the feeder bank so that changeover stops being the thing your production meetings are about."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 06Seven components that quietly eat your insertion capacity",
+     "a": "A short list of part types that look like they should automate and then do not. Recognising them early is how you avoid buying a platform that only solves eighty per cent of the board.Start hereYou automate the easy eighty per cent and the line still does not speed up. It is not the machine's fault. It is the twenty per cent that nobody costed.There is a predictable list of components that look insertable, are insertable with the right approach, and are quietly left on a manual bench — where they cap the whole line's output.What is actually happeningA line is as fast as its slowest remaining manual step. Automated insertion can remove 28 of 32 insertions and the line output barely moves, because four parts still need a person, and that person still needs the board to stop.The parts that end up in the residual bucket are usually these seven. Bulk terminals that arrive loose in a bag and jam every standard feeder. Odd-form relays and transformers with long, easily bent leads. Tact switches that must sit perfectly square to be actuated. Tube-fed parts that no tape feeder accepts. Tray components too large and too heavy for a tape pocket. Jumper wire, which is not a component at all in the usual sense. And asymmetric-span capacitors that are technically in range but not at the standard pitch.None of these are exotic. They are ordinary production content, and they are the reason a project that was justified on eighty per cent of the board fails to deliver.The methodSort the residual by arrival packaging, not by component type. Packaging is what determines the feeder, and the feeder determines the platform.Loose bulk goes to a bowl feeder, which orients parts by shape and hands them to a gripper. Tube-fed parts go to a tube feeder. Large tray parts go to a tray feeder with enough load capacity to hold a full shift. Parts with long leads go to an odd-form platform with programmable lead bending so they cannot lift at the wave. Wire goes to a dedicated wire platform. Do that sort and the twenty per cent stops looking like a miscellaneous problem and starts looking like three or four specific feeders.How we run itThe S7020F handles bulk odd-form parts from a bowl at 5,000 CPH. The S7040 and S7900 platforms take connectors, relays, transformers, fuses and switches from tape, tube, bowl or tray on one chassis, with a tray feeder rated to 200 kg and lead bending in four modes. The S-2000 takes jumper wire on its own platform at 22,000 CPH.Where a part arrives in a package no standard feeder handles, we design the feeder. That is quoted with a one-month customisation lead time, and it is usually the difference between a line that reaches its target and one that runs at eighty per cent of it forever.Keeping it aliveAdd a residual review to your quarterly process meeting. List every through-hole part still inserted by hand, with its monthly volume, and decide for each one whether it is cheaper to automate it, change its packaging, or deliberately keep it manual.Keeping a part manual deliberately is a perfectly good decision — as long as it is a decision, and as long as somebody has done the arithmetic. The expensive version is the part that stays manual because nobody looked.Your next stepSend the BOM and mark the parts you currently insert by hand. We will come back with the ones that can move to a machine, the feeder or packaging change each one needs, and an honest verdict on the parts where automation will not pay."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 07After automation: what happens to the people who used to insert",
+     "a": "The honest conversation about redeployment, reskilling and the roles that appear when a manual bench becomes a machine-supported cell.Start hereIt is the question everybody at the machine is thinking and nobody asks in the quotation meeting: what happens to the people who used to insert?Handled badly, that question kills projects — or, worse, the project proceeds and the workforce resists it quietly for years. Handled well, it is the single strongest argument for buying the machine.What is actually happeningInsertion is skilled, repetitive work, and the people who do it know the product better than almost anyone in the building. They know which part is awkward, which feeder jams, and which panel arrives warped. That knowledge is an asset, and automation projects that treat it as a redundancy problem throw it away.The technical risk of ignoring this is not sentiment, it is drift. A machine with no experienced operator watching it will slowly lose cycle time: a feeder that jams twice a shift goes unreported, a nozzle that picks badly goes unnoticed, and the quarterly measurement shows the decline six months later.The other risk is real and should be named honestly: not every insertion position converts into a machine-operating position. Automation genuinely reduces headcount on the bench. The useful question is not whether that is true, but what you do with the people it affects.The methodDecide the route before you order the machine, not after it arrives. Three routes, and most factories use all three at once.Route one: redeploy into functions automation creates more demand for. More boards through the line means more inspection, more first-article work, more packing and more quality documentation — all manual, all needing product knowledge.Route two: upskill into machine operation and maintenance. A former inserter who understands the product makes a strong insertion-machine operator, and the S7020-series platform is designed so a new operator can be production-trained in one day. Maintenance is a bigger step and needs a plan, but feeder and nozzle work is learnable in weeks, not years.Route three: attrition and redeployment rather than forced release. Offer the conversion, do not impose it. And name a schedule, because uncertainty costs more goodwill than a difficult answer.How we run itTraining is included and it is run on your own BOM, not on a sample board, which means your operators learn on the parts they will actually run. Installation and training are free of charge, and for the S7020 series a new operator is expected to reach production pace within one day.What we cannot do is manage your redeployment. That is a decision for your production and HR teams, and it should be made before the purchase order, not after the installation.Keeping it aliveBuild a cross-training matrix and keep it current. Every operator should be able to run two platforms and perform first-level feeder maintenance. A single person who knows everything is a single point of failure whether or not you own a machine.Give one person named ownership of the spares and consumables stock. On the S7020 platform the reference maintenance budget is around five hundred dollars per unit per month, with standard spare parts dispatched from Shenzhen in one day — but only if somebody notices that stock is running down before it runs out.Your next stepIf the workforce question is what is blocking the decision, say so when you contact us. We will give you the training scope, the expected ramp time and the operator skill profile in writing, so the conversation inside your factory happens with facts rather than fear."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 08Six months in: the maintenance rhythm that keeps an inserter at rated speed",
+     "a": "Insertion machines do not fail suddenly, they drift. The short, regular checks that catch drift before it turns into a shift of unplanned downtime.Start hereInsertion machines do not usually break. They drift.Cycle time creeps up three per cent, then five, then twelve, and nobody notices because nothing has failed. Six months later the line is missing targets and the machine is blamed for something that was a maintenance question from the beginning.What is actually happeningDrift has a small number of sources, and they are all predictable.Feeder pitch moves as tapes are changed thousands of times. Clinch jaws wear at the contact faces, so leads are formed slightly less tightly. Nozzles and grippers accumulate dust and lose pick reliability. Vision systems get contaminated and start needing more correction attempts. Compressed air carries moisture if the line is not dry, which produces intermittent faults that are almost impossible to diagnose without knowing where to look. And belts and guides move as the machine settles in its first year.Each of these is trivial on its own and invisible in combination, because no single one produces a stop.The methodPut the checks on a schedule, keep the actions short, and write down what you find.Daily, at shift start: confirm the air supply is dry and at pressure, check that the machine has homed cleanly, and confirm the day's recipe is the one you think it is.Weekly: inspect the clinch jaws and the insertion nozzle or gripper for wear, clean the vision lens and the MARK camera, and run a short first-article check on the current product. Fifteen minutes.Monthly: measure seconds per component on a fixed product and compare it with the commissioning figure. Clear and check every feeder that has been used. Inspect belts, guides and the board support for play.Quarterly and annually: replace consumables on a schedule rather than on failure — cutter and clinch components, filters, worn tapes and nozzles. Have the axis positioning verified. Trend the measurements rather than judging any single one in isolation.How we run itThe S4000 and S7900 platforms are built for this maintenance rhythm: drawer-style control boxes, front-accessible feeder banks, and boards that can be cleared without an engineer. Standard spare parts are dispatched from our Shenzhen stock in one day, so a worn clinch jaw does not become a two-week wait.The reference maintenance budget for the S7020 platform is about five hundred dollars per unit per month. We will hand you the recommended spares list for your own configuration before the machine ships, so the first year is planned rather than reactive.Keeping it aliveKeep a machine log and write the measured figure in it every month, even when it is good. A number that has been stable for a year is evidence, and when it moves you will be able to say when it moved and by how much — which turns a vague complaint into a service request with a diagnosis attached.Book the quarterly checks into the production calendar as real time, not as something to do when the line is quiet. Lines are never quiet.Your next stepAsk us for the maintenance schedule and the recommended spares list for the platform you are considering. It is the least glamorous document we publish and, over a ten-year asset life, probably the one that decides how much the machine actually costs you."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "downloads",
+   "heading": "Take the documents with you",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "dl_h2",
+     "text": "Take the documents with you"
+    },
+    {
+     "t": "p",
+     "key": "dl_lead",
+     "text": "Manuals, datasheets, an ROI worksheet and interactive 3D models. Business documents are hosted on the Southern Machinery file server, which also holds the full product catalogue for the whole SMT and THT range."
+    },
+    {
+     "t": "h3",
+     "key": "dl1t",
+     "text": "S4000 axial insertion machine — user manual"
+    },
+    {
+     "t": "p",
+     "key": "dl1d",
+     "text": "The complete operator and maintenance manual for the S4000 platform, including installation, programming and service sections."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Open"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "dl2t",
+     "text": "S-4000H jumper wire axial inserter"
+    },
+    {
+     "t": "p",
+     "key": "dl2d",
+     "text": "Product document for the jumper wire variant of the axial insertion platform, with tooling and feeder details."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Open"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "dl3t",
+     "text": "SAF1001 axial tape feeder"
+    },
+    {
+     "t": "p",
+     "key": "dl3d",
+     "text": "Presentation document for the SAF1001 axial tape feeder, including feeder mechanics, pitch settings and teaching material."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Open"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "dl4t",
+     "text": "Auto insertion readiness checklist"
+    },
+    {
+     "t": "p",
+     "key": "dl4d",
+     "text": "A one-page checklist for the drawing and BOM details that decide whether a component can be machine-inserted. Useful before you talk to any supplier."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Open"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "dl5t",
+     "text": "THT auto insertion ROI worksheet"
+    },
+    {
+     "t": "p",
+     "key": "dl5d",
+     "text": "A spreadsheet version of the payback method shown above, with room for scrap reduction and throughput gain alongside the labour saving."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Open"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "dl6t",
+     "text": "3D models — axial, radial, pin and eyelet insertion"
+    },
+    {
+     "t": "p",
+     "key": "dl6d",
+     "text": "Interactive 3D views of the axial and radial insertion line, the THT pin and eyelet insertion machine, and the S7020T terminal insertion platform."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Axial + radial PCBA 3D"
+      },
+      {
+       "key": "",
+       "text": "PIN / eyelet 3D"
+      },
+      {
+       "key": "",
+       "text": "S-7020T terminal 3D"
+      },
+      {
+       "key": "",
+       "text": "Axial taped feeder 3D"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Full YouTube video board — over a thousand machine videos"
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Full product catalogue board — every document we publish"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "Open",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Manual/S4000+Axial+Insertion+Machine+Users+Manual.doc"
+    },
+    {
+     "label": "Open",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S-4000H%20Jumper%20Wire%20Axial%20Inserter.pdf"
+    },
+    {
+     "label": "Open",
+     "url": "https://file.autoinsertion.com/public/SMThelp%20Machine%20Presentation/SAF1001%20AXIAL%20TAPE%20FEEDER.pdf"
+    },
+    {
+     "label": "Open",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/auto-insertion-readiness-checklist.pdf"
+    },
+    {
+     "label": "Open",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/THT-Auto-Insertion-ROI-Worksheet.xlsx"
+    },
+    {
+     "label": "Axial + radial PCBA 3D",
+     "url": "https://file.autoinsertion.com/public/SMT%20machine%203D%20Drawing%20in%20Html/THT%20axial%20radial%20PCBA.html"
+    },
+    {
+     "label": "PIN / eyelet 3D",
+     "url": "https://file.autoinsertion.com/public/SMT%20machine%203D%20Drawing%20in%20Html/THT%20PIN%20Eyelet%20Insertion%20machine.html"
+    },
+    {
+     "label": "S-7020T terminal 3D",
+     "url": "https://file.autoinsertion.com/public/SMT%20machine%203D%20Drawing%20in%20Html/S-7020T_Terminal_insertion.html"
+    },
+    {
+     "label": "Axial taped feeder 3D",
+     "url": "https://file.autoinsertion.com/public/SMT%20machine%203D%20Drawing%20in%20Html/SMThelp%20Axial%20taped%20feeder.html"
+    },
+    {
+     "label": "Full YouTube video board — over a thousand machine videos",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-YouTube-Video-Board.html"
+    },
+    {
+     "label": "Full product catalogue board — every document we publish",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-Product-Catalog-Board.html"
+    }
+   ]
+  },
+  {
+   "id": "service",
+   "heading": "What comes with the machine",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "svc_h2",
+     "text": "What comes with the machine"
+    },
+    {
+     "t": "p",
+     "key": "svc_lead",
+     "text": "An insertion machine is a ten-year asset, and the difference between a good purchase and a bad one shows up in year three, not in week one. These are the commitments we make in writing."
+    },
+    {
+     "t": "h4",
+     "key": "s1t",
+     "text": "Free installation and training"
+    },
+    {
+     "t": "p",
+     "key": "s1d",
+     "text": "An engineer commissions the machine at your factory and trains your operators on your own BOM rather than a sample board. S7020-series machines are designed so a new operator can be trained in one day."
+    },
+    {
+     "t": "h4",
+     "key": "s2t",
+     "text": "Spare parts from Shenzhen in one day"
+    },
+    {
+     "t": "p",
+     "key": "s2d",
+     "text": "Standard spare parts dispatch in one day from our Shenzhen stock, with a reference maintenance budget of about $500 per unit per month on the S7020 platform. We will give you the recommended spares list for your configuration before shipping."
+    },
+    {
+     "t": "h4",
+     "key": "s3t",
+     "text": "Twelve-month warranty and one-month customisation"
+    },
+    {
+     "t": "p",
+     "key": "s3d",
+     "text": "A standard 12-month warranty on the machine, plus a one-month lead time on customer-specific tooling, feeders and grippers. The customisation route is the same engineering team that builds the standard machines, which is why it takes weeks rather than quarters."
+    },
+    {
+     "t": "h4",
+     "key": "s4t",
+     "text": "7×24 remote support across your shift pattern"
+    },
+    {
+     "t": "p",
+     "key": "s4d",
+     "text": "Remote diagnosis with the Shenzhen engineering team, covering customers across South-East Asia, India, the Middle East, Europe and Latin America. For a machine issue that cannot be resolved remotely, an engineer travels."
+    },
+    {
+     "t": "p",
+     "key": "svc_note",
+     "text": "Spare-parts lead times, warranty terms and the maintenance budget quoted above are catalogue and field references. Confirm them in writing against your own configuration and contract."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faq",
+   "heading": "Questions buyers ask before signing",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "faq_h2",
+     "text": "Questions buyers ask before signing"
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Which insertion machine fits my board?",
+     "a": "Send the panel drawing and the BOM: manufacturer part number, reference designator, description, lead-to-lead distance, and the panel dimensions plus units per panel. We return a component-by-component evaluation naming the recommended platform for each part, the packaging it needs, and any design change required first. That table is the answer, and it takes one to two working days."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How many operators does one insertion machine actually replace?",
+     "a": "The catalog reference for the S7020 platform is at least ten manual operators per machine. In practice, factories typically retire seven to ten manual insertion positions depending on shift pattern and insertion count per board. Treat it as a starting point for your own model, not a promise — the calculator above uses your headcount and your wage, and that figure is the one to take to a finance meeting."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "My components are odd shapes. Can they still be inserted automatically?",
+     "a": "Often yes, and this is exactly what the S7020F, S7040 and S7900 platforms exist for. Connectors, transformers, relays, fuses and switches can be fed from tape, tube, bowl or tray feeders on one chassis, with lead bending in outward, inner, circular and 2-turn modes. The honest answer depends on the specific part, which is why the evaluation starts from part numbers rather than from a category."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What does my PCB design have to comply with?",
+     "a": "The insertion hole should be roughly 0.5 ± 0.1 mm larger than the component lead, component bodies need at least 2 mm clearance from each other on the S7020 platform, and lead-to-lead span must fall inside the span range of the head you are using — 5.0–20.0 mm for axial, 2.5–10 mm for radial. We will send the through-hole design guideline and the bend-mechanism specification to your design team before you commit to a layout."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How does the machine connect to our MES?",
+     "a": "The S4000 and S7900 platforms run Windows industrial PCs with EtherCAT motion control, which gives a clean integration path. The fastest route, and the one most factories start with, is USB or Excel recipe management. A bespoke MES protocol is quoted as a one-month customisation. We will not overstate what is plug-and-play: integration work is real work, and we scope it before quoting it."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Will it fit into the line we already run?",
+     "a": "The insertion machines are inline-ready with conveyor interfaces, and our feeders, grippers and odd-form modules are designed to work alongside JUKI, Panasonic, FUJI and SIPLACE equipment. The practical question is board handling at each end — magazine loader, manual feed or upstream conveyor — and that is decided at quotation stage because it changes what you order."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How does Southern Machinery compare with JUKI, Yamaha or Universal?",
+     "a": "We will not pretend we are the same company. The global brands have deeper installed bases and longer histories. Our position is specific: lower capital cost than the established Japanese and American platforms, spare parts dispatched from Shenzhen in one day rather than shipped from another continent, and a customisation cycle measured in weeks because the head, feeder and software are all designed in-house. If your project needs a machine we do not make, we will say so."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can you retrofit machines we already own?",
+     "a": "Yes. We supply loader and unloader retrofits for legacy UIC and Universal insertion machines, validated in 2017 and 2020 programmes, plus radial 3.5 mm retrofits and custom feeders that bring older chassis back to current production spec. Retrofitting is usually cheaper than replacing a machine that still has a straight frame and working axes."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What is the real lead time and what does it include?",
+     "a": "Standard machines ship from Shenzhen with free installation and training included, and S7020-series operators are production-ready in one day. Customer-specific tooling, feeders and grippers carry a one-month customisation lead time. Spare parts dispatch in one day. Lead time and delivery terms are confirmed in writing on your quotation — we do not quote dates in a web page."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What happens if the numbers above do not work for us?",
+     "a": "Then the honest answer is that this machine is not right for your volume, and you have saved the cost of finding out the hard way. Run the calculator with your own figures. If the payback sits beyond two years on labour saving alone, look at the larger bottleneck first — the wave, the lead cutter, or the board handling at each end of the line. We would rather sell you the right machine next year than the wrong one this quarter."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Tell us the board. We will tell you what the line looks like.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "ct_h2",
+     "text": "Tell us the board. We will tell you what the line looks like."
+    },
+    {
+     "t": "p",
+     "key": "ct_lead",
+     "text": "One sales engineer owns your project from the first reply through commissioning and the first year of production. No call-centre handoffs, no time-zone relay race. Send the panel drawing and the BOM and you will get the evaluation table back."
+    },
+    {
+     "t": "h3",
+     "key": "form_subject",
+     "text": "Free through-hole insertion evaluation"
+    },
+    {
+     "t": "p",
+     "key": "form_note",
+     "text": "Attach or paste your BOM and panel drawing dimensions. Reply within one working day."
+    },
+    {
+     "t": "link",
+     "key": "wa_btn",
+     "href": "https://wa.me/8613602562576",
+     "text": "Chat on WhatsApp"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  }
+ ]
+}

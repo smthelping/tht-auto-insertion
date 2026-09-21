@@ -1,0 +1,51 @@
+---
+export interface Props {
+  docs: { label: string; url: string }[];
+  heading?: string;
+  intro?: string;
+}
+
+const { docs, heading, intro } = Astro.props;
+
+// Deduplicate on the file name so a document linked from two blocks shows once.
+const seen = new Set<string>();
+const items = docs
+  .filter((doc) => {
+    if (seen.has(doc.url)) return false;
+    seen.add(doc.url);
+    return true;
+  })
+  .slice(0, 30);
+
+const fileType = (url: string) => {
+  const name = decodeURIComponent(url.split('/').pop() || '');
+  const ext = name.includes('.') ? name.split('.').pop()!.toLowerCase() : 'link';
+  return ext === 'html' ? 'page' : ext;
+};
+---
+
+{
+  items.length > 0 && (
+    <div class="max-w-4xl">
+      {heading && <h2 class="mb-3 text-2xl font-bold text-heading md:text-3xl">{heading}</h2>}
+      {intro && <p class="mb-6 text-muted">{intro}</p>}
+      <ul class="grid list-none gap-3 p-0 sm:grid-cols-2">
+        {items.map((doc) => (
+          <li>
+            <a
+              class="flex items-start gap-3 rounded-lg border border-gray-200 bg-white px-4 py-3 transition hover:border-primary dark:border-slate-700 dark:bg-slate-800"
+              href={doc.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="mt-0.5 rounded bg-primary/10 px-2 py-0.5 text-xs font-bold uppercase text-primary">
+                {fileType(doc.url)}
+              </span>
+              <span class="font-medium text-heading">{doc.label}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}

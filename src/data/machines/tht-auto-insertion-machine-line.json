@@ -1,0 +1,483 @@
+{
+ "slug": "tht-auto-insertion-machine-line",
+ "category": "line",
+ "title": "Southern Machinery | Automated THT PCB Insertion Line Solutions",
+ "description": "",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/tht-auto-insertion-machine-line.html",
+ "heroImage": "",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "",
+   "heading": "Reduce THT Assembly Costs by 70%",
+   "nodes": [
+    {
+     "t": "h1",
+     "key": "",
+     "text": "Reduce THT Assembly Costs by 70%"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Transform your EMS factory with Southern Machinery’s fully automated THT PCB insertion line. Boost speed, precision, and profitability."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "features",
+   "heading": "The Future of EMS Manufacturing",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "The Future of EMS Manufacturing"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Key advantages of our automated THT insertion line."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "High Throughput"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Drastically increase production speed with insertion rates up to 24,000 CPH."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Cost Reduction"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Slash labor costs and minimize material waste with high-precision automation."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Enhanced Quality"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Achieve superior consistency and reliability with vision-guided insertion."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Total Automation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A complete, seamless solution from PCB loading to unloading."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "solution",
+   "heading": "Our Complete THT Auto Insertion Line",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Our Complete THT Auto Insertion Line"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A seamless, integrated process for maximum efficiency."
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "PCB Loading"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "SLD250 Loader"
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "Axial Inserter"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "S4020A"
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "Radial Inserter"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "S3010A"
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "Odd Form Inserter"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "S7900"
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "PCB Unloading"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "SUL250 Unloader"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "specs",
+   "heading": "Machine Specifications",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Machine Specifications"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Detailed technical data for each component of the THT line."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Machine",
+      "Model",
+      "Dimensions (mm)",
+      "PCB Size (mm)",
+      "Speed",
+      "Key Features"
+     ],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "PCB Loader"
+       },
+       {
+        "key": "",
+        "text": "SLD250"
+       },
+       {
+        "key": "",
+        "text": "1150 x 750 x 1350"
+       },
+       {
+        "key": "",
+        "text": "50x50 ~ 530x250"
+       },
+       {
+        "key": "",
+        "text": "N/A"
+       },
+       {
+        "key": "",
+        "text": "Automated feeding"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Axial Inserter"
+       },
+       {
+        "key": "",
+        "text": "S4020A"
+       },
+       {
+        "key": "",
+        "text": "1750 x 1300 x 1600"
+       },
+       {
+        "key": "",
+        "text": "50x50 ~ 350x250"
+       },
+       {
+        "key": "",
+        "text": "Up to 24,000 CPH"
+       },
+       {
+        "key": "",
+        "text": "20 stations, 5-20mm span"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Radial Inserter"
+       },
+       {
+        "key": "",
+        "text": "S3010A"
+       },
+       {
+        "key": "",
+        "text": "1750 x 1300 x 1600"
+       },
+       {
+        "key": "",
+        "text": "50x50 ~ 350x250"
+       },
+       {
+        "key": "",
+        "text": "Up to 20,000 CPH"
+       },
+       {
+        "key": "",
+        "text": "10 stations, 5-30mm span"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Terminal Inserter"
+       },
+       {
+        "key": "",
+        "text": "S7020T"
+       },
+       {
+        "key": "",
+        "text": "1450 x 1300 x 1600"
+       },
+       {
+        "key": "",
+        "text": "80x80 ~ 380x280"
+       },
+       {
+        "key": "",
+        "text": "0.6s/point"
+       },
+       {
+        "key": "",
+        "text": "Intelligent insertion control"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Odd Form Inserter"
+       },
+       {
+        "key": "",
+        "text": "S7900"
+       },
+       {
+        "key": "",
+        "text": "3100 x 1300 x 1600"
+       },
+       {
+        "key": "",
+        "text": "50x50 ~ 550x450"
+       },
+       {
+        "key": "",
+        "text": "0.7s/material"
+       },
+       {
+        "key": "",
+        "text": "Vision system, dual machines"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB Unloader"
+       },
+       {
+        "key": "",
+        "text": "SUL250"
+       },
+       {
+        "key": "",
+        "text": "1550 x 750 x 1350"
+       },
+       {
+        "key": "",
+        "text": "50x50 ~ 530x250"
+       },
+       {
+        "key": "",
+        "text": "N/A"
+       },
+       {
+        "key": "",
+        "text": "Automated collection"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faq",
+   "heading": "Frequently Asked Questions",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Frequently Asked Questions"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Your questions, answered."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What is THT automatic assembly?",
+     "a": "THT automatic assembly automates the insertion of leaded components into a PCB. Our machines handle this entire process, increasing production speed, accuracy, and efficiency while significantly reducing labor costs."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What are the benefits of using your machines?",
+     "a": "Key benefits include drastically increased production speed, improved placement accuracy, reduced labor costs, enhanced overall product quality and reliability, and a shorter lead time for your projects."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Which industries benefit most?",
+     "a": "Our solutions are ideal for a wide range of industries, including consumer electronics, automotive electronics, industrial automation, aerospace, telecommunications, and medical devices."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How does insertion force monitoring improve quality?",
+     "a": "This feature ensures components are inserted with the correct force, preventing damage to the component or PCB. It detects issues like improper seating or bent leads, improving the overall reliability of the assembly."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "matched-resources",
+   "heading": "Watch it running",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Watch it running"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Machine footage from our YouTube channel, matched to this page."
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Product documentation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Catalogues, manuals and ROI sheets from the product catalog board."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "THT Auto Insertion Machine Solution (HTML) ↓"
+      },
+      {
+       "key": "",
+       "text": "S3010A Radial Auto Insertion Landing Page (HTML) ↓"
+      },
+      {
+       "key": "",
+       "text": "S7900 Odd Form Insertion Machine Landing Page (HTML) ↓"
+      },
+      {
+       "key": "",
+       "text": "THT-Insertion ROI Calculator (XLSX) ↓"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Sources: YouTube video board · product catalog board · machine photo library"
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "0k4U5NLKq4k",
+     "title": "How China made Auto Insertion machine for Smart EMS factory PCB assembly"
+    },
+    {
+     "id": "KtJF9zqHnXw",
+     "title": "10x cost saving Southern Machinery made Auto Insertion machine"
+    },
+    {
+     "id": "4O5ZjZ5CwAg",
+     "title": "Radial lead Taped component feeder for Smart EMS factory PCB assembly"
+    }
+   ],
+   "docs": [
+    {
+     "label": "THT Auto Insertion Machine Solution (HTML) ↓",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/THT-Auto-Insertion-Machine-Solution-Landing.html"
+    },
+    {
+     "label": "S3010A Radial Auto Insertion Landing Page (HTML) ↓",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/S3010A-Radial-Auto-Insertion-Landing.html"
+    },
+    {
+     "label": "S7900 Odd Form Insertion Machine Landing Page (HTML) ↓",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/S7900-Odd-Form-Insertion-Machine-Landing.html"
+    },
+    {
+     "label": "THT-Insertion ROI Calculator (XLSX) ↓",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/THT-Insertion-ROI-Calculator.xlsx"
+    },
+    {
+     "label": "YouTube video board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-YouTube-Video-Board.html"
+    },
+    {
+     "label": "product catalog board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-Product-Catalog-Board.html"
+    }
+   ]
+  }
+ ]
+}

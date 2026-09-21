@@ -1,0 +1,44 @@
+site:
+  name: Southern Machinery — THT Auto Insertion
+  site: 'https://smthelping.github.io'
+  base: '/tht-auto-insertion'
+  trailingSlash: false
+
+# Default SEO metadata
+metadata:
+  title:
+    default: Southern Machinery — THT Auto Insertion Machines
+    template: '%s — Southern Machinery THT Auto Insertion'
+  description: 'THT auto insertion machines for smart EMS factories: axial, radial, odd-form and terminal inserter, plus feeding, board handling and turnkey line design.'
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    site_name: Southern Machinery — THT Auto Insertion
+    images:
+      - url: 'https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-front-06.webp'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: '@smtspecialist'
+    site: '@smtspecialist'
+    cardType: summary_large_image
+
+# The machine pages carry their own language switcher (the source pages ship a
+# seven-language dictionary), so the template level i18n only sets the base.
+i18n:
+  language: en
+  textDirection: ltr
+
+apps:
+  blog:
+    isEnabled: false
+
+analytics:
+  vendors:
+    googleAnalytics:
+      id: null
+
+ui:
+  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"

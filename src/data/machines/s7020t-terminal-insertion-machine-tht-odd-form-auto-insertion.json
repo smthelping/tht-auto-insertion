@@ -1,0 +1,1507 @@
+{
+ "slug": "s7020t-terminal-insertion-machine-tht-odd-form-auto-insertion",
+ "category": "terminal",
+ "title": "S7020T Terminal Inserter — THT Odd-Form Insertion | Southern Machinery",
+ "description": "Vision-corrected THT terminal inserter: tact switches, connectors, copper inserts, axial braided parts. 0.6 s/point, PCB 380×280 mm, up to 4 heads, bowl or tape feeding.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/s7020t-terminal-insertion-machine-tht-odd-form-auto-insertion.html",
+ "heroImage": "https://ph.smthelp.com/images/2025/02/24/S7000-Odd-Form-Insertion-Machine.md.png",
+ "langs": [
+  "ar",
+  "en",
+  "es",
+  "fr",
+  "pt",
+  "ru",
+  "zh"
+ ],
+ "blocks": [
+  {
+   "id": "top",
+   "heading": "Your terminals go in one at a time.This one places them 0.6 seconds apart.",
+   "nodes": [
+    {
+     "t": "h1",
+     "key": "",
+     "text": "Your terminals go in one at a time.This one places them 0.6 seconds apart."
+    },
+    {
+     "t": "p",
+     "key": "hero_sub",
+     "text": "The S7020T is a vision-corrected THT insertion machine for tact switches, strip connectors, copper inserts and axial braided parts. It reads the PCB hole positions with a camera, corrects the offset automatically, then drives each terminal home and clinches it — inward, outward or in an N form. Tape feeder, bowl feeder or track: whatever packaging your terminal arrives in, there is a feed path for it."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/02/24/S7000-Odd-Form-Insertion-Machine.md.png",
+     "alt": "S7000 / S7020T odd-form terminal insertion machine, front view"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/S7000-terminal-insert-machine-front-view.md.jpg",
+     "alt": "Insertion area of the S7020T terminal insertion machine"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/clingch-of-S7000-terminal-insert-machine.md.jpg",
+     "alt": "Insertion and clinching head of the S7020T"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/S7000-terminal-insert-machine-servo-controller.md.jpg",
+     "alt": "Panasonic servo drive cabinet inside the S7020T"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/S7000-terminal-insert-machine-Conveying-PCB-board-channel.md.jpg",
+     "alt": "PCB transport channel of the S7020T terminal inserter"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S3000-Radial-Insertion-Machine-S7000-Odd-Form-Insertion-machine-with-loader.md.png",
+     "alt": "S7020T odd-form insertion machine with loader on a THT line"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "why",
+   "heading": "Hand-inserted terminals are a quality problem wearing a labour-cost disguise",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "why_h2",
+     "text": "Hand-inserted terminals are a quality problem wearing a labour-cost disguise"
+    },
+    {
+     "t": "p",
+     "key": "why_lead",
+     "text": "Tact switches, strip connectors and copper inserts are the parts a placement machine cannot handle: too tall, too irregular, too much force required. So they go in by hand — and hand insertion is where bent legs, unseated terminals and inconsistent clinch height come from. The cost shows up twice: once in the operators you pay, and again in the rework and field failures you did not plan for."
+    },
+    {
+     "t": "h3",
+     "key": "why1t",
+     "text": "The insertion force is not a judgement call"
+    },
+    {
+     "t": "p",
+     "key": "why1d",
+     "text": "A terminal needs a defined force to seat correctly, and the board underneath needs that force to stay under its own limit. A hand press gives you neither number. The S7020T detects insertion force on every cycle and stops before the pressure damages the terminal or the PCB."
+    },
+    {
+     "t": "h3",
+     "key": "why2t",
+     "text": "Bent legs come from alignment, not from care"
+    },
+    {
+     "t": "p",
+     "key": "why2d",
+     "text": "The manual lists \"bad bent feet\" as a named fault with three causes — insertion inaccuracy, upper and lower heads out of centre, and the wrong gap between head and PCB. All three are mechanical settings. An operator cannot hold 0.05 mm repeat positioning by eye; the machine holds it by design."
+    },
+    {
+     "t": "h3",
+     "key": "why3t",
+     "text": "Manual insertion scales with your order book"
+    },
+    {
+     "t": "p",
+     "key": "why3d",
+     "text": "Every extra thousand boards a month means another pair of hands at another bench, plus training, plus variation between shifts. Machine insertion converts that into a program and a feed path: the second thousand boards cost you machine time, not headcount."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "process",
+   "heading": "Six steps from a loaded PCB to a clinched terminal",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "proc_h2",
+     "text": "Six steps from a loaded PCB to a clinched terminal"
+    },
+    {
+     "t": "p",
+     "key": "proc_lead",
+     "text": "This is the sequence the manual describes for a production run. The vision correction happens per board, not once per program — which is why the same program holds across board batches that were etched slightly differently."
+    },
+    {
+     "t": "h3",
+     "key": "pr1t",
+     "text": "Load and clamp"
+    },
+    {
+     "t": "p",
+     "key": "pr1d",
+     "text": "The board enters on the track. The workbench adjusts its own width to the size entered in the program, the board locates against fixed corners and clamps. The manual states 3 seconds for PCB installation time."
+    },
+    {
+     "t": "h3",
+     "key": "pr2t",
+     "text": "Vision correction"
+    },
+    {
+     "t": "p",
+     "key": "pr2d",
+     "text": "A camera reads the actual hole positions and compares them with the NC data. The machine corrects the deviation itself — automatic correction accuracy 0.015 mm — instead of trusting the nominal coordinates."
+    },
+    {
+     "t": "h3",
+     "key": "pr3t",
+     "text": "Feed the terminal"
+    },
+    {
+     "t": "p",
+     "key": "pr3d",
+     "text": "Tape feeder for axial braided terminals, bowl feeder plus track for bulk tact switches, strip connectors and copper inserts. Feeding is servo-controlled so each terminal arrives at a repeatable position."
+    },
+    {
+     "t": "h3",
+     "key": "pr4t",
+     "text": "Insert under force control"
+    },
+    {
+     "t": "p",
+     "key": "pr4d",
+     "text": "The head drives the terminal into the hole while insertion force is monitored. Excess pressure stops the cycle rather than deforming the terminal or the board — the manual lists this as a standard function."
+    },
+    {
+     "t": "h3",
+     "key": "pr5t",
+     "text": "Clinch and verify"
+    },
+    {
+     "t": "p",
+     "key": "pr5d",
+     "text": "Inward clinching, outward clinching or an N form, depending on the joint the product needs. The clinching system detects that each insertion completed successfully before the machine moves to the next point."
+    },
+    {
+     "t": "h3",
+     "key": "pr6t",
+     "text": "Log and unload"
+    },
+    {
+     "t": "p",
+     "key": "pr6d",
+     "text": "Output, insertion rate and working time are recorded automatically. The board leaves on the track — manual load or automatic PCB load/unload, depending on how the line is configured."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "machine",
+   "heading": "Vision, servo motion and a head that reports what it just did",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "mach_h2",
+     "text": "Vision, servo motion and a head that reports what it just did"
+    },
+    {
+     "t": "p",
+     "key": "mach_lead",
+     "text": "Three subsystems decide whether an insertion is good: where the head thinks the hole is, how repeatably the axes move, and whether the machine notices a bad cycle. The S7020T answers all three — and the photos below are of this machine family, not stock images."
+    },
+    {
+     "t": "h3",
+     "key": "mach1t",
+     "text": "The camera corrects, it does not just look"
+    },
+    {
+     "t": "p",
+     "key": "mach1d",
+     "text": "Vision is used for three separate jobs in the manual: correcting the hole-position deviation against NC data, letting the operator program a new board visually, and checking the insertion result. The programming claim is specific — a new PCB insertion program within 5 minutes, using the camera rather than coordinate entry."
+    },
+    {
+     "t": "h3",
+     "key": "mach2t",
+     "text": "Panasonic servo motion throughout"
+    },
+    {
+     "t": "p",
+     "key": "mach2d",
+     "text": "Panasonic controller and motors drive the axes, with a worktable resolution of 0.001 mm/pulse. Point-to-point positioning is stated at 0.025 mm and repeat positioning at 0.05 mm. The servo cabinet photo on this page is from this machine family."
+    },
+    {
+     "t": "h3",
+     "key": "mach3t",
+     "text": "Mistake-proofing built into the workflow"
+    },
+    {
+     "t": "p",
+     "key": "mach3d",
+     "text": "Before production the operator scans the material QR or barcode, so the wrong reel cannot be loaded unnoticed. Empty-position patching can be set for 0–2 attempts. Insertion force is monitored. Three separate checks that a manual bench simply does not have."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "capacity",
+   "heading": "The published numbers, and where the documents disagree",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "cap_h2",
+     "text": "The published numbers, and where the documents disagree"
+    },
+    {
+     "t": "p",
+     "key": "cap_lead",
+     "text": "Two tables follow. The first is the S7020T specification table, quoted from the machine's own manual. The second lists the points where the manual, the S-7000T solution sheet and the S-7000 presentation give different answers — published here rather than resolved quietly, because you will be buying against these numbers."
+    },
+    {
+     "t": "h3",
+     "key": "cap_t1",
+     "text": "S7020T specification table"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Parameter",
+      "Published value"
+     ],
+     "rows": [
+      [
+       {
+        "key": "sp1k",
+        "text": "Insert part object"
+       },
+       {
+        "key": "sp1v",
+        "text": "Tact switch · strip connector · copper insert (iron) · axial braided"
+       }
+      ],
+      [
+       {
+        "key": "sp2k",
+        "text": "Packaging accepted"
+       },
+       {
+        "key": "sp2v",
+        "text": "Bulk for tact switch, connector and copper insert · 52 mm tape for axial braided"
+       }
+      ],
+      [
+       {
+        "key": "sp3k",
+        "text": "Theoretical speed"
+       },
+       {
+        "key": "sp3v",
+        "text": "0.6 s/point tact switch · 0.55 s/point connector · 0.55 s/point copper insert · 1 s/point axial braided"
+       }
+      ],
+      [
+       {
+        "key": "sp4k",
+        "text": "PCB size"
+       },
+       {
+        "key": "sp4v",
+        "text": "Minimum 80 × 80 mm · maximum 380 × 280 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp5k",
+        "text": "Feeding system"
+       },
+       {
+        "key": "sp5v",
+        "text": "Bowl feeder + track (switch, connector, copper insert) · tape feeder (axial braided)"
+       }
+      ],
+      [
+       {
+        "key": "sp6k",
+        "text": "Control system"
+       },
+       {
+        "key": "sp6v",
+        "text": "Intelligent insertion control system on a Windows platform"
+       }
+      ],
+      [
+       {
+        "key": "sp7k",
+        "text": "Display system"
+       },
+       {
+        "key": "sp7v",
+        "text": "17 inch colour LCD"
+       }
+      ],
+      [
+       {
+        "key": "sp8k",
+        "text": "X-Y worktable mobile unit"
+       },
+       {
+        "key": "sp8v",
+        "text": "0.001 mm/pulse"
+       }
+      ],
+      [
+       {
+        "key": "sp9k",
+        "text": "Positioning accuracy"
+       },
+       {
+        "key": "sp9v",
+        "text": "Point to point 0.025 mm · repeat positioning accuracy 0.05 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp10k",
+        "text": "Automatic correction accuracy"
+       },
+       {
+        "key": "sp10v",
+        "text": "0.015 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp11k",
+        "text": "PCB installation time"
+       },
+       {
+        "key": "sp11v",
+        "text": "3 seconds"
+       }
+      ],
+      [
+       {
+        "key": "sp12k",
+        "text": "Programming functions"
+       },
+       {
+        "key": "sp12v",
+        "text": "Online visual programming, visual correction, Excel format"
+       }
+      ],
+      [
+       {
+        "key": "sp13k",
+        "text": "Special functions"
+       },
+       {
+        "key": "sp13v",
+        "text": "Automatic width adjustment · material QR code scanning · insertion force detection (optional)"
+       }
+      ],
+      [
+       {
+        "key": "sp14k",
+        "text": "Data input"
+       },
+       {
+        "key": "sp14v",
+        "text": "USB · manual entry"
+       }
+      ],
+      [
+       {
+        "key": "sp15k",
+        "text": "Communication interface"
+       },
+       {
+        "key": "sp15v",
+        "text": "RS-232C"
+       }
+      ],
+      [
+       {
+        "key": "sp16k",
+        "text": "Noise"
+       },
+       {
+        "key": "sp16v",
+        "text": "70 dB"
+       }
+      ],
+      [
+       {
+        "key": "sp17k",
+        "text": "Power supply"
+       },
+       {
+        "key": "sp17v",
+        "text": "AC220V ±10V single phase · 50/60 Hz · 1.6 kVA · 2.0 kW maximum"
+       }
+      ],
+      [
+       {
+        "key": "sp18k",
+        "text": "Air supply"
+       },
+       {
+        "key": "sp18v",
+        "text": "5–6 kgf/cm² · compressed air consumption 0.6 m³/min"
+       }
+      ],
+      [
+       {
+        "key": "sp19k",
+        "text": "Dimension"
+       },
+       {
+        "key": "sp19v",
+        "text": "2160 × 1330 × 1530 mm"
+       }
+      ],
+      [
+       {
+        "key": "sp20k",
+        "text": "Weight"
+       },
+       {
+        "key": "sp20v",
+        "text": "1500 kg"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "cap_t2",
+     "text": "Terminal and clinch capability"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Parameter",
+      "Published value"
+     ],
+     "rows": [
+      [
+       {
+        "key": "cp1k",
+        "text": "Terminal thickness"
+       },
+       {
+        "key": "cp1v",
+        "text": "≥ 0.5 mm and ≤ 1.2 mm"
+       }
+      ],
+      [
+       {
+        "key": "cp2k",
+        "text": "Vertical error"
+       },
+       {
+        "key": "cp2v",
+        "text": "≤ 0.8°"
+       }
+      ],
+      [
+       {
+        "key": "cp3k",
+        "text": "Insertion angle"
+       },
+       {
+        "key": "cp3v",
+        "text": "360°, in 1° increments"
+       }
+      ],
+      [
+       {
+        "key": "cp4k",
+        "text": "PCB hole requirement"
+       },
+       {
+        "key": "cp4v",
+        "text": "Insertion hole 0.5 ± 0.1 mm larger than the component foot"
+       }
+      ],
+      [
+       {
+        "key": "cp5k",
+        "text": "Body distance"
+       },
+       {
+        "key": "cp5v",
+        "text": "Distance between components ≥ 2 mm"
+       }
+      ],
+      [
+       {
+        "key": "cp6k",
+        "text": "Clinch modes"
+       },
+       {
+        "key": "cp6v",
+        "text": "Inward clinching · outward clinching · N form"
+       }
+      ],
+      [
+       {
+        "key": "cp7k",
+        "text": "Insertion rate"
+       },
+       {
+        "key": "cp7v",
+        "text": "Up to 2 insertions per second at 5.08 mm pitch"
+       }
+      ],
+      [
+       {
+        "key": "cp8k",
+        "text": "Stress standard"
+       },
+       {
+        "key": "cp8v",
+        "text": "IPC-9704 stress test, within ±400 µε per insertion"
+       }
+      ],
+      [
+       {
+        "key": "cp9k",
+        "text": "Insertion heads"
+       },
+       {
+        "key": "cp9v",
+        "text": "1 to 4, optional"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "cap_t3",
+     "text": "Where the documents disagree"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Item",
+      "S7020T manual",
+      "S-7000T sheet",
+      "S-7000 presentation",
+      "What to do"
+     ],
+     "rows": [
+      [
+       {
+        "key": "cf1k",
+        "text": "Overall dimension"
+       },
+       {
+        "key": "cf1a",
+        "text": "2160 × 1330 × 1530 mm"
+       },
+       {
+        "key": "cf1b",
+        "text": "1700 × 1300 × 1600 mm (2 heads)"
+       },
+       {
+        "key": "cf1c",
+        "text": "Not stated"
+       },
+       {
+        "key": "cf1d",
+        "text": "Footprint depends on head count — confirm the drawing for the configuration quoted"
+       }
+      ],
+      [
+       {
+        "key": "cf2k",
+        "text": "Machine weight"
+       },
+       {
+        "key": "cf2a",
+        "text": "1500 kg"
+       },
+       {
+        "key": "cf2b",
+        "text": "1200 kg"
+       },
+       {
+        "key": "cf2c",
+        "text": "Not stated"
+       },
+       {
+        "key": "cf2d",
+        "text": "Floor loading and lifting plan must use the confirmed figure"
+       }
+      ],
+      [
+       {
+        "key": "cf3k",
+        "text": "Throughput"
+       },
+       {
+        "key": "cf3a",
+        "text": "0.6 s/point → about 6000 points/hour (tact switch)"
+       },
+       {
+        "key": "cf3b",
+        "text": "6000 CPH"
+       },
+       {
+        "key": "cf3c",
+        "text": "8000 CPH spec speed"
+       },
+       {
+        "key": "cf3d",
+        "text": "State the terminal type and head count with any throughput figure — the three are not measuring the same thing"
+       }
+      ],
+      [
+       {
+        "key": "cf4k",
+        "text": "Power"
+       },
+       {
+        "key": "cf4a",
+        "text": "1.6 kVA (2.0 kW max)"
+       },
+       {
+        "key": "cf4b",
+        "text": "2 kVA"
+       },
+       {
+        "key": "cf4c",
+        "text": "2.0 kVA"
+       },
+       {
+        "key": "cf4d",
+        "text": "Size the supply for the higher figure until the electrical drawing confirms it"
+       }
+      ],
+      [
+       {
+        "key": "cf5k",
+        "text": "Operating humidity"
+       },
+       {
+        "key": "cf5a",
+        "text": "20–95% RH"
+       },
+       {
+        "key": "cf5b",
+        "text": "30–70% RH"
+       },
+       {
+        "key": "cf5c",
+        "text": "Not stated"
+       },
+       {
+        "key": "cf5d",
+        "text": "The narrower range is the safer planning assumption for a conditioned shop floor"
+       }
+      ],
+      [
+       {
+        "key": "cf6k",
+        "text": "Air pressure"
+       },
+       {
+        "key": "cf6a",
+        "text": "5–6 kgf/cm² in the spec table; 0.4–0.6 MPa at start-up; 0.5–0.6 MPa in daily maintenance"
+       },
+       {
+        "key": "cf6b",
+        "text": "Not stated"
+       },
+       {
+        "key": "cf6c",
+        "text": "Not stated"
+       },
+       {
+        "key": "cf6d",
+        "text": "Even inside one manual the figure is written three ways. Supply 0.6 MPa and regulate down at the machine"
+       }
+      ],
+      [
+       {
+        "key": "cf7k",
+        "text": "Model designation"
+       },
+       {
+        "key": "cf7a",
+        "text": "S7020T"
+       },
+       {
+        "key": "cf7b",
+        "text": "S-7000T (document title)"
+       },
+       {
+        "key": "cf7c",
+        "text": "S-7000"
+       },
+       {
+        "key": "cf7d",
+        "text": "The supplied sheet is titled S-7000T while the machine manual is S7020T. Confirm the exact model code on the quotation"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "options",
+   "heading": "What you choose before the machine is built",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "opt_h2",
+     "text": "What you choose before the machine is built"
+    },
+    {
+     "t": "p",
+     "key": "opt_lead",
+     "text": "Almost every S7020T is specified rather than picked off a shelf. These are the decisions that change the price, the footprint and what the machine can feed — worth settling before you compare quotations."
+    },
+    {
+     "t": "h3",
+     "key": "op1t",
+     "text": "Head count"
+    },
+    {
+     "t": "p",
+     "key": "op1d",
+     "text": "One to four insertion heads. More heads means more terminal types in one pass, and a larger machine — the 1700 mm and 2160 mm length figures belong to different configurations."
+    },
+    {
+     "t": "h3",
+     "key": "op2t",
+     "text": "Feeding method"
+    },
+    {
+     "t": "p",
+     "key": "op2d",
+     "text": "Bowl feeder with track for bulk tact switches, connectors and copper inserts; tape feeder for axial braided terminals on 52 mm tape. The choice follows your packaging, not the other way round."
+    },
+    {
+     "t": "h3",
+     "key": "op3t",
+     "text": "Clinch form"
+    },
+    {
+     "t": "p",
+     "key": "op3d",
+     "text": "Inward, outward or N. This is a mechanical tooling decision tied to the joint strength your product needs — settle it with a sample board, not from a catalogue."
+    },
+    {
+     "t": "h3",
+     "key": "op4t",
+     "text": "Load and unload"
+    },
+    {
+     "t": "p",
+     "key": "op4d",
+     "text": "Manual board load, or automatic PCB load and unload for an in-line configuration. Automatic handling changes the line layout and the conveyor interfaces."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "install",
+   "heading": "What the machine needs from your floor",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "ins_h2",
+     "text": "What the machine needs from your floor"
+    },
+    {
+     "t": "p",
+     "key": "ins_lead",
+     "text": "The manual is specific about the start-up checks and the services. Get these right and commissioning is a day; get them wrong and the machine sits waiting for an electrician."
+    },
+    {
+     "t": "h3",
+     "key": "in1t",
+     "text": "Before you switch on"
+    },
+    {
+     "t": "p",
+     "key": "in1d",
+     "text": "Check the power supply. Check the air pressure gauge on the left of the machine. Check the working area for foreign objects that could cause a fault or an injury. The manual lists these three as the pre-start checks."
+    },
+    {
+     "t": "h3",
+     "key": "in2t",
+     "text": "Power"
+    },
+    {
+     "t": "p",
+     "key": "in2d",
+     "text": "AC220V ±10V single phase, 50/60 Hz. The manual states 1.6 kVA with a 2.0 kW maximum; the solution sheet states 2 kVA. Size the circuit for the larger figure."
+    },
+    {
+     "t": "h3",
+     "key": "in3t",
+     "text": "Air"
+    },
+    {
+     "t": "p",
+     "key": "in3d",
+     "text": "5–6 kgf/cm² at the machine, with consumption around 0.6 m³/min. Regulate at the machine rather than relying on line pressure."
+    },
+    {
+     "t": "h3",
+     "key": "in4t",
+     "text": "Environment"
+    },
+    {
+     "t": "p",
+     "key": "in4d",
+     "text": "The manual gives 5–25 °C and 20–95% RH, out of direct sunlight and away from condensation, splashing water, oil and chemical liquids. The solution sheet gives 30–70% RH — plan for the tighter range."
+    },
+    {
+     "t": "h3",
+     "key": "in5t",
+     "text": "The industrial PC is dedicated"
+    },
+    {
+     "t": "p",
+     "key": "in5d",
+     "text": "The manual states plainly that the computer on the machine is for this machine only. No other software, and no untrusted USB media — that is how control systems get corrupted."
+    },
+    {
+     "t": "h3",
+     "key": "in6t",
+     "text": "Shut down in order"
+    },
+    {
+     "t": "p",
+     "key": "in6d",
+     "text": "Exit the application, exit Windows, then cut the power. Restarting by pulling the supply risks the data and the hard disk. After a power failure, wait 10–20 seconds before restarting so the internal circuits initialise."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "roi",
+   "heading": "Put your own numbers in and see the payback period",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "roi_h2",
+     "text": "Put your own numbers in and see the payback period"
+    },
+    {
+     "t": "p",
+     "key": "roi_lead",
+     "text": "Every money figure below is yours. The only machine value used is the published insertion speed — 0.6 seconds per point for tact switches — because that is the one number we can cite from the manual. Change it to match your terminal mix if your parts are slower."
+    },
+    {
+     "t": "p",
+     "key": "calc_note",
+     "text": "Labour saving only. Yield improvement, rework reduction and floor space are not counted — they make the real payback shorter, not longer."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "This machine family, photographed on the floor",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "gal_h2",
+     "text": "This machine family, photographed on the floor"
+    },
+    {
+     "t": "p",
+     "key": "gal_lead",
+     "text": "Insertion area, clinching head, servo cabinet, transport channel and the line configuration. Click any image to enlarge."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/S7000-terminal-insert-machine-front-view.md.jpg",
+     "alt": "Insertion area of the S7020T terminal insertion machine with PCB clamped"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/clingch-of-S7000-terminal-insert-machine.md.jpg",
+     "alt": "Clinching head of the S7020T terminal inserter"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/clingch-of-S7000-terminal-insert-machine-1.md.jpg",
+     "alt": "Clinch tooling detail on the S7020T"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/clingch-of-S7000-terminal-insert-machine-2.md.jpg",
+     "alt": "Lower clinch anvil of the terminal insertion machine"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/clingch-of-S7000-terminal-insert-machine-3.md.jpg",
+     "alt": "Insertion head mechanism detail"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/clingch-of-S7000-terminal-insert-machine-4.md.jpg",
+     "alt": "Feeding and alignment detail"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/S7000-terminal-insert-machine-servo-controller.md.jpg",
+     "alt": "Panasonic servo drive cabinet inside the terminal insertion machine"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/11/22/S7000-terminal-insert-machine-Conveying-PCB-board-channel.md.jpg",
+     "alt": "PCB transport channel of the S7020T"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S3000-Radial-Insertion-Machine-S7000-Odd-Form-Insertion-machine-with-loader.md.png",
+     "alt": "S7020T odd-form insertion machine with loader in a THT line"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/02/24/S4000-Axial--S3000-Radial-S7000-Oddfrom-Insertion-w-loader--1.md.png",
+     "alt": "Axial, radial and odd-form insertion machines on one THT line"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "See the machine insert, clinch and run",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "vid_h2",
+     "text": "See the machine insert, clinch and run"
+    },
+    {
+     "t": "p",
+     "key": "vid_lead",
+     "text": "Six clips from our own channel — dual-head terminal insertion, the 4-head configuration on power boards, the start-up sequence from the operator manual, and mixed-component demos. Click to play."
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "9_mqeJsj9fs",
+     "title": "Double speed — S7020T dual-head terminal insertion for power tools",
+     "titleKey": "v1t",
+     "duration": "0:52"
+    },
+    {
+     "id": "0ivNvJMlJrQ",
+     "title": "S7020T reel terminal and radial taped insertion",
+     "titleKey": "v2t",
+     "duration": "3:49"
+    },
+    {
+     "id": "mIYJuLWCd_U",
+     "title": "S7020T chapter 1 — start-up inspection and start-up",
+     "titleKey": "v3t",
+     "duration": "0:45"
+    },
+    {
+     "id": "sqMO5i4NoZ8",
+     "title": "S7020 4-head insertion for MOS and connectors",
+     "titleKey": "v4t",
+     "duration": "1:13"
+    },
+    {
+     "id": "_urhfvRc724",
+     "title": "S-7020 odd-form inserter — mixed component demo",
+     "titleKey": "v5t",
+     "duration": "0:43"
+    },
+    {
+     "id": "-ivXgiqPR04",
+     "title": "Rice cooker PCB assembly — S7020 4-head insertion",
+     "titleKey": "v6t",
+     "duration": "1:03"
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "blog",
+   "heading": "Eight reads on inserting terminals that stay inserted",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "blog_h2",
+     "text": "Eight reads on inserting terminals that stay inserted"
+    },
+    {
+     "t": "p",
+     "key": "blog_lead",
+     "text": "What we have learned putting terminal insertion machines onto EMS floors — written the way we explain it to customers: the problem first, a method you can reuse, and the honest numbers. Full articles in English; the summaries follow in your language."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 01A bent terminal leg is not a careless operator",
+     "a": "Bent legs get blamed on the operator. The manual lists three causes and all three are machine settings. Here is how to find out which one you actually have. Articles are marketing commentary. Machine facts quoted inside them come from the S7020T Use's Manual and the S-7000T solution sheet. Walk onto any THT floor and you will hear the same sentence: \"she bends the legs.\" It is said with affection and it is almost always wrong. Look at the machine manual's fault table and bent feet appear as a named fault with three distinct causes — inaccurate insertion, the upper and lower heads out of their correct central position, and the wrong gap between the insertion head and the board. Not one of them is a carelessness problem. This matters commercially, because the three causes have three different prices. Insertion inaccuracy is a coordinate problem: the vision system corrects it, and the fix is a re-correction and a re-check of the program. Head centring is a mechanical alignment job against the clamping head. The head-to-board gap is a height adjustment on the insertion head and the bottom mould. If you treat all three as \"the operator needs to be more careful\", you will spend months on retraining and fix nothing. So the first move is diagnostic, not corrective. Take the ten most recent bent-foot boards and sort them by position on the board. If the failures cluster in one region, you have a coordinate or clamping problem. If they follow one head, you have a centring problem. If they scatter uniformly, look at the gap setting — it is the one that affects every insertion equally. Then measure the thing you cannot see. The solution sheet states vertical error at 0.8 degrees or less and the PCB hole requirement as 0.5 ± 0.1 mm larger than the component foot. Those two numbers define the window you are working inside. A leg that is 0.9 degrees off is not \"a bit bent\" — it is outside specification, and it will fail a pull test long before it fails visually. The loop that keeps this from coming back is a monthly check, not a daily one: head centring, clinch mould alignment, and the head-to-board gap are all on the manual's monthly maintenance list. Put them on a card, sign it, and the bent-foot conversation stops being about people."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 02The hole is 0.5 mm too big, and that is the design",
+     "a": "Insertion holes are deliberately oversized. Understanding why turns a recurring argument between design and production into a single number on a drawing. Articles are marketing commentary. Machine facts quoted inside them come from the S7020T Use's Manual and the S-7000T solution sheet. Design engineers and insertion engineers argue about hole size more than about anything else, and the argument is almost always a misunderstanding. The solution sheet gives the requirement plainly: the insertion hole should be 0.5 ± 0.1 mm larger than the component foot. That is not sloppy tolerance. It is the clearance the insertion process needs to work at all. Think about what has to happen in the few hundred milliseconds of an insertion. The terminal has to enter a plated hole without shaving the plating, without pushing the lead sideways, and without requiring a force that deforms either the terminal or the board. A hole exactly the size of the foot leaves no room for the accumulated error of board drilling, plating thickness, terminal stamping tolerance and machine positioning. The clearance absorbs all of it. What goes wrong when the hole is too small is not subtle. The insertion force climbs, and the force detection stops the cycle — which is the machine doing its job, but it costs you throughput and it looks like a machine fault when it is a board fault. If the force detection is not enabled, the terminal goes in anyway and the plating is damaged. That board passes visual inspection and fails in the field. What goes wrong when the hole is too large is slower and more expensive. The terminal has room to sit off-centre, the clinch forms asymmetrically, and the joint holds less than it should. You will not see it on the line. You will see it on a vibration test, or in a customer's return. The method to reuse is this: put the hole diameter on the fabrication drawing as a derived dimension, not an independent one. State the terminal foot dimension, then state the clearance. When the terminal changes, the hole follows automatically instead of staying at a number someone chose three years ago. And check it the way the manual checks everything else — with the camera. The vision system already reads the hole positions to correct insertion. A periodic check of the measured hole size against the drawing costs nothing and catches the drift before it becomes a batch."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 03Why we publish the numbers our documents disagree on",
+     "a": "Our own spec sheet and manual give different dimensions, weights and power figures for the same machine family. We put them side by side on the page instead of picking one. Articles are marketing commentary. Machine facts quoted inside them come from the S7020T Use's Manual and the S-7000T solution sheet. Read the specification table on this page and then read the disclosure table under it, and you will find that we publish our own inconsistencies. The machine manual says 2160 × 1330 × 1530 mm and 1500 kg. The solution sheet says 1700 × 1300 × 1600 mm and 1200 kg. The manual says 1.6 kVA, the solution sheet says 2 kVA, the presentation says 2.0 kVA. We could have quietly chosen the nicest set. We did not. The reason is arithmetic. You are going to size a floor, a breaker and a lifting plan against these numbers. If we give you one figure and it turns out to be the other one, your electrician has already run the cable. The cost of our inconsistency lands on your site, and that is not a cost we are willing to transfer. There is also a second, more useful reason. Once you know the dimension varies with head count — one to four heads is an option on this machine — the disagreement stops looking like an error and starts looking like information. A 1700 mm machine and a 2160 mm machine are probably the same family at different configurations. We do not know that for certain, which is exactly why the row says \"to be confirmed\" rather than offering a confident guess. What we can tell you is the process: before you order, ask for the outline drawing for the exact configuration on your quotation. Not the family drawing, not the brochure dimension — the drawing with your head count and your feeding arrangement on it. That document resolves every row in the table above. The reusable habit here is broader than machine buying. When a supplier gives you a single number without a source, you have no way to know whether it is a measurement, an estimate or a translation of an old brochure. When a supplier gives you three numbers and tells you why they differ, you can see the shape of their uncertainty — and you can plan around it. We would rather be the second kind of supplier and lose the occasional order to someone with a cleaner-looking datasheet."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 04Six thousand points an hour is a claim, not a plan",
+     "a": "Theoretical speed and real output are different numbers. Here is how to get from one to the other before you sign a quotation. Articles are marketing commentary. Machine facts quoted inside them come from the S7020T Use's Manual and the S-7000T solution sheet. The manual gives 0.6 seconds per point for tact switches, 0.55 for connectors and copper inserts, and 1 second for axial braided parts. The solution sheet gives 6000 CPH. The presentation gives 8000 CPH. Multiply 0.6 seconds out and you get about 6000 points an hour — so at least two of those three agree, provided you notice that the 8000 figure is describing a different configuration. Now subtract everything that is not insertion. Board load and clamp takes three seconds, and it happens once per board rather than once per point — which is why points per board changes your real throughput more than speed does. Twenty-four points on a board is a very different economic proposition from four points, even at identical insertion speed. Then subtract the stoppages the manual tells you to expect. Poor insertion stops the cycle and raises an alarm; the operator confirms the position and presses the space bar twice to continue. Empty-position patching runs up to two attempts. Feed problems — the fault table lists four separate causes for blocking and irregular feeding — take the machine down until someone clears the track. A realistic planning figure is usually between sixty and eighty per cent of the theoretical number, and the way to find your own figure is to run a sample batch rather than to argue about the datasheet. Send us your board and your terminals and we will time an actual run. The reusable method: model throughput per board, not per point. Take the insertion speed, multiply by the points on your board, add the load and clamp time, add a stoppage allowance you have measured rather than guessed, and you have a number you can put in a capacity plan. Anything less is a datasheet. And if a supplier quotes you a single CPH figure without asking about your terminal mix, ask them which terminal they measured."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 05Force detection is the cheapest insurance on the machine",
+     "a": "A terminal pressed too hard damages the terminal and the board at the same time. One function catches both, and it is listed as optional. Articles are marketing commentary. Machine facts quoted inside them come from the S7020T Use's Manual and the S-7000T solution sheet. The S7020T manual describes insertion force detection in one sentence: it automatically detects the insertion force during production to prevent excessive pressure from damaging the material and the PCB board. One sentence, two failure modes prevented, and it appears on the specification table marked optional. Consider what it is protecting. A terminal is a stamped part with a defined cross-section and a plating. Press it past its yield point and the plating crazes, the body distorts, and the retention force drops — but it still looks inserted. A PCB is a laminate with copper on both faces. Press past its limit and you get a witness mark on the surface, a cracked pad barrel, or delamination that only shows up after thermal cycling. Neither failure announces itself at the machine. Without force detection, the machine has no idea whether a cycle went well. The clinching system detects that insertion completed, which is a position check, not a force check. A terminal that needed twice the normal force to seat still completes, still clinches, and still passes. You find out in the field. With detection enabled, an over-force cycle stops the machine. That is inconvenient — it costs throughput and it needs an operator decision. But it converts a silent field failure into a loud line stoppage, and line stoppages are cheap compared with warranty returns. The loop here is a maintenance habit rather than a feature: the yearly maintenance list includes checking whether all equipment status signals are normal and whether the sensors are good. Force detection is one of those sensors. A sensor that has drifted reads every cycle as acceptable, and you are back to having no protection at all while believing you have it. If you are specifying a machine, specify force detection as standard. The premium is small and the alternative is discovering your plating damage rate from your customer."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 06Vision is three functions, and most buyers only price one",
+     "a": "A camera on an insertion machine does correction, programming and inspection. Buyers usually evaluate the first and forget the other two. Articles are marketing commentary. Machine facts quoted inside them come from the S7020T Use's Manual and the S-7000T solution sheet. Ask a buyer what the vision system on a terminal inserter is for and you will get one answer: it finds the holes. That is correct and it is the smallest of the three jobs the manual gives it. The first job is correction. The camera detects the deviation between the actual PCB hole positions and the NC data, and the machine corrects for it. The stated automatic correction accuracy is 0.015 mm. This is what makes the same program work across board batches that were etched or drilled slightly differently, and it is why you do not need to re-teach a program when the fabrication supplier changes. The second job is programming. The solution sheet states that an operator can finish a new PCB insertion program within five minutes using the camera, and the manual lists online visual programming and visual correction as the programming functions. Think about what that replaces: an engineer at a CAD station, extracting coordinates, exporting a file, walking to the machine, running a test board, and iterating. Five minutes at the machine versus an afternoon of coordination is a different kind of saving from the labour the machine replaces — it is engineering time you get back. The third job is inspection. The solution sheet notes that vision component inspection finds quality problems before insertion, which is what makes the machine usable in pin-in-paste processes where you cannot afford a bad insertion. It also appears in the yearly maintenance list as something to check: camera recognition function, and the deviation ratio of the part hole size. Most quotations price the camera as one line item, and most buyers evaluate it as one capability. The reusable move is to test all three on a sample board during evaluation: give the supplier an unfamiliar board and time how long programming takes; run a batch with deliberately varied hole positions and see whether correction holds; and ask what the vision system does when it sees a bent terminal before insertion. If the answer to the third question is \"nothing\", you have bought a coordinate reader rather than a vision system."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 07Feeding decides more than the insertion head does",
+     "a": "The manual's fault table is dominated by feeding problems. That is a hint about where your uptime actually goes. Articles are marketing commentary. Machine facts quoted inside them come from the S7020T Use's Manual and the S-7000T solution sheet. Count the entries in the S7020T fault table and you will notice something. There are eight fault categories, and the feeding-related one — blocking and irregular feeding — carries four separate causes with four separate remedies. No other category has that many. The machine is telling you where it expects to give you trouble. The four causes are specific: poor track feeding, a misaligned feed track, a material channel that is scratched or carrying oil and debris, and quality problems in the materials themselves. Notice that three of the four are setup and maintenance, and the fourth is incoming quality. None of them is an insertion problem. This changes what you should evaluate. Buyers spend their time on head count and insertion speed. The manual suggests spending it on feed paths: which feeder handles your packaging, how the track is aligned to the X slider, whether the discharge port of the bowl is aligned with the feed port of the long track, and how easily an operator can clear a jam without tools. The packaging decision follows from this. Bulk tact switches, strip connectors and copper inserts go through a bowl feeder and track; axial braided terminals on 52 mm tape go through a tape feeder. If your terminal mix spans both, you are specifying a machine with two feed systems, and the feed arrangement — not the head — becomes the thing that determines your changeover time. The maintenance loop is on the manual's monthly list: clean all tape feeders and tracks. That single line, done on schedule, prevents two of the four causes. The yearly list adds dismantling the feeder for maintenance and redoing standard debugging. So when you compare quotations, ask each supplier to show you the feed path for your actual terminal, loaded, running, and being cleared after a deliberate jam. That is ten minutes that will tell you more than a page of CPH figures."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "ARTICLE 08What to ask before you sign the terminal insertion quotation",
+     "a": "Nine questions, in the order that matters, each one answerable from a document rather than a promise. Articles are marketing commentary. Machine facts quoted inside them come from the S7020T Use's Manual and the S-7000T solution sheet. Buying a configured machine is not like buying a catalogue item, and the difference shows up in the questions. Here is the list we would use if we were the buyer, in the order that saves the most money. One: which model code, exactly? The documents we hold title the same family as S-7000T and S-7000 and S7020T. Ask for the code on the quotation and the drawing that goes with it. This single question resolves most of the ambiguity that follows. Two: how many heads, and therefore what footprint? Head count is an option from one to four, and the dimension figures in our own documents differ by configuration. The answer determines your floor plan. Three: what does the machine weigh? 1200 kg or 1500 kg in our own documents. This determines your lifting plan and possibly your mezzanine. Four: what are the real electrical requirements? 1.6 kVA, 2 kVA and 2.0 kVA all appear. Ask for the electrical drawing, and size the supply for the largest figure. Five: which feeder for my packaging? Send a reel and a bag of your actual terminals. A quotation that does not reference your packaging is a quotation for a machine, not for your process. Six: which clinch form, and who decides? Inward, outward or N. The right answer depends on the joint your product needs, which means it comes from a pull test on a sample, not from a catalogue. Seven: is force detection included? It appears as optional in the specification table and it is the cheapest protection on the machine. Get it in writing either way. Eight: what is the spare parts position? The clinching mould, the press cover, the tracks and the belts all appear on the maintenance list as wear items. Ask for the wear-part list with prices before you order, not after the first breakdown. Nine: what does commissioning include, and what does it assume? The manual's pre-start checks assume power, air at 5-6 kgf/cm², and a clear working area. Confirm who provides what, and get the training scope in writing. None of these questions requires technical depth. All nine are answerable from documents the supplier already has. The suppliers who answer them quickly are the ones who will answer quickly when the machine is down."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "downloads",
+   "heading": "The source documents behind every number on this page",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "dl_h2",
+     "text": "The source documents behind every number on this page"
+    },
+    {
+     "t": "p",
+     "key": "dl_lead",
+     "text": "Machine manual, family solutions and the 3D model. Read them the way we did — and check our disclosure table against them."
+    },
+    {
+     "t": "h3",
+     "key": "dl1t",
+     "text": "S7020T Use's Manual"
+    },
+    {
+     "t": "p",
+     "key": "dl1d",
+     "text": "The machine's own operating manual — safety, specification table, operation steps, parameter setting, maintenance schedule and the fault table."
+    },
+    {
+     "t": "link",
+     "key": "dl_open",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Manual/S7020T%20Terminal%20Insetion%20Machine%20Use%27s%20Manual.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "dl2t",
+     "text": "S7020 Series — PIN, eyelet and terminal insertion"
+    },
+    {
+     "t": "p",
+     "key": "dl2d",
+     "text": "The S7020 series product document covering PIN, eyelet and terminal insertion configurations."
+    },
+    {
+     "t": "link",
+     "key": "dl_open2",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7020%20Series%20PIN%20Eyelet%20Terminal%20Insertion%20Machine%20202303.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "dl3t",
+     "text": "S7020 THT odd-form insertion"
+    },
+    {
+     "t": "p",
+     "key": "dl3d",
+     "text": "Product description for the THT odd-form insertion configuration — the parts this machine family is built to handle."
+    },
+    {
+     "t": "link",
+     "key": "dl_open3",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7020%C2%A0THT%C2%A0%C2%A0Odd%C2%A0Form%C2%A0Insertion%C2%A0product%20description.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "dl4t",
+     "text": "S-7000 odd-form insertion manual (2024)"
+    },
+    {
+     "t": "p",
+     "key": "dl4d",
+     "text": "The wider S-7000 odd-form platform manual. Useful for understanding what the family shares — not a substitute for the S7020T document."
+    },
+    {
+     "t": "link",
+     "key": "dl_open4",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Manual/S7000%20Odd%20Form%20Insertion%20Machine%20manual%202024.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "dl5t",
+     "text": "S-7000E eyelet insertion solutions"
+    },
+    {
+     "t": "p",
+     "key": "dl5d",
+     "text": "Eyelet insertion variant of the same platform — relevant if your board carries eyelets alongside terminals."
+    },
+    {
+     "t": "link",
+     "key": "dl_open5",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S-7000E%20Eyelet%20insertion%20solutions.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "dl6t",
+     "text": "S7000 feeder 3D model"
+    },
+    {
+     "t": "p",
+     "key": "dl6d",
+     "text": "Radial, axial and tube feeder arrangement as a 3D drawing — useful for layout work in your own CAD."
+    },
+    {
+     "t": "link",
+     "key": "dl_open6",
+     "href": "https://file.autoinsertion.com/public/SMT%20machine%203D%20drawing/S7000%20Oddform%20Radial%20Axial%20%26%20Tube%20feeder.pdf",
+     "text": "Open the PDF"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Manual/S7020T%20Terminal%20Insetion%20Machine%20Use%27s%20Manual.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7020%20Series%20PIN%20Eyelet%20Terminal%20Insertion%20Machine%20202303.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7020%C2%A0THT%C2%A0%C2%A0Odd%C2%A0Form%C2%A0Insertion%C2%A0product%20description.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Manual/S7000%20Odd%20Form%20Insertion%20Machine%20manual%202024.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S-7000E%20Eyelet%20insertion%20solutions.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/SMT%20machine%203D%20drawing/S7000%20Oddform%20Radial%20Axial%20%26%20Tube%20feeder.pdf"
+    }
+   ]
+  },
+  {
+   "id": "service",
+   "heading": "The maintenance schedule the manual actually specifies",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "svc_h2",
+     "text": "The maintenance schedule the manual actually specifies"
+    },
+    {
+     "t": "p",
+     "key": "svc_lead",
+     "text": "Daily, monthly and yearly. We have kept the manual's own wording for the checks, because paraphrasing a maintenance instruction is how a machine gets serviced wrongly."
+    },
+    {
+     "t": "h3",
+     "key": "mt1t",
+     "text": "Air and cleanliness"
+    },
+    {
+     "t": "p",
+     "key": "mt1d",
+     "text": "Check that the air pressure is normal at 0.5–0.6 MPa. At the end of the shift, clean the dust off the machine and wipe away excess grease."
+    },
+    {
+     "t": "h3",
+     "key": "mt2t",
+     "text": "Wear, alignment and tension"
+    },
+    {
+     "t": "p",
+     "key": "mt2d",
+     "text": "Wipe and re-grease the polished rods, screw rods and linear slides. Check the press cover and clinching mould for wear and deformation. Check the pneumatic components. Check the floating joints. Check belt tension, length and wear. Clean all tape feeders and tracks. Check drive shafts and bearings. Check each head's centre position and the alignment of the clinching mould to the head. Check the wiring for leakage or ageing."
+    },
+    {
+     "t": "h3",
+     "key": "mt3t",
+     "text": "System-level checks"
+    },
+    {
+     "t": "p",
+     "key": "mt3d",
+     "text": "Check all solenoid valves and cylinders and measure their speed and response. Check motor and servo coordination and screw-rod tightness. Check the main air valve, muffler and air circuit. Clean the host computer and check its fan. Check all shell exhaust fans. Check all status signals and sensors. Check camera recognition and the part-hole deviation ratio. Dismantle the feeder for maintenance and redo standard debugging. Use slow-motion video of each head's insertion movement and adjust axes and cylinder pressure if coordination is off."
+    },
+    {
+     "t": "h3",
+     "key": "ft_h2",
+     "text": "Fault to first check"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Symptom",
+      "Cause the manual names",
+      "First thing to check"
+     ],
+     "rows": [
+      [
+       {
+        "key": "ft1k",
+        "text": "Poor insertion"
+       },
+       {
+        "key": "ft1c",
+        "text": "Bad picking of the clamping head · inaccurate insertion coordinates · no parts detected"
+       },
+       {
+        "key": "ft1d",
+        "text": "Is the clamp loose or damaged; then correct coordinates and head offset; then check the detection line and the bottom mould position"
+       }
+      ],
+      [
+       {
+        "key": "ft2k",
+        "text": "PCB leakage"
+       },
+       {
+        "key": "ft2c",
+        "text": "Bottom formwork short circuit · detection line short circuit"
+       },
+       {
+        "key": "ft2d",
+        "text": "Insulating plate and screw insulating sleeve for damage, then measure the detection line voltage at the bottom mould with a multimeter"
+       }
+      ],
+      [
+       {
+        "key": "ft3k",
+        "text": "Blocking, irregular feeding"
+       },
+       {
+        "key": "ft3c",
+        "text": "Poor track feeding · misaligned feed track · scratched or contaminated material channel · defective material"
+       },
+       {
+        "key": "ft3d",
+        "text": "Alignment between the bowl discharge port and the long track feed port; then alignment of the long track to the X slider and the short track"
+       }
+      ],
+      [
+       {
+        "key": "ft4k",
+        "text": "Bent feet"
+       },
+       {
+        "key": "ft4c",
+        "text": "Inaccurate insertion · heads out of centre · wrong head-to-board gap"
+       },
+       {
+        "key": "ft4d",
+        "text": "Vision correction and PCB fixing first, then head centring, then the insertion head and bottom mould height"
+       }
+      ],
+      [
+       {
+        "key": "ft5k",
+        "text": "Servo alarm"
+       },
+       {
+        "key": "ft5c",
+        "text": "Foreign matter on the front axle · servo alarm"
+       },
+       {
+        "key": "ft5d",
+        "text": "Clear foreign matter; clear the alarm on the servo and re-read the servo parameters from the main page, then return to zero"
+       }
+      ],
+      [
+       {
+        "key": "ft6k",
+        "text": "Start button does nothing"
+       },
+       {
+        "key": "ft6c",
+        "text": "Power supply · air supply · safety sensor · emergency stop latched · other"
+       },
+       {
+        "key": "ft6d",
+        "text": "Power and circuit continuity, then air valve and pressure, then the safety sensor status in the device status screen"
+       }
+      ],
+      [
+       {
+        "key": "ft7k",
+        "text": "Vision cannot be corrected"
+       },
+       {
+        "key": "ft7c",
+        "text": "Camera cable broken or poorly seated · light source or camera parameters wrong · foreign matter in the camera or the calibration hole"
+       },
+       {
+        "key": "ft7d",
+        "text": "Camera cable and interface first, then light intensity and camera parameters, then clean the camera and the calibration hole"
+       }
+      ],
+      [
+       {
+        "key": "ft8k",
+        "text": "Board transport timeout"
+       },
+       {
+        "key": "ft8c",
+        "text": "Track width · tracks not parallel · height mismatch between rails and workbench · track deformed · pressing cylinder speed · conveyor motor speed"
+       },
+       {
+        "key": "ft8d",
+        "text": "Track width and parallelism first, then rail heights, then the pressing plate cylinder throttle"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faq",
+   "heading": "Questions this machine always raises",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "faq_h2",
+     "text": "Questions this machine always raises"
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Which terminals can the S7020T actually insert?",
+     "a": "The manual's specification table lists four object types: tact switches (bulk), strip connectors (bulk), copper inserts or iron inserts (bulk) and axial braided parts (52 mm tape). The presentation adds tact switches with an outer diameter of 6.0 × 6.0 to 10 × 10 mm and a handle length of 3.5 mm or less as a component example. Send us a sample of your terminal and we will confirm the feed path and tooling for it."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How many insertion heads should I specify?",
+     "a": "One to four, and the answer is driven by how many different terminal types you want inserted in a single pass. More heads means fewer passes over the board but a larger machine — our own documents give different dimensions for different configurations. Tell us your board and your terminal mix and we will recommend the head count with the reasoning."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Is 6000 or 8000 pieces per hour the real figure?",
+     "a": "Both numbers appear in our own documents, and neither is a lie — they are not measuring the same thing. The manual gives 0.6 s/point for tact switches, which works out at roughly 6000 points per hour, and the solution sheet states 6000 CPH. The presentation's 8000 CPH is a family specification speed for a different configuration. Any throughput figure is meaningless without the terminal type and head count beside it, which is why our disclosure table lists the three side by side."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Do we need force detection?",
+     "a": "It appears as optional in the specification table, and our recommendation is to specify it. It stops the machine when insertion force exceeds the limit, which prevents both terminal deformation and PCB damage in the same cycle. Without it, an over-force insertion completes and clinches normally and you only find out from a field failure. It is the cheapest protection available on this machine."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What board do I need to send for an evaluation?",
+     "a": "A populated board as close to production condition as possible, plus a representative sample of every terminal type you want inserted — including the packaging it arrives in. The packaging decides the feeder, and the feeder decides the configuration. Five to ten boards is usually enough to time a realistic run and confirm the clinch form."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can it run in line with our existing THT equipment?",
+     "a": "The solution sheet lists manual load or automatic PCB load and unload as configurations, and our photo library shows this machine family running in line with a loader alongside axial and radial inserters. Whether your specific line can take it depends on your conveyor interfaces and board flow direction, which we would need to look at together. RS-232C is the stated communication interface and can connect to an MES system."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Tell us what you are inserting",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "con_h2",
+     "text": "Tell us what you are inserting"
+    },
+    {
+     "t": "p",
+     "key": "con_lead",
+     "text": "Terminal type, packaging, board size and the number of insertion points. That is enough for us to come back with a configuration and a price."
+    },
+    {
+     "t": "h3",
+     "key": "con_h3",
+     "text": "Reach us directly"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "info@smthelp.comWhatsApp +86 136 0256 2576www.smthelp.com"
+    },
+    {
+     "t": "p",
+     "key": "con_addr",
+     "text": "Shenzhen Southern Machinery Sales and Service Co., Ltd. — Xixiang, Bao'an District, Shenzhen, China. Established 2011."
+    },
+    {
+     "t": "h3",
+     "key": "con_h4",
+     "text": "Before you write"
+    },
+    {
+     "t": "p",
+     "key": "con_p4",
+     "text": "Have a look at our disclosure table in section 04 first. If you are comparing our numbers against another supplier's, that table tells you exactly which of ours are firm and which need confirming against your quotation drawing."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  }
+ ]
+}

@@ -1,0 +1,1419 @@
+{
+ "slug": "tht-im-pcb-design-guideline-auto-insertion-dfm",
+ "category": "guideline",
+ "title": "THT IM PCB Design Guideline: Auto-Insertion DFM Checklist | Southern Machinery",
+ "description": "A source-grounded THT / insertion-mount PCB design guideline for automatic component insertion: board envelope, datum holes, lead-hole formulas, lead-hole span, clinch and clearance rules, plus a free DFM review from Southern Machinery.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/tht-im-pcb-design-guideline-auto-insertion-dfm.html",
+ "heroImage": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s4000-front.md.webp",
+ "langs": [
+  "ar",
+  "en",
+  "es",
+  "fr",
+  "pt",
+  "ru",
+  "zh"
+ ],
+ "blocks": [
+  {
+   "id": "",
+   "heading": "Design the board once,insert it a million times",
+   "nodes": [
+    {
+     "t": "h1",
+     "key": "",
+     "text": "Design the board once,insert it a million times"
+    },
+    {
+     "t": "p",
+     "key": "hero_sub",
+     "text": "Most THT automation projects do not fail at the machine. They fail at the drawing board — a datum hole 12 mm from the edge, a 2.6 mm hole span, a panel that will not pass through the conveyor. This guideline collects the design rules that decide whether an axial, radial, jumper-wire or odd-form inserter can run your board at all."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "guide",
+   "heading": "Automatic insertion rewards standardisation. Hand assembly forgives.",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "why_kicker",
+     "text": "01 — Why it matters"
+    },
+    {
+     "t": "h2",
+     "key": "why_h2",
+     "text": "Automatic insertion rewards standardisation. Hand assembly forgives."
+    },
+    {
+     "t": "p",
+     "key": "why_lead",
+     "text": "A manual operator compensates for a bad hole, a warped panel, a misplaced datum. A sequencer/inserter does not. It repeats exactly what it was programmed to do — which is why the same design decisions that are invisible in hand assembly become throughput, yield and uptime in automated assembly."
+    },
+    {
+     "t": "h3",
+     "key": "why1t",
+     "text": "Standardise three inputs, and variability drops"
+    },
+    {
+     "t": "p",
+     "key": "why1d",
+     "text": "The circuit boards, the equipment that assembles them, and the components to be inserted. Fix those three and you standardise the process: insertion reliability rises, product quality improves, and production cost falls. This is the core claim of GS-354-02, and it is why DFM work pays back before the machine is even ordered."
+    },
+    {
+     "t": "h3",
+     "key": "why2t",
+     "text": "Hole size has an optimum, not a maximum"
+    },
+    {
+     "t": "p",
+     "key": "why2d",
+     "text": "A hole smaller than recommended degrades insertion reliability. A hole larger than recommended leaves loose components in the PCB. Both directions fail — there is a window, and it is calculable from lead diameter alone."
+    },
+    {
+     "t": "h3",
+     "key": "why3t",
+     "text": "Board handling is a separate design problem"
+    },
+    {
+     "t": "p",
+     "key": "why3d",
+     "text": "Stand-alone machines place boards on a dedicated workboard holder, so shape is rarely a concern. Once you add automatic board handling, size, shape, warpage and cutouts all become constraints — and the datum hole becomes the reference everything else hangs from."
+    },
+    {
+     "t": "h3",
+     "key": "why4t",
+     "text": "Panelisation buys throughput and setup time"
+    },
+    {
+     "t": "p",
+     "key": "why4d",
+     "text": "Positioning small PCBs into multiple breakaway panels or arrays increases throughput, and standardising the panel size reduces setup time at every changeover. The saving compounds across every job you run."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "envelope",
+   "heading": "The envelope your board has to fit inside",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "env_kicker",
+     "text": "02 — Board envelope"
+    },
+    {
+     "t": "h2",
+     "key": "env_h2",
+     "text": "The envelope your board has to fit inside"
+    },
+    {
+     "t": "p",
+     "key": "env_lead",
+     "text": "These are the published design limits for automatic insertion and automatic board handling. Treat them as the outer boundary of a feasible design, not as a target — a board that sits comfortably inside the envelope is a board that runs without operator intervention."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Parameter",
+      "Automatic insertion (VCD & Radial)",
+      "Automatic board handling (pass-through)",
+      "Source"
+     ],
+     "rows": [
+      [
+       {
+        "key": "env_r1a",
+        "text": "Board length × width — minimum"
+       },
+       {
+        "key": "env_r1b",
+        "text": "102 × 80 mm (4 × 3.1 in.)"
+       },
+       {
+        "key": "env_r1c",
+        "text": "102 × 80 mm (4 × 3.1 in.)"
+       },
+       {
+        "key": "env_r1d",
+        "text": "GS-354-02 Table 2 / Table 3"
+       }
+      ],
+      [
+       {
+        "key": "env_r2a",
+        "text": "Board length × width — maximum"
+       },
+       {
+        "key": "env_r2b",
+        "text": "508 × 406 mm (20 × 16 in.)"
+       },
+       {
+        "key": "env_r2c",
+        "text": "483 × 406 mm (19 × 16 in.)"
+       },
+       {
+        "key": "env_r2d",
+        "text": "GS-354-02 Table 2 / Table 3"
+       }
+      ],
+      [
+       {
+        "key": "env_r3a",
+        "text": "Length-to-width ratio"
+       },
+       {
+        "key": "env_r3b",
+        "text": "1:1 or greater recommended"
+       },
+       {
+        "key": "env_r3c",
+        "text": "1:1 or greater recommended"
+       },
+       {
+        "key": "env_r3d",
+        "text": "GS-354-02 Table 2 / Table 3"
+       }
+      ],
+      [
+       {
+        "key": "env_r4a",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "env_r4b",
+        "text": "0.80–2.35 mm (0.032–0.093 in.)"
+       },
+       {
+        "key": "env_r4c",
+        "text": "0.8–2.36 mm (option 0.6–2.0 mm)"
+       },
+       {
+        "key": "env_r4d",
+        "text": "GS-354-02 Table 2 / Table 4"
+       }
+      ],
+      [
+       {
+        "key": "env_r5a",
+        "text": "Board weight"
+       },
+       {
+        "key": "env_r5b",
+        "text": "2.27 kg (5 lb) maximum"
+       },
+       {
+        "key": "env_r5c",
+        "text": "2.27 kg (5 lb) maximum"
+       },
+       {
+        "key": "env_r5d",
+        "text": "GS-354-02 Table 2"
+       }
+      ],
+      [
+       {
+        "key": "env_r6a",
+        "text": "Datum hole diameter"
+       },
+       {
+        "key": "env_r6b",
+        "text": "3.18–6.35 mm (0.125–0.25 in.)"
+       },
+       {
+        "key": "env_r6c",
+        "text": "3.18–6.35 mm (0.125–0.25 in.)"
+       },
+       {
+        "key": "env_r6d",
+        "text": "GS-354-02 Table 2"
+       }
+      ],
+      [
+       {
+        "key": "env_r7a",
+        "text": "Datum hole position"
+       },
+       {
+        "key": "env_r7b",
+        "text": "Max 9.0 mm from front edge to hole centre"
+       },
+       {
+        "key": "env_r7c",
+        "text": "Max 9.0 mm from front edge to hole centre"
+       },
+       {
+        "key": "env_r7d",
+        "text": "GS-354-02 Table 2 Note 3"
+       }
+      ],
+      [
+       {
+        "key": "env_r8a",
+        "text": "Hole variability between PCBs"
+       },
+       {
+        "key": "env_r8b",
+        "text": "Within ±0.1 mm"
+       },
+       {
+        "key": "env_r8c",
+        "text": "Within ±0.1 mm"
+       },
+       {
+        "key": "env_r8d",
+        "text": "GS-354-02 Table 4"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "equipment",
+   "heading": "Five machine families, five different board rules",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "equip_kicker",
+     "text": "03 — Equipment classes"
+    },
+    {
+     "t": "h2",
+     "key": "equip_h2",
+     "text": "Five machine families, five different board rules"
+    },
+    {
+     "t": "p",
+     "key": "equip_lead",
+     "text": "The design rules are not one set. A radial sequencer/inserter and a jumper-wire machine clamp leads differently, so they impose different hole spans, clearances and clinch geometry on the same board. Design for the family you are actually buying — or design for the widest one and keep your options open."
+    },
+    {
+     "t": "h3",
+     "key": "eq1t",
+     "text": "Axial / VCD insertion"
+    },
+    {
+     "t": "p",
+     "key": "eq1d",
+     "text": "Inserts axially leaded components and jumper wires. Hole diameter is calculated as lead diameter + 0.48 mm (0.019 in.) ± 0.08 mm. Board error correction holes use 1.0 mm ± 0.5 mm. Plated holes or translucent PCBs may affect performance."
+    },
+    {
+     "t": "h3",
+     "key": "eq2t",
+     "text": "Jumper wire insertion"
+    },
+    {
+     "t": "p",
+     "key": "eq2d",
+     "text": "A dedicated machine family with its own span table. Minimum lead hole span runs from 2.54 mm (0.100 in.) for a 0.60 mm lead up to 2.90 mm (0.114 in.) for a 0.80 mm lead, and the order in which two adjacent wires are inserted changes the minimum. Clinch angle is inward and adjustable from 25° to 75° from vertical."
+    },
+    {
+     "t": "h3",
+     "key": "eq3t",
+     "text": "Radial sequencer / inserter"
+    },
+    {
+     "t": "p",
+     "key": "eq3d",
+     "text": "Handles two- and three-taped radial leads; some packages such as SIPs can carry up to 10 leads. Hole diameter = lead maximum diameter + 0.483 mm (0.019 in.) ± 0.08 mm. With a standoff, add 0.403 mm instead so the standoff cannot drop into the hole. A three-lead component needs the centre hole 0.584 mm larger."
+    },
+    {
+     "t": "h3",
+     "key": "eq4t",
+     "text": "Odd-form insertion"
+    },
+    {
+     "t": "p",
+     "key": "eq4d",
+     "text": "For connectors, terminals, relays, electrolytics and other components that cannot be taped. Because the component body, not the tape, drives the tooling, odd-form designs are usually reviewed case by case — which is exactly why an early DFM pass matters most here."
+    },
+    {
+     "t": "h3",
+     "key": "eq5t",
+     "text": "Automatic board handling"
+    },
+    {
+     "t": "p",
+     "key": "eq5d",
+     "text": "Loaders, unloaders, buffers and conveyors impose their own constraints on size, shape, warpage and cutouts. Automatic board handling machines do not require workboard holders, but they do require symmetrical board shapes and a reliable datum reference."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s4000-front.md.webp",
+     "alt": "S4000 axial insertion machine — Southern Machinery"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/08/09/southern-machinery-jumper-wire-feeder-img-1864-0028.md.webp",
+     "alt": "Jumper wire feeder — Southern Machinery"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S3010-Radial-Insertion-Machine.md.png",
+     "alt": "S3010 radial insertion machine — Southern Machinery"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-s7900-front-06.md.webp",
+     "alt": "S7900 odd-form insertion machine — Southern Machinery"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2026/09/14/smthelp-automatic-insertion-axial-radial-line-line-16.md.webp",
+     "alt": "THT axial and radial insertion line — Southern Machinery"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "holes",
+   "heading": "The two numbers that decide insertion reliability",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "holes_kicker",
+     "text": "04 — Lead holes and spans"
+    },
+    {
+     "t": "h2",
+     "key": "holes_h2",
+     "text": "The two numbers that decide insertion reliability"
+    },
+    {
+     "t": "p",
+     "key": "holes_lead",
+     "text": "Almost every insertion fault traces back to one of two dimensions: how big the hole is, and how far apart the two holes are. Both are computable before the board is fabricated. Both are expensive to change afterwards."
+    },
+    {
+     "t": "h3",
+     "key": "holes_f1t",
+     "text": "Lead hole diameter — axial / VCD"
+    },
+    {
+     "t": "h3",
+     "key": "holes_f2t",
+     "text": "Lead hole diameter — radial"
+    },
+    {
+     "t": "p",
+     "key": "holes_f2n",
+     "text": "With a standoff: use + 0.403 mm so the standoff cannot fall into the hole. Square or rectangular lead: measure the diagonal √(L² + W²) first. Three-lead component: centre hole is 0.584 mm larger."
+    },
+    {
+     "t": "h3",
+     "key": "holes_f3t",
+     "text": "Recommended lead hole span — single span 2.5 mm"
+    },
+    {
+     "t": "p",
+     "key": "holes_f3n",
+     "text": "For rectangular leads, substitute lead width for lead diameter."
+    },
+    {
+     "t": "h3",
+     "key": "holes_f4t",
+     "text": "Jumper wire minimum lead hole span"
+    },
+    {
+     "t": "p",
+     "key": "holes_f4n",
+     "text": "If wire A is inserted before wire B, the minimum span increases — 2.69 mm and 2.90 mm respectively. Insertion sequence is a layout decision."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Insertion hole spans — single span 2.5 mm",
+      "Lead diameter",
+      "Recommended lead hole span"
+     ],
+     "rows": [
+      [
+       {
+        "key": "holes_tbl_r1a",
+        "text": "0.36 mm (0.014 in.)"
+       },
+       {
+        "key": "holes_tbl_r1b",
+        "text": "2.34 mm (0.092 in.)"
+       }
+      ],
+      [
+       {
+        "key": "holes_tbl_r2a",
+        "text": "0.41 mm (0.016 in.)"
+       },
+       {
+        "key": "holes_tbl_r2b",
+        "text": "2.39 mm (0.094 in.)"
+       }
+      ],
+      [
+       {
+        "key": "holes_tbl_r3a",
+        "text": "0.46 mm (0.018 in.)"
+       },
+       {
+        "key": "holes_tbl_r3b",
+        "text": "2.44 mm (0.096 in.)"
+       }
+      ],
+      [
+       {
+        "key": "holes_tbl_r4a",
+        "text": "0.51 mm (0.020 in.)"
+       },
+       {
+        "key": "holes_tbl_r4b",
+        "text": "2.49 mm (0.098 in.)"
+       }
+      ],
+      [
+       {
+        "key": "holes_tbl_r5a",
+        "text": "0.56 mm (0.022 in.)"
+       },
+       {
+        "key": "holes_tbl_r5b",
+        "text": "2.54 mm (0.100 in.)"
+       }
+      ],
+      [
+       {
+        "key": "holes_tbl_r6a",
+        "text": "0.61 mm (0.024 in.)"
+       },
+       {
+        "key": "holes_tbl_r6b",
+        "text": "2.59 mm (0.102 in.)"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "The tolerance stack you are designing against"
+     ],
+     "rows": [
+      [
+       {
+        "key": "tol1",
+        "text": "Lead diameter"
+       },
+       {
+        "key": "",
+        "text": "0.635 mm / 0.025 in."
+       }
+      ],
+      [
+       {
+        "key": "tol2",
+        "text": "Lead diameter tolerance"
+       },
+       {
+        "key": "",
+        "text": "0.076 mm / 0.003 in."
+       }
+      ],
+      [
+       {
+        "key": "tol3",
+        "text": "Lead position tolerance"
+       },
+       {
+        "key": "",
+        "text": "0.203 mm / 0.008 in."
+       }
+      ],
+      [
+       {
+        "key": "tol4",
+        "text": "Machine accuracy (XY table)"
+       },
+       {
+        "key": "",
+        "text": "0.05 mm / 0.002 in."
+       }
+      ],
+      [
+       {
+        "key": "tol5",
+        "text": "Hole size tolerance"
+       },
+       {
+        "key": "",
+        "text": "0.076 mm / 0.003 in."
+       }
+      ],
+      [
+       {
+        "key": "tol6",
+        "text": "Hole position tolerance"
+       },
+       {
+        "key": "",
+        "text": "0.076 mm / 0.003 in."
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "parameters",
+   "heading": "What changes when you change a number",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "param_kicker",
+     "text": "05 — Parameter causality"
+    },
+    {
+     "t": "h2",
+     "key": "param_h2",
+     "text": "What changes when you change a number"
+    },
+    {
+     "t": "p",
+     "key": "param_lead",
+     "text": "A design rule is only useful if you know which symptom it prevents. This map connects a parameter category to the process action it drives, the signal you would observe, and the way the result is verified — so a change request can be argued with evidence instead of opinion."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faults",
+   "heading": "When the inserter stops, reason before you restart",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "fault_kicker",
+     "text": "06 — Fault reasoning"
+    },
+    {
+     "t": "h2",
+     "key": "fault_h2",
+     "text": "When the inserter stops, reason before you restart"
+    },
+    {
+     "t": "p",
+     "key": "fault_lead",
+     "text": "An alarm name is an observation, not a diagnosis. Restarting is not a repair — it can erase the state you needed. This is the sequence Southern Machinery application engineers follow before touching an unapproved setting."
+    },
+    {
+     "t": "h3",
+     "key": "fault_card_h",
+     "text": "Symptom-to-question matrix"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Symptom family",
+      "First learning question",
+      "Evidence to inspect"
+     ],
+     "rows": [
+      [
+       {
+        "key": "fault_s1",
+        "text": "Board-transfer interruption"
+       },
+       {
+        "key": "fault_s1q",
+        "text": "Is the board / support / handoff state documented and physically understood?"
+       },
+       {
+        "key": "fault_boundary",
+        "text": "Boundary: do not force a board, alter an interface, or change a process setting without authorisation. Preserve evidence and escalate when the cause is not confirmed."
+       }
+      ],
+      [
+       {
+        "key": "fault_s2",
+        "text": "Printing-result concern"
+       },
+       {
+        "key": "fault_s2q",
+        "text": "Is the approved material, alignment or first-article evidence available?"
+       },
+       {
+        "key": "fault_boundary",
+        "text": "Boundary: do not force a board, alter an interface, or change a process setting without authorisation. Preserve evidence and escalate when the cause is not confirmed."
+       }
+      ],
+      [
+       {
+        "key": "fault_s3",
+        "text": "Insertion-result concern"
+       },
+       {
+        "key": "fault_s3q",
+        "text": "Are the component supply, approved program revision and first-article evidence consistent?"
+       },
+       {
+        "key": "fault_boundary",
+        "text": "Boundary: do not force a board, alter an interface, or change a process setting without authorisation. Preserve evidence and escalate when the cause is not confirmed."
+       }
+      ],
+      [
+       {
+        "key": "fault_s4",
+        "text": "Thermal-process concern"
+       },
+       {
+        "key": "fault_s4q",
+        "text": "Is the authorised thermal process and its verification record available?"
+       },
+       {
+        "key": "fault_boundary",
+        "text": "Boundary: do not force a board, alter an interface, or change a process setting without authorisation. Preserve evidence and escalate when the cause is not confirmed."
+       }
+      ],
+      [
+       {
+        "key": "fault_s5",
+        "text": "Inspection / reject trend"
+       },
+       {
+        "key": "fault_s5q",
+        "text": "Does the approved inspection program and disposition path explain the result?"
+       },
+       {
+        "key": "fault_boundary",
+        "text": "Boundary: do not force a board, alter an interface, or change a process setting without authorisation. Preserve evidence and escalate when the cause is not confirmed."
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "blogs",
+   "heading": "Six things we explain to customers before they commit a board",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "blogs_kicker",
+     "text": "07 — Insights"
+    },
+    {
+     "t": "h2",
+     "key": "blogs_h2",
+     "text": "Six things we explain to customers before they commit a board"
+    },
+    {
+     "t": "p",
+     "key": "blogs_lead",
+     "text": "Written from real design reviews. Each piece stands alone — read the one that matches your problem, or send us the board and we will work through all six with you."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Your Board Looks Fine. Then the Inserter Reaches the Last Hole."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A datum hole is a two-line change on a drawing and a six-week change on a production line. Here is why the front edge matters more than the outline."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "4 min read"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Open any THT board that failed to automate and you will usually find the same thing: the outline is perfect, the holes are in the right places, and the machine still rejects the last few insertions on every board."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The culprit is rarely the component. It is the reference. The guideline sets a maximum of 9.0 mm from the front edge of the PCB to the centre of the datum holes — because that is the distance over which the locating system can still resolve position reliably. Push the datum inwards and every downstream position inherits a larger uncertainty, which shows up as intermittent miss-inserts on the components furthest from the reference."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The second trap is shape. Machines using automatic board handling require symmetrical board shapes; a stand-alone machine placing boards on a dedicated workboard holder does not care. If you design an asymmetric outline and then buy automatic handling, the outline becomes the problem, and outlines are the most expensive thing on a board to change."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "None of this requires a machine to test. It requires two dimensions on a drawing, checked before the board is fabricated. That is the whole point of doing DFM first."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "The Real Cost of “Design It Now, Fix It at NPI”"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Respin, requalify, re-panel, re-tool. The invoice for a hole-span mistake arrives long after the designer has moved on to the next project."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "5 min read"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "“We will catch it at NPI” is a reasonable sentence in SMT. In through-hole automation it is an expensive one, because the parameters that break insertion are not the parameters that break placement."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "An axial or VCD machine expects a lead hole of lead diameter + 0.48 mm ± 0.08 mm. Miss low and insertion reliability degrades; miss high and components sit loose in the board. A radial machine expects lead maximum diameter + 0.483 mm ± 0.08 mm, with a different rule again when the component has a standoff — 0.403 mm — so that the standoff cannot drop into the hole."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Each of these is a fabrication parameter. Changing it means new tooling, a new panel, a new first-article cycle and a new qualification — and if the panel size was standardised across several products, it means all of them."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The asymmetry is stark: a design review costs a few hours of an application engineer's time. A respin costs weeks of calendar time, plus the tooling, plus the risk that the second version introduces a new fault. The cheapest DFM work is the review that happens before the first fabrication order."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "The Seven-Point THT Design Review We Run Before Any Auto-Insertion Quote"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Not a sales step. A feasibility step — because we would rather tell you your board is not ready than sell you a machine that cannot run it."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "6 min read"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "1 — Envelope. Board length and width inside 102 × 80 mm minimum and 508 × 406 mm maximum for insertion, 483 × 406 mm if the board passes through automatic handling. Length-to-width ratio 1:1 or greater."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "2 — Thickness and mass. 0.80–2.35 mm for insertion, 0.8–2.36 mm for automatic handling, with a 0.6–2.0 mm option. Maximum board weight 2.27 kg. Thickness and mass together decide whether the conveyor can carry the board without sag."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "3 — Datum references. Hole diameter 3.18–6.35 mm, hole centre no more than 9.0 mm from the front edge, hole variability between PCBs within ±0.1 mm."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "4 — Lead holes. Apply the formula for the machine family: axial and VCD lead Ø + 0.48 mm; radial lead max Ø + 0.483 mm; standoff 0.403 mm; three-lead centre hole 0.584 mm larger. Board-error-correction holes at 1.0 mm ± 0.5 mm."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "5 — Lead hole span. For a 2.5 mm single span, span = lead Ø + 1.98 mm. For jumper wire, minimum span runs 2.54–2.90 mm depending on lead diameter and insertion order."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "6 — Panelisation and shape. Standardise panel size to cut changeover setup time; keep shapes symmetrical if automatic handling is in scope."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "7 — Material and finish. Glass epoxy, paper epoxy and paper phenolic are all acceptable when they meet the size, shape and accuracy requirements — but plated holes or translucent PCBs may affect board-error-correction performance, which needs a specific conversation."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Seven questions. If your board passes all seven, automation is a throughput decision. If it fails one, we tell you which one and what it costs to change."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "From Hand Assembly to Automated THT: What Actually Changes on Your Line"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The honest answer is that the machine changes less than the design discipline around it. Here is the division of labour."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "4 min read"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The S4000 axial insertion machine and the S3010A radial insertion machine replace a repetitive manual operation with a programmable one. What they do not replace is judgement — and the judgement they need most is in the PCB layout."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "An axial machine inserts axially leaded components and jumper wires. A radial sequencer/inserter handles two- and three-taped radial leads, and packages such as SIPs can carry up to 10 leads. A jumper-wire machine is a separate family with its own span table and a clinch angle adjustable from 25° to 75° from vertical. An odd-form machine handles connectors, terminals and relays that cannot be taped."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Because each family clamps leads differently, each imposes its own hole span, clearance and clinch geometry. The practical consequence: the board should be designed for the family you intend to buy — or designed to the widest rule so you retain the option to add a second family later."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "What you gain is consistency. Automatic insertion delivers the repeatability that makes high quality, throughput and process control achievable at the same time, and standardising the board, the equipment and the components reduces process variability — which is where the cost savings actually come from."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "After the First Article: Keeping an Insertion Line in Tolerance for Years"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Commissioning is the easy part. The interesting question is what your hole tolerance looks like in lot 400."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "5 min read"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A machine that runs a board on day one is not proof of a stable process. The design guideline's own tolerance table lists the contributors that accumulate: lead diameter 0.635 mm nominal, lead diameter tolerance 0.076 mm, lead position tolerance 0.203 mm, machine accuracy 0.05 mm, hole size tolerance 0.076 mm and hole position tolerance 0.076 mm."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The worked example lands at a 1.116 mm hole for radial and 1.19 mm for VCD with a 0.635 mm lead. The gap between the nominal and the limit is your entire margin — and it is consumed by every one of those contributors, including hole variability between PCBs, which must stay within ±0.1 mm."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "This is why board error correction exists. A light source and receiving sensor sense hole-location variation between PCB lots and correct for it. It is a powerful capability, but it is a correction, not a licence — a drifting fabrication process still has to be brought back."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The maintenance discipline that keeps this stable is unglamorous: follow the current manual for authorised tasks, record date, asset, observed condition, action and verification, and escalate when a source is missing or a condition is abnormal. A maintenance record that is actually filled in is what turns a one-off commissioning into a repeatable process."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Send Us Your Gerbers: What a 48-Hour Insertion Readiness Review Returns"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Six answers, in writing, with the source for each. No obligation and no machine required to ask."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "4 min read"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Send the PCB data and we will run it against the seven-point review: envelope and aspect ratio, thickness and mass, datum references, lead hole diameters, lead hole spans, panelisation and shape, and material and finish."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "What comes back is not a brochure. It is a short written assessment: which dimensions already satisfy the published limits, which ones need to change, what the change costs in board area or tooling, and which items are genuinely unresolved and need your process engineer or the current machine manual before anyone commits."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Where a value is not supported by a current source, we will mark it as to-be-confirmed rather than estimate it. A design review that invents a number is worse than no review, because it moves the failure from the drawing board to the production line."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "And if the answer is that your board should stay manual for now, we will say so. An automation project that fails after purchase costs far more than an honest no before it."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "Watch the rules running on real machines",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "videos_kicker",
+     "text": "08 — Video library"
+    },
+    {
+     "t": "h2",
+     "key": "videos_h2",
+     "text": "Watch the rules running on real machines"
+    },
+    {
+     "t": "p",
+     "key": "videos_lead",
+     "text": "Every clip below is a live machine from the Southern Machinery channel. If a design rule is easier to believe when you see the tooling move, start with the design session and the axial and radial machines."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Designing THT PCBs for Auto Insertion — full session"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A 31-minute walkthrough of designing through-hole boards for automatic insertion in a smart EMS assembly environment."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "THT axial + radial insertion line with loader and unloader"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The full cell: board handling feeding an axial and a radial inserter, showing why the datum reference has to be consistent end to end."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S4000 axial insertion — software edit training"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "How the insertion program is built and edited, and why program revision control is part of the design discipline."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Dual jumper wire and 360° rotary table on S4000"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Jumper wire insertion sequence on the axial platform — the sequence rule from the guideline, in motion."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Two different jumper wires on one board"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Inserting two distinct jumper wires in one program, with the continuity check that stops the machine on a failed clinch."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3010A radial inserter — full array of taped radial leads"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A complete array of tape-packaged radial lead components inserted in one pass."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "33 components in 16 seconds on S3010A"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Throughput in practice — and the reason a wrong hole span shows up as a stop rather than a slow-down."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3010A training: common failures and restart methods"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The fault-reasoning sequence in the field: observe, make safe, check the source, act, verify."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Odd-form insertion with lead clinching"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Terminals and odd-form components that cannot be taped — the family where case-by-case tooling review matters most."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Jumper wire feeder"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The supply side of jumper wire insertion, and why feeder condition is part of insertion reliability."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://i.ytimg.com/vi/7XMRd3ekx7A/hqdefault.jpg",
+     "alt": "Designing THT PCBs for Auto Insertion — full session"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/1YGdj1jnDOY/hqdefault.jpg",
+     "alt": "THT axial + radial insertion line with loader and unloader"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/ok6c-2dFWec/hqdefault.jpg",
+     "alt": "S4000 axial insertion — software edit training"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/xlvFwNTf4_8/hqdefault.jpg",
+     "alt": "Dual jumper wire and 360° rotary table on S4000"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/sBRMRw-gaHI/hqdefault.jpg",
+     "alt": "Two different jumper wires on one board"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/jI5O2w86n1A/hqdefault.jpg",
+     "alt": "S3010A radial inserter — full array of taped radial leads"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/WPVHE_AllRc/hqdefault.jpg",
+     "alt": "33 components in 16 seconds on S3010A"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/2T1fappuaOU/hqdefault.jpg",
+     "alt": "S3010A training: common failures and restart methods"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/o1WeoMJFo8E/hqdefault.jpg",
+     "alt": "Odd-form insertion with lead clinching"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/g_wi1xyq5VA/hqdefault.jpg",
+     "alt": "Jumper wire feeder"
+    }
+   ],
+   "videos": [
+    {
+     "id": "7XMRd3ekx7A",
+     "title": "Designing THT PCBs for Auto Insertion — full session",
+     "titleKey": "video_design_t",
+     "duration": "31:26"
+    },
+    {
+     "id": "1YGdj1jnDOY",
+     "title": "THT axial + radial insertion line with loader and unloader",
+     "titleKey": "video_line_t",
+     "duration": "1:00"
+    },
+    {
+     "id": "ok6c-2dFWec",
+     "title": "S4000 axial insertion — software edit training",
+     "titleKey": "video_axial_t",
+     "duration": "4:36"
+    },
+    {
+     "id": "xlvFwNTf4_8",
+     "title": "Dual jumper wire and 360° rotary table on S4000",
+     "titleKey": "video_jw_t",
+     "duration": "2:01"
+    },
+    {
+     "id": "sBRMRw-gaHI",
+     "title": "Two different jumper wires on one board",
+     "titleKey": "video_jw2_t",
+     "duration": "1:25"
+    },
+    {
+     "id": "jI5O2w86n1A",
+     "title": "S3010A radial inserter — full array of taped radial leads",
+     "titleKey": "video_radial_t",
+     "duration": "0:54"
+    },
+    {
+     "id": "WPVHE_AllRc",
+     "title": "33 components in 16 seconds on S3010A",
+     "titleKey": "video_radial2_t",
+     "duration": "0:48"
+    },
+    {
+     "id": "2T1fappuaOU",
+     "title": "S3010A training: common failures and restart methods",
+     "titleKey": "video_fault_t",
+     "duration": "6:03"
+    },
+    {
+     "id": "o1WeoMJFo8E",
+     "title": "Odd-form insertion with lead clinching",
+     "titleKey": "video_odd_t",
+     "duration": "1:57"
+    },
+    {
+     "id": "g_wi1xyq5VA",
+     "title": "Jumper wire feeder",
+     "titleKey": "video_feeder_t",
+     "duration": "1:12"
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "downloads",
+   "heading": "Take the references with you",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "dl_kicker",
+     "text": "09 — Downloads"
+    },
+    {
+     "t": "h2",
+     "key": "dl_h2",
+     "text": "Take the references with you"
+    },
+    {
+     "t": "p",
+     "key": "dl_lead",
+     "text": "The full product catalogue, the machine manuals and the design worksheets — all hosted on the Southern Machinery file library."
+    },
+    {
+     "t": "h3",
+     "key": "dl_g1",
+     "text": "Design references"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "THT PCB design guideline — Southern Machinery 2022"
+      },
+      {
+       "key": "",
+       "text": "Through Hole PCB design considerations"
+      },
+      {
+       "key": "",
+       "text": "SMThelp auto insertion PCB assembly requirements"
+      },
+      {
+       "key": "",
+       "text": "Manual to auto insertion benefit"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "dl_g2",
+     "text": "Machine documentation"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "S4000 axial insertion machine"
+      },
+      {
+       "key": "",
+       "text": "S-4000H jumper wire / axial inserter"
+      },
+      {
+       "key": "",
+       "text": "S3010A radial inserter"
+      },
+      {
+       "key": "",
+       "text": "SMT BHS board handling system"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "dl_g3",
+     "text": "Worksheets and calculators"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Auto-insertion readiness checklist (PDF)"
+      },
+      {
+       "key": "",
+       "text": "THT auto-insertion ROI worksheet (XLSX)"
+      },
+      {
+       "key": "",
+       "text": "THT insertion ROI calculator (XLSX)"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "dl_g4",
+     "text": "Boards and catalogues"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "Full product catalogue board"
+      },
+      {
+       "key": "",
+       "text": "YouTube video board (1,248 clips)"
+      },
+      {
+       "key": "",
+       "text": "Auto insertion board handling system (3D web CAD)"
+      }
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "THT PCB design guideline — Southern Machinery 2022",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/THT%20PCB%20design%20guideline%20-Southern%20Machinery%202022.pdf"
+    },
+    {
+     "label": "Through Hole PCB design considerations",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/Through%20Hole%20PCB%20design%20considerations.pdf"
+    },
+    {
+     "label": "SMThelp auto insertion PCB assembly requirements",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/SMThelp%20Auto%20Insertion%20PCB%20assembly%20requirements.pdf"
+    },
+    {
+     "label": "Manual to auto insertion benefit",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/Manual%20to%20Auto%20insertion%20benefit.pdf"
+    },
+    {
+     "label": "S4000 axial insertion machine",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S4000%20Axial%20Insertion%20machine%202024.pdf"
+    },
+    {
+     "label": "S-4000H jumper wire / axial inserter",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S-4000H%20Jumper%20Wire%20Axial%20Inserter.pdf"
+    },
+    {
+     "label": "S3010A radial inserter",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S3010A%20Radial%20Inserter.pdf"
+    },
+    {
+     "label": "SMT BHS board handling system",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/SMT%20BHS(Board%20Handling%20System)%20Machinery%20.pdf"
+    },
+    {
+     "label": "Auto-insertion readiness checklist (PDF)",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/auto-insertion-readiness-checklist.pdf"
+    },
+    {
+     "label": "THT auto-insertion ROI worksheet (XLSX)",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/THT-Auto-Insertion-ROI-Worksheet.xlsx"
+    },
+    {
+     "label": "THT insertion ROI calculator (XLSX)",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/THT-Insertion-ROI-Calculator.xlsx"
+    },
+    {
+     "label": "Full product catalogue board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-Product-Catalog-Board.html"
+    },
+    {
+     "label": "YouTube video board (1,248 clips)",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-YouTube-Video-Board.html"
+    },
+    {
+     "label": "Auto insertion board handling system (3D web CAD)",
+     "url": "https://file.autoinsertion.com/public/SMT%20machine%203D%20Drawing%20in%20Html/Auto%20Insertion%20Board%20Handling%20System.html"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "heading": "Send us the board. We will tell you what the inserter will think of it.",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "cta_kicker",
+     "text": "10 — Next step"
+    },
+    {
+     "t": "h2",
+     "key": "cta_h2",
+     "text": "Send us the board. We will tell you what the inserter will think of it."
+    },
+    {
+     "t": "p",
+     "key": "cta_lead",
+     "text": "No obligation. Send the PCB data, the component list and the target volume, and an application engineer will come back with the seven-point assessment in writing."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://wa.me/8613602562576",
+     "text": "◍Message us on WhatsApp"
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://file.autoinsertion.com",
+     "text": "▤Browse the machine catalogue"
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://ph.smthelp.com",
+     "text": "▣See machine photos"
+    },
+    {
+     "t": "p",
+     "key": "form_note",
+     "text": "This form opens your email client with the details pre-filled. Nothing is sent to a server from this page."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "▤Browse the machine catalogue",
+     "url": "https://file.autoinsertion.com"
+    }
+   ]
+  }
+ ]
+}

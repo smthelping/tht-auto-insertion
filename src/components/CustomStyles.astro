@@ -1,0 +1,65 @@
+---
+// Font family is provided by Astro's native Fonts API (see `fonts` in
+// astro.config.ts and <Font /> in Layout.astro), exposed as `--font-inter`.
+// Colours follow the Southern Machinery palette carried over from the
+// single-file landing pages (teal #0c665c on white / near-black).
+---
+
+<style is:inline>
+  :root {
+    --aw-font-sans: var(--font-inter);
+    --aw-font-serif: var(--font-inter);
+    --aw-font-heading: var(--font-inter);
+
+    --aw-color-primary: rgb(12 102 92);
+    --aw-color-secondary: rgb(10 79 71);
+    --aw-color-accent: rgb(8 59 53);
+
+    --aw-color-text-heading: rgb(0 0 0);
+    --aw-color-text-default: rgb(16 16 16);
+    --aw-color-text-muted: rgb(16 16 16 / 66%);
+    --aw-color-bg-page: rgb(255 255 255);
+
+    --aw-color-bg-page-dark: rgb(8 9 10);
+
+    ::selection {
+      background-color: rgb(12 102 92 / 25%);
+    }
+  }
+
+  .dark {
+    --aw-font-sans: var(--font-inter);
+    --aw-font-serif: var(--font-inter);
+    --aw-font-heading: var(--font-inter);
+
+    --aw-color-primary: rgb(45 168 152);
+    --aw-color-secondary: rgb(12 102 92);
+    --aw-color-accent: rgb(120 214 200);
+
+    --aw-color-text-heading: rgb(247, 248, 248);
+    --aw-color-text-default: rgb(229 236 246);
+    --aw-color-text-muted: rgb(229 236 246 / 66%);
+    --aw-color-bg-page: rgb(8 9 10);
+
+    ::selection {
+      background-color: black;
+      color: snow;
+    }
+  }
+
+  /* Inter carries no Arabic or CJK glyphs, so those locales fall back to the
+     platform UI fonts instead of rendering tofu. */
+  html[lang='ar'] {
+    --aw-font-sans: 'Noto Sans Arabic', 'Segoe UI', Tahoma, 'Helvetica Neue', sans-serif;
+    --aw-font-serif: var(--aw-font-sans);
+    --aw-font-heading: var(--aw-font-sans);
+  }
+  html[lang='zh'] {
+    --aw-font-sans: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+    --aw-font-serif: var(--aw-font-sans);
+    --aw-font-heading: var(--aw-font-sans);
+  }
+  html[lang='ru'] {
+    --aw-font-sans: var(--font-inter), 'PT Sans', 'Segoe UI', sans-serif;
+  }
+</style>

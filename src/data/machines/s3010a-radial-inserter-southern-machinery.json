@@ -1,0 +1,1043 @@
+{
+ "slug": "s3010a-radial-inserter-southern-machinery",
+ "category": "radial",
+ "title": "Radial Insertion Head and Cutter head",
+ "description": "Southern Machinery S3010A Radial Inserter: 12,000 CPH verified throughput, full Fuji servo drive, camera-visual programming in minutes, auto PCB load/unload, UIC-compatible parts.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/s3010a-radial-inserter-southern-machinery.html",
+ "heroImage": "",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "overview",
+   "heading": "S3010A Radial Inserter — 12,000 CPH real throughput, vision-guided programming",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "High-performance THT radial automation"
+    },
+    {
+     "t": "h1",
+     "key": "",
+     "text": "S3010A Radial Inserter — 12,000 CPH real throughput, vision-guided programming"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Sequences and inserts the full array of radial-lead components — from 2.5 mm to 10.0 mm spans, up to 22 mm tall — with a full Fuji servo drive and camera-visual programming that cuts new program setup to minutes."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Manual load or automatic PCB load/unload; In-Line or Straight-Back from 10 to 100 inputs. UIC-compatible heads, clinch bases, CTA carriers and feeders. Final configuration confirmed after technical review."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "pain",
+   "heading": "When boards change every shift, programming time becomes the bottleneck",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "The hidden cost of high-mix radial insertion"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "When boards change every shift, programming time becomes the bottleneck"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "High-mix lines do not lose time only on placement — they lose it on setup. The S3010A attacks both: minutes-long programming and machine-speed insertion."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Setup eats the shift"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Teaching a new board manually can take hours. In high-mix production that time is pure cost, repeated every changeover."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Polarity & value errors"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Reversed capacitors and wrong-value parts slip past visual checks and fail at test — the most expensive stage to catch them."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Span diversity"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Boards mix 2.5 mm and 10.0 mm span parts in the same program; machines that handle one span force manual insertion for the rest."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Tall components"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Parts up to 22 mm tall get derated or handled manually on machines not built for them."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Inline integration"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Connecting to loaders, unloaders and magazine racks is a project, not a plug-in, on many inserters."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Audit & traceability"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Customers demand documented repeatability; manual and semi-manual steps leave gaps in the record."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "fab",
+   "heading": "What the S3010A actually changes on your floor",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feature · Advantage · Benefit"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "What the S3010A actually changes on your floor"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Select a feature to connect the verified machine capability with its technical advantage and the practical benefit your factory feels."
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Feature"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feature description."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "CPH verified real throughput, 1,000 ppm reliability class"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "New PCB program with camera-visual operating system"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Max component height without derating"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Max PCB size with automatic loading/unloading"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "automation",
+   "heading": "From manual feeding to a supervised radial insertion cell",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "S3010A Automation Solution"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "From manual feeding to a supervised radial insertion cell"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The S3010A integrates with a PCB loader, magazine rack and unloader so boards move through the cell automatically — no operator hands between processes."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The loader automatically sends boards to the S3010A; track height and width are matched and adjustable."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The rack holds up to 50 boards; full racks feed automatically, empty racks exit for reload."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The inserter completes every board and sends it automatically to the unloader."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Finished boards enter an empty rack; at 50 boards the rack exits to the next process."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "One operator manages the cell instead of several manual insertion stations."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "specs",
+   "heading": "Key specifications for project evaluation",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Source-verified technical data"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Key specifications for project evaluation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Values support initial evaluation and remain subject to final technical confirmation against your board size, component mix and line layout."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S-3010A Radial Insertion Machine"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Model"
+       },
+       {
+        "key": "",
+        "text": "S-3010A Radial insertion machine"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion spans"
+       },
+       {
+        "key": "",
+        "text": "Single, dual, triple and quad-span tooling; 2.5 mm to 10.0 mm incl. 3.5 mm (standard triple span 2.5/5.0 mm)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Speed"
+       },
+       {
+        "key": "",
+        "text": "12,000 CPH (actual speed 10,000 CPH)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insert direction"
+       },
+       {
+        "key": "",
+        "text": "0° – 360°, in 1° increments"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion head"
+       },
+       {
+        "key": "",
+        "text": "Servo-motor driven (13.0 mm, 22 mm tall) with clinch base N type"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Components"
+       },
+       {
+        "key": "",
+        "text": "Capacitor, transistor, LED lights, key switch, standard tape-packed radial lead components"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine size (L×W×H)"
+       },
+       {
+        "key": "",
+        "text": "1800 × 1600 × 1800 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine weight"
+       },
+       {
+        "key": "",
+        "text": "1,000 kg"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "220 V AC, single phase, 50/60 Hz"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air pressure"
+       },
+       {
+        "key": "",
+        "text": "0.6 MPa / 0.3 m³/min"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Ambient temperature"
+       },
+       {
+        "key": "",
+        "text": "10 °C to 35 °C"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "Min 50 × 50 mm, Max 400 × 400 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "",
+        "text": "0.79 – 2.36 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Clinch length / degree"
+       },
+       {
+        "key": "",
+        "text": "1.5 – 2.2 mm / 10 – 35 degrees"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Coordinate correction"
+       },
+       {
+        "key": "",
+        "text": "Machine vision systems; machine vision calibration systems"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Table type"
+       },
+       {
+        "key": "",
+        "text": "Non-rotary table"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Control system"
+       },
+       {
+        "key": "",
+        "text": "English or Chinese interface; Southern Machinery platform software, LCD monitor, industrial-control computer"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeders"
+       },
+       {
+        "key": "",
+        "text": "10"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Automation solution"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Line layout"
+       },
+       {
+        "key": "",
+        "text": "Loader → S3010A → Unloader with SMT magazine racks"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Rack capacity"
+       },
+       {
+        "key": "",
+        "text": "Up to 50 boards per rack; auto feed of full racks, auto exit of empty racks"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Track adjustment"
+       },
+       {
+        "key": "",
+        "text": "Height and width matched to the machine, width adjustable"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Applications"
+       },
+       {
+        "key": "",
+        "text": "LED signage/illumination, LED drivers/ballasts, set-top boxes, appliances, power conversion, high-mix environments"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "UIC compatibility"
+       },
+       {
+        "key": "",
+        "text": "Insertion heads, clinch bases, CTA carriers and feeders"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Specifications are from the official Southern Machinery S-3010A datasheet and S3010A Automation Solution presentation. The factory reference sheet (IST-3800A platform) lists higher peak insertion figures and a larger multi-head variant; Southern Machinery quotes the verified production numbers above. Final configuration is confirmed after technical review of your boards and component mix."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S-3010A Radial Insertion Machine"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Model"
+       },
+       {
+        "key": "",
+        "text": "S-3010A Radial insertion machine"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion spans"
+       },
+       {
+        "key": "",
+        "text": "Single, dual, triple and quad-span tooling; 2.5 mm to 10.0 mm incl. 3.5 mm (standard triple span 2.5/5.0 mm)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Speed"
+       },
+       {
+        "key": "",
+        "text": "12,000 CPH (actual speed 10,000 CPH)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insert direction"
+       },
+       {
+        "key": "",
+        "text": "0° – 360°, in 1° increments"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion head"
+       },
+       {
+        "key": "",
+        "text": "Servo-motor driven (13.0 mm, 22 mm tall) with clinch base N type"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Components"
+       },
+       {
+        "key": "",
+        "text": "Capacitor, transistor, LED lights, key switch, standard tape-packed radial lead components"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine size (L×W×H)"
+       },
+       {
+        "key": "",
+        "text": "1800 × 1600 × 1800 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine weight"
+       },
+       {
+        "key": "",
+        "text": "1,000 kg"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "220 V AC, single phase, 50/60 Hz"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air pressure"
+       },
+       {
+        "key": "",
+        "text": "0.6 MPa / 0.3 m³/min"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Ambient temperature"
+       },
+       {
+        "key": "",
+        "text": "10 °C to 35 °C"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "Min 50 × 50 mm, Max 400 × 400 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "",
+        "text": "0.79 – 2.36 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Clinch length / degree"
+       },
+       {
+        "key": "",
+        "text": "1.5 – 2.2 mm / 10 – 35 degrees"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Coordinate correction"
+       },
+       {
+        "key": "",
+        "text": "Machine vision systems; machine vision calibration systems"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Table type"
+       },
+       {
+        "key": "",
+        "text": "Non-rotary table"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Control system"
+       },
+       {
+        "key": "",
+        "text": "English or Chinese interface; Southern Machinery platform software, LCD monitor, industrial-control computer"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeders"
+       },
+       {
+        "key": "",
+        "text": "10"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Automation solution"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Line layout"
+       },
+       {
+        "key": "",
+        "text": "Loader → S3010A → Unloader with SMT magazine racks"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Rack capacity"
+       },
+       {
+        "key": "",
+        "text": "Up to 50 boards per rack; auto feed of full racks, auto exit of empty racks"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Track adjustment"
+       },
+       {
+        "key": "",
+        "text": "Height and width matched to the machine, width adjustable"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Applications"
+       },
+       {
+        "key": "",
+        "text": "LED signage/illumination, LED drivers/ballasts, set-top boxes, appliances, power conversion, high-mix environments"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "UIC compatibility"
+       },
+       {
+        "key": "",
+        "text": "Insertion heads, clinch bases, CTA carriers and feeders"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "See the S3010A inside and on the line",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Machine, mechanics and automation"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "See the S3010A inside and on the line"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Click any image to enlarge. Photos show the machine, its servo/clinch/vision systems, application boards and the automation solution line."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "Watch the S3010A insert, program and run inline",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Optional online media"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Watch the S3010A insert, program and run inline"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Videos load only after you select them. All clips are from the official Southern Machinery YouTube channel."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3010A Radial Inserter, Full Array Insertion"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "S3010A Radial Inserter inserting a full array of radial lead components in tape-package."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "How to insert components in S3010A"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Step-by-step component insertion on the S3010A."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3010A radial + S7000T pin terminal"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "S3010A radial insertion machine working alongside the S7000T pin terminal inserter."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Radial Insertion Head and Cutter head"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "How the radial insertion head and cutter head work together."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "You are offline. The product presentation remains available; videos can be loaded when a connection is restored."
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "jI5O2w86n1A",
+     "title": "S3010A Radial Inserter, Full Array Insertion",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "Y6v_U97S_Ho",
+     "title": "How to insert components in S3010A",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "xSHWpqCgaoQ",
+     "title": "S3010A radial + S7000T pin terminal",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "EXbYdskdXkM",
+     "title": "Radial Insertion Head and Cutter head",
+     "titleKey": "",
+     "duration": ""
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "service",
+   "heading": "Engineering support around your deployment",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "From line review to production"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Engineering support around your deployment"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "We confirm the fit before you commit — feeders, span tooling, loader/unloader and line layout matched to your boards."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Share PCB sizes, component mix, monthly volume and line layout."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Model and automation recommendation within 24 hours."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feeders, span tooling, clinch program, loader/unloader and racks."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Free installation, programming and operator training."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "24/7 support and 1-day spare-part lead time."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faq",
+   "heading": "Questions buyers ask before ordering",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Technical evaluation FAQ"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Questions buyers ask before ordering"
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What components can the S3010A insert?",
+     "a": "Capacitors, transistors, LED lights, key switches and standard tape-packed radial-lead components, with spans from 2.5 mm to 10.0 mm (single, dual, triple and quad-span tooling) and components up to 22 mm tall without derating."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How does camera-visual programming work?",
+     "a": "The camera visual operating system identifies board coordinates automatically, so an operator can finish a new PCB insertion program in under five minutes. Machine-vision coordinate correction and calibration systems keep positions accurate across boards."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can it run inline with loaders and unloaders?",
+     "a": "Yes. The S3010A supports automatic PCB loading and unloading with 50-board magazine racks, in In-Line or Straight-Back layouts with 10 to 100 feeder inputs. The full cell — loader, magazine rack, S3010A and unloader — is supervised by one operator."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Is it compatible with UIC parts?",
+     "a": "Yes. The S3010A accepts UIC-compatible insertion heads, clinch bases, CTA carriers and feeders, so wearing parts are available from established supply channels. Southern Machinery also stocks spares with a 1-day lead time."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What utilities does it need?",
+     "a": "220 V AC single-phase power (50/60 Hz) and compressed air at 0.6 MPa / 0.3 m³/min. Operating temperature range is 10 °C to 35 °C."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How do I get a price and delivery time?",
+     "a": "Email info@smthelp.com or WhatsApp +86 136 0256 2576 with your board sizes, component mix, monthly volume and line layout. Quotation and delivery schedule are provided after technical confirmation — typically the same working day."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Send your line layout and component mix for a configuration",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Next step"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Send your line layout and component mix for a configuration"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Tell us which boards you insert, the radial components you run and whether you need loader/unloader integration. We reply with a configuration and quotation within 24 hours."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://wa.me/8613602562576?text=Hi%20Jason%2C%20I%20would%20like%20a%20quote%20for%20the%20S3010A%20Radial%20Inserter.%20Our%20board%20size%20and%20components%3A%20",
+     "text": "Click to chat on WhatsApp"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  }
+ ]
+}

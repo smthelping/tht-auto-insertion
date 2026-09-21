@@ -1,0 +1,306 @@
+{
+ "slug": "s-3000-radial-insertion-machine-works-for-smart-ems-tht-pcb-assembly-factory-1",
+ "category": "radial",
+ "title": "S-3000 Radial Insertion Machine | Southern Machinery",
+ "description": "Upgrade your EMS factory from manual to automated THT solutions with the S-3000 Radial Insertion Machine. Increase ROI, precision, and throughput.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/s-3000-radial-insertion-machine-works-for-smart-ems-tht-pcb-assembly-factory-1.html",
+ "heroImage": "https://ph.smthelp.com/images/2025/12/06/S3000-Radial-Insertion-Machine-with-loader.png",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "smart-factory",
+   "heading": "The Smart EMS Factory Standard",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "The Smart EMS Factory Standard"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Transitioning from manual insertion to the S-3000 isn't just an equipment upgrade—it's a fundamental shift in production philosophy."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Eliminate Human Error"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Manual insertion carries a risk of wrong polarity and missed components. The S-3000 utilizes advanced vision systems to ensure 99.99% accuracy, protecting your PCBA yield."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Predictable Throughput"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Human fatigue leads to inconsistent output. Automating your radial line guarantees a stable, high-speed cycle time, allowing for precise production planning and on-time delivery."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Digital Traceability"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Integrate directly with your MES. The S-3000 provides real-time data logging, enabling smart factory analytics and full component traceability for automotive and medical clients."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "Explore Engineering Precision",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Explore Engineering Precision"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Interact with the S-3000: Rotate, Zoom, and Inspect the build quality."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "See the S-3000 in Action",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "See the S-3000 in Action"
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "Machine Overview"
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "Detailed Operation"
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "High Speed Action"
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "Internal Mechanism"
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "Production Line Integration"
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "Close-up Precision"
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "GzvEyfPsnr0",
+     "title": ""
+    },
+    {
+     "id": "Kd-WjT4-GZM",
+     "title": ""
+    },
+    {
+     "id": "WP61N6pmDJU",
+     "title": ""
+    },
+    {
+     "id": "1YGdj1jnDOY",
+     "title": ""
+    },
+    {
+     "id": "6j1RpxsOlMQ",
+     "title": ""
+    },
+    {
+     "id": "PIAtA3ULJ10",
+     "title": ""
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "Machine Configurations",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Machine Configurations"
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://ph.smthelp.com",
+     "text": "View Full Photo Gallery"
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S3000-Radial-Insertion-Machine-S7900-Odd-Form-Insertion-Machine-with-loader.png",
+     "alt": "S3000 Line Configuration"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S3010-Radial-Insertion-Machine.png",
+     "alt": "S3010 Variant"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/02/24/S3000-Radial-Inserter--10-Feeder-w-loader--F.png",
+     "alt": "10 Feeder with Loader"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/02/24/S3000-Radial-Inserter--10-Feeder--1.png",
+     "alt": "10 Feeder Mechanism"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "specs",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Technical Specifications"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Insertion Speed"
+       },
+       {
+        "key": "",
+        "text": "Up to 18,000 - 22,000 cph (Optimized for maximum factory throughput)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion Accuracy"
+       },
+       {
+        "key": "",
+        "text": "±0.05mm (Ensuring IPC Class 3 Standard)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component Scope"
+       },
+       {
+        "key": "",
+        "text": "Capacitors (Electrolytic/Ceramic), Resistors, Transistors, Diodes, LEDs"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB Size"
+       },
+       {
+        "key": "",
+        "text": "Min: 50x50mm | Max: 450x450mm (Flexible for varied consumer electronics)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeder Stations"
+       },
+       {
+        "key": "",
+        "text": "10 / 20 Stations (Expandable for complex BOMs)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Clinch Angles"
+       },
+       {
+        "key": "",
+        "text": "Inward/Outward adjustable (20° - 45°) for secure mechanical bonding"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power Supply"
+       },
+       {
+        "key": "",
+        "text": "220V AC, 50/60Hz, 1.5KW (Energy efficient operation)"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "Ready to Automate?",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Ready to Automate?"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Stop losing money on manual labor inefficiencies. Get the S-3000 specification sheet and pricing today."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S3000%20Radial%20Insertion%20machine%202024.pdf",
+     "text": "Download Catalog"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "Download Catalog",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S3000%20Radial%20Insertion%20machine%202024.pdf"
+    }
+   ]
+  }
+ ]
+}

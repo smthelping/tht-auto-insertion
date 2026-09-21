@@ -1,0 +1,1119 @@
+{
+ "slug": "s7900-odd-form-insert-machine-southern-machinery",
+ "category": "odd-form",
+ "title": "Odd Form Insertion Machine with Lead Clinching",
+ "description": "Southern Machinery S7900 Odd Form Insert Machine: 2-6 heads, 0.6 s per component, CPK>=1.0 vision accuracy, lead clinching, tape/tray/tube/bowl feeders up to 20 stations, MES ready.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/s7900-odd-form-insert-machine-southern-machinery.html",
+ "heroImage": "",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "overview",
+   "heading": "S7900 Odd Form Insert Machine — automate the components no standard machine will touch",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "THT odd-form component automation"
+    },
+    {
+     "t": "h1",
+     "key": "",
+     "text": "S7900 Odd Form Insert Machine — automate the components no standard machine will touch"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Connectors, switches, transformer coils, ports and terminals: the S7900 series inserts odd-form components at 0.6–0.8 seconds each with 2 to 6 heads, ±0.05 mm vision accuracy and a full tape, tray, tube and bowl feeder ecosystem."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Five configurations — S7900-II / IV / IV-P / VI / VI-P — cover standalone cells through inline lines with lead clinching. Final configuration confirmed after technical review."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "pain",
+   "heading": "Odd form is where THT lines quietly lose money",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "The hidden cost of manual odd-form insertion"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Odd form is where THT lines quietly lose money"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The parts your SMT line cannot place pile up on a manual bench — slow, inconsistent and impossible to staff at scale."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Odd form stays manual"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Connectors, coils and terminals sit outside standard placement. They accumulate on a hand-insertion bench that grows with every new product."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Every new part is a new problem"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Without flexible feeding, each odd shape demands new fixtures, new training and new excuses for slow starts."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Floaters at the wave"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Hand-inserted parts lift and shift during soldering. Floaters and tombstones are rework you pay for twice."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Mixed boards need mixed feeding"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Real boards mix connectors, coils, terminals and clips. One feeder type never covers the BOM, so half the parts stay manual."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "The bench sets line pace"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Mounters run at machine speed while boards wait at odd-form hand stations. Throughput is capped by fingers, not motors."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Audit and traceability gaps"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Manual steps leave no record. Customers auditing traceability see a gap exactly where your risk lives."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "fab",
+   "heading": "What the S7900 actually changes on your floor",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feature · Advantage · Benefit"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "What the S7900 actually changes on your floor"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Select a feature to connect the verified machine capability with its technical advantage and the practical benefit your factory feels."
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Feature"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feature description."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Insertion heads across the five S7900 variants"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Per-component insertion cycle on the VI series"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Maximum component height handled (S7900-IV / VI-P)"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Maximum PCB weight supported on the conveyor"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "specs",
+   "heading": "Key specifications for project evaluation",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Source-verified technical data"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Key specifications for project evaluation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Values support initial evaluation and remain subject to final technical confirmation against your board size, component mix and line layout."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S7900 series — key parameters"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Variants"
+       },
+       {
+        "key": "",
+        "text": "S7900-II / S7900-IV / S7900-IV-P / S7900-VI / S7900-VI-P"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion heads"
+       },
+       {
+        "key": "",
+        "text": "2 / 4 / 4 / 6 / 6"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Speed per component"
+       },
+       {
+        "key": "",
+        "text": "0.8 s / 0.7 s / 2 s (with clinching) / 0.6 s / 0.6 s"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Placement accuracy"
+       },
+       {
+        "key": "",
+        "text": "±0.06 / ±0.06 / ±0.05 / ±0.06 / ±0.05 mm, CPK ≥ 1.0"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine size (L×W×H)"
+       },
+       {
+        "key": "",
+        "text": "1050×1680×1870 up to 1550×1900×2100 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine weight"
+       },
+       {
+        "key": "",
+        "text": "1,250 – 1,800 kg"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "70×70 mm up to 450×400 mm (variant dependent)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness / weight"
+       },
+       {
+        "key": "",
+        "text": "0.6 – 2.0 mm; max PCB weight 5 kg (VI: 2 kg)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Max component size"
+       },
+       {
+        "key": "",
+        "text": "Ø50 (35×35) mm; height up to 20–30 mm (variant dependent)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion force"
+       },
+       {
+        "key": "",
+        "text": "≤ 29.4 N (IV: ≤ 98 N)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Components"
+       },
+       {
+        "key": "",
+        "text": "Connectors, switches, sockets, transformer coils, ports, capacitors, resistors, ICs and more"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air source"
+       },
+       {
+        "key": "",
+        "text": "0.5 – 0.65 MPa (ANR)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power"
+       },
+       {
+        "key": "",
+        "text": "Max 4.5 – 6.6 kW; running 2 – 3.5 kW"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Lead clinching"
+       },
+       {
+        "key": "",
+        "text": "Standard on IV-P; optional on VI-P"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Vision"
+       },
+       {
+        "key": "",
+        "text": "1 top mark CCD + 2–6 bottom component CCDs"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeder stations"
+       },
+       {
+        "key": "",
+        "text": "Up to 12–20 depending on feeder type"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Conveyor"
+       },
+       {
+        "key": "",
+        "text": "Chain or belt, R→L / L→R, auto adjusting, height 750 ± 20 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "MES connection"
+       },
+       {
+        "key": "",
+        "text": "Standard configuration"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Production reference — inline terminal / odd-form platform"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Applicable components"
+       },
+       {
+        "key": "",
+        "text": "Terminals and various odd-form electronic components, bulk or reel packed"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Terminal size"
+       },
+       {
+        "key": "",
+        "text": "Max width 10 mm × height 22 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine size"
+       },
+       {
+        "key": "",
+        "text": "1950 × 1200 × 1530 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Weight"
+       },
+       {
+        "key": "",
+        "text": "1,500 kg"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "220 V"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Operation"
+       },
+       {
+        "key": "",
+        "text": "Fully automatic, online (inline) configuration"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Industries"
+       },
+       {
+        "key": "",
+        "text": "Power adapters, automotive electronics, small appliance control boards, 5G communication"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Specification values are from the official Southern Machinery S7900 2025 catalog. The production-reference figures are quoted from the inline terminal/odd-form platform (DD-8600) factory sheet and vary by configuration. Southern Machinery quotes the verified numbers for your exact component mix; final configuration is confirmed after technical review."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S7900 series — key parameters"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Variants"
+       },
+       {
+        "key": "",
+        "text": "S7900-II / S7900-IV / S7900-IV-P / S7900-VI / S7900-VI-P"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion heads"
+       },
+       {
+        "key": "",
+        "text": "2 / 4 / 4 / 6 / 6"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Speed per component"
+       },
+       {
+        "key": "",
+        "text": "0.8 s / 0.7 s / 2 s (with clinching) / 0.6 s / 0.6 s"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Placement accuracy"
+       },
+       {
+        "key": "",
+        "text": "±0.06 / ±0.06 / ±0.05 / ±0.06 / ±0.05 mm, CPK ≥ 1.0"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine size (L×W×H)"
+       },
+       {
+        "key": "",
+        "text": "1050×1680×1870 up to 1550×1900×2100 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine weight"
+       },
+       {
+        "key": "",
+        "text": "1,250 – 1,800 kg"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size"
+       },
+       {
+        "key": "",
+        "text": "70×70 mm up to 450×400 mm (variant dependent)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness / weight"
+       },
+       {
+        "key": "",
+        "text": "0.6 – 2.0 mm; max PCB weight 5 kg (VI: 2 kg)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Max component size"
+       },
+       {
+        "key": "",
+        "text": "Ø50 (35×35) mm; height up to 20–30 mm (variant dependent)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insertion force"
+       },
+       {
+        "key": "",
+        "text": "≤ 29.4 N (IV: ≤ 98 N)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Components"
+       },
+       {
+        "key": "",
+        "text": "Connectors, switches, sockets, transformer coils, ports, capacitors, resistors, ICs and more"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air source"
+       },
+       {
+        "key": "",
+        "text": "0.5 – 0.65 MPa (ANR)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power"
+       },
+       {
+        "key": "",
+        "text": "Max 4.5 – 6.6 kW; running 2 – 3.5 kW"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Lead clinching"
+       },
+       {
+        "key": "",
+        "text": "Standard on IV-P; optional on VI-P"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Vision"
+       },
+       {
+        "key": "",
+        "text": "1 top mark CCD + 2–6 bottom component CCDs"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeder stations"
+       },
+       {
+        "key": "",
+        "text": "Up to 12–20 depending on feeder type"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Conveyor"
+       },
+       {
+        "key": "",
+        "text": "Chain or belt, R→L / L→R, auto adjusting, height 750 ± 20 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "MES connection"
+       },
+       {
+        "key": "",
+        "text": "Standard configuration"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Production reference — inline terminal / odd-form platform"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Applicable components"
+       },
+       {
+        "key": "",
+        "text": "Terminals and various odd-form electronic components, bulk or reel packed"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Terminal size"
+       },
+       {
+        "key": "",
+        "text": "Max width 10 mm × height 22 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine size"
+       },
+       {
+        "key": "",
+        "text": "1950 × 1200 × 1530 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Weight"
+       },
+       {
+        "key": "",
+        "text": "1,500 kg"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "220 V"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Operation"
+       },
+       {
+        "key": "",
+        "text": "Fully automatic, online (inline) configuration"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Industries"
+       },
+       {
+        "key": "",
+        "text": "Power adapters, automotive electronics, small appliance control boards, 5G communication"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "See the S7900 and its odd-form ecosystem",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Machine, feeders and production visuals"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "See the S7900 and its odd-form ecosystem"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Click any image to enlarge. Catalog pages are from the official S7900 2025 catalog; production photos show machines and line references."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "Watch odd-form insertion in production",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Optional online media"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Watch odd-form insertion in production"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Videos load only after you select them. All clips are from the official Southern Machinery YouTube channel."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Mastering THT Assembly: S7900 Odd Form Insertion"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "S7900 odd form insertion for intelligent instrument PCBs."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S7900 Series for New Energy Vehicle PCB Assembly"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "S7900 series odd form insertion real case study on new energy vehicle PCB assembly."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Southern Machinery S7900VI Precision & Efficiency"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "S7900VI odd shape insertion machine precision and efficiency in production."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Odd Form Insertion Machine with Lead Clinching"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Odd form insertion machine with lead clinching made by Southern Machinery."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "You are offline. The product presentation remains available; videos can be loaded when a connection is restored."
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "4_-IFfZk7Ys",
+     "title": "Mastering THT Assembly: S7900 Odd Form Insertion",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "GQcnWn7h3jg",
+     "title": "S7900 Series for New Energy Vehicle PCB Assembly",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "7aeeWq-SiPI",
+     "title": "Southern Machinery S7900VI Precision & Efficiency",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "o1WeoMJFo8E",
+     "title": "Odd Form Insertion Machine with Lead Clinching",
+     "titleKey": "",
+     "duration": ""
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "service",
+   "heading": "Engineering support around your deployment",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "From sample review to production"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Engineering support around your deployment"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Odd-form automation starts with your parts — send samples and we design the pickup around them."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Send odd-form component samples or drawings, board sizes and monthly volume."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Custom gripper/nozzle evaluation and quotation within 24 hours."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Head count, feeder mix, clinching option and conveyor direction."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Free installation, programming and operator training."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "24/7 support and 1-day spare-part lead time."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "documents",
+   "heading": "Official odd-form insertion documentation",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Downloadable catalogs"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Official odd-form insertion documentation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Open or download the Southern Machinery catalogs behind this page."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S7900 Odd Form Machine Catalog 2025"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Full S7900 catalog: fields of use, specification table, tape/tray/tube/bowl feeders, customized nozzles."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7900%20ODD%20FORM%20MACHINE%20CATALOG%202025.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "SMThelp Odd Form Insert Machine 2024"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "OIM / EIM series odd-form insert machine product guide with machine and feeder specifications."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/SMThelp%20Odd%20Form%20Insert%20Machine%202024.pdf",
+     "text": "Open the PDF"
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Southern Machinery Oddform Insertion Solution"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Odd-form insertion solution overview for EMS smart factories."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/Southern%20Machinery%20Oddform%20Insertion%20solution.pdf",
+     "text": "Open the PDF"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/S7900%20ODD%20FORM%20MACHINE%20CATALOG%202025.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/SMThelp%20Odd%20Form%20Insert%20Machine%202024.pdf"
+    },
+    {
+     "label": "Open the PDF",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Product/Southern%20Machinery%20Oddform%20Insertion%20solution.pdf"
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "heading": "Questions buyers ask before ordering",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Technical evaluation FAQ"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Questions buyers ask before ordering"
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What components can the S7900 insert?",
+     "a": "Connectors, switches, sockets, transformer coils, ports, capacitors, resistors, ICs and terminals — up to Ø50 (35×35 mm) body size and 20–30 mm height depending on variant. Insertion force is available up to 98 N on the S7900-IV for tight press-fit parts."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How do you handle our special odd-form parts?",
+     "a": "Send samples or drawings. Southern Machinery designs customized grippers and nozzles in-house — the same tooling capability behind our customized SMT nozzles — so parts without a standard pickup get a dedicated one."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What feeders are available?",
+     "a": "Radial and axial tape feeders including a 90° bending version, programmable tray feeders, tube feeders (including vibration and stacked types) and customized bowl feeders, up to 20 stations per machine. Mixed feeder types on one machine are supported."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can it clinch leads?",
+     "a": "Yes — automatic lead clinching is standard on the S7900-IV-P and optional on the S7900-VI-P, with outward, inner, circular and two-turn bending modes for leads under 1.0 mm."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can it run inline with MES?",
+     "a": "Yes. MES connection is standard configuration. The machine supports inline operation with PCB loading and unloading, chain or belt conveyors, left-to-right or right-to-left flow, and automatic conveyor adjustment."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How do I get a price and delivery time?",
+     "a": "Email info@smthelp.com or WhatsApp +86 136 0256 2576 with your component samples or drawings, board sizes and monthly volume. Feasibility, configuration and quotation are provided after technical confirmation — typically within 24 hours."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Send component samples or drawings for a feasibility answer",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Next step"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Send component samples or drawings for a feasibility answer"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Tell us which odd-form parts you insert, your board size and monthly volume. We reply with a gripper evaluation, configuration and quotation within 24 hours."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://wa.me/8613602562576?text=Hi%20Jason%2C%20I%20would%20like%20a%20quote%20for%20the%20S7900%20Odd%20Form%20Insert%20Machine.%20Our%20components%20and%20board%20size%3A%20",
+     "text": "Click to chat on WhatsApp"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  }
+ ]
+}

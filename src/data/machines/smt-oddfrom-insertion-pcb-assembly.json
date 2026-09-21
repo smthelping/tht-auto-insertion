@@ -1,0 +1,76 @@
+{
+ "slug": "smt-oddfrom-insertion-pcb-assembly",
+ "category": "odd-form",
+ "title": "{{ $('AI Agent').item.json.output.topic }} Newsletter",
+ "description": "",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/smt-oddfrom-insertion-pcb-assembly.html",
+ "heroImage": "",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "matched-resources",
+   "heading": "Watch it running",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Watch it running"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Machine footage from our YouTube channel, matched to this page."
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Product documentation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Catalogues, manuals and ROI sheets from the product catalog board."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "THT Auto Insertion Machine Solution (HTML) ↓"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Sources: YouTube video board · product catalog board · machine photo library"
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "0k4U5NLKq4k",
+     "title": "How China made Auto Insertion machine for Smart EMS factory PCB assembly"
+    },
+    {
+     "id": "KtJF9zqHnXw",
+     "title": "10x cost saving Southern Machinery made Auto Insertion machine"
+    }
+   ],
+   "docs": [
+    {
+     "label": "THT Auto Insertion Machine Solution (HTML) ↓",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/THT-Auto-Insertion-Machine-Solution-Landing.html"
+    },
+    {
+     "label": "YouTube video board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-YouTube-Video-Board.html"
+    },
+    {
+     "label": "product catalog board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-Product-Catalog-Board.html"
+    }
+   ]
+  }
+ ]
+}

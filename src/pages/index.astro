@@ -1,0 +1,119 @@
+---
+import LandingLayout from '~/layouts/LandingLayout.astro';
+import MachineHero from '~/components/machine/MachineHero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import MachineCard from '~/components/machine/MachineCard.astro';
+import { CATEGORIES, categoryUrl, machineCategories, machines } from '~/utils/machines';
+
+const total = machines.length;
+const translated = machines.filter((machine) => machine.langs.length > 1).length;
+
+const heroImage = machines.find((machine) => machine.heroImage)?.heroImage ?? '';
+
+const steps = [
+  {
+    title: 'Send the board and the component list',
+    description:
+      'Screenshot or Gerber plus the parts you still insert by hand. Cycle time, span and packaging decide the machine.',
+  },
+  {
+    title: 'We match machines, feeders and tooling',
+    description:
+      'Axial, radial, odd-form or terminal — and who owns the feeder. Every figure comes from the published machine documents.',
+  },
+  {
+    title: 'You get the line, the numbers and the payback',
+    description:
+      'Through-put, footprint, air and power, plus a payback you can recalculate with your own labour rate.',
+  },
+];
+---
+
+<LandingLayout
+  metadata={{
+    title: 'THT Auto Insertion Machines',
+    description: `Axial, radial, odd-form and terminal THT insertion machines for smart EMS factories. ${total} machine pages, ${translated} of them documented in seven languages.`,
+    canonical: 'https://smthelping.github.io/tht-auto-insertion',
+  }}
+>
+  <MachineHero
+    badge="Southern Machinery · THT auto insertion"
+    title="Your THT parts still go in by hand. Here is what takes them."
+    subtitle="Axial, radial, odd-form and terminal insertion machines, the feeders that feed them, and the line design that ties them together — for smart EMS factories running high-mix, low-volume boards."
+    content={`${total} machine pages, ${translated} of them documented in seven languages. Every specification is quoted from the machine manual or the specification sheet behind it, and every disagreement between the two is published rather than averaged.`}
+    image={heroImage ? { src: heroImage, alt: 'THT auto insertion machine' } : undefined}
+    actions={[
+      { text: 'Send the component list', href: 'mailto:info@smthelp.com', variant: 'primary' },
+      { text: 'Browse machines', href: '#machines', variant: 'secondary' },
+    ]}
+  />
+
+  <section class="bg-gray-50 py-12 md:py-16 dark:bg-slate-800/40">
+    <div class="mx-auto max-w-7xl px-4 md:px-6">
+      <h2 class="mb-3 text-2xl font-bold text-heading md:text-3xl">How a THT line gets specified</h2>
+      <p class="mb-10 max-w-3xl text-muted">
+        Three steps, in the order they actually decide the machine mix. Nothing below is a sales figure — the numbers on
+        each machine page are the ones the documents publish.
+      </p>
+      <ol class="grid list-none gap-8 p-0 md:grid-cols-3">
+        {
+          steps.map((step, index) => (
+            <li class="border-t-2 border-primary pt-4">
+              <span class="mb-2 block text-sm font-bold text-primary">STEP {index + 1}</span>
+              <h3 class="mb-2 text-lg font-bold text-heading">{step.title}</h3>
+              <p class="text-muted">{step.description}</p>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+
+  <section class="py-12 md:py-16">
+    <div class="mx-auto max-w-7xl px-4 md:px-6">
+      <h2 class="mb-3 text-2xl font-bold text-heading md:text-3xl">Machine groups</h2>
+      <p class="mb-10 max-w-3xl text-muted">
+        Pick the group your component falls into. Each group page lists every machine page in it with its published
+        through-put and component envelope.
+      </p>
+      <ul class="grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          CATEGORIES.map((category) => (
+            <li class="rounded-lg border border-gray-200 bg-white p-6 transition hover:border-primary hover:shadow-lg dark:border-slate-700 dark:bg-slate-800">
+              <a class="block" href={categoryUrl(category.slug)}>
+                <span class="mb-2 block text-xs font-bold uppercase tracking-wide text-primary">
+                  {machineCategories(category.slug).length} machine pages
+                </span>
+                <h3 class="mb-2 text-lg font-bold text-heading">{category.name}</h3>
+                <p class="mb-3 text-sm font-medium text-secondary">{category.tagline}</p>
+                <p class="text-sm text-muted">{category.description}</p>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section id="machines" class="scroll-mt-[72px] bg-gray-50 py-12 md:py-16 dark:bg-slate-800/40">
+    <div class="mx-auto max-w-7xl px-4 md:px-6">
+      <h2 class="mb-3 text-2xl font-bold text-heading md:text-3xl">All {total} machines</h2>
+      <p class="mb-10 max-w-3xl text-muted">
+        Migrated one-for-one from the original single-file landing pages, with the seven-language dictionaries carried
+        across and the specification tables, FAQs, videos and downloads kept intact.
+      </p>
+      <ul class="grid list-none gap-6 p-0 sm:grid-cols-2 lg:grid-cols-3">
+        {machines.map((machine) => <MachineCard machine={machine} />)}
+      </ul>
+    </div>
+  </section>
+
+  <CallToAction
+    title="Tell us the component and the mounter"
+    subtitle="Send the drawing or a photo and the board it goes on. We will confirm whether a standard machine covers it or whether the tooling has to be designed."
+    actions={[
+      { text: 'info@smthelp.com', href: 'mailto:info@smthelp.com', variant: 'primary' },
+      { text: 'WhatsApp +86 136 0256 2576', href: 'https://wa.me/8613602562576', variant: 'secondary' },
+    ]}
+  />
+</LandingLayout>

@@ -1,0 +1,93 @@
+---
+import type { MachineVideo } from '~/utils/machines';
+
+export interface Props {
+  videos: MachineVideo[];
+  heading?: string;
+  dict?: Record<string, string>;
+}
+
+const { videos, heading, dict = {} } = Astro.props;
+
+const poster = (id: string) => `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+
+// The caption was stored as an i18n key on the pages that build their video
+// grid in JavaScript, so it can follow the page language.
+const caption = (video: MachineVideo) => {
+  const key = video.titleKey;
+  if (key && dict[key]) return dict[key];
+  return video.title ?? '';
+};
+
+const unique = videos.filter((video, index, all) => all.findIndex((v) => v.id === video.id) === index);
+---
+
+{
+  unique.length > 0 && (
+    <div class="max-w-6xl">
+      {heading && <h2 class="mb-6 text-2xl font-bold text-heading md:text-3xl">{heading}</h2>}
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {unique.map((video) => (
+          <figure class="overflow-hidden rounded-lg border border-gray-200 bg-white dark:border-slate-700 dark:bg-slate-800">
+            <a
+              class="group relative block aspect-video bg-gray-100 dark:bg-slate-900"
+              href={`https://www.youtube.com/watch?v=${video.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-aw-machine-video={video.id}
+              data-video-title={caption(video) || 'Machine video'}
+              aria-label={caption(video) || 'Watch on YouTube'}
+            >
+              <img
+                src={poster(video.id)}
+                alt={caption(video) || 'Machine video'}
+                width="480"
+                height="360"
+                loading="lazy"
+                decoding="async"
+                class="h-full w-full object-cover transition group-hover:opacity-90"
+              />
+              <span class="absolute inset-0 flex items-center justify-center" aria-hidden="true">
+                <span class="flex h-12 w-12 items-center justify-center rounded-full bg-red-600/90 text-white shadow-lg">
+                  <svg viewBox="0 0 24 24" fill="currentColor" class="ms-0.5 h-6 w-6">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </span>
+              </span>
+              {video.duration && (
+                <span class="absolute bottom-2 end-2 rounded bg-black/75 px-2 py-0.5 text-xs font-medium text-white">
+                  {video.duration}
+                </span>
+              )}
+            </a>
+            {caption(video) && (
+              <figcaption class="px-3 py-2 text-sm leading-snug text-muted">{caption(video)}</figcaption>
+            )}
+          </figure>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+<script>
+  // Progressive enhancement: swap the thumbnail for the privacy-enhanced player
+  // in place. Without JavaScript the links open on youtube.com instead.
+  document.querySelectorAll<HTMLAnchorElement>('a[data-aw-machine-video]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      const id = link.dataset.awMachineVideo;
+      if (!id) return;
+      const wrapper = link.parentElement;
+      if (!wrapper) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
+      frame.title = link.dataset.videoTitle || 'Machine video';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.referrerPolicy = 'strict-origin-when-cross-origin';
+      frame.allowFullscreen = true;
+      frame.className = 'absolute inset-0 h-full w-full border-0';
+      link.replaceWith(frame);
+    });
+  });
+</script>

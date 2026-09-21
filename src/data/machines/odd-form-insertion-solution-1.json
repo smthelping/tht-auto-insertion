@@ -1,0 +1,57 @@
+{
+ "slug": "odd-form-insertion-solution-1",
+ "category": "odd-form",
+ "title": "Transform Your Assembly with the S7900 Machine",
+ "description": "",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/odd-form-insertion-solution-1.html",
+ "heroImage": "https://ph.smthelp.com/images/2024/12/20/S7900-Odd-Form-Insertion-Machine-x2-w-Feeders-PCB-Loading--magazine-7.png",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "matched-resources",
+   "heading": "Watch it running",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Watch it running"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Machine footage from our YouTube channel, matched to this page."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Sources: YouTube video board · product catalog board · machine photo library"
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "P0rfpkHpPxg",
+     "title": "10x labor cost saving Odd Form Insertion Machine for Smart EMS factory PCB assembly"
+    },
+    {
+     "id": "xQ0d-dM00RQ",
+     "title": "SMT THT Odd Form Insertion machine Design and manufacturing"
+    },
+    {
+     "id": "moGjmJ-mWQg",
+     "title": "Odd Form Feeder Design by SMThelp.com for Smart EMS factory PCB assembly"
+    }
+   ],
+   "docs": [
+    {
+     "label": "YouTube video board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-YouTube-Video-Board.html"
+    },
+    {
+     "label": "product catalog board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-Product-Catalog-Board.html"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+---
+import type { Machine } from '~/utils/machines';
+import { machineUrl, CATEGORY_BY_SLUG } from '~/utils/machines';
+
+export interface Props {
+  machine: Machine;
+  lang?: string;
+}
+
+const { machine, lang = 'en' } = Astro.props;
+
+// Titles in the source carry the brand suffix; strip it for card headings.
+const title = machine.title.replace(/\s*[|—–-]\s*Southern Machinery\s*$/i, '').trim();
+const category = CATEGORY_BY_SLUG[machine.category];
+const image = machine.heroImage || machine.blocks.flatMap((block) => block.images)[0]?.src || '';
+---
+
+<li class="group flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white transition hover:border-primary hover:shadow-lg dark:border-slate-700 dark:bg-slate-800">
+  <a class="flex h-full flex-col" href={machineUrl(machine.slug, lang)}>
+    {
+      image ? (
+        <img
+          src={image}
+          alt={title}
+          width="640"
+          height="360"
+          loading="lazy"
+          decoding="async"
+          class="aspect-[16/9] w-full object-cover"
+        />
+      ) : (
+        <div class="aspect-[16/9] w-full bg-gray-100 dark:bg-slate-900" aria-hidden="true" />
+      )
+    }
+    <div class="flex flex-1 flex-col p-5">
+      {category && (
+        <span class="mb-2 text-xs font-bold uppercase tracking-wide text-primary">{category.name}</span>
+      )}
+      <h3 class="mb-2 text-lg font-bold text-heading">{title}</h3>
+      <p class="mb-4 line-clamp-3 text-sm text-muted">{machine.description}</p>
+      <span class="mt-auto text-sm font-semibold text-primary group-hover:underline">Open machine page →</span>
+    </div>
+  </a>
+</li>

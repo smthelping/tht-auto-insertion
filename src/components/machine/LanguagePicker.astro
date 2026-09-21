@@ -1,0 +1,42 @@
+---
+import type { Machine } from '~/utils/machines';
+import { LOCALE_LABEL, RTL_LOCALES, availableLocales, machineUrl } from '~/utils/machines';
+
+export interface Props {
+  machine: Machine;
+  current: string;
+}
+
+const { machine, current } = Astro.props;
+const locales = availableLocales(machine);
+
+// These are real, prerendered URLs rather than the `?lang=` query switch the
+// single-file originals used, so each translation is crawlable on its own.
+const translated = locales.length > 1;
+---
+
+{
+  translated && (
+    <nav
+      aria-label="Page language"
+      class="flex flex-wrap items-center gap-x-4 gap-y-2 border-b border-gray-200 py-4 text-sm dark:border-slate-700"
+    >
+      <span class="font-semibold text-heading">Language</span>
+      {locales.map((locale) => (
+        <a
+          href={machineUrl(machine.slug, locale)}
+          hreflang={locale}
+          lang={locale}
+          dir={RTL_LOCALES.has(locale) ? 'rtl' : 'ltr'}
+          aria-current={locale === current ? 'page' : undefined}
+          class:list={[
+            'rounded px-2 py-1 transition',
+            locale === current ? 'bg-primary/10 font-bold text-primary' : 'text-muted hover:text-primary',
+          ]}
+        >
+          {LOCALE_LABEL[locale] ?? locale}
+        </a>
+      ))}
+    </nav>
+  )
+}

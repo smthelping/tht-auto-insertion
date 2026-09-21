@@ -1,0 +1,879 @@
+{
+ "slug": "southern-machinery-radial-insertion-series-s3000-s3010a",
+ "category": "radial",
+ "title": "THT Radial lead Taped component feeder",
+ "description": "Southern Machinery radial insertion machines: S3000 cost-efficient and S3010A high-performance radial-lead component inserters for THT PCB assembly, 10,000-12,000 CPH, tape-package components, inline automation.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/southern-machinery-radial-insertion-series-s3000-s3010a.html",
+ "heroImage": "",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "overview",
+   "heading": "Radial Insertion Machines that Replace Manual THT Placement",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "THT radial component automation · S3000 & S3010A"
+    },
+    {
+     "t": "h1",
+     "key": "",
+     "text": "Radial Insertion Machines that Replace Manual THT Placement"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The S3000 and S3010A sequence and insert capacitors, transistors, LEDs and other radial-lead components straight from tape-package — consistently, at production speed, without polarity mistakes."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Two models cover entry-level lines to high-mix inline automation with optional PCB loader/unloader integration. Final configuration confirmed after technical review."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "pain",
+   "heading": "Hand insertion is where quality and throughput quietly leak away",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "The hidden cost of manual THT placement"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Hand insertion is where quality and throughput quietly leak away"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Every radial capacitor or transistor placed by hand is a point of failure — slow, inconsistent and hard to staff. Automation removes the human variability before it ever reaches the wave."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Hands become the bottleneck"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A skilled operator places a few hundred radial parts per hour; a machine places ten thousand. Output scales with headcount, not with demand."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Polarity errors slip through"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "A reversed capacitor or transistor passes visual checks and fails only at test — the most expensive place to find it."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Turnover erodes quality"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Night shifts, seasonal workers and new hires reintroduce the mistakes automation was meant to eliminate."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Tape and parts chaos"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Reels, loose components and half-used tapes spread across workbenches, undermining 5S and ESD discipline."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Audit exposure"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Customers audit traceability and repeatability; manual insertion cannot document what it cannot guarantee."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Labor economics tighten"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Wages rise, availability falls, and every insertion station competes with SMT lines for the same scarce operators."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "lineup",
+   "heading": "Two radial inserters, two automation levels",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Choose your model"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Two radial inserters, two automation levels"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Both models insert the same radial-lead, tape-package component family. Your board size, mix and volume decide the right fit."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Cost-efficient"
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3000 Radial Inserter"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "10 feeder stations · 10,000 CPH actual · Universal-compatible parts · under $100/month usage cost · ROI under one year."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "High performance"
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3010A Radial Inserter"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "12,000 CPH real throughput · full Fuji servo · camera-visual programming in minutes · auto PCB load/unload · UIC-compatible parts."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "fab",
+   "heading": "Two models, one goal: radial components inserted right, first time",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "The range at a glance · Feature · Advantage · Benefit"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Two models, one goal: radial components inserted right, first time"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Select a tab to see how each model turns verified capability into a practical benefit for your line."
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Feature"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feature description."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Models covering entry-level to high-mix inline radial insertion"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "CPH actual insertion speed across the range"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Typical payback on the S3000 integrated design"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Spare-part lead time from Southern Machinery"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "specs",
+   "heading": "Key specifications for project evaluation",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Source-verified technical data"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Key specifications for project evaluation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Values support initial evaluation and remain subject to final technical confirmation against your board size, component mix and line layout."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3000 vs S3010A — quick comparison"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Model"
+       },
+       {
+        "key": "",
+        "text": "S3000 Radial Inserter / S-3010A Radial Inserter"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Actual insertion speed"
+       },
+       {
+        "key": "",
+        "text": "10,000 CPH / 12,000 CPH (actual 10,000 CPH rated)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size range"
+       },
+       {
+        "key": "",
+        "text": "50×50 – 400×300 mm / 50×50 – 400×400 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "",
+        "text": "0.79–2.36 mm / 0.79–2.36 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component spans"
+       },
+       {
+        "key": "",
+        "text": "2.5 / 3.5 / 5.0 / 7.5 / 10.0 mm, dual, triple & quad / 2.5–10.0 mm incl. 3.5 mm, quad-span option"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component height"
+       },
+       {
+        "key": "",
+        "text": "Max 20 mm / up to 22 mm, no derate"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeder stations"
+       },
+       {
+        "key": "",
+        "text": "10 (recommended) / 10"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Drive system"
+       },
+       {
+        "key": "",
+        "text": "Servo motor + lead screw, 8 servo motors / Full Fuji servo (1.5 kW head, 400 W X-Y)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Programming"
+       },
+       {
+        "key": "",
+        "text": "Operator console / camera-visual, new PCB in under 5 minutes"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insert direction"
+       },
+       {
+        "key": "",
+        "text": "— / 0°–360° in 1° increments"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine vision"
+       },
+       {
+        "key": "",
+        "text": "— / coordinate correction + calibration systems"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB load/unload"
+       },
+       {
+        "key": "",
+        "text": "Optional inline / auto load-unload, 50-board magazine racks"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Wearing parts"
+       },
+       {
+        "key": "",
+        "text": "100% Universal-compatible / UIC-compatible heads, clinch bases, CTA carriers, feeders"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Dimensions (L×W×H)"
+       },
+       {
+        "key": "",
+        "text": "1700×1500×1600 mm / 1800×1600×1800 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Net weight"
+       },
+       {
+        "key": "",
+        "text": "880 kg / 1,000 kg"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "220 V, 50 Hz / 220 V AC single phase, 50/60 Hz"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air source"
+       },
+       {
+        "key": "",
+        "text": "0.6–0.8 MPa / 0.6 MPa, 0.3 m³/min"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Both pages list complete per-model specifications with source-verified values. Supplier reference sheets may list higher peak figures for the same platforms; Southern Machinery quotes the verified production numbers above. Final configuration is confirmed after technical review of your boards and component mix."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "",
+   "heading": "",
+   "nodes": [
+    {
+     "t": "h3",
+     "key": "",
+     "text": "S3000 vs S3010A — quick comparison"
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Model"
+       },
+       {
+        "key": "",
+        "text": "S3000 Radial Inserter / S-3010A Radial Inserter"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Actual insertion speed"
+       },
+       {
+        "key": "",
+        "text": "10,000 CPH / 12,000 CPH (actual 10,000 CPH rated)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB size range"
+       },
+       {
+        "key": "",
+        "text": "50×50 – 400×300 mm / 50×50 – 400×400 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "",
+        "text": "0.79–2.36 mm / 0.79–2.36 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component spans"
+       },
+       {
+        "key": "",
+        "text": "2.5 / 3.5 / 5.0 / 7.5 / 10.0 mm, dual, triple & quad / 2.5–10.0 mm incl. 3.5 mm, quad-span option"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component height"
+       },
+       {
+        "key": "",
+        "text": "Max 20 mm / up to 22 mm, no derate"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Feeder stations"
+       },
+       {
+        "key": "",
+        "text": "10 (recommended) / 10"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Drive system"
+       },
+       {
+        "key": "",
+        "text": "Servo motor + lead screw, 8 servo motors / Full Fuji servo (1.5 kW head, 400 W X-Y)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Programming"
+       },
+       {
+        "key": "",
+        "text": "Operator console / camera-visual, new PCB in under 5 minutes"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Insert direction"
+       },
+       {
+        "key": "",
+        "text": "— / 0°–360° in 1° increments"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Machine vision"
+       },
+       {
+        "key": "",
+        "text": "— / coordinate correction + calibration systems"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "PCB load/unload"
+       },
+       {
+        "key": "",
+        "text": "Optional inline / auto load-unload, 50-board magazine racks"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Wearing parts"
+       },
+       {
+        "key": "",
+        "text": "100% Universal-compatible / UIC-compatible heads, clinch bases, CTA carriers, feeders"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Dimensions (L×W×H)"
+       },
+       {
+        "key": "",
+        "text": "1700×1500×1600 mm / 1800×1600×1800 mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Net weight"
+       },
+       {
+        "key": "",
+        "text": "880 kg / 1,000 kg"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Power supply"
+       },
+       {
+        "key": "",
+        "text": "220 V, 50 Hz / 220 V AC single phase, 50/60 Hz"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Air source"
+       },
+       {
+        "key": "",
+        "text": "0.6–0.8 MPa / 0.6 MPa, 0.3 m³/min"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "gallery",
+   "heading": "The radial insertion range in the field",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Machines, lines and automation"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "The radial insertion range in the field"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Click any image to enlarge. Photos include the S3010A and S3000 machines, line layouts and automation solution diagrams."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "Watch radial insertion in action",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Optional online media"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Watch radial insertion in action"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Videos load only after you select them. All clips are from the official Southern Machinery YouTube channel."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "China Made Radial Insertion machine"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Radial insertion machines working in production lines for Smart EMS factory PCB assembly."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Radial Insertion Machine for Smart EMS factory PCB assembly"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Radial insertion machine at work for Smart EMS factory PCB assembly."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "THT Radial lead Taped component feeder"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "How the radial-lead taped component feeder supplies parts to the insertion head."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "You are offline. The product presentation remains available; videos can be loaded when a connection is restored."
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "NUvAg0JvGYY",
+     "title": "China Made Radial Insertion machine",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "T5JxQTrP27I",
+     "title": "Radial Insertion Machine for Smart EMS factory PCB assembly",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "4O5ZjZ5CwAg",
+     "title": "THT Radial lead Taped component feeder",
+     "titleKey": "",
+     "duration": ""
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "service",
+   "heading": "Engineering support around your deployment",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "From line review to production"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Engineering support around your deployment"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "We confirm the fit before you commit — model, feeder count, board sizes and inline options are matched to your line."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Share PCB sizes, component mix, monthly volume and line layout photos."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Model recommendation and configuration within 24 hours."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Feeder stations, span tooling, loader/unloader and inline options."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Free installation and operator training included with every machine."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "24/7 support and 1-day spare-part lead time."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faq",
+   "heading": "Questions buyers ask before choosing a model",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Buyer's FAQ"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Questions buyers ask before choosing a model"
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What is the difference between the S3000 and S3010A?",
+     "a": "The S3000 is the cost-efficient entry model: 10,000 CPH actual speed, 8-servo drive, 100% Universal-compatible wearing parts and an ROI of under one year. The S3010A adds full Fuji servo drive (12,000 CPH real), camera-visual programming in under 5 minutes, machine-vision correction, quad-span tooling and automatic PCB loading/unloading. Both insert the same radial-lead tape-package components."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Which components can these machines insert?",
+     "a": "Capacitors, transistors, triodes, LEDs, key switches and standard radial-lead components in tape-package, with lead spans from 2.5 mm to 10.0 mm (single, dual, triple and quad-span tooling). The S3010A handles components up to 22 mm tall without derating."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can they run inline with loaders and unloaders?",
+     "a": "Yes. Both machines can be configured for inline production; the S3010A integrates with PCB loader/unloader units and 50-board magazine racks, running In-Line or Straight-Back layouts with 10 to 100 feeder inputs."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What utilities do they need?",
+     "a": "220 V AC power (50/60 Hz) and compressed air at 0.6–0.8 MPa (S3000) or 0.6 MPa (S3010A). No special foundation is required beyond a level floor."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Are spare parts captive to Southern Machinery?",
+     "a": "No. The S3000 uses 100% Universal-compatible wear-and-tear parts; the S3010A accepts UIC-compatible insertion heads, clinch bases, CTA carriers and feeders. Southern Machinery also stocks spares with a 1-day lead time."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How do I get a recommendation and quote?",
+     "a": "Email info@smthelp.com or WhatsApp +86 136 0256 2576 with your board sizes, component mix, monthly volume and line layout. We reply with a model recommendation, configuration and quotation — typically the same working day."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Send your board size, component mix and volume for a model recommendation",
+   "nodes": [
+    {
+     "t": "p",
+     "key": "",
+     "text": "Next step"
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Send your board size, component mix and volume for a model recommendation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Tell us which boards you insert, the radial components you run and your monthly target. We confirm the right model and configuration within 24 hours."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://wa.me/8613602562576?text=Hi%20Jason%2C%20I%20would%20like%20a%20quote%20for%20the%20Southern%20Machinery%20radial%20insertion%20machine.%20Our%20board%20size%20and%20components%3A%20",
+     "text": "Click to chat on WhatsApp"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  }
+ ]
+}

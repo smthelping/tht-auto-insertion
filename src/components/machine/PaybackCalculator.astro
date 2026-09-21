@@ -1,0 +1,141 @@
+---
+export interface Props {
+  heading?: string;
+  intro?: string;
+}
+
+const { heading = 'Payback estimator', intro = '' } = Astro.props;
+---
+
+<div class="max-w-3xl" data-aw-payback>
+  <h2 class="mb-3 text-2xl font-bold text-heading md:text-3xl">{heading}</h2>
+  <p class="mb-6 text-muted">
+    {
+      intro ||
+        'Every input below is yours. We publish no machine price and no labour rate on this page — the estimate is only as good as the numbers you enter.'
+    }
+  </p>
+
+  <form class="grid gap-4 sm:grid-cols-2" data-aw-payback-form>
+    <label class="block">
+      <span class="mb-1 block text-sm font-medium text-heading">Operators released per shift</span>
+      <input
+        type="number"
+        min="0"
+        step="0.5"
+        value="2"
+        data-aw-input="operators"
+        class="w-full rounded-md border border-gray-300 px-3 py-2 text-heading dark:border-slate-600 dark:bg-slate-800"
+      />
+    </label>
+    <label class="block">
+      <span class="mb-1 block text-sm font-medium text-heading">Loaded labour cost per hour</span>
+      <input
+        type="number"
+        min="0"
+        step="0.5"
+        value="12"
+        data-aw-input="rate"
+        class="w-full rounded-md border border-gray-300 px-3 py-2 text-heading dark:border-slate-600 dark:bg-slate-800"
+      />
+    </label>
+    <label class="block">
+      <span class="mb-1 block text-sm font-medium text-heading">Shifts per day</span>
+      <input
+        type="number"
+        min="1"
+        step="1"
+        value="2"
+        data-aw-input="shifts"
+        class="w-full rounded-md border border-gray-300 px-3 py-2 text-heading dark:border-slate-600 dark:bg-slate-800"
+      />
+    </label>
+    <label class="block">
+      <span class="mb-1 block text-sm font-medium text-heading">Production days per year</span>
+      <input
+        type="number"
+        min="1"
+        step="1"
+        value="250"
+        data-aw-input="days"
+        class="w-full rounded-md border border-gray-300 px-3 py-2 text-heading dark:border-slate-600 dark:bg-slate-800"
+      />
+    </label>
+    <label class="block">
+      <span class="mb-1 block text-sm font-medium text-heading">Machine investment (your quoted figure)</span>
+      <input
+        type="number"
+        min="0"
+        step="100"
+        value="0"
+        data-aw-input="investment"
+        class="w-full rounded-md border border-gray-300 px-3 py-2 text-heading dark:border-slate-600 dark:bg-slate-800"
+      />
+    </label>
+    <label class="block">
+      <span class="mb-1 block text-sm font-medium text-heading">Other annual savings (scrap, rework, overtime)</span>
+      <input
+        type="number"
+        min="0"
+        step="100"
+        value="0"
+        data-aw-input="other"
+        class="w-full rounded-md border border-gray-300 px-3 py-2 text-heading dark:border-slate-600 dark:bg-slate-800"
+      />
+    </label>
+  </form>
+
+  <dl class="mt-6 grid gap-4 rounded-lg border border-gray-200 bg-gray-50 p-4 sm:grid-cols-3 dark:border-slate-700 dark:bg-slate-800/50">
+    <div>
+      <dt class="text-sm text-muted">Labour released per year</dt>
+      <dd class="text-xl font-bold text-heading" data-aw-out="labour">—</dd>
+    </div>
+    <div>
+      <dt class="text-sm text-muted">Annual saving</dt>
+      <dd class="text-xl font-bold text-heading" data-aw-out="saving">—</dd>
+    </div>
+    <div>
+      <dt class="text-sm text-muted">Simple payback</dt>
+      <dd class="text-xl font-bold text-primary" data-aw-out="payback">—</dd>
+    </div>
+  </dl>
+
+  <p class="mt-4 text-sm text-muted">
+    A simple payback ignores financing, duty, installation and ramp-up time. If the released headcount is larger than
+    the people actually on the bench, the estimate is capped at the people you have.
+  </p>
+</div>
+
+<script>
+  const root = document.querySelector('[data-aw-payback]');
+  if (root) {
+    const money = (value: number) =>
+      new Intl.NumberFormat(undefined, { maximumFractionDigits: 0 }).format(Math.round(value));
+    const read = (name: string) => {
+      const input = root.querySelector<HTMLInputElement>(`[data-aw-input="${name}"]`);
+      const value = Number(input?.value ?? 0);
+      return Number.isFinite(value) && value >= 0 ? value : 0;
+    };
+    const out = (name: string, value: string) => {
+      const target = root.querySelector(`[data-aw-out="${name}"]`);
+      if (target) target.textContent = value;
+    };
+    const update = () => {
+      const operators = read('operators');
+      const rate = read('rate');
+      const shifts = read('shifts');
+      const days = read('days');
+      const investment = read('investment');
+      const other = read('other');
+
+      const releasedHours = operators * 8 * shifts * days;
+      const labour = releasedHours * rate;
+      const saving = labour + other;
+      out('labour', money(releasedHours));
+      out('saving', money(saving));
+      out('payback', investment <= 0 ? 'Enter your quote' : saving <= 0 ? 'No saving' : `${(investment / saving * 12).toFixed(1)} months`);
+    };
+    root.querySelectorAll('input').forEach((input) => input.addEventListener('input', update));
+    update();
+  }
+</script>

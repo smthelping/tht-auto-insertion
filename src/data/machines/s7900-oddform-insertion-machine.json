@@ -1,0 +1,422 @@
+{
+ "slug": "s7900-oddform-insertion-machine",
+ "category": "odd-form",
+ "title": "S7900 Odd Form Series - Southern Machinery",
+ "description": "",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/s7900-oddform-insertion-machine.html",
+ "heroImage": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial--S7900-Odd-Form-Insertion-Machine-w-PCB-Loading--magazine.png",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "",
+   "heading": "S7900 Odd Form Series: Precision Automation for PCB Assembly",
+   "nodes": [
+    {
+     "t": "h1",
+     "key": "",
+     "text": "S7900 Odd Form Series: Precision Automation for PCB Assembly"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Revolutionize your production with high-speed, accurate insertion of complex odd-form components."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "about",
+   "heading": "Automate Your Most Challenging Insertion Tasks",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Automate Your Most Challenging Insertion Tasks"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The **S7900 Odd Form Series Insertion Machine** is engineered to master the complexities of modern PCB assembly. It simulates and replaces laborious manual operations, delivering unparalleled precision and efficiency when handling non-standard, \"odd-form\" electronic components."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Designed with advanced multi-axis motion, a sophisticated vision system, and intuitive software, the S7900 ensures flawless placement, boosts throughput, and significantly enhances your production line's capabilities."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial--S7900-Odd-Form-Insertion-Machine-w-PCB-Loading--magazine.png",
+     "alt": "S7900 PCB Loading"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "features",
+   "heading": "Key Features of the S7900",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Key Features of the S7900"
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Multi-axis Precision"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Enables intricate and flexible handling of various odd-form components with superior accuracy."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Intelligent Vision System"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Accurately identifies and locates components and MARK points for precise, error-free placement."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Intuitive Software Interface"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Simplifies program creation, parameter adjustments, and real-time monitoring for ease of use."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Adaptive Tooling"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Customizable grippers and nozzles adapt to a wide range of component shapes and sizes."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Integrated Safety Measures"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Safety covers, gratings, and emergency stops ensure a secure operating environment."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Simplified Maintenance"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Designed for straightforward routine lubrication and cleaning, minimizing downtime."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2024/12/20/S4020A-Axial-InserterS3010A-Radial--S7020T-Terminal--S7900-Odd-Form-x2-Insertion-Machine-w-PCB-nozzle-Loading-2.png",
+     "alt": "Multi-axis Motion"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/12/20/S4020A-Axial-InserterS3010A-Radial--S7020T-Terminal--S7900-Odd-Form-x2-Insertion-Machine-w-PCB-nozzle-Loading-1.png",
+     "alt": "Vision System"
+    },
+    {
+     "src": "https://placehold.co/160x160/1C64F2/ffffff?text=Software+UI",
+     "alt": "Software Interface"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/12/20/S4020A-Axial-InserterS3010A-Radial--S7020T-Terminal--S7900-Odd-Form-x2-Insertion-Machine-w-PCB-nozzle-Loading-4.png",
+     "alt": "Customizable Grippers"
+    },
+    {
+     "src": "https://placehold.co/160x160/1C64F2/ffffff?text=Safety+First",
+     "alt": "Safety Features"
+    },
+    {
+     "src": "https://placehold.co/160x160/1C64F2/ffffff?text=Easy+Maint.",
+     "alt": "Maintenance"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "benefits",
+   "heading": "Experience the S7900 Advantage",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Experience the S7900 Advantage"
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Increased Efficiency & Throughput"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Automate odd-form component insertion, drastically reducing manual labor and accelerating production cycles."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Superior Accuracy & Quality"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Minimize placement errors and defects, ensuring consistently high-quality PCB assemblies."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Enhanced Flexibility & Adaptability"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Handles a diverse array of components and PCB layouts, adapting to varied production needs."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Reduced Operational Costs"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Optimizes labor utilization, minimizes waste, and lowers overall production expenses."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Robust Safety & Reliability"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Comprehensive safety features ensure operator well-being and minimal equipment downtime."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Seamless Integration"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "MES communication capabilities allow for seamless data exchange and process control within your factory."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "how-it-works",
+   "heading": "Simplified Operation: From Startup to Production",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Simplified Operation: From Startup to Production"
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "key": "",
+       "text": "Easy Startup: Connect power and air, turn on the main switch and computer, launch the software, and perform a quick machine zeroing."
+      },
+      {
+       "key": "",
+       "text": "Program Creation: Effortlessly create new programs by defining part data, PCB parameters, MARK points, and teaching block/hole data."
+      },
+      {
+       "key": "",
+       "text": "Automated Learning: Utilize the automatic learning feature to quickly define insertion data, ensuring efficient setup for new components."
+      },
+      {
+       "key": "",
+       "text": "Flexible Array Editing: Choose between general editing for single PCBs or advanced array editing for panel form PCBs."
+      },
+      {
+       "key": "",
+       "text": "Quick Nozzle Replacement: Tool-free nozzle/gripper replacement ensures minimal downtime and maximum versatility."
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/06/03/S3000-Radial--S7900-Odd-Form-Insertion-Machine-w-PCB-Loading--magazine--1.png",
+     "alt": "S7900 Operation"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Ready to Optimize Your PCB Assembly?",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Ready to Optimize Your PCB Assembly?"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Discover how the S7900 Odd Form Series can transform your production line. Contact us today for a consultation or demonstration."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Phone/WhatsApp: +8613602562576"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Email: info@SMThelp.com"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "matched-resources",
+   "heading": "Watch it running",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Watch it running"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Machine footage from our YouTube channel, matched to this page."
+    },
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Product documentation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Catalogues, manuals and ROI sheets from the product catalog board."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "THT Auto Insertion Machine Solution (HTML) ↓"
+      },
+      {
+       "key": "",
+       "text": "S7900 Odd Form Insertion Machine Landing (HTML) ↓"
+      },
+      {
+       "key": "",
+       "text": "SME-5200 Technical Deep Dive (PDF) ↓"
+      },
+      {
+       "key": "",
+       "text": "Southern Machinery Brand Book 2026 (PDF) ↓"
+      },
+      {
+       "key": "",
+       "text": "THT Staffing Audit Calculator (XLSX) ↓"
+      },
+      {
+       "key": "",
+       "text": "THT-Insertion ROI Calculator (XLSX) ↓"
+      },
+      {
+       "key": "",
+       "text": "Auto Insertion Readiness Checklist (PDF) ↓"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Sources: YouTube video board · product catalog board · machine photo library"
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "0k4U5NLKq4k",
+     "title": "How China made Auto Insertion machine for Smart EMS factory PCB assembly"
+    },
+    {
+     "id": "KtJF9zqHnXw",
+     "title": "10x cost saving Southern Machinery made Auto Insertion machine"
+    },
+    {
+     "id": "P0rfpkHpPxg",
+     "title": "10x labor cost saving Odd Form Insertion Machine for Smart EMS factory PCB assembly"
+    }
+   ],
+   "docs": [
+    {
+     "label": "THT Auto Insertion Machine Solution (HTML) ↓",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/THT-Auto-Insertion-Machine-Solution-Landing.html"
+    },
+    {
+     "label": "S7900 Odd Form Insertion Machine Landing (HTML) ↓",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/S7900-Odd-Form-Insertion-Machine-Landing.html"
+    },
+    {
+     "label": "SME-5200 Technical Deep Dive (PDF) ↓",
+     "url": "https://file.autoinsertion.com/public/SMThelp%20Machine%20Presentation/SME-5200_Technical_Deep_Dive.pdf"
+    },
+    {
+     "label": "Southern Machinery Brand Book 2026 (PDF) ↓",
+     "url": "https://file.autoinsertion.com/public/SMThelp%20Machine%20Presentation/Southern_Machinery_Brand_Book_2026.pdf"
+    },
+    {
+     "label": "THT Staffing Audit Calculator (XLSX) ↓",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/tht-staffing-audit-calculator.xlsx"
+    },
+    {
+     "label": "THT-Insertion ROI Calculator (XLSX) ↓",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/THT-Insertion-ROI-Calculator.xlsx"
+    },
+    {
+     "label": "Auto Insertion Readiness Checklist (PDF) ↓",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/auto-insertion-readiness-checklist.pdf"
+    },
+    {
+     "label": "YouTube video board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-YouTube-Video-Board.html"
+    },
+    {
+     "label": "product catalog board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-Product-Catalog-Board.html"
+    }
+   ]
+  }
+ ]
+}

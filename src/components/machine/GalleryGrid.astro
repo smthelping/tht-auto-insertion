@@ -1,0 +1,72 @@
+---
+export interface Props {
+  images: { src: string; alt: string }[];
+  heading?: string;
+}
+
+const { images, heading } = Astro.props;
+
+// Skip the brand logo and any repeated hero shot — the gallery is for machine
+// detail shots, not chrome.
+const shots = images.filter((image) => !/logo/i.test(image.src)).slice(0, 24);
+const label = (alt: string, index: number) => (alt && alt.length > 2 ? alt : `Machine photo ${index + 1}`);
+---
+
+{
+  shots.length > 0 && (
+    <div class="max-w-6xl">
+      {heading && <h2 class="mb-6 text-2xl font-bold text-heading md:text-3xl">{heading}</h2>}
+      <ul class="grid list-none grid-cols-2 gap-4 p-0 md:grid-cols-3 lg:grid-cols-4">
+        {shots.map((image, index) => (
+          <li>
+            <a
+              class="group block overflow-hidden rounded-lg bg-gray-100 dark:bg-slate-800"
+              href={image.src}
+              target="_blank"
+              rel="noopener"
+              data-aw-machine-photo={image.src}
+              data-photo-label={label(image.alt, index)}
+            >
+              <img
+                src={image.src}
+                alt={label(image.alt, index)}
+                loading="lazy"
+                decoding="async"
+                class="aspect-[4/3] h-full w-full object-cover transition group-hover:scale-[1.03]"
+              />
+            </a>
+          </li>
+        ))}
+      </ul>
+      <dialog data-aw-machine-lightbox class="max-w-5xl rounded-lg p-0 backdrop:bg-black/70">
+        <img data-aw-machine-lightbox-img src="" alt="" class="max-h-[80vh] w-full object-contain" />
+        <button
+          type="button"
+          data-aw-machine-lightbox-close
+          class="absolute end-3 top-3 rounded-full bg-black/60 px-3 py-1 text-sm text-white"
+        >
+          Close
+        </button>
+      </dialog>
+    </div>
+  )
+}
+
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>('dialog[data-aw-machine-lightbox]');
+  const image = document.querySelector<HTMLImageElement>('img[data-aw-machine-lightbox-img]');
+  if (dialog && image && typeof dialog.showModal === 'function') {
+    document.querySelectorAll<HTMLAnchorElement>('a[data-aw-machine-photo]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        image.src = link.dataset.awMachinePhoto || '';
+        image.alt = link.dataset.photoLabel || '';
+        dialog.showModal();
+      });
+    });
+    dialog.querySelector('[data-aw-machine-lightbox-close]')?.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+  }
+</script>

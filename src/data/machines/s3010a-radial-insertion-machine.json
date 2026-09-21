@@ -1,0 +1,310 @@
+{
+ "slug": "s3010a-radial-insertion-machine",
+ "category": "radial",
+ "title": "S3010A Radial Insertion Machine | Southern Machinery",
+ "description": "",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/s3010a-radial-insertion-machine.html",
+ "heroImage": "https://ph.smthelp.com/images/2026/07/22/S3010A-Radial-Insertion-Machine.png",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "",
+   "heading": "S3010A Radial Insertion Machine",
+   "nodes": [
+    {
+     "t": "h1",
+     "key": "",
+     "text": "S3010A Radial Insertion Machine"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Unleashing Next-Generation Through-Hole Automation with Unmatched Precision, Speed, and Reliability."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "features",
+   "heading": "Why Choose the S3010A?",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Why Choose the S3010A?"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Engineered to solve the toughest challenges in PCB assembly."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "High Throughput"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Achieve a real throughput of 12,000 CPH, with speeds up to 22,000 CPH, to dramatically increase your production capacity."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Superior Precision"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "With a positioning accuracy of <0.001mm and an advanced vision system, you get flawless component placement every time."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Unmatched Flexibility"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Supports a full range of insertion spans (2.5mm-10.0mm) and components up to 22mm tall, reducing manual processes."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "User-Friendly Automation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Create new PCB programs in just 5 minutes with our intuitive visual operating system and Gerber file import."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "specs",
+   "heading": "Technical Specifications",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Technical Specifications"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "The numbers behind the performance."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [],
+     "rows": [
+      [
+       {
+        "key": "",
+        "text": "Insertion Rate (Real)"
+       },
+       {
+        "key": "",
+        "text": "12,000 CPH"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Reliability (PPM)"
+       },
+       {
+        "key": "",
+        "text": "Less than 1000 PPM"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Positioning Accuracy"
+       },
+       {
+        "key": "",
+        "text": "< 0.001mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Component Span"
+       },
+       {
+        "key": "",
+        "text": "2.5mm to 10.0mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Max Component Height"
+       },
+       {
+        "key": "",
+        "text": "22mm (without derating)"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Max PCB Size"
+       },
+       {
+        "key": "",
+        "text": "450mm x 450mm"
+       }
+      ],
+      [
+       {
+        "key": "",
+        "text": "Drive System"
+       },
+       {
+        "key": "",
+        "text": "Full Fuji Servo Drive System"
+       }
+      ]
+     ]
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2026/07/22/S3010A-Radial-Insertion-Machine.png",
+     "alt": "S3010A Insertion Head"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "solution",
+   "heading": "Complete Automation Solution",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Complete Automation Solution"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Seamlessly integrate the S3010A into a fully automated production line."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "Loader → Inserter → Unloader"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Maximize efficiency with automatic PCB loading and unloading."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S3010-Radial-Insertion-Machine.png",
+     "alt": "In-line Automation Solution"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "video",
+   "heading": "See the S3010A in Action",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "See the S3010A in Action"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Watch how our machine transforms the assembly process."
+    }
+   ],
+   "images": [],
+   "videos": [
+    {
+     "id": "fBhK-DtaO-k",
+     "title": ""
+    }
+   ],
+   "docs": []
+  },
+  {
+   "id": "matched-resources",
+   "heading": "Product documentation",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "",
+     "text": "Product documentation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Catalogues, manuals and ROI sheets from the product catalog board."
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "",
+       "text": "THT Auto Insertion Machine Solution (HTML) ↓"
+      },
+      {
+       "key": "",
+       "text": "S3010A Radial Auto Insertion Landing Page (HTML) ↓"
+      },
+      {
+       "key": "",
+       "text": "THT-Insertion ROI Calculator (XLSX) ↓"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Sources: YouTube video board · product catalog board · machine photo library"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "THT Auto Insertion Machine Solution (HTML) ↓",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/THT-Auto-Insertion-Machine-Solution-Landing.html"
+    },
+    {
+     "label": "S3010A Radial Auto Insertion Landing Page (HTML) ↓",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/S3010A-Radial-Auto-Insertion-Landing.html"
+    },
+    {
+     "label": "THT-Insertion ROI Calculator (XLSX) ↓",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/THT-Insertion-ROI-Calculator.xlsx"
+    },
+    {
+     "label": "YouTube video board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-YouTube-Video-Board.html"
+    },
+    {
+     "label": "product catalog board",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-Product-Catalog-Board.html"
+    }
+   ]
+  }
+ ]
+}

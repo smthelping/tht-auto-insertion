@@ -1,0 +1,1345 @@
+{
+ "slug": "odd-form-insertion-machine-tht-auto-pcb-assembly",
+ "category": "odd-form",
+ "title": "High-speed PCB riveting and terminal process in operation",
+ "description": "S7900 odd form insertion machine for THT auto PCB assembly: four heads, vision placement at ±0.05 mm, 0.7 s per component, lead clinching, six feeder types.",
+ "sourceUrl": "https://smthelping.github.io/smt-product-landing-html/tht-auto-insertion/odd-form-insertion-machine-tht-auto-pcb-assembly.html",
+ "heroImage": "https://ph.smthelp.com/images/2025/12/06/S7900-OddForm-Insertion-machine-with-loader.md.png",
+ "langs": [],
+ "blocks": [
+  {
+   "id": "",
+   "heading": "Relays, connectors and transformers in. Clinched boards out.",
+   "nodes": [
+    {
+     "t": "h1",
+     "key": "",
+     "text": "Relays, connectors and transformers in. Clinched boards out."
+    },
+    {
+     "t": "p",
+     "key": "hero.lead",
+     "text": "The S7900 is an odd form insertion machine for THT auto PCB assembly. Four insertion heads, vision-guided alignment, optional lead clinching and six feeder families take the awkward through-hole parts off the manual bench - so the same line runs high-mix builds without a staffing gamble."
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S7900-OddForm-Insertion-machine-with-loader.md.png",
+     "alt": "S7900 odd form insertion machine with PCB magazine loader on a THT auto PCB assembly line"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "why",
+   "heading": "Odd-form parts are the last manual island on your THT line.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "why.h2",
+     "text": "Odd-form parts are the last manual island on your THT line."
+    },
+    {
+     "t": "p",
+     "key": "why.p",
+     "text": "Insertion machines handle axial and radial parts. Reflow and wave soldering handle the joints. But relays, transformers, connectors, big capacitors and coils still land on a bench with a tray, a fixture and a pair of hands. Every one of those parts is a different package, a different lead condition and a different shift-dependent output."
+    },
+    {
+     "t": "h3",
+     "key": "why.c1.h",
+     "text": "Manual insertion is slow and shift-dependent."
+    },
+    {
+     "t": "p",
+     "key": "why.c1.p",
+     "text": "Skilled operators carry the whole odd-form workload, and output moves with fatigue, shift patterns and staff turnover."
+    },
+    {
+     "t": "h3",
+     "key": "why.c2.h",
+     "text": "Heavy parts float before soldering."
+    },
+    {
+     "t": "p",
+     "key": "why.c2.p",
+     "text": "When leads are not secured, large components tilt or lift during wave soldering and turn into rework, touch-up labour and hidden quality risk."
+    },
+    {
+     "t": "h3",
+     "key": "why.c3.h",
+     "text": "Packaging is inconsistent across the BOM."
+    },
+    {
+     "t": "p",
+     "key": "why.c3.p",
+     "text": "The same board may need tape, tube, tray and bulk parts. Manual handling is the only thing that currently bridges those formats."
+    },
+    {
+     "t": "h3",
+     "key": "why.c4.h",
+     "text": "Changeover eats engineering hours."
+    },
+    {
+     "t": "p",
+     "key": "why.c4.p",
+     "text": "High-mix EMS work means new assemblies every week, and every new odd-form part restarts the setup conversation."
+    },
+    {
+     "t": "h3",
+     "key": "why.c5.h",
+     "text": "Bent pins damage the PCB holes."
+    },
+    {
+     "t": "p",
+     "key": "why.c5.p",
+     "text": "Forcing a misaligned component into a plated hole creates scrap and defects that inspection may only catch after soldering."
+    },
+    {
+     "t": "h3",
+     "key": "why.c6.h",
+     "text": "Labour cost is the least stable number you own."
+    },
+    {
+     "t": "p",
+     "key": "why.c6.p",
+     "text": "Wage inflation, overtime and recruitment make odd-form cost hard to forecast, so quoting becomes conservative and margins shrink."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "process",
+   "heading": "Six steps from magazine to clinched board.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "proc.h2",
+     "text": "Six steps from magazine to clinched board."
+    },
+    {
+     "t": "p",
+     "key": "proc.p",
+     "text": "One operator loads the line. The machine repeats the same sequence for every board, every shift, every order."
+    },
+    {
+     "t": "h4",
+     "key": "proc.s1.h",
+     "text": "Board in"
+    },
+    {
+     "t": "p",
+     "key": "proc.s1.p",
+     "text": "Chain or belt conveyor accepts boards 70 × 70 up to 450 × 400 mm, left-to-right or right-to-left."
+    },
+    {
+     "t": "h4",
+     "key": "proc.s2.h",
+     "text": "Clamp and align"
+    },
+    {
+     "t": "p",
+     "key": "proc.s2.p",
+     "text": "Servo top plate or cylinder clamping fixes the board; the top mark CCD reads the fiducials."
+    },
+    {
+     "t": "h4",
+     "key": "proc.s3.h",
+     "text": "Feed"
+    },
+    {
+     "t": "p",
+     "key": "proc.s3.p",
+     "text": "The matched feeder presents the component; bottom CCDs verify body and lead position."
+    },
+    {
+     "t": "h4",
+     "key": "proc.s4.h",
+     "text": "Insert"
+    },
+    {
+     "t": "p",
+     "key": "proc.s4.p",
+     "text": "Up to four heads insert at any angle from 0 to 360 degrees, at up to 98 N insertion force."
+    },
+    {
+     "t": "h4",
+     "key": "proc.s5.h",
+     "text": "Clinch"
+    },
+    {
+     "t": "p",
+     "key": "proc.s5.p",
+     "text": "The S7900IV-W clinching unit bends the leads under the board to hold the part for soldering."
+    },
+    {
+     "t": "h4",
+     "key": "proc.s6.h",
+     "text": "Board out"
+    },
+    {
+     "t": "p",
+     "key": "proc.s6.p",
+     "text": "The board leaves ready for wave or selective soldering, with the odd-form parts already located."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "machine",
+   "heading": "Flexible odd-form automation, not a one-part special.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "mach.h2",
+     "text": "Flexible odd-form automation, not a one-part special."
+    },
+    {
+     "t": "p",
+     "key": "mach.p",
+     "text": "The S7900 is a platform. One machine covers multiple components, feeder types and insertion requirements - and each capability below is written as feature, technical meaning and what it does for your line."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "01Six feeder families"
+    },
+    {
+     "t": "p",
+     "key": "mach.f1.f",
+     "text": "Radial tape, vertical taping 90 degrees, horizontal tape, tube, bowl and tray feeders."
+    },
+    {
+     "t": "p",
+     "key": "mach.f1.a",
+     "text": "Advantage: packaging format stops dictating whether a part can be automated."
+    },
+    {
+     "t": "p",
+     "key": "mach.f1.b",
+     "text": "Benefit: fewer parts stay on the manual bench, so headcount planning gets simpler."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "02Four insertion heads"
+    },
+    {
+     "t": "p",
+     "key": "mach.f2.f",
+     "text": "S7900IV and S7900IV-W both list four insertion heads in the specification."
+    },
+    {
+     "t": "p",
+     "key": "mach.f2.a",
+     "text": "Advantage: several components are placed in one pass over the board instead of one at a time."
+    },
+    {
+     "t": "p",
+     "key": "mach.f2.b",
+     "text": "Benefit: higher output per square metre of floor space, without buying a second machine."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "03Vision-guided insertion"
+    },
+    {
+     "t": "p",
+     "key": "mach.f3.f",
+     "text": "One top mark CCD plus four bottom component CCDs."
+    },
+    {
+     "t": "p",
+     "key": "mach.f3.a",
+     "text": "Advantage: the PCB and the component are aligned visually before any contact happens."
+    },
+    {
+     "t": "p",
+     "key": "mach.f3.b",
+     "text": "Benefit: less hole damage and fewer bent leads, which shows up as lower scrap and less touch-up."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "04Lead clinching option"
+    },
+    {
+     "t": "p",
+     "key": "mach.f4.f",
+     "text": "Standard configuration on S7900IV-W; the catalog notes automatic lead bending to prevent floating during welding."
+    },
+    {
+     "t": "p",
+     "key": "mach.f4.a",
+     "text": "Advantage: components are mechanically held to the board before the soldering process starts."
+    },
+    {
+     "t": "p",
+     "key": "mach.f4.b",
+     "text": "Benefit: fewer tilted or lifted parts, fewer rework hours, more stable wave soldering quality."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "05Any direction, nozzle or clamp"
+    },
+    {
+     "t": "p",
+     "key": "mach.f5.f",
+     "text": "Insertion direction 0-360 degrees, component pickup by nozzle or clamp."
+    },
+    {
+     "t": "p",
+     "key": "mach.f5.a",
+     "text": "Advantage: asymmetric bodies and non-standard lead patterns do not need a custom orientation fixture."
+    },
+    {
+     "t": "p",
+     "key": "mach.f5.b",
+     "text": "Benefit: one platform absorbs the parts that used to require special tooling decisions."
+    },
+    {
+     "t": "h3",
+     "key": "",
+     "text": "06Fast job setup"
+    },
+    {
+     "t": "p",
+     "key": "mach.f6.f",
+     "text": "Windows operating system, vision programming, quick-plug clamp replacement."
+    },
+    {
+     "t": "p",
+     "key": "mach.f6.a",
+     "text": "Advantage: new assemblies are taught on screen instead of rebuilt mechanically."
+    },
+    {
+     "t": "p",
+     "key": "mach.f6.b",
+     "text": "Benefit: high-mix changeover is measured in minutes, which protects your delivery promise."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "specs",
+   "heading": "S7900IV and S7900IV-W machine data.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "spec.h2",
+     "text": "S7900IV and S7900IV-W machine data."
+    },
+    {
+     "t": "p",
+     "key": "spec.p",
+     "text": "Values are taken from the Southern Machinery odd form insertion machine technical file (2024). Customised tooling values remain subject to final technical confirmation."
+    },
+    {
+     "t": "table",
+     "caption": "",
+     "head": [
+      "Parameter",
+      "S7900IV",
+      "S7900IV-W"
+     ],
+     "rows": [
+      [
+       {
+        "key": "spec.r1",
+        "text": "Size (L × W × H)"
+       },
+       {
+        "key": "",
+        "text": "1300 × 1700 × 2000 mm"
+       },
+       {
+        "key": "",
+        "text": "1550 × 1900 × 2100 mm"
+       }
+      ],
+      [
+       {
+        "key": "spec.r2",
+        "text": "Weight"
+       },
+       {
+        "key": "",
+        "text": "1650 kg"
+       },
+       {
+        "key": "",
+        "text": "1750 kg"
+       }
+      ],
+      [
+       {
+        "key": "spec.r3",
+        "text": "Operating system"
+       },
+       {
+        "key": "",
+        "text": "Windows"
+       },
+       {
+        "key": "",
+        "text": "Windows"
+       }
+      ],
+      [
+       {
+        "key": "spec.r4",
+        "text": "Door type"
+       },
+       {
+        "key": "spec.r4a",
+        "text": "Double-sided unilateral"
+       },
+       {
+        "key": "spec.r4b",
+        "text": "Single-sided"
+       }
+      ],
+      [
+       {
+        "key": "spec.r5",
+        "text": "Air supply"
+       },
+       {
+        "key": "",
+        "text": "0.5-0.65 MPa (ANR)"
+       },
+       {
+        "key": "",
+        "text": "0.5-0.65 MPa (ANR)"
+       }
+      ],
+      [
+       {
+        "key": "spec.r6",
+        "text": "Max power / running power"
+       },
+       {
+        "key": "",
+        "text": "5.4 kW / 3.3 kW"
+       },
+       {
+        "key": "",
+        "text": "6.6 kW / 3.5 kW"
+       }
+      ],
+      [
+       {
+        "key": "spec.r7",
+        "text": "Number of insertion heads"
+       },
+       {
+        "key": "",
+        "text": "4"
+       },
+       {
+        "key": "",
+        "text": "4"
+       }
+      ],
+      [
+       {
+        "key": "spec.r8",
+        "text": "Max component size"
+       },
+       {
+        "key": "",
+        "text": "φ30 (17 × 17) mm"
+       },
+       {
+        "key": "",
+        "text": "φ50 (35 × 35) mm"
+       }
+      ],
+      [
+       {
+        "key": "spec.r9",
+        "text": "Component height"
+       },
+       {
+        "key": "",
+        "text": "≤ 30 mm"
+       },
+       {
+        "key": "",
+        "text": "≤ 25 mm"
+       }
+      ],
+      [
+       {
+        "key": "spec.r10",
+        "text": "Component feeding type"
+       },
+       {
+        "key": "spec.r10a",
+        "text": "Nozzle / clamp"
+       },
+       {
+        "key": "spec.r10b",
+        "text": "Nozzle / clamp"
+       }
+      ],
+      [
+       {
+        "key": "spec.r11",
+        "text": "Speed per component"
+       },
+       {
+        "key": "spec.r11a",
+        "text": "0.7 s"
+       },
+       {
+        "key": "spec.r11b",
+        "text": "2 s with bent feet"
+       }
+      ],
+      [
+       {
+        "key": "spec.r12",
+        "text": "Placement accuracy"
+       },
+       {
+        "key": "",
+        "text": "±0.06 mm (CPK ≥ 1.0)"
+       },
+       {
+        "key": "",
+        "text": "±0.05 mm (CPK ≥ 1.0)"
+       }
+      ],
+      [
+       {
+        "key": "spec.r13",
+        "text": "Insertion force"
+       },
+       {
+        "key": "",
+        "text": "≤ 98 N"
+       },
+       {
+        "key": "",
+        "text": "≤ 29.4 N"
+       }
+      ],
+      [
+       {
+        "key": "spec.r14",
+        "text": "Insertion direction"
+       },
+       {
+        "key": "",
+        "text": "0-360°"
+       },
+       {
+        "key": "",
+        "text": "0-360°"
+       }
+      ],
+      [
+       {
+        "key": "spec.r15",
+        "text": "PCB size (L × W)"
+       },
+       {
+        "key": "",
+        "text": "70 × 70 - 410 × 500 mm"
+       },
+       {
+        "key": "",
+        "text": "70 × 70 - 450 × 400 mm"
+       }
+      ],
+      [
+       {
+        "key": "spec.r16",
+        "text": "Carrier size (L × W)"
+       },
+       {
+        "key": "spec.r16a",
+        "text": "Max 500 × 500 mm"
+       },
+       {
+        "key": "spec.r16b",
+        "text": "Max 500 × 550 mm"
+       }
+      ],
+      [
+       {
+        "key": "spec.r17",
+        "text": "PCB thickness"
+       },
+       {
+        "key": "",
+        "text": "0.6-2.0 mm"
+       },
+       {
+        "key": "",
+        "text": "0.6-2.0 mm"
+       }
+      ],
+      [
+       {
+        "key": "spec.r18",
+        "text": "Max PCB weight"
+       },
+       {
+        "key": "",
+        "text": "2 kg"
+       },
+       {
+        "key": "",
+        "text": "5 kg"
+       }
+      ],
+      [
+       {
+        "key": "spec.r19",
+        "text": "PCB fixing type"
+       },
+       {
+        "key": "spec.r19a",
+        "text": "Servo top plate / cylinder clamping"
+       },
+       {
+        "key": "spec.r19b",
+        "text": "Servo top plate / cylinder clamping"
+       }
+      ],
+      [
+       {
+        "key": "spec.r20",
+        "text": "Conveyor type"
+       },
+       {
+        "key": "spec.r20a",
+        "text": "Chain"
+       },
+       {
+        "key": "spec.r20b",
+        "text": "Belt"
+       }
+      ],
+      [
+       {
+        "key": "spec.r21",
+        "text": "Conveyor direction"
+       },
+       {
+        "key": "spec.r21a",
+        "text": "Left to Right / Right to Left"
+       },
+       {
+        "key": "spec.r21b",
+        "text": "Left to Right / Right to Left"
+       }
+      ],
+      [
+       {
+        "key": "spec.r22",
+        "text": "Conveyor height"
+       },
+       {
+        "key": "",
+        "text": "900 ± 20 mm"
+       },
+       {
+        "key": "",
+        "text": "750 ± 20 mm"
+       }
+      ],
+      [
+       {
+        "key": "spec.r23",
+        "text": "Lead clinching unit"
+       },
+       {
+        "key": "spec.r23a",
+        "text": "Not applicable"
+       },
+       {
+        "key": "spec.r23b",
+        "text": "Standard configuration"
+       }
+      ],
+      [
+       {
+        "key": "spec.r24",
+        "text": "Vision system"
+       },
+       {
+        "key": "spec.r24a",
+        "text": "Top mark CCD (1 unit), bottom component CCD (4 units)"
+       }
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "key": "spec.note",
+     "text": "Note: real output depends on component type, feeder selection, clinching requirement and board routing. Southern Machinery confirms final specifications during quotation."
+    },
+    {
+     "t": "h2",
+     "key": "compat.h",
+     "text": "Match the feeder to the component package"
+    },
+    {
+     "t": "p",
+     "key": "compat.p",
+     "text": "Final feeder, gripper and nozzle design is confirmed after reviewing your BOM, component drawings, PCB data and physical samples."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "payback",
+   "heading": "Numbers your production and finance teams can both check.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "roi.h2",
+     "text": "Numbers your production and finance teams can both check."
+    },
+    {
+     "t": "p",
+     "key": "roi.p",
+     "text": "These are planning indicators taken from Southern Machinery source material - not a guarantee. They are validated case by case with your labour cost, shifts, component mix and final configuration."
+    },
+    {
+     "t": "h4",
+     "key": "roi.man.h",
+     "text": "Manual odd-form bench"
+    },
+    {
+     "t": "p",
+     "key": "roi.man.p",
+     "text": "Reference relay insertion rate for hand assembly, with output varying by operator and shift."
+    },
+    {
+     "t": "h4",
+     "key": "roi.auto.h",
+     "text": "S7900IV automated"
+    },
+    {
+     "t": "p",
+     "key": "roi.auto.p",
+     "text": "Reference rate from the same source example, with the machine running the same component family."
+    },
+    {
+     "t": "p",
+     "key": "roi.b1.p",
+     "text": "One S7900IV example states the machine is equivalent to five workers for the referenced relay case."
+    },
+    {
+     "t": "p",
+     "key": "roi.b2.p",
+     "text": "Payback depends on labour cost, shift pattern, component mix, tooling and the final machine configuration."
+    },
+    {
+     "t": "p",
+     "key": "roi.b3.p",
+     "text": "The S7900 bending-foot material cites a 5% insertion-rate increase and 5% loss reduction in the referenced scenario."
+    },
+    {
+     "t": "p",
+     "key": "roi.note",
+     "text": "* Indicative examples from S7900 source material. Ask for the THT insertion ROI calculator and staffing audit worksheet to model your own case."
+    },
+    {
+     "t": "link",
+     "key": "roi.cta1",
+     "href": "https://file.autoinsertion.com/public/Blog%20file/THT-Insertion-ROI-Calculator.xlsx",
+     "text": "Download the ROI calculator"
+    },
+    {
+     "t": "link",
+     "key": "roi.cta2",
+     "href": "https://file.autoinsertion.com/public/Blog%20file/tht-staffing-audit-worksheet.xlsx",
+     "text": "Download the staffing audit worksheet"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "Download the ROI calculator",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/THT-Insertion-ROI-Calculator.xlsx"
+    },
+    {
+     "label": "Download the staffing audit worksheet",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/tht-staffing-audit-worksheet.xlsx"
+    }
+   ]
+  },
+  {
+   "id": "gallery",
+   "heading": "Real S7900 images from the Southern Machinery photo bank.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "gal.h2",
+     "text": "Real S7900 images from the Southern Machinery photo bank."
+    },
+    {
+     "t": "p",
+     "key": "gal.p",
+     "text": "Every image is served from ph.smthelp.com, so this page can be shared with customers and colleagues remotely. Click any image to enlarge."
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Browse every S7900 photo on the Southern Machinery photo bank"
+    }
+   ],
+   "images": [
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S7900-OddForm-Insertion-machine-3.md.png",
+     "alt": "S7900 odd form insertion machine front view for THT auto PCB assembly"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S7900-OddForm-Insertion-machine-4.md.png",
+     "alt": "S7900 odd form insertion machine side view with feeder positions"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S7900-OddForm-Insertion-machine-with-loader.md.png",
+     "alt": "S7900 odd form insertion machine with PCB magazine loader"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S7900-OddForm-Insertion-machine-with-loader-1.md.png",
+     "alt": "S7900 odd form inserter integrated into a THT line"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/12/20/S7900-Odd-Form-Insertion-Machine-6-heads-w-feeders--a.md.png",
+     "alt": "S7900 odd form insertion machine with multiple feeders installed"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/12/20/S7900-Odd-Form-Insertion-Machine-6-heads-w-feeders--b.md.png",
+     "alt": "S7900 odd form insertion machine feeder side detail"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2024/12/20/S7900-Odd-Form-Insertion-Machine-x2-w-Feeders.md.png",
+     "alt": "Two S7900 odd form insertion machines configured with feeders"
+    },
+    {
+     "src": "https://ph.smthelp.com/images/2025/12/06/S3000-Radial-Insertion-Machine-S7900-Odd-Form-Insertion-Machine-with-loader.md.png",
+     "alt": "S3000 radial insertion machine with S7900 odd form insertion machine and loader"
+    }
+   ],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "videos",
+   "heading": "See odd-form automation in motion.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "vid.h2",
+     "text": "See odd-form automation in motion."
+    },
+    {
+     "t": "p",
+     "key": "vid.p",
+     "text": "Matched videos from the Southern Machinery YouTube library. Click a thumbnail to load the player - nothing loads from YouTube until you ask for it."
+    },
+    {
+     "t": "h4",
+     "key": "vid.v1",
+     "text": "How an auto insertion machine is built for smart EMS factory PCB assembly"
+    },
+    {
+     "t": "h4",
+     "key": "vid.v2",
+     "text": "Stop power board bottlenecks: four-head insertion for MOS and connectors"
+    },
+    {
+     "t": "h4",
+     "key": "vid.v3",
+     "text": "S7020T dual-head terminal insertion for power-tool assemblies"
+    },
+    {
+     "t": "h4",
+     "key": "vid.v4",
+     "text": "How to build your lights-out THT line"
+    },
+    {
+     "t": "h4",
+     "key": "vid.v5",
+     "text": "Anatomy of the S-100 series: the high-mix low-volume bridge"
+    },
+    {
+     "t": "h4",
+     "key": "vid.v6",
+     "text": "High-speed PCB riveting and terminal process in operation"
+    },
+    {
+     "t": "p",
+     "key": "",
+     "text": "Open the Southern Machinery YouTube channel · Search the full video board (1248 videos)"
+    }
+   ],
+   "images": [
+    {
+     "src": "https://i.ytimg.com/vi/0k4U5NLKq4k/hqdefault.jpg",
+     "alt": "Auto insertion machine for smart EMS factory PCB assembly video"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/sqMO5i4NoZ8/hqdefault.jpg",
+     "alt": "S7020 four head insertion machine placing MOS and connectors video"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/9_mqeJsj9fs/hqdefault.jpg",
+     "alt": "S7020T dual head terminal insertion machine for power tools video"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/omxIkpIkxS4/hqdefault.jpg",
+     "alt": "Lights-out THT line automation overview video"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/WYxjCGMlT4I/hqdefault.jpg",
+     "alt": "S-100 series high mix low volume THT bridge machine video"
+    },
+    {
+     "src": "https://i.ytimg.com/vi/tziwnk1prVY/hqdefault.jpg",
+     "alt": "High speed PCB riveting machine in operation video"
+    }
+   ],
+   "videos": [
+    {
+     "id": "0k4U5NLKq4k",
+     "title": "How an auto insertion machine is built for smart EMS factory PCB assembly",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "sqMO5i4NoZ8",
+     "title": "Stop power board bottlenecks: four-head insertion for MOS and connectors",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "9_mqeJsj9fs",
+     "title": "S7020T dual-head terminal insertion for power-tool assemblies",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "omxIkpIkxS4",
+     "title": "How to build your lights-out THT line",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "WYxjCGMlT4I",
+     "title": "Anatomy of the S-100 series: the high-mix low-volume bridge",
+     "titleKey": "",
+     "duration": ""
+    },
+    {
+     "id": "tziwnk1prVY",
+     "title": "High-speed PCB riveting and terminal process in operation",
+     "titleKey": "",
+     "duration": ""
+    }
+   ],
+   "docs": [
+    {
+     "label": "Search the full video board (1248 videos)",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-YouTube-Video-Board.html"
+    }
+   ]
+  },
+  {
+   "id": "catalog",
+   "heading": "Odd-form documents you can open right now.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "cat.h2",
+     "text": "Odd-form documents you can open right now."
+    },
+    {
+     "t": "p",
+     "key": "cat.p",
+     "text": "Matched entries from the Southern Machinery product catalog board on file.autoinsertion.com - landing pages, ROI tools, readiness checklists and manuals for the THT insertion process."
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "S7900 Odd Form Insertion Machine - product page"
+    },
+    {
+     "t": "p",
+     "key": "cat.i1",
+     "text": "Full product page with features, specifications, gallery and compatibility list."
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "THT auto insertion machine solution"
+    },
+    {
+     "t": "p",
+     "key": "cat.i2",
+     "text": "How axial, radial, terminal and odd-form machines combine into one THT line."
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "S3010A radial auto insertion machine"
+    },
+    {
+     "t": "p",
+     "key": "cat.i3",
+     "text": "The radial companion machine that feeds the same THT line before odd-form insertion."
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "THT insertion ROI calculator"
+    },
+    {
+     "t": "p",
+     "key": "cat.i4",
+     "text": "Model automated versus manual insertion cost with your own labour and volume data."
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "THT staffing audit calculator"
+    },
+    {
+     "t": "p",
+     "key": "cat.i5",
+     "text": "Count the operators your odd-form bench consumes per shift and per product family."
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "Auto insertion readiness checklist"
+    },
+    {
+     "t": "p",
+     "key": "cat.i6",
+     "text": "The data and process questions to answer before an insertion project starts."
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "S4000 axial insertion machine user manual"
+    },
+    {
+     "t": "p",
+     "key": "cat.i7",
+     "text": "Reference manual showing how Southern Machinery documents THT insertion equipment."
+    },
+    {
+     "t": "h4",
+     "key": "",
+     "text": "PCB board handling equipment"
+    },
+    {
+     "t": "p",
+     "key": "cat.i8",
+     "text": "Loaders, unloaders, conveyors and buffers that feed the odd-form machine."
+    },
+    {
+     "t": "h3",
+     "key": "cat.emb.h",
+     "text": "Open the live catalog board here"
+    },
+    {
+     "t": "p",
+     "key": "cat.emb.p",
+     "text": "873 documents across 12 categories, searchable by product family and file type."
+    },
+    {
+     "t": "link",
+     "key": "cat.emb.open",
+     "href": "https://file.autoinsertion.com/public/Southern-Machinery-Product-Catalog-Board.html",
+     "text": "Open in new tab"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "HTML S7900 Odd Form Insertion Machine - product pageFull product page with features, specifications, gallery and compatibility list.THT auto insertion · 35.9 KB",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/S7900-Odd-Form-Insertion-Machine-Landing.html"
+    },
+    {
+     "label": "HTML THT auto insertion machine solutionHow axial, radial, terminal and odd-form machines combine into one THT line.THT auto insertion · 53.6 KB",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/THT-Auto-Insertion-Machine-Solution-Landing.html"
+    },
+    {
+     "label": "HTML S3010A radial auto insertion machineThe radial companion machine that feeds the same THT line before odd-form insertion.THT auto insertion · 37.3 KB",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/S3010A-Radial-Auto-Insertion-Landing.html"
+    },
+    {
+     "label": "XLSX THT insertion ROI calculatorModel automated versus manual insertion cost with your own labour and volume data.ROI tool · 6.2 KB",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/THT-Insertion-ROI-Calculator.xlsx"
+    },
+    {
+     "label": "XLSX THT staffing audit calculatorCount the operators your odd-form bench consumes per shift and per product family.ROI tool · 6.3 KB",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/tht-staffing-audit-calculator.xlsx"
+    },
+    {
+     "label": "PDF Auto insertion readiness checklistThe data and process questions to answer before an insertion project starts.Checklist · 5.8 KB",
+     "url": "https://file.autoinsertion.com/public/Blog%20file/auto-insertion-readiness-checklist.pdf"
+    },
+    {
+     "label": "DOC S4000 axial insertion machine user manualReference manual showing how Southern Machinery documents THT insertion equipment.Manual · 8.6 MB",
+     "url": "https://file.autoinsertion.com/public/Southern%20Machinery%20Manual/S4000+Axial+Insertion+Machine+Users+Manual.doc"
+    },
+    {
+     "label": "HTML PCB board handling equipmentLoaders, unloaders, conveyors and buffers that feed the odd-form machine.Board handling · 47.6 KB",
+     "url": "https://file.autoinsertion.com/public/Product%20landing%20Page/BHS-PCB-Board-Handling-Equipments-Landing.html"
+    },
+    {
+     "label": "Open in new tab",
+     "url": "https://file.autoinsertion.com/public/Southern-Machinery-Product-Catalog-Board.html"
+    }
+   ]
+  },
+  {
+   "id": "insights",
+   "heading": "Eight production notes on automating odd-form insertion.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "blog.h2",
+     "text": "Eight production notes on automating odd-form insertion."
+    },
+    {
+     "t": "p",
+     "key": "blog.p",
+     "text": "Each note follows the same six-part structure: an opening that names the moment, the real problem behind it, a repeatable method, the machine that carries the method, the cycle that keeps it working, and the next step you can take today. Open one to read the full text."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Note 01 · Labour Why Your Odd-Form Bench Still Runs on Human Hands The last manual island on a modern THT line is not a technology gap. It is a decision nobody has forced yet.",
+     "a": "The moment Walk the line at 2 a.m. and count who is still working. The placement machines are done, the reflow oven is cycling, the AOI is scanning. And at the end of the line a tray of relays is waiting for hands. The real problem Odd-form parts stay manual because every part looks like an exception. A relay is not a resistor. A transformer has a body, a footprint and a lead pattern that no standard feeder was designed for. So each new assembly adds a new exception, and exceptions accumulate into a permanent bench. The cost is not only the wage. It is the variance: two operators on two shifts produce two different insertion rates, two different defect profiles and two different explanations when a board fails downstream. The method Stop treating odd-form as a category and start treating it as a data problem. List every non-standard through-hole part on your highest-volume assemblies, then record four things for each: package type, body size, lead geometry and how it currently arrives. That list is the actual scope of the automation project - and it is almost always shorter than the fear suggests. The machine An odd form insertion machine for THT auto PCB assembly exists to absorb exactly that list. The S7900 pairs radial tape, vertical taping, horizontal tape, tube, bowl and tray feeders with four insertion heads, so the packaging format of each line item stops deciding whether it can be automated. The repeat cycle The improvement only holds if the list stays alive. Review it at every new product introduction, add the part, match the feeder, and the bench shrinks instead of growing back. Your next step Export the through-hole BOM lines from your three highest-volume boards, photograph the packaging of each odd-form part, and send them for a feasibility review. That is a one-hour task with a same-week answer."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Note 02 · Cost The Real Cost of Manual Relay and Connector Insertion Your quotation assumes a rate that only exists on the best shift with the best operator on the easiest part.",
+     "a": "The moment Someone asks why the margin on a mature product has quietly disappeared, even though material prices have not moved. The real problem Manual insertion cost is usually booked as a single labour rate. In reality it carries four hidden lines: the base wage, the rework triggered by tilted or lifted parts, the scrap from damaged plated holes, and the opportunity cost of a skilled operator doing unskilled motion all day. None of those lines appear on a standard cost sheet, which is why the decision to automate is so often postponed. The method Build the comparison from your own numbers, not a supplier's. Take one component family, measure the true cycle time over a full shift, count the operators involved, log the rework minutes and the scrap pieces for two weeks, then divide by good boards shipped. That single figure is the number worth comparing against an automated insertion cycle. The machine This is where published reference data becomes useful. One Southern Machinery example compares manual relay insertion at around 1000 pieces per hour with an S7900IV at around 4700 pieces per hour on the same family, and states a labour equivalence of about five workers. Treat those as a benchmark to beat with your own data, not as a promise. The repeat cycle Re-run the same measurement ninety days after installation. Machines drift less than people, but product mix changes, so the comparison has to be refreshed to stay honest. Your next step Open the THT insertion ROI calculator and the staffing audit worksheet from the catalog board, fill in one product family, and see the payback period your own numbers produce."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Note 03 · Method A Six-Step Method to Automate Almost Any Through-Hole Part Most failed automation projects were not engineering failures. They were scoping failures.",
+     "a": "The moment A project dies in the sample stage because the machine \"cannot do this part\" - and nobody wrote down which parts, exactly, it was supposed to do. The real problem Teams quote an insertion machine against a general ambition, not a defined part list. Without a part list there is no acceptance criterion, so the project can neither succeed clearly nor fail clearly. The method Run these six steps before you ask for a price: One - Inventory. List every non-standard through-hole part and its annual volume. Two - Package. Record the packaging format of each part as received, with a photo. Three - Geometry. Capture body size, height, lead diameter, lead length and required orientation. Four - Board data. Share Gerber or CAD files, panel layout, PCB thickness and board weight. Five - Process. State whether clinching is required, and what happens after insertion: wave, selective or hand solder. Six - Acceptance. Agree the target cycle time, accuracy and defect definition in writing. The machine The S7900 platform is designed to be specified against that list: feeder per package, nozzle or clamp pickup per body shape, head count per volume, clinching per downstream process. Every choice maps back to a line in your inventory sheet. The repeat cycle Turn the six steps into a template. The second automation project then starts from a form instead of a blank page. Your next step Download the auto insertion readiness checklist from the catalog board and work through it with your process engineer before contacting any supplier."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Note 04 · Machine Putting the Method on the Line: Inside the S7900 Platform A specification table is only useful when you can translate each row into a decision on your own floor.",
+     "a": "The moment Two models, a long parameter list, and a purchasing decision that has to be defended for the next five years. The real problem Buyers compare headline numbers - heads, speed, accuracy - and ignore the rows that actually decide whether the machine fits: component height, board weight, conveyor type and whether clinching is included at all. The method Read the table in four passes. First the envelope: PCB size from 70 × 70 up to 450 × 400 mm, thickness 0.6-2.0 mm, board weight up to 5 kg. Second the payload: component body up to 50 mm diameter and height up to 25 mm on the W model, 30 mm on the standard model. Third the mechanics: chain conveyor on S7900IV, belt conveyor on S7900IV-W, and clinching as standard only on the W model. Fourth the process: insertion force up to 98 N, direction anywhere from 0 to 360 degrees, accuracy ±0.06 mm or ±0.05 mm with CPK of at least 1.0. The machine Those four passes answer the practical questions. If your boards are heavy and your parts are large, the W model earns its larger footprint. If you need pure insertion speed without lead bending, the standard model is the faster cycle at 0.7 seconds per component. The repeat cycle Keep the four-pass reading habit for every machine you evaluate afterwards - spares, feeders, loaders. The pattern holds across the whole line. Your next step Measure three real boards and three real components, then check them against the specification table on this page before choosing between the two models."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Note 05 · Quality The Defects Manual Insertion Leaves Behind The failure usually shows up after soldering, which is the most expensive place to find it.",
+     "a": "The moment A board fails at final test, and the root cause traces back to a component that was never sitting flat. The real problem Manual insertion has three characteristic defects. Leads get bent on the way in, damaging the plated barrel. Heavy parts lift or tilt before soldering because nothing holds them. And orientation errors slip through because the check is human and intermittent. All three are latent. They pass visual inspection, travel through the oven, and only declare themselves at test - after the value has already been added. The method Move the check upstream. Verify alignment before contact instead of after soldering, hold the part mechanically until the joint is formed, and confirm orientation on every cycle rather than at intervals. The machine The S7900 implements that method directly: a top mark CCD aligns the board, four bottom component CCDs verify the part, and the S7900IV-W clinching unit bends the leads under the board so the component cannot move during wave soldering. An insertion direction of 0 to 360 degrees removes the orientation guesswork that asymmetric bodies otherwise create. The repeat cycle Track first-pass yield on odd-form assemblies as its own metric. If it stops improving, the part list has outgrown the current tooling, and that is the signal to add a feeder. Your next step Ask your test engineer which defect codes trace back to odd-form components in the last quarter. That ranking tells you where to start."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Note 06 · Flexibility Automating Odd-Form Without Losing High-Mix Flexibility The fear is real: automation that only pays on one product is not automation, it is a fixture.",
+     "a": "The moment A high-mix factory rejects an insertion machine because the products change every three days. The real problem That objection comes from experience with hard-tooled automation, where changeover meant mechanical rebuilding. Modern flexible insertion is software-led: the part is taught on screen, the gripper is swapped as a plug-in item, and the feeder stays where it is. The method Separate the two costs of changeover. Tooling change is physical and bounded. Program change is digital and near-instant. A high-mix machine is one where the physical part is small, standardised and quick. The machine S7900 runs on Windows with vision programming and quick-plug clamp replacement. Feeders are configured per component family rather than per board, so switching assemblies re-uses the same hardware set. Conveyor direction can be set left-to-right or right-to-left, which matters when a line is rebalanced. The repeat cycle Standardise the tooling library and treat it as an asset. Every new product that re-uses an existing gripper is a changeover that costs almost nothing. Your next step Count how many distinct grippers and feeders your top twenty assemblies would actually need. The number is usually far smaller than the product count."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Note 07 · Integration Where the Odd-Form Machine Sits in a THT Line Sequence matters more than specification. The best machine in the wrong position is a bottleneck.",
+     "a": "The moment The machine arrives, runs beautifully in isolation, and then starves or blocks the rest of the line. The real problem Odd-form insertion has a different cycle profile from axial and radial insertion. Axial parts place fast with simple motion. Odd-form parts place slower, with vision checks and often lead clinching. Put them in the wrong order and the slower step paces the line. The method Design the line around the slowest step. Board handling first: loader, then insertion machines, then soldering, then unloader. Keep board transfer height consistent, and decide conveyor direction before ordering anything. The machine S7900 accepts boards from 70 × 70 up to 450 × 400 mm at a conveyor height of 750 or 900 mm depending on model, matching common THT equipment. It supports both conveyor directions, so it can sit before or after a radial machine without redesigning the transfer. The repeat cycle Draw the line layout once and keep it as the reference document. Every future purchase gets checked against it, which prevents small mismatches from accumulating. Your next step Sketch your current THT flow with cycle times written on each station. Send the sketch with your component list for a line-layout review."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Note 08 · Project From Inquiry to Ramp-Up: What the Project Actually Looks Like Most of the risk in an automation project lives in the four weeks before the machine is ordered.",
+     "a": "The moment A budget is approved, a supplier is chosen, and someone asks the only question that matters: what happens next? The real problem Buyers focus on the machine and underestimate the preparation. Feeders, grippers and nozzles are designed against real samples, and a missing sample at the right moment can delay a delivery by weeks. The method Work backwards from the target ramp-up date and assemble the technical package early: PCB data, BOM, component drawings, packaging photographs, target throughput, current defect points and the downstream soldering process. The machine A typical S7900 project runs through feasibility on samples, tooling design, machine build, factory acceptance, shipping, installation with operator training, and a supported ramp-up period. Southern Machinery includes installation and training, ships critical spare parts quickly, and covers the machine with a twelve-month warranty subject to the final quotation. The repeat cycle After ramp-up, keep a short monthly review for the first quarter. Early issues are cheap; the same issues in month six are expensive. Your next step Send your PCB data, BOM, component drawings, packaging photos, target output and current defect list for a free insertion evaluation - the answer comes back within one working day."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "faq",
+   "heading": "Common questions from EMS engineers.",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "faq.h2",
+     "text": "Common questions from EMS engineers."
+    },
+    {
+     "t": "p",
+     "key": "faq.p",
+     "text": "Answers follow the Southern Machinery technical file for the odd form insertion machine, with uncertain items flagged for confirmation during quotation."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Which components can an odd form insertion machine place?",
+     "a": "It is designed for odd-form and through-hole parts such as relays, transformers, connectors, large capacitors, coils and fuses. Final feasibility depends on package, lead geometry, board layout and sample testing."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can it handle different component packaging?",
+     "a": "Yes. Radial tape, vertical taping at 90 degrees, horizontal tape, tube, bowl and tray feeders are all available. Feeder choice is configured after reviewing your BOM and component packaging."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Does the machine stop components floating before wave soldering?",
+     "a": "The S7900IV-W includes a lead clinching unit as standard configuration. The technical file notes automatic lead bending to help prevent floating during welding. Final clinching design depends on lead diameter, exposed lead length and PCB layout."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What is the typical insertion speed?",
+     "a": "The specification lists 0.7 seconds per component for S7900IV and 2 seconds with bent feet for S7900IV-W. Real output depends on component type, feeder, clinching requirement and board routing."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "How accurate is the placement?",
+     "a": "S7900IV is specified at ±0.06 mm and S7900IV-W at ±0.05 mm, both with a CPK of at least 1.0 in the source table."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "What data should we send for evaluation?",
+     "a": "Send PCB Gerber or CAD data, BOM, component drawings, photographs of packaging, target throughput, your current manual process and any wave soldering or clinching constraints. Samples are recommended before final confirmation."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Can it connect to a full THT line?",
+     "a": "Yes. The machine supports left-to-right and right-to-left conveyor direction and can be paired with PCB loaders, unloaders and downstream soldering equipment. The exact layout needs line-design confirmation."
+    },
+    {
+     "t": "faq",
+     "key": "",
+     "q": "Is the return on investment guaranteed?",
+     "a": "No generic ROI figure should be treated as a guarantee. Published examples are reference points only. Southern Machinery validates ROI case by case using your labour cost, shifts, volume, component mix and final configuration."
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": []
+  },
+  {
+   "id": "contact",
+   "heading": "Ready to test your odd-form BOM?",
+   "nodes": [
+    {
+     "t": "h2",
+     "key": "ct.h2",
+     "text": "Ready to test your odd-form BOM?"
+    },
+    {
+     "t": "p",
+     "key": "ct.p",
+     "text": "Send your board and component details. We review feeder selection, gripper and nozzle tooling, clinching feasibility and line layout before quotation - and the insertion evaluation itself is free."
+    },
+    {
+     "t": "h3",
+     "key": "ct.send.h",
+     "text": "What to send"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "key": "ct.send1",
+       "text": "PCB Gerber or CAD files, panel layout and board thickness"
+      },
+      {
+       "key": "ct.send2",
+       "text": "BOM with the through-hole and odd-form line items highlighted"
+      },
+      {
+       "key": "ct.send3",
+       "text": "Component drawings and photographs of the packaging as received"
+      },
+      {
+       "key": "ct.send4",
+       "text": "Target throughput and current manual cycle time"
+      },
+      {
+       "key": "ct.send5",
+       "text": "Downstream process: wave, selective or hand soldering"
+      },
+      {
+       "key": "ct.send6",
+       "text": "Current defect points and any clinching requirement"
+      }
+     ]
+    },
+    {
+     "t": "link",
+     "key": "ct.cta2",
+     "href": "https://wa.me/8613602562576?text=Hi%20Southern%20Machinery%2C%20I%20want%20to%20evaluate%20an%20odd%20form%20insertion%20machine%20for%20THT%20auto%20PCB%20assembly.",
+     "text": "Chat on WhatsApp"
+    },
+    {
+     "t": "h3",
+     "key": "ct.card.h",
+     "text": "Southern Machinery Co., Ltd."
+    },
+    {
+     "t": "p",
+     "key": "ct.card.p",
+     "text": "SMT and THT automation equipment for smart EMS factory PCB assembly. Exporting since 2011."
+    },
+    {
+     "t": "link",
+     "key": "",
+     "href": "https://www.smthelp.com",
+     "text": "www.smthelp.com"
+    },
+    {
+     "t": "link",
+     "key": "ct.card.drive",
+     "href": "https://file.autoinsertion.com",
+     "text": "Product catalog and documents"
+    },
+    {
+     "t": "link",
+     "key": "ct.card.ph",
+     "href": "https://ph.smthelp.com",
+     "text": "Machine photo bank"
+    }
+   ],
+   "images": [],
+   "videos": [],
+   "docs": [
+    {
+     "label": "Product catalog and documents",
+     "url": "https://file.autoinsertion.com"
+    }
+   ]
+  }
+ ]
+}
