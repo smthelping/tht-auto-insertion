@@ -15,7 +15,9 @@ const category = CATEGORY_BY_SLUG[machine.category];
 const image = machine.heroImage || machine.blocks.flatMap((block) => block.images)[0]?.src || '';
 ---
 
-<li class="group flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white transition hover:border-primary hover:shadow-lg dark:border-slate-700 dark:bg-slate-800">
+<li
+  class="group flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white transition hover:border-primary hover:shadow-lg dark:border-slate-700 dark:bg-slate-800"
+>
   <a class="flex h-full flex-col" href={machineUrl(machine.slug, lang)}>
     {
       image ? (
@@ -33,9 +35,7 @@ const image = machine.heroImage || machine.blocks.flatMap((block) => block.image
       )
     }
     <div class="flex flex-1 flex-col p-5">
-      {category && (
-        <span class="mb-2 text-xs font-bold uppercase tracking-wide text-primary">{category.name}</span>
-      )}
+      {category && <span class="mb-2 text-xs font-bold uppercase tracking-wide text-primary">{category.name}</span>}
       <h3 class="mb-2 text-lg font-bold text-heading">{title}</h3>
       <p class="mb-4 line-clamp-3 text-sm text-muted">{machine.description}</p>
       <span class="mt-auto text-sm font-semibold text-primary group-hover:underline">Open machine page →</span>

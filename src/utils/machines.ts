@@ -165,7 +165,11 @@ export const dictionaryFor = (slug: string, locale: string): Record<string, stri
  * dictionary entry is missing, so no page ever renders an empty node.
  * ------------------------------------------------------------------ */
 
-export const translate = (node: MachineNode, dict: Record<string, string>, field: 'text' | 'q' | 'a' | 'caption' = 'text'): string => {
+export const translate = (
+  node: MachineNode,
+  dict: Record<string, string>,
+  field: 'text' | 'q' | 'a' | 'caption' = 'text'
+): string => {
   const fallback = (node[field] as string) ?? '';
   const key = node.key;
   if (!key || !dict) return fallback;
@@ -173,10 +177,7 @@ export const translate = (node: MachineNode, dict: Record<string, string>, field
   return typeof value === 'string' && value.length > 0 ? value : fallback;
 };
 
-export const translateItem = (
-  item: { key?: string; text?: string },
-  dict: Record<string, string>
-): string => {
+export const translateItem = (item: { key?: string; text?: string }, dict: Record<string, string>): string => {
   const key = item?.key;
   if (key && dict && typeof dict[key] === 'string' && dict[key].length > 0) return dict[key];
   return item?.text ?? '';

@@ -36,8 +36,14 @@ const actionClass = (variant: string | undefined) =>
             </span>
           )
         }
-        {tagline && <p class="mb-2 text-base font-bold uppercase tracking-wide text-secondary dark:text-blue-200">{tagline}</p>}
-        <h1 class="mb-5 text-balance text-4xl font-bold leading-tighter tracking-tighter text-heading md:text-5xl">{title}</h1>
+        {
+          tagline && (
+            <p class="mb-2 text-base font-bold uppercase tracking-wide text-secondary dark:text-blue-200">{tagline}</p>
+          )
+        }
+        <h1 class="mb-5 text-balance text-4xl font-bold leading-tighter tracking-tighter text-heading md:text-5xl">
+          {title}
+        </h1>
         {subtitle && <p class="mb-6 text-xl text-muted">{subtitle}</p>}
         {content && <p class="mx-auto max-w-3xl text-muted">{content}</p>}
         {

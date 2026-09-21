@@ -17,24 +17,24 @@ from a copy of its `tht-auto-insertion/` content.
 
 All **30 machine and line pages** were carried across, one for one:
 
-| Group | Pages | Examples |
-|---|---|---|
-| Odd-form insertion | 9 | S7900, S7000, odd-form solutions |
-| Radial insertion | 9 | S3000, S3010A, radial series |
-| Axial insertion | 5 | S4000, 60-station S4000 cell variants |
-| Terminal insertion | 2 | S7020T |
-| Turnkey THT lines | 4 | line design, whole-line solution |
-| PCB design guideline | 1 | auto-insertion DFM guideline |
+| Group                | Pages | Examples                              |
+| -------------------- | ----- | ------------------------------------- |
+| Odd-form insertion   | 9     | S7900, S7000, odd-form solutions      |
+| Radial insertion     | 9     | S3000, S3010A, radial series          |
+| Axial insertion      | 5     | S4000, 60-station S4000 cell variants |
+| Terminal insertion   | 2     | S7020T                                |
+| Turnkey THT lines    | 4     | line design, whole-line solution      |
+| PCB design guideline | 1     | auto-insertion DFM guideline          |
 
 Content completeness is verified, not assumed:
 
-| Element | Migrated |
-|---|---|
-| Specification tables | 30 pages / 60 tables — all rendered |
-| FAQ items (`<details>`) | 146 items — all rendered |
-| YouTube videos | **136 / 136 ids (100 %)** |
-| Catalogue & manual links | all unique URLs present |
-| Machine photographs | rendered as a lightbox gallery per page |
+| Element                  | Migrated                                |
+| ------------------------ | --------------------------------------- |
+| Specification tables     | 30 pages / 60 tables — all rendered     |
+| FAQ items (`<details>`)  | 146 items — all rendered                |
+| YouTube videos           | **136 / 136 ids (100 %)**               |
+| Catalogue & manual links | all unique URLs present                 |
+| Machine photographs      | rendered as a lightbox gallery per page |
 
 Average page weight drops from **879 KB** (single-file original) to about **61 KB**, because the
 shared layout, CSS and the seven-language dictionaries are no longer duplicated into every file.
@@ -70,13 +70,13 @@ shipped stay English-only rather than showing a half-translated page. Arabic ren
 
 ## Commands
 
-| Command | Action |
-|---|---|
-| `npm install` | Install dependencies (Node ≥ 22.22.3) |
-| `npm run dev` | Dev server on `localhost:4321` |
-| `npm run build` | Build the static site to `./dist/` |
-| `npm run preview` | Preview the production build locally |
-| `npm run check` | Astro, ESLint and Prettier checks |
+| Command           | Action                                |
+| ----------------- | ------------------------------------- |
+| `npm install`     | Install dependencies (Node ≥ 22.22.3) |
+| `npm run dev`     | Dev server on `localhost:4321`        |
+| `npm run build`   | Build the static site to `./dist/`    |
+| `npm run preview` | Preview the production build locally  |
+| `npm run check`   | Astro, ESLint and Prettier checks     |
 
 ## Deployment
 

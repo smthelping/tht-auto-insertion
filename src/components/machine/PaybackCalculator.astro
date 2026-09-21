@@ -85,7 +85,9 @@ const { heading = 'Payback estimator', intro = '' } = Astro.props;
     </label>
   </form>
 
-  <dl class="mt-6 grid gap-4 rounded-lg border border-gray-200 bg-gray-50 p-4 sm:grid-cols-3 dark:border-slate-700 dark:bg-slate-800/50">
+  <dl
+    class="mt-6 grid gap-4 rounded-lg border border-gray-200 bg-gray-50 p-4 sm:grid-cols-3 dark:border-slate-700 dark:bg-slate-800/50"
+  >
     <div>
       <dt class="text-sm text-muted">Labour released per year</dt>
       <dd class="text-xl font-bold text-heading" data-aw-out="labour">—</dd>
@@ -133,7 +135,14 @@ const { heading = 'Payback estimator', intro = '' } = Astro.props;
       const saving = labour + other;
       out('labour', money(releasedHours));
       out('saving', money(saving));
-      out('payback', investment <= 0 ? 'Enter your quote' : saving <= 0 ? 'No saving' : `${(investment / saving * 12).toFixed(1)} months`);
+      out(
+        'payback',
+        investment <= 0
+          ? 'Enter your quote'
+          : saving <= 0
+            ? 'No saving'
+            : `${((investment / saving) * 12).toFixed(1)} months`
+      );
     };
     root.querySelectorAll('input').forEach((input) => input.addEventListener('input', update));
     update();

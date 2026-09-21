@@ -7,7 +7,6 @@ import type { Machine, Locale } from '~/utils/machines';
 import {
   CATEGORY_BY_SLUG,
   DEFAULT_LOCALE,
-  LOCALES,
   LOCALE_LABEL,
   RTL_LOCALES,
   availableLocales,
@@ -62,8 +61,13 @@ const alternates = locales.map((locale) => ({
 >
   <Fragment slot="head">
     {alternates.map((alt) => <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />)}
-    <link rel="alternate" hreflang="x-default" href={`${siteUrl}${machineUrl(machine.slug, 'en').replace(/\/$/, '')}`} />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href={`${siteUrl}${machineUrl(machine.slug, 'en').replace(/\/$/, '')}`}
+    />
     <script
+      is:inline
       type="application/ld+json"
       set:html={JSON.stringify({
         '@context': 'https://schema.org',
@@ -99,20 +103,18 @@ const alternates = locales.map((locale) => ({
     <LanguagePicker machine={machine} current={lang} />
   </div>
 
-  {
-    blocks.map((block, index) => (
-      <BlockRenderer block={block} dict={dict} striped={index % 2 === 1} />
-    ))
-  }
+  {blocks.map((block, index) => <BlockRenderer block={block} dict={dict} striped={index % 2 === 1} />)}
 
   <section class="border-t border-gray-200 py-14 dark:border-slate-700">
     <div class="mx-auto max-w-7xl px-4 md:px-6">
-      <div class="flex flex-col gap-6 rounded-xl bg-primary px-6 py-10 text-white md:flex-row md:items-center md:justify-between">
+      <div
+        class="flex flex-col gap-6 rounded-xl bg-primary px-6 py-10 text-white md:flex-row md:items-center md:justify-between"
+      >
         <div class="max-w-2xl">
           <h2 class="mb-2 text-2xl font-bold md:text-3xl">Send us the board and the component list</h2>
           <p class="text-blue-50">
-            We reply with the machine mix, the feeder set and the through-put we can actually commit to — quoted from the
-            published documents, not from a sales sheet.
+            We reply with the machine mix, the feeder set and the through-put we can actually commit to — quoted from
+            the published documents, not from a sales sheet.
           </p>
         </div>
         <div class="flex flex-wrap gap-3">

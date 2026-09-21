@@ -53,7 +53,9 @@ const listClass = (ordered: boolean) =>
           <div class="mb-8 overflow-x-auto rounded-lg border border-gray-200 dark:border-slate-700">
             <table class="w-full border-collapse text-left text-sm">
               {node.caption && (
-                <caption class="px-4 py-3 text-left text-base font-bold text-heading">{translate(node, dict, 'caption')}</caption>
+                <caption class="px-4 py-3 text-left text-base font-bold text-heading">
+                  {translate(node, dict, 'caption')}
+                </caption>
               )}
               {node.head && node.head.length > 0 && (
                 <thead class="bg-gray-50 dark:bg-slate-800">
@@ -69,10 +71,7 @@ const listClass = (ordered: boolean) =>
                   <tr class="border-t border-gray-100 align-top dark:border-slate-700/70">
                     {row.map((cell, cellIndex) => (
                       <td
-                        class:list={[
-                          'px-4 py-3',
-                          cellIndex === 0 ? 'font-medium text-heading' : 'text-muted',
-                        ]}
+                        class:list={['px-4 py-3', cellIndex === 0 ? 'font-medium text-heading' : 'text-muted']}
                         set:html={translateItem(cell, dict)}
                       />
                     ))}
@@ -107,7 +106,12 @@ const listClass = (ordered: boolean) =>
       }
       if (node.t === 'link') {
         return (
-          <a class="mb-2 inline-block font-medium text-primary hover:underline" href={node.href} target="_blank" rel="noopener">
+          <a
+            class="mb-2 inline-block font-medium text-primary hover:underline"
+            href={node.href}
+            target="_blank"
+            rel="noopener"
+          >
             {text}
           </a>
         );

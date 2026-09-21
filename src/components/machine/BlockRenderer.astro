@@ -26,7 +26,9 @@ const isPayback = id === 'roi' || id === 'payback';
 // is rendered by the dedicated components below.
 const mediaCount = block.videos.length + block.docs.length + (block.images.length >= 3 ? block.images.length : 0);
 const mediaLed = mediaCount > 0 && block.nodes.length <= 4;
-const proseNodes = mediaLed ? block.nodes.filter((node) => ['p', 'h3', 'h4', 'ul', 'ol'].includes(node.t)) : block.nodes;
+const proseNodes = mediaLed
+  ? block.nodes.filter((node) => ['p', 'h3', 'h4', 'ul', 'ol'].includes(node.t))
+  : block.nodes;
 
 const intro = block.nodes.find((node) => node.t === 'p');
 const introText = intro ? translate(intro, dict) : '';
@@ -39,8 +41,7 @@ const docs = block.docs;
 const galleryImages = block.images.filter((image) => !/logo/i.test(image.src));
 const showGallery = galleryImages.length >= 3;
 
-const hasContent =
-  proseNodes.length > 0 || isPayback || videos.length > 0 || docs.length > 0 || showGallery;
+const hasContent = proseNodes.length > 0 || isPayback || videos.length > 0 || docs.length > 0 || showGallery;
 ---
 
 {

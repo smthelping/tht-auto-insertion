@@ -2,3 +2,8 @@ dist
 node_modules
 .github
 .changeset
+
+# Generated content — produced by the migration extractor, never hand-edited.
+# Formatting them would create noise in every future content refresh.
+src/data/machines
+src/data/i18n
